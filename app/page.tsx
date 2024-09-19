@@ -15,10 +15,15 @@ export default function Home() {
       <div className="container mx-auto px-4 py-8">
         <Header />
         <div className="text-center mb-16">
-          <div className="inline-flex items-center px-4 py-2 bg-[#E8F5FD] rounded-full mb-4">
+        <a
+            href="https://x.com/ahmetdedeler101/status/1828174715548246520"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-4 py-2 bg-[#E8F5FD] rounded-full mb-4 hover:bg-[#D0E7FB] transition-colors duration-200"
+          >
             <Twitter className="w-5 h-5 text-[#1DA1F2] mr-2" />
             <span className="text-[#1DA1F2] font-medium">Introducing AI Model Comparison</span>
-          </div>
+          </a>
           <h1 className="text-6xl font-extrabold mb-4 font-sans tracking-tight">
             AI Model Comparison
           </h1>

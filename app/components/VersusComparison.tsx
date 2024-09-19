@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from "@/components/ui/button"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { AIModelMode } from '../types'
-import { aiModels } from '../utils/aiModels'
+import { aiModels, parameterNames } from '../utils/aiModels'
 
 interface VersusComparisonProps {
   selectedMode: AIModelMode
@@ -31,6 +31,50 @@ const VersusComparison: React.FC<VersusComparisonProps> = ({
 
   const removeComparisonModel = (model: any) => {
     setComparisonModels(comparisonModels.filter(m => m !== model))
+  }
+
+  const renderComparisonView = () => {
+    if (comparisonModels.length === 0) {
+      return <p>Select up to 4 models to compare</p>
+    }
+
+    const allParameters = [...new Set(comparisonModels.flatMap(model => Object.keys(model.sample_spec)))]
+
+    return (
+      <div className="overflow-x-auto">
+        <table className="w-full border-collapse">
+          <thead>
+            <tr>
+              <th className="border p-2 bg-gray-100"></th>
+              {comparisonModels.map((model, index) => (
+                <th key={index} className="border p-2 bg-gray-100">
+                  <div className="flex items-center justify-between">
+                    <span>{model.name}</span>
+                    <Button variant="ghost" size="sm" onClick={() => removeComparisonModel(model)}>X</Button>
+                  </div>
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {allParameters.map((param) => (
+              <tr key={param}>
+                <td className="border p-2 font-medium">{parameterNames[param] || param}</td>
+                {comparisonModels.map((model, index) => (
+                  <td key={index} className="border p-2">
+                    {model.sample_spec[param] !== undefined
+                      ? typeof model.sample_spec[param] === 'boolean'
+                        ? model.sample_spec[param] ? 'Yes' : 'No'
+                        : model.sample_spec[param]
+                      : 'N/A'}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    )
   }
 
   return (
@@ -67,7 +111,7 @@ const VersusComparison: React.FC<VersusComparisonProps> = ({
           </Button>
         ))}
       </div>
-      {/* Render comparison view here */}
+      {renderComparisonView()}
     </div>
   )
 }

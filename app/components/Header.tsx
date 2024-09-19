@@ -10,13 +10,13 @@ export default function Header() {
       </div>
       <div className="flex space-x-4">
         <Button variant="outline" size="sm" asChild className="border-black text-black hover:bg-gray-100">
-          <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Ahmet-Dedeler/ai-llm-comparison" target="_blank" rel="noopener noreferrer">
             <Github className="mr-2 h-4 w-4" />
             GitHub
           </a>
         </Button>
         <Button variant="outline" size="sm" asChild className="border-black text-black hover:bg-gray-100">
-              <a href="https://supabase.com/blog/launch-week-8" target="_blank" rel="noopener noreferrer">
+              <a href="https://supabase.com/blog/supabase-lw12-hackathon" target="_blank" rel="noopener noreferrer">
                 <svg
                   className="mr-2 h-4 w-4"
                   viewBox="0 0 24 24"
