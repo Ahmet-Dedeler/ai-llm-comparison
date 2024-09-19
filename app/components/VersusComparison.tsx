@@ -38,7 +38,7 @@ const VersusComparison: React.FC<VersusComparisonProps> = ({
       return <p>Select up to 4 models to compare</p>
     }
 
-    const allParameters = [...new Set(comparisonModels.flatMap(model => Object.keys(model.sample_spec)))]
+    const allParameters = Array.from(new Set(comparisonModels.flatMap(model => Object.keys(model.sample_spec))))
 
     return (
       <div className="overflow-x-auto">

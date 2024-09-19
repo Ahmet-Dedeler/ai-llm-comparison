@@ -1,5 +1,40 @@
 import { AIModels } from '../types';
 
+export const parameterNames: { [key: string]: string } = {
+  max_tokens: "Max Tokens",
+  max_input_tokens: "Max Input Tokens",
+  max_output_tokens: "Max Output Tokens",
+  input_cost_per_token: "Input Cost per Token",
+  output_cost_per_token: "Output Cost per Token",
+  litellm_provider: "LiteLLM Provider",
+  mode: "Mode",
+  supports_function_calling: "Supports Function Calling",
+  supports_parallel_function_calling: "Supports Parallel Function Calling",
+  supports_vision: "Supports Vision",
+  supports_system_messages: "Supports System Messages",
+  supports_tool_choice: "Supports Tool Choice",
+  supports_response_schema: "Supports Response Schema",
+  supports_assistant_prefill: "Supports Assistant Prefill",
+  tool_use_system_prompt_tokens: "Tool Use System Prompt Tokens",
+  input_cost_per_token_above_128k_tokens: "Input Cost per Token (>128k)",
+  output_cost_per_token_above_128k_tokens: "Output Cost per Token (>128k)",
+  cache_creation_input_token_cost: "Cache Creation Input Token Cost",
+  cache_read_input_token_cost: "Cache Read Input Token Cost",
+  output_vector_size: "Output Vector Size",
+  input_cost_per_pixel: "Input Cost per Pixel",
+  output_cost_per_pixel: "Output Cost per Pixel",
+  cost_per_image: "Cost per Image",
+  input_cost_per_second: "Input Cost per Second",
+  output_cost_per_second: "Output Cost per Second",
+  input_cost_per_character: "Input Cost per Character",
+  output_cost_per_character: "Output Cost per Character",
+  input_cost_per_image: "Input Cost per Image",
+  input_cost_per_video_per_second: "Input Cost per Video Second",
+  input_cost_per_request: "Input Cost per Request",
+  input_dbu_cost_per_token: "Input DBU Cost per Token",
+  output_dbu_cost_per_token: "Output DBU Cost per Token"
+  }
+
 export const aiModels: AIModels = {
   "chat": [
     {
