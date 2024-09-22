@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Search } from 'lucide-react';
 import PricingCalculator from './PricingCalculator';
 import VersusComparison from './VersusComparison';
-import ModelTableForCalculator from './ModelTableForCalculator';
+import ModelTableForCalculator from './ModelTableforCalculator';
 import ModelTableForComparison from './ModelTableForComparison';
 import { AIModelMode } from '../types';
 
