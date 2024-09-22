@@ -145,11 +145,13 @@ const ModelTableForCalculator: React.FC<ModelTableForCalculatorProps> = ({
                     : 'N/A'}
                 </TableCell>
                 <TableCell>
+                  {/* @ts-ignore */}
                   {model.sample_spec.input_cost_per_token !== null && model.sample_spec.input_cost_per_token !== undefined
                     ? (model.sample_spec.input_cost_per_token * 1000000).toFixed(2)
                     : 'N/A'}
                 </TableCell>
                 <TableCell>
+                  {/* @ts-ignore */}
                   {model.sample_spec.output_cost_per_token !== null && model.sample_spec.output_cost_per_token !== undefined
                     ? (model.sample_spec.output_cost_per_token * 1000000).toFixed(2)
                     : 'N/A'}

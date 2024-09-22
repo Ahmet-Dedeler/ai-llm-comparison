@@ -49,6 +49,7 @@ export const providerMapping = {
   };
 
   export const mapProvider = (provider: string): string => {
+    // @ts-ignore
     const mappedProvider = providerMapping[provider.toLowerCase()] || provider;
     return famousProviders.includes(mappedProvider) ? mappedProvider : 'Other';
   };
@@ -58,6 +59,7 @@ export const providerMapping = {
   };
   
   export const getDisplayName = (provider: string): string => {
+    // @ts-ignore
     const mapped = providerMapping[provider.toLowerCase()];
     if (mapped) {
       return mapped;

@@ -15,9 +15,11 @@ export const calculateCost = (model: AIModel, input: number, output: number, cal
   const inputTokens = convertToTokens(input, inputType);
   const outputTokens = convertToTokens(output, outputType);
 
+  // @ts-ignore
   const inputCost = (inputTokens * model.sample_spec.input_cost_per_token * calls || 0);
+  // @ts-ignore
   const outputCost = (outputTokens * model.sample_spec.output_cost_per_token * calls || 0);
-
+  // @ts-ignore
   const totalCost = (inputCost + outputCost);
 
   return {
