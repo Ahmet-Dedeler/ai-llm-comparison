@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
 import { AIModelMode } from '../types';
 import { aiModels } from '../utils/aiModels';
 import { ArrowUpDown } from 'lucide-react';
+import ProviderSelect from './ProviderSelect';
+import { famousProviders, mapProvider, isOtherProvider, getDisplayName } from '../utils/providerMapping';
 
 interface ModelTableForComparisonProps {
   selectedMode: AIModelMode;
@@ -16,15 +18,23 @@ const ModelTableForComparison: React.FC<ModelTableForComparisonProps> = ({
   setSelectedMode,
   searchTerm
 }) => {
-  const [sortConfig, setSortConfig] = React.useState<{ key: string | null, direction: 'ascending' | 'descending' }>({ key: null, direction: 'ascending' });
+  const [sortConfig, setSortConfig] = useState<{ key: string | null, direction: 'ascending' | 'descending' }>({ key: null, direction: 'ascending' });
+  const [selectedProviders, setSelectedProviders] = useState<string[]>([]);
 
-  const filteredModels = React.useMemo(() => {
-    return aiModels[selectedMode]?.filter(model => 
-      model.name.toLowerCase().includes(searchTerm.toLowerCase())
-    ) || [];
-  }, [selectedMode, searchTerm]);
+  const filteredModels = useMemo(() => {
+    return aiModels[selectedMode]?.filter(model => {
+      const mappedProvider = mapProvider(model.provider);
+      const isOther = isOtherProvider(model.provider);
+      return model.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
+        (selectedProviders.length === 0 || 
+         selectedProviders.includes(mappedProvider) ||
+         (isOther && selectedProviders.includes('Other')));
+    }) || [];
+  }, [selectedMode, searchTerm, selectedProviders]);
+  
+  
 
-  const sortedModels = React.useMemo(() => {
+  const sortedModels = useMemo(() => {
     let sortableModels = [...filteredModels];
     if (sortConfig.key !== null) {
       sortableModels.sort((a, b) => {
@@ -73,7 +83,13 @@ const ModelTableForComparison: React.FC<ModelTableForComparisonProps> = ({
         <TableHeader>
           <TableRow>
             <TableHead className="w-[180px]">Model</TableHead>
-            <TableHead>Provider</TableHead>
+            <TableHead>
+              <ProviderSelect
+                models={aiModels[selectedMode] || []}
+                selectedProviders={selectedProviders}
+                setSelectedProviders={setSelectedProviders}
+              />
+            </TableHead>
             <TableHead onClick={() => requestSort('max_tokens')} className="cursor-pointer">
               Context Length <ArrowUpDown className="inline-block ml-1 h-4 w-4" />
             </TableHead>
@@ -96,11 +112,12 @@ const ModelTableForComparison: React.FC<ModelTableForComparisonProps> = ({
             <TableRow key={model.name}>
               <TableCell className="font-medium">{model.name}</TableCell>
               <TableCell>
-                <div className="flex items-center space-x-2">
-                  <img src={model.logo} alt={`${model.provider} logo`} className="w-6 h-6" />
-                  <span>{model.provider}</span>
-                </div>
-              </TableCell>
+  <div className="flex items-center space-x-2">
+    <img src={model.logo} alt={`${model.provider} logo`} className="w-6 h-6" />
+    <span>{getDisplayName(model.provider)}</span>
+  </div>
+</TableCell>
+
               <TableCell>
                 {model.sample_spec.max_tokens !== null && model.sample_spec.max_tokens !== undefined
                   ? model.sample_spec.max_tokens
