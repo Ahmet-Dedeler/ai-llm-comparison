@@ -8,8 +8,8 @@ export interface AIModel {
     max_tokens: number | null
     max_input_tokens: number | null
     max_output_tokens: number | null
-    input_cost_per_token: number | null
-    output_cost_per_token: number | null
+    input_cost_per_token: number | null | string
+    output_cost_per_token: number | null | string
     litellm_provider: string
     mode: AIModelMode
     supports_function_calling: boolean

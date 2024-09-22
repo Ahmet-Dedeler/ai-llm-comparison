@@ -1,17 +1,19 @@
-import React from 'react'
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
+import React from 'react';
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 
 interface PricingCalculatorProps {
-  inputAmount: number
-  setInputAmount: (amount: number) => void
-  outputAmount: number
-  setOutputAmount: (amount: number) => void
-  apiCalls: number
-  setApiCalls: (calls: number) => void
-  inputType: string
-  setInputType: (type: string) => void
+  inputAmount: number;
+  setInputAmount: (amount: number) => void;
+  outputAmount: number;
+  setOutputAmount: (amount: number) => void;
+  apiCalls: number;
+  setApiCalls: (calls: number) => void;
+  inputType: string;
+  setInputType: (type: string) => void;
+  outputType: string;
+  setOutputType: (type: string) => void;
 }
 
 const PricingCalculator: React.FC<PricingCalculatorProps> = ({
@@ -22,13 +24,31 @@ const PricingCalculator: React.FC<PricingCalculatorProps> = ({
   apiCalls,
   setApiCalls,
   inputType,
-  setInputType
+  setInputType,
+  outputType,
+  setOutputType
 }) => {
+  const getLabel = (type: string) => {
+    switch (type) {
+      case 'words':
+        return 'Words';
+      case 'characters':
+        return 'Characters';
+      default:
+        return 'Tokens';
+    }
+  };
+
+  const handleTypeChange = (value: string) => {
+    setInputType(value);
+    setOutputType(value);
+  };
+
   return (
     <div className="mb-8 p-6 bg-gray-100 rounded-lg">
       <div className="grid grid-cols-3 gap-4 mb-4">
         <div>
-          <Label htmlFor="input-amount">Input Tokens</Label>
+          <Label htmlFor="input-amount">Input {getLabel(inputType)}</Label>
           <Input
             id="input-amount"
             type="number"
@@ -38,7 +58,7 @@ const PricingCalculator: React.FC<PricingCalculatorProps> = ({
           />
         </div>
         <div>
-          <Label htmlFor="output-amount">Output Tokens</Label>
+          <Label htmlFor="output-amount">Output {getLabel(outputType)}</Label>
           <Input
             id="output-amount"
             type="number"
@@ -48,7 +68,7 @@ const PricingCalculator: React.FC<PricingCalculatorProps> = ({
           />
         </div>
         <div>
-          <Label htmlFor="api-calls">API Calls</Label>
+          <Label htmlFor="api-calls">Number of API Calls</Label>
           <Input
             id="api-calls"
             type="number"
@@ -60,7 +80,7 @@ const PricingCalculator: React.FC<PricingCalculatorProps> = ({
       </div>
       <div>
         <Label>Calculate by</Label>
-        <RadioGroup value={inputType} onValueChange={setInputType} className="flex space-x-4 mt-1">
+        <RadioGroup value={inputType} onValueChange={handleTypeChange} className="flex space-x-4 mt-1">
           <div className="flex items-center space-x-2">
             <RadioGroupItem value="tokens" id="tokens" />
             <Label htmlFor="tokens">Tokens</Label>
@@ -76,7 +96,7 @@ const PricingCalculator: React.FC<PricingCalculatorProps> = ({
         </RadioGroup>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default PricingCalculator
+export default PricingCalculator;

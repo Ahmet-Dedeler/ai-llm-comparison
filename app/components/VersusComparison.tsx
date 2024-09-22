@@ -97,6 +97,7 @@ const VersusComparison: React.FC<VersusComparisonProps> = ({
           </SelectContent>
         </Select>
       </div>
+      {renderComparisonView()}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-8">
         {filteredModels.map((model) => (
           <Button
@@ -111,7 +112,6 @@ const VersusComparison: React.FC<VersusComparisonProps> = ({
           </Button>
         ))}
       </div>
-      {renderComparisonView()}
     </div>
   )
 }

@@ -1,16 +1,17 @@
-import React, { useState } from 'react'
-import { Input } from "@/components/ui/input"
-import { Search } from 'lucide-react'
-import PricingCalculator from './PricingCalculator'
-import VersusComparison from './VersusComparison'
-import ModelTable from './ModelTable'
-import { AIModelMode } from '../types'
+import React, { useState } from 'react';
+import { Input } from "@/components/ui/input";
+import { Search } from 'lucide-react';
+import PricingCalculator from './PricingCalculator';
+import VersusComparison from './VersusComparison';
+import ModelTableForCalculator from './ModelTableForCalculator';
+import ModelTableForComparison from './ModelTableForComparison';
+import { AIModelMode } from '../types';
 
 interface ModelComparisonProps {
-  showPricingCalculator: boolean
-  setShowPricingCalculator: (show: boolean) => void
-  showVersusComparison: boolean
-  setShowVersusComparison: (show: boolean) => void
+  showPricingCalculator: boolean;
+  setShowPricingCalculator: (show: boolean) => void;
+  showVersusComparison: boolean;
+  setShowVersusComparison: (show: boolean) => void;
 }
 
 export default function ModelComparison({
@@ -19,12 +20,13 @@ export default function ModelComparison({
   showVersusComparison,
   setShowVersusComparison
 }: ModelComparisonProps) {
-  const [selectedMode, setSelectedMode] = useState<AIModelMode>('chat')
-  const [searchTerm, setSearchTerm] = useState<string>('')
-  const [inputType, setInputType] = useState<string>('tokens')
-  const [inputAmount, setInputAmount] = useState<number>(200)
-  const [outputAmount, setOutputAmount] = useState<number>(1000)
-  const [apiCalls, setApiCalls] = useState<number>(100)
+  const [selectedMode, setSelectedMode] = useState<AIModelMode>('chat');
+  const [searchTerm, setSearchTerm] = useState<string>('');
+  const [inputType, setInputType] = useState<string>('tokens');
+  const [outputType, setOutputType] = useState<string>('tokens');
+  const [inputAmount, setInputAmount] = useState<number>(200);
+  const [outputAmount, setOutputAmount] = useState<number>(1000);
+  const [apiCalls, setApiCalls] = useState<number>(100);
 
   return (
     <>
@@ -55,6 +57,8 @@ export default function ModelComparison({
           setApiCalls={setApiCalls}
           inputType={inputType}
           setInputType={setInputType}
+          outputType={outputType}
+          setOutputType={setOutputType}
         />
       )}
 
@@ -65,16 +69,25 @@ export default function ModelComparison({
           searchTerm={searchTerm}
         />
       ) : (
-        <ModelTable
-          selectedMode={selectedMode}
-          setSelectedMode={setSelectedMode}
-          searchTerm={searchTerm}
-          showPricingCalculator={showPricingCalculator}
-          inputAmount={inputAmount}
-          outputAmount={outputAmount}
-          apiCalls={apiCalls}
-        />
+        showPricingCalculator ? (
+          <ModelTableForCalculator
+            selectedMode={selectedMode}
+            setSelectedMode={setSelectedMode}
+            searchTerm={searchTerm}
+            inputAmount={inputAmount}
+            outputAmount={outputAmount}
+            apiCalls={apiCalls}
+            inputType={inputType}
+            outputType={outputType}
+          />
+        ) : (
+          <ModelTableForComparison
+            selectedMode={selectedMode}
+            setSelectedMode={setSelectedMode}
+            searchTerm={searchTerm}
+          />
+        )
       )}
     </>
-  )
+  );
 }
