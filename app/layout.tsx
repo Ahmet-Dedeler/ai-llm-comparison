@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description: 'Compare AI models easily! All providers in one place.',
     images: [
       {
-        url: '/icon.png', // Replace with the path to your image
+        url: '/preview.png', // Replace with the path to your image
         width: 750,
         height: 750,
         alt: 'AI Model Comparison',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description: 'Compare AI models easily! All providers in one place.',
     images: [
       {
-        url: '/icon.png', // Replace with the path to your image
+        url: '/preview.png', // Replace with the path to your image
         alt: 'AI Model Comparison',
       },
     ],
