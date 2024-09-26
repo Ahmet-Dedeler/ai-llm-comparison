@@ -16,7 +16,7 @@ export default function Home() {
         <Header />
         <div className="text-center mb-16">
         <a
-            href="https://x.com/ahmetdedeler101/status/1828174715548246520"
+            href="https://x.com/ahmetdedeler101/status/1839313737561551359"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-4 py-2 bg-[#E8F5FD] rounded-full mb-4 hover:bg-[#D0E7FB] transition-colors duration-200"
