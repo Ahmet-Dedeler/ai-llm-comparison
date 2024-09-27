@@ -49,7 +49,7 @@ const VersusComparison: React.FC<VersusComparisonProps> = ({
               {comparisonModels.map((model, index) => (
                 <th key={index} className="border p-2 bg-gray-100">
                   <div className="flex items-center justify-between">
-                    <span>{model.name}</span>
+                    <span className="truncate">{model.name}</span>
                     <Button variant="ghost" size="sm" onClick={() => removeComparisonModel(model)}>X</Button>
                   </div>
                 </th>
@@ -105,7 +105,7 @@ const VersusComparison: React.FC<VersusComparisonProps> = ({
             onClick={() => addComparisonModel(model)}
             disabled={comparisonModels.includes(model) || comparisonModels.length >= 4}
             variant="outline"
-            className="justify-start"
+            className="justify-start truncate"
           >
             <img src={model.logo} alt={`${model.provider} logo`} className="w-6 h-6 mr-2" />
             {model.name}
