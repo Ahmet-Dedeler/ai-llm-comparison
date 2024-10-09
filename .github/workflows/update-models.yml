@@ -35,6 +35,7 @@ jobs:
         run: |
           git config --global user.name 'Ahmet Dedeler'
           git config --global user.email 'ahmet-dedeler@users.noreply.github.com'
+          git add .
           git commit -m 'Update AI models'
           git push
         env:
