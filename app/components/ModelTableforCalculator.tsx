@@ -94,8 +94,8 @@ const ModelTableForCalculator: React.FC<ModelTableForCalculatorProps> = ({
                 setSelectedProviders={setSelectedProviders}
               />
             </TableHead>
-            <TableHead onClick={() => requestSort('max_tokens')} className="cursor-pointer">
-              Context Length <ArrowUpDown className="inline-block ml-1 h-4 w-4" />
+            <TableHead onClick={() => requestSort('max_input_tokens')} className="cursor-pointer">
+              Input Length <ArrowUpDown className="inline-block ml-1 h-4 w-4" />
             </TableHead>
             <TableHead onClick={() => requestSort('max_output_tokens')} className="cursor-pointer">
               Output Length <ArrowUpDown className="inline-block ml-1 h-4 w-4" />
@@ -135,8 +135,8 @@ const ModelTableForCalculator: React.FC<ModelTableForCalculatorProps> = ({
 
                 </TableCell>
                 <TableCell>
-                  {model.sample_spec.max_tokens !== null && model.sample_spec.max_tokens !== undefined
-                    ? model.sample_spec.max_tokens
+                  {model.sample_spec.max_input_tokens !== null && model.sample_spec.max_input_tokens !== undefined
+                    ? model.sample_spec.max_input_tokens
                     : 'N/A'}
                 </TableCell>
                 <TableCell>
