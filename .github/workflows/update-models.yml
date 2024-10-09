@@ -5,6 +5,10 @@ on:
     - cron: '0 0 * * *' # Runs every day at midnight
   workflow_dispatch: # Allows manual triggering
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   update-models:
     runs-on: ubuntu-latest
@@ -29,9 +33,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .
+          git config --global user.name 'Ahmet Dedeler'
+          git config --global user.email 'ahmet-dedeler@users.noreply.github.com'
           git commit -m 'Update AI models'
           git push
         env:
