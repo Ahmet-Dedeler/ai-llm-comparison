@@ -1263,7 +1263,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "azure_ai/Meta-Llama-31-8B-Instruct",
+      "name": "azure_ai/Meta-Llama-3.1-8B-Instruct",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
       "sample_spec": {
@@ -1281,7 +1281,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "azure_ai/Meta-Llama-31-70B-Instruct",
+      "name": "azure_ai/Meta-Llama-3.1-70B-Instruct",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
       "sample_spec": {
@@ -1299,7 +1299,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "azure_ai/Meta-Llama-31-405B-Instruct",
+      "name": "azure_ai/Meta-Llama-3.1-405B-Instruct",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
       "sample_spec": {
@@ -9320,6 +9320,23 @@ export const aiModels: AIModels = {
         "max_input_tokens": 4000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0",
+        "litellm_provider": "voyage",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "voyage/voyage-finance-2",
+      "provider": "voyage",
+      "logo": "/logos/voyage.svg",
+      "sample_spec": {
+        "max_tokens": 4000,
+        "max_input_tokens": 4000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000012",
         "output_cost_per_token": "0",
         "litellm_provider": "voyage",
         "mode": "embedding",
