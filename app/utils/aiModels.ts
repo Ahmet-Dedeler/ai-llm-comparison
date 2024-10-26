@@ -8916,29 +8916,12 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "embed-english-v3.0",
-      "provider": "cohere",
-      "logo": "/logos/cohere.svg",
-      "sample_spec": {
-        "max_tokens": 512,
-        "max_input_tokens": 512,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.0000001",
-        "output_cost_per_token": "0",
-        "litellm_provider": "cohere",
-        "mode": "embedding",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
       "name": "embed-english-light-v3.0",
       "provider": "cohere",
       "logo": "/logos/cohere.svg",
       "sample_spec": {
-        "max_tokens": 512,
-        "max_input_tokens": 512,
+        "max_tokens": 1024,
+        "max_input_tokens": 1024,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0",
@@ -8954,8 +8937,8 @@ export const aiModels: AIModels = {
       "provider": "cohere",
       "logo": "/logos/cohere.svg",
       "sample_spec": {
-        "max_tokens": 512,
-        "max_input_tokens": 512,
+        "max_tokens": 1024,
+        "max_input_tokens": 1024,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0",
@@ -8971,8 +8954,8 @@ export const aiModels: AIModels = {
       "provider": "cohere",
       "logo": "/logos/cohere.svg",
       "sample_spec": {
-        "max_tokens": 512,
-        "max_input_tokens": 512,
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0",
@@ -8988,8 +8971,8 @@ export const aiModels: AIModels = {
       "provider": "cohere",
       "logo": "/logos/cohere.svg",
       "sample_spec": {
-        "max_tokens": 512,
-        "max_input_tokens": 512,
+        "max_tokens": 1024,
+        "max_input_tokens": 1024,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0",
@@ -9005,8 +8988,25 @@ export const aiModels: AIModels = {
       "provider": "cohere",
       "logo": "/logos/cohere.svg",
       "sample_spec": {
-        "max_tokens": 256,
-        "max_input_tokens": 256,
+        "max_tokens": 768,
+        "max_input_tokens": 768,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0",
+        "litellm_provider": "cohere",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "embed-english-v3.0",
+      "provider": "cohere",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": 1024,
+        "max_input_tokens": 1024,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0",
