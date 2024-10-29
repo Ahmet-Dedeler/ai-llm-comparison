@@ -9052,6 +9052,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "amazon.titan-embed-image-v1",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128,
+        "max_input_tokens": 128,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0",
+        "litellm_provider": "bedrock",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/providers?model=amazon.titan-image-generator-v1"
+      }
+    },
+    {
       "name": "cohere.embed-english-v3",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
