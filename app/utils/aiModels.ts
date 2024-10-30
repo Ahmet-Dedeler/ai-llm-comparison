@@ -872,6 +872,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/gpt-4o-mini-2024-07-18",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000000165",
+        "output_cost_per_token": "0.00000066",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "azure/gpt-4-turbo-2024-04-09",
       "provider": "azure",
       "logo": "/logos/azure.svg",
