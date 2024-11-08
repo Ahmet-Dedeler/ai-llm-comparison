@@ -153,7 +153,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": false
       }
     },
     {
@@ -170,7 +170,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": false
       }
     },
     {
@@ -187,7 +187,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": false
       }
     },
     {
@@ -204,7 +204,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": false
       }
     },
     {
@@ -715,7 +715,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": false
       }
     },
     {
@@ -732,7 +732,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": false
       }
     },
     {
@@ -749,7 +749,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": false
       }
     },
     {
@@ -766,7 +766,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": false
       }
     },
     {
@@ -4234,7 +4234,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": false
       }
     },
     {
@@ -4251,7 +4251,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": false
       }
     },
     {
@@ -4268,7 +4268,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": false
       }
     },
     {
@@ -4285,7 +4285,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": false
       }
     },
     {
