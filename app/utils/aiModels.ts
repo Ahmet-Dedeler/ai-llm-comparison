@@ -3123,23 +3123,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "vertex_ai/claude-3-haiku@20240307",
-      "provider": "vertex_ai-anthropic_models",
-      "logo": "/logos/google.svg",
-      "sample_spec": {
-        "max_tokens": 4096,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 4096,
-        "input_cost_per_token": "0.00000025",
-        "output_cost_per_token": "0.00000125",
-        "litellm_provider": "vertex_ai-anthropic_models",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true
-      }
-    },
-    {
       "name": "vertex_ai/claude-3-5-haiku@20241022",
       "provider": "vertex_ai-anthropic_models",
       "logo": "/logos/google.svg",
@@ -3154,6 +3137,23 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "vertex_ai/claude-3-haiku@20240307",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.00000125",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
       }
     },
     {
@@ -8566,6 +8566,24 @@ export const aiModels: AIModels = {
         "max_tokens": 32768,
         "max_input_tokens": 32768,
         "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fireworks.ai/pricing"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-32b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000009",
         "output_cost_per_token": "0.0000009",
         "litellm_provider": "fireworks_ai",
