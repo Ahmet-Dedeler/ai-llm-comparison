@@ -259,6 +259,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gpt-4o-2024-11-20",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "gpt-4-turbo-preview",
       "provider": "openai",
       "logo": "/logos/openai.svg",
@@ -685,6 +702,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "ft:gpt-4o-2024-11-20",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000375",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "ft:gpt-4o-mini-2024-07-18",
       "provider": "openai",
       "logo": "/logos/openai.svg",
@@ -804,6 +838,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/gpt-4o-2024-11-20",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000275",
+        "output_cost_per_token": "0.000011",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "azure/gpt-4o-2024-05-13",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -822,6 +873,23 @@ export const aiModels: AIModels = {
     },
     {
       "name": "azure/global-standard/gpt-4o-2024-08-06",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "azure/global-standard/gpt-4o-2024-11-20",
       "provider": "azure",
       "logo": "/logos/azure.svg",
       "sample_spec": {
@@ -3072,6 +3140,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "vertex_ai/claude-3-sonnet",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "vertex_ai/claude-3-sonnet@20240229",
       "provider": "vertex_ai-anthropic_models",
       "logo": "/logos/google.svg",
@@ -3089,7 +3174,41 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "vertex_ai/claude-3-5-sonnet",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "vertex_ai/claude-3-5-sonnet@20240620",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "vertex_ai/claude-3-5-sonnet-v2",
       "provider": "vertex_ai-anthropic_models",
       "logo": "/logos/google.svg",
       "sample_spec": {
@@ -3123,6 +3242,57 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "vertex_ai/claude-3-haiku",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.00000125",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "vertex_ai/claude-3-haiku@20240307",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.00000125",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "vertex_ai/claude-3-5-haiku",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "vertex_ai/claude-3-5-haiku@20241022",
       "provider": "vertex_ai-anthropic_models",
       "logo": "/logos/google.svg",
@@ -3140,15 +3310,15 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "vertex_ai/claude-3-haiku@20240307",
+      "name": "vertex_ai/claude-3-opus",
       "provider": "vertex_ai-anthropic_models",
       "logo": "/logos/google.svg",
       "sample_spec": {
         "max_tokens": 4096,
         "max_input_tokens": 200000,
         "max_output_tokens": 4096,
-        "input_cost_per_token": "0.00000025",
-        "output_cost_per_token": "0.00000125",
+        "input_cost_per_token": "0.000015",
+        "output_cost_per_token": "0.000075",
         "litellm_provider": "vertex_ai-anthropic_models",
         "mode": "chat",
         "supports_function_calling": true,
@@ -4266,23 +4436,6 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
-      }
-    },
-    {
-      "name": "anthropic/claude-3-5-sonnet-20241022",
-      "provider": "anthropic",
-      "logo": "/logos/anthropic.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.000003",
-        "output_cost_per_token": "0.000015",
-        "litellm_provider": "anthropic",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true
       }
     },
     {
