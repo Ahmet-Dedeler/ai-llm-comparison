@@ -2101,6 +2101,108 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "groq/llama-3.2-1b-preview",
+      "provider": "groq",
+      "logo": "/logos/groq.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000004",
+        "output_cost_per_token": "0.00000004",
+        "litellm_provider": "groq",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "groq/llama-3.2-3b-preview",
+      "provider": "groq",
+      "logo": "/logos/groq.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000006",
+        "litellm_provider": "groq",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "groq/llama-3.2-11b-text-preview",
+      "provider": "groq",
+      "logo": "/logos/groq.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000018",
+        "output_cost_per_token": "0.00000018",
+        "litellm_provider": "groq",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "groq/llama-3.2-11b-vision-preview",
+      "provider": "groq",
+      "logo": "/logos/groq.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000018",
+        "output_cost_per_token": "0.00000018",
+        "litellm_provider": "groq",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "groq/llama-3.2-90b-text-preview",
+      "provider": "groq",
+      "logo": "/logos/groq.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "groq",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "groq/llama-3.2-90b-vision-preview",
+      "provider": "groq",
+      "logo": "/logos/groq.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "groq",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "groq/llama3-70b-8192",
       "provider": "groq",
       "logo": "/logos/groq.svg",
