@@ -3813,6 +3813,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini/gemini-1.5-flash-8b",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/pricing"
+      }
+    },
+    {
       "name": "gemini/gemini-1.5-flash-8b-exp-0924",
       "provider": "gemini",
       "logo": "/logos/google.svg",
@@ -3899,7 +3917,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
+        "source": "https://ai.google.dev/gemini-api/docs/models/gemini"
       }
     },
     {
