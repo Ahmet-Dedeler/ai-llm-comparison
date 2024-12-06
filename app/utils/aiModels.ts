@@ -2035,7 +2035,7 @@ export const aiModels: AIModels = {
     {
       "name": "xai/grok-beta",
       "provider": "xai",
-      "logo": "/placeholder.svg?height=30&width=30",
+      "logo": "/logos/xai.svg",
       "sample_spec": {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
@@ -5700,7 +5700,7 @@ export const aiModels: AIModels = {
     {
       "name": "amazon.nova-micro-v1:0",
       "provider": "bedrock_converse",
-      "logo": "/placeholder.svg?height=30&width=30",
+      "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 4096,
         "max_input_tokens": 300000,
@@ -5717,7 +5717,7 @@ export const aiModels: AIModels = {
     {
       "name": "amazon.nova-lite-v1:0",
       "provider": "bedrock_converse",
-      "logo": "/placeholder.svg?height=30&width=30",
+      "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 4096,
         "max_input_tokens": 128000,
@@ -5734,7 +5734,7 @@ export const aiModels: AIModels = {
     {
       "name": "amazon.nova-pro-v1:0",
       "provider": "bedrock_converse",
-      "logo": "/placeholder.svg?height=30&width=30",
+      "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 4096,
         "max_input_tokens": 300000,

@@ -26,7 +26,7 @@ const PricingCalculator: React.FC<PricingCalculatorProps> = ({
   inputType,
   setInputType,
   outputType,
-  setOutputType
+  setOutputType,
 }) => {
   const getLabel = (type: string) => {
     switch (type) {
@@ -46,7 +46,7 @@ const PricingCalculator: React.FC<PricingCalculatorProps> = ({
 
   return (
     <div className="mb-8 p-6 bg-gray-100 rounded-lg">
-      <div className="grid grid-cols-3 gap-4 mb-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
         <div>
           <Label htmlFor="input-amount">Input {getLabel(inputType)}</Label>
           <Input
@@ -54,7 +54,7 @@ const PricingCalculator: React.FC<PricingCalculatorProps> = ({
             type="number"
             value={inputAmount}
             onChange={(e) => setInputAmount(Number(e.target.value))}
-            className="mt-1 border-black"
+            className="mt-1 border-black w-full"
           />
         </div>
         <div>
@@ -64,7 +64,7 @@ const PricingCalculator: React.FC<PricingCalculatorProps> = ({
             type="number"
             value={outputAmount}
             onChange={(e) => setOutputAmount(Number(e.target.value))}
-            className="mt-1 border-black"
+            className="mt-1 border-black w-full"
           />
         </div>
         <div>
@@ -74,13 +74,17 @@ const PricingCalculator: React.FC<PricingCalculatorProps> = ({
             type="number"
             value={apiCalls}
             onChange={(e) => setApiCalls(Number(e.target.value))}
-            className="mt-1 border-black"
+            className="mt-1 border-black w-full"
           />
         </div>
       </div>
       <div>
         <Label>Calculate by</Label>
-        <RadioGroup value={inputType} onValueChange={handleTypeChange} className="flex space-x-4 mt-1">
+        <RadioGroup
+          value={inputType}
+          onValueChange={handleTypeChange}
+          className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 mt-1"
+        >
           <div className="flex items-center space-x-2">
             <RadioGroupItem value="tokens" id="tokens" />
             <Label htmlFor="tokens">Tokens</Label>

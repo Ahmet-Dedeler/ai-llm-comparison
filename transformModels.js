@@ -67,6 +67,7 @@ const providerLogos = {
   friendliai: 'FriendliAI',
   openrouter: 'OpenRouter',
   sagemaker: 'Amazon',
+  bedrock_converse: 'Amazon',
   mistral: 'Mistral',
   'text-completion-codestral': 'Mistral',
   codestral: 'Mistral',
@@ -82,7 +83,8 @@ const providerLogos = {
   ai21: 'AI21',
   aleph_alpha: 'Aleph Alpha',
   nlp_cloud: 'NLP Cloud',
-  voyage: 'Voyage'
+  voyage: 'Voyage',
+  xAI: "xAI"
 };
 
 // Function to map the mode to the correct category

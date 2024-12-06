@@ -41,53 +41,56 @@ export default function ModelComparison({
             placeholder="Search models..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="pl-10 pr-4 py-2 border-2 border-gray-300 rounded-full"
+            className="pl-10 pr-4 py-2 border-2 border-gray-300 rounded-full w-full"
           />
           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
         </div>
       </div>
 
-      {showPricingCalculator && (
-        <PricingCalculator
-          inputAmount={inputAmount}
-          setInputAmount={setInputAmount}
-          outputAmount={outputAmount}
-          setOutputAmount={setOutputAmount}
-          apiCalls={apiCalls}
-          setApiCalls={setApiCalls}
-          inputType={inputType}
-          setInputType={setInputType}
-          outputType={outputType}
-          setOutputType={setOutputType}
-        />
-      )}
+      {/* Add a responsive container */}
+      <div className="overflow-x-auto">
+        {showPricingCalculator && (
+          <PricingCalculator
+            inputAmount={inputAmount}
+            setInputAmount={setInputAmount}
+            outputAmount={outputAmount}
+            setOutputAmount={setOutputAmount}
+            apiCalls={apiCalls}
+            setApiCalls={setApiCalls}
+            inputType={inputType}
+            setInputType={setInputType}
+            outputType={outputType}
+            setOutputType={setOutputType}
+          />
+        )}
 
-      {showVersusComparison ? (
-        <VersusComparison
-          selectedMode={selectedMode}
-          setSelectedMode={setSelectedMode}
-          searchTerm={searchTerm}
-        />
-      ) : (
-        showPricingCalculator ? (
-          <ModelTableForCalculator
+        {showVersusComparison ? (
+          <VersusComparison
             selectedMode={selectedMode}
             setSelectedMode={setSelectedMode}
             searchTerm={searchTerm}
-            inputAmount={inputAmount}
-            outputAmount={outputAmount}
-            apiCalls={apiCalls}
-            inputType={inputType}
-            outputType={outputType}
           />
         ) : (
-          <ModelTableForComparison
-            selectedMode={selectedMode}
-            setSelectedMode={setSelectedMode}
-            searchTerm={searchTerm}
-          />
-        )
-      )}
+          showPricingCalculator ? (
+            <ModelTableForCalculator
+              selectedMode={selectedMode}
+              setSelectedMode={setSelectedMode}
+              searchTerm={searchTerm}
+              inputAmount={inputAmount}
+              outputAmount={outputAmount}
+              apiCalls={apiCalls}
+              inputType={inputType}
+              outputType={outputType}
+            />
+          ) : (
+            <ModelTableForComparison
+              selectedMode={selectedMode}
+              setSelectedMode={setSelectedMode}
+              searchTerm={searchTerm}
+            />
+          )
+        )}
+      </div>
     </>
   );
 }
