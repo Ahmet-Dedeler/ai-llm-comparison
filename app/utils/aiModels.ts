@@ -2071,7 +2071,7 @@ export const aiModels: AIModels = {
       "provider": "groq",
       "logo": "/logos/groq.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000059",
@@ -8517,6 +8517,23 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/meta-llama/Meta-Llama-3.1-405B-Instruct",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
         "supports_vision": false
       }
     },
