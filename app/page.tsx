@@ -34,20 +34,19 @@ export default function Home() {
             See and compare every AI model easily. 100% free & open-source.
           </p>
 
-          {/* Product Hunt Embed */}
-          <div className="flex justify-center mb-5">
+                    {/* Product Hunt Embed */}
+                    <div className="flex justify-center mb-5">
             <a
-              href="https://www.producthunt.com/posts/countless-dev?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-countless&#0045;dev"
+              href="https://www.producthunt.com/posts/countless-dev?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-countless&#0045;dev"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=677434&theme=light"
-                alt="Countless.dev - Compare every AI model and find the best one | Product Hunt"
+                src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=677434&theme=light&period=daily"
+                alt="Countless.dev - Discover, compare, and choose AI models—100% Free | Product Hunt"
                 style={{ width: '312.5px', height: '67.5px' }}
-width="312.5"
-height="67.5"
-
+                width="312.5"
+                height="67.5"
               />
             </a>
           </div>
