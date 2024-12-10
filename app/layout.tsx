@@ -43,15 +43,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </head>
-      <CSPostHogProvider> {/* Wrap body with CSPostHogProvider */}
-        <body className={inter.className}>
-          {children}
-          <Analytics />
-        </body>
-      </CSPostHogProvider>
-    </html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body className={inter.className}>
+    {children}
+    <Analytics />
+  </body>
+</html>
   )
 }
