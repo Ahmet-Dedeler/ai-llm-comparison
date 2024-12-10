@@ -2,9 +2,7 @@ import { Inter } from 'next/font/google'
 import type { Metadata } from 'next'
 import './globals.css'
 import { Analytics } from "@vercel/analytics/react"
-import { CSPostHogProvider } from './providers' // Import CSPostHogProvider
-
-
+import { CSPostHogProvider } from './providers'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +14,7 @@ export const metadata: Metadata = {
     description: 'Compare AI models easily! All providers in one place.',
     images: [
       {
-        url: '/preview.png', // Replace with the path to your image
+        url: '/preview.png',
         width: 750,
         height: 750,
         alt: 'AI Model Comparison',
@@ -29,7 +27,7 @@ export const metadata: Metadata = {
     description: 'Compare AI models easily! All providers in one place.',
     images: [
       {
-        url: '/preview.png', // Replace with the path to your image
+        url: '/preview.png',
         alt: 'AI Model Comparison',
       },
     ],
@@ -43,13 +41,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body className={inter.className}>
-    {children}
-    <Analytics />
-  </body>
-</html>
+      <CSPostHogProvider>
+        <body className={inter.className}>
+          {children}
+          <Analytics />
+        </body>
+      </CSPostHogProvider>
+    </html>
   )
 }
