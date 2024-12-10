@@ -23,6 +23,7 @@
     "from-exponential": "^1.1.1",
     "lucide-react": "^0.441.0",
     "next": "14.2.12",
+    "posthog-js": "^1.195.0",
     "react": "^18",
     "react-dom": "^18",
     "shadcn-ui": "^0.9.1",
