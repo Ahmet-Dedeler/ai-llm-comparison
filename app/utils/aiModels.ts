@@ -9390,6 +9390,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "databricks/meta-llama-3.3-70b-instruct",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000100002",
+        "output_cost_per_token": "0.00000299999",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/foundation-model-serving"
+      }
+    },
+    {
       "name": "databricks/databricks-dbrx-instruct",
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
