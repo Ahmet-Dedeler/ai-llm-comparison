@@ -289,7 +289,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -304,9 +304,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000012",
         "litellm_provider": "openai",
         "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
       }
     },
     {
@@ -321,9 +321,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000012",
         "litellm_provider": "openai",
         "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
       }
     },
     {
@@ -338,9 +338,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00006",
         "litellm_provider": "openai",
         "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
       }
     },
     {
@@ -355,9 +355,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00006",
         "litellm_provider": "openai",
         "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
       }
     },
     {
@@ -374,7 +374,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -3559,6 +3559,24 @@ export const aiModels: AIModels = {
         "input_cost_per_token": "0",
         "output_cost_per_token": "0",
         "litellm_provider": "vertex_ai-language-models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash"
+      }
+    },
+    {
+      "name": "gemini/gemini-2.0-flash-exp",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "gemini",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
