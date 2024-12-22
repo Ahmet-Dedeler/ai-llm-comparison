@@ -7436,6 +7436,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "meta.llama3-3-70b-instruct-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000072",
+        "output_cost_per_token": "0.00000072",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "meta.llama2-13b-chat-v1",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -11181,15 +11198,15 @@ export const aiModels: AIModels = {
     },
     {
       "name": "azure/gpt-3.5-turbo-instruct-0914",
-      "provider": "text-completion-openai",
-      "logo": "/logos/openai.svg",
+      "provider": "azure_text",
+      "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 4097,
         "max_input_tokens": 4097,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000015",
         "output_cost_per_token": "0.000002",
-        "litellm_provider": "text-completion-openai",
+        "litellm_provider": "azure_text",
         "mode": "completion",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
@@ -11198,15 +11215,15 @@ export const aiModels: AIModels = {
     },
     {
       "name": "azure/gpt-35-turbo-instruct",
-      "provider": "text-completion-openai",
-      "logo": "/logos/openai.svg",
+      "provider": "azure_text",
+      "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 4097,
         "max_input_tokens": 4097,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000015",
         "output_cost_per_token": "0.000002",
-        "litellm_provider": "text-completion-openai",
+        "litellm_provider": "azure_text",
         "mode": "completion",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
@@ -11215,15 +11232,15 @@ export const aiModels: AIModels = {
     },
     {
       "name": "azure/gpt-35-turbo-instruct-0914",
-      "provider": "text-completion-openai",
-      "logo": "/logos/openai.svg",
+      "provider": "azure_text",
+      "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 4097,
         "max_input_tokens": 4097,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000015",
         "output_cost_per_token": "0.000002",
-        "litellm_provider": "text-completion-openai",
+        "litellm_provider": "azure_text",
         "mode": "completion",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
