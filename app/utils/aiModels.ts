@@ -208,6 +208,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gpt-4o-audio-preview-2024-12-17",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "gpt-4o-audio-preview-2024-10-01",
       "provider": "openai",
       "logo": "/logos/openai.svg",
@@ -7437,7 +7454,7 @@ export const aiModels: AIModels = {
     },
     {
       "name": "meta.llama3-3-70b-instruct-v1:0",
-      "provider": "bedrock",
+      "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 4096,
@@ -7445,7 +7462,7 @@ export const aiModels: AIModels = {
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000072",
         "output_cost_per_token": "0.00000072",
-        "litellm_provider": "bedrock",
+        "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
