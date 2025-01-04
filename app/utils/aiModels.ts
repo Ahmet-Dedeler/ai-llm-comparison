@@ -2270,7 +2270,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepseek-chat",
+      "name": "deepseek/deepseek-chat",
       "provider": "deepseek",
       "logo": "/logos/deepseek.svg",
       "sample_spec": {
@@ -2340,7 +2340,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepseek-coder",
+      "name": "deepseek/deepseek-coder",
       "provider": "deepseek",
       "logo": "/logos/deepseek.svg",
       "sample_spec": {
@@ -6267,9 +6267,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 8192,
         "max_input_tokens": 200000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 8192,
         "input_cost_per_token": "0.000001",
         "output_cost_per_token": "0.000005",
         "litellm_provider": "bedrock",
@@ -6369,9 +6369,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 8192,
         "max_input_tokens": 200000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 8192,
         "input_cost_per_token": "0.000001",
         "output_cost_per_token": "0.000005",
         "litellm_provider": "bedrock",
@@ -6471,9 +6471,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 8192,
         "max_input_tokens": 200000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 8192,
         "input_cost_per_token": "0.000001",
         "output_cost_per_token": "0.000005",
         "litellm_provider": "bedrock",
