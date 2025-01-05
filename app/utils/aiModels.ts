@@ -4529,6 +4529,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "command-r7b-12-2024",
+      "provider": "cohere_chat",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000000375",
+        "litellm_provider": "cohere_chat",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.cohere.com/v2/docs/command-r7b"
+      }
+    },
+    {
       "name": "command-light",
       "provider": "cohere_chat",
       "logo": "/logos/cohere.svg",
