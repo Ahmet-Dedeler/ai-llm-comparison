@@ -2714,24 +2714,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "friendliai/mixtral-8x7b-instruct-v0-1",
-      "provider": "friendliai",
-      "logo": "/logos/friendliai.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.0000004",
-        "output_cost_per_token": "0.0000004",
-        "litellm_provider": "friendliai",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "friendliai/meta-llama-3-8b-instruct",
+      "name": "friendliai/meta-llama-3.1-8b-instruct",
       "provider": "friendliai",
       "logo": "/logos/friendliai.svg",
       "sample_spec": {
@@ -2743,24 +2726,24 @@ export const aiModels: AIModels = {
         "litellm_provider": "friendliai",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": false
       }
     },
     {
-      "name": "friendliai/meta-llama-3-70b-instruct",
+      "name": "friendliai/meta-llama-3.1-70b-instruct",
       "provider": "friendliai",
       "logo": "/logos/friendliai.svg",
       "sample_spec": {
         "max_tokens": 8192,
         "max_input_tokens": 8192,
         "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0000008",
-        "output_cost_per_token": "0.0000008",
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000006",
         "litellm_provider": "friendliai",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": false
       }
     },
@@ -9498,6 +9481,24 @@ export const aiModels: AIModels = {
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
         "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fireworks.ai/pricing"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-v3",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://fireworks.ai/pricing"
