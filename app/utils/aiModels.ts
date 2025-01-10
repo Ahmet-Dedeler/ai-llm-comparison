@@ -38,125 +38,6 @@ export const parameterNames: { [key: string]: string } = {
 export const aiModels: AIModels = {
   "chat": [
     {
-      "name": "sambanova/Meta-Llama-3.1-8B-Instruct",
-      "provider": "sambanova",
-      "logo": "/placeholder.svg?height=30&width=30",
-      "sample_spec": {
-        "max_tokens": 16000,
-        "max_input_tokens": 16000,
-        "max_output_tokens": 16000,
-        "input_cost_per_token": "0.0000001",
-        "output_cost_per_token": "0.0000002",
-        "litellm_provider": "sambanova",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "sambanova/Meta-Llama-3.1-70B-Instruct",
-      "provider": "sambanova",
-      "logo": "/placeholder.svg?height=30&width=30",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.0000006",
-        "output_cost_per_token": "0.0000012",
-        "litellm_provider": "sambanova",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "sambanova/Meta-Llama-3.1-405B-Instruct",
-      "provider": "sambanova",
-      "logo": "/placeholder.svg?height=30&width=30",
-      "sample_spec": {
-        "max_tokens": 16000,
-        "max_input_tokens": 16000,
-        "max_output_tokens": 16000,
-        "input_cost_per_token": "0.000005",
-        "output_cost_per_token": "0.00001",
-        "litellm_provider": "sambanova",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "sambanova/Meta-Llama-3.2-1B-Instruct",
-      "provider": "sambanova",
-      "logo": "/placeholder.svg?height=30&width=30",
-      "sample_spec": {
-        "max_tokens": 16000,
-        "max_input_tokens": 16000,
-        "max_output_tokens": 16000,
-        "input_cost_per_token": "0.0000004",
-        "output_cost_per_token": "0.0000008",
-        "litellm_provider": "sambanova",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "sambanova/Meta-Llama-3.2-3B-Instruct",
-      "provider": "sambanova",
-      "logo": "/placeholder.svg?height=30&width=30",
-      "sample_spec": {
-        "max_tokens": 4000,
-        "max_input_tokens": 4000,
-        "max_output_tokens": 4000,
-        "input_cost_per_token": "0.0000008",
-        "output_cost_per_token": "0.0000016",
-        "litellm_provider": "sambanova",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "sambanova/Qwen2.5-Coder-32B-Instruct",
-      "provider": "sambanova",
-      "logo": "/placeholder.svg?height=30&width=30",
-      "sample_spec": {
-        "max_tokens": 8000,
-        "max_input_tokens": 8000,
-        "max_output_tokens": 8000,
-        "input_cost_per_token": "0.0000015",
-        "output_cost_per_token": "0.000003",
-        "litellm_provider": "sambanova",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "sambanova/Qwen2.5-72B-Instruct",
-      "provider": "sambanova",
-      "logo": "/placeholder.svg?height=30&width=30",
-      "sample_spec": {
-        "max_tokens": 8000,
-        "max_input_tokens": 8000,
-        "max_output_tokens": 8000,
-        "input_cost_per_token": "0.000002",
-        "output_cost_per_token": "0.000004",
-        "litellm_provider": "sambanova",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
       "name": "gpt-4",
       "provider": "openai",
       "logo": "/logos/openai.svg",
@@ -9994,6 +9875,125 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://www.databricks.com/product/pricing/foundation-model-serving"
+      }
+    },
+    {
+      "name": "sambanova/Meta-Llama-3.1-8B-Instruct",
+      "provider": "sambanova",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16000,
+        "max_input_tokens": 16000,
+        "max_output_tokens": 16000,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "sambanova",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "sambanova/Meta-Llama-3.1-70B-Instruct",
+      "provider": "sambanova",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "sambanova",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "sambanova/Meta-Llama-3.1-405B-Instruct",
+      "provider": "sambanova",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16000,
+        "max_input_tokens": 16000,
+        "max_output_tokens": 16000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "sambanova",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "sambanova/Meta-Llama-3.2-1B-Instruct",
+      "provider": "sambanova",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16000,
+        "max_input_tokens": 16000,
+        "max_output_tokens": 16000,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000008",
+        "litellm_provider": "sambanova",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "sambanova/Meta-Llama-3.2-3B-Instruct",
+      "provider": "sambanova",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4000,
+        "max_input_tokens": 4000,
+        "max_output_tokens": 4000,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000016",
+        "litellm_provider": "sambanova",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "sambanova/Qwen2.5-Coder-32B-Instruct",
+      "provider": "sambanova",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 8000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "sambanova",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "sambanova/Qwen2.5-72B-Instruct",
+      "provider": "sambanova",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 8000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "sambanova",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
       }
     }
   ],
