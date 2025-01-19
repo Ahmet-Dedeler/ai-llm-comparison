@@ -6090,7 +6090,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000024",
         "litellm_provider": "bedrock",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
