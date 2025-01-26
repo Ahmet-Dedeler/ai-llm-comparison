@@ -2334,7 +2334,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000079",
         "litellm_provider": "groq",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
