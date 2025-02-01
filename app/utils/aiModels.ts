@@ -198,8 +198,42 @@ export const aiModels: AIModels = {
         "max_tokens": 65536,
         "max_input_tokens": 128000,
         "max_output_tokens": 65536,
-        "input_cost_per_token": "0.000003",
-        "output_cost_per_token": "0.000012",
+        "input_cost_per_token": "0.0000011",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "o3-mini",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.0000011",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "o3-mini-2025-01-31",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.0000011",
+        "output_cost_per_token": "0.0000044",
         "litellm_provider": "openai",
         "mode": "chat",
         "supports_function_calling": false,
