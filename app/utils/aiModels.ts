@@ -219,9 +219,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000044",
         "litellm_provider": "openai",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": false
       }
     },
     {
@@ -236,9 +236,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000044",
         "litellm_provider": "openai",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": false
       }
     },
     {
@@ -920,6 +920,57 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true
+      }
+    },
+    {
+      "name": "azure/o3-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.0000011",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/o3-mini-2025-01-31",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.0000011",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/deepseek-r1",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
       }
     },
     {
@@ -3602,8 +3653,8 @@ export const aiModels: AIModels = {
         "max_tokens": 2048,
         "max_input_tokens": 16384,
         "max_output_tokens": 2048,
-        "input_cost_per_token": "0.00000025",
-        "output_cost_per_token": "0.0000005",
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
         "litellm_provider": "vertex_ai-vision-models",
         "mode": "chat",
         "supports_function_calling": true,
@@ -3620,8 +3671,8 @@ export const aiModels: AIModels = {
         "max_tokens": 2048,
         "max_input_tokens": 16384,
         "max_output_tokens": 2048,
-        "input_cost_per_token": "0.00000025",
-        "output_cost_per_token": "0.0000005",
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
         "litellm_provider": "vertex_ai-vision-models",
         "mode": "chat",
         "supports_function_calling": true,
@@ -3638,8 +3689,8 @@ export const aiModels: AIModels = {
         "max_tokens": 2048,
         "max_input_tokens": 16384,
         "max_output_tokens": 2048,
-        "input_cost_per_token": "0.00000025",
-        "output_cost_per_token": "0.0000005",
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
         "litellm_provider": "vertex_ai-vision-models",
         "mode": "chat",
         "supports_function_calling": true,
