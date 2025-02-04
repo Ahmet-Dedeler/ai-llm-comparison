@@ -923,23 +923,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "azure/o3-mini",
-      "provider": "azure",
-      "logo": "/logos/azure.svg",
-      "sample_spec": {
-        "max_tokens": 100000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 100000,
-        "input_cost_per_token": "0.0000011",
-        "output_cost_per_token": "0.0000044",
-        "litellm_provider": "azure",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
       "name": "azure/o3-mini-2025-01-31",
       "provider": "openai",
       "logo": "/logos/openai.svg",
@@ -957,15 +940,15 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "azure/deepseek-r1",
+      "name": "azure/o3-mini",
       "provider": "azure",
       "logo": "/logos/azure.svg",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0",
-        "output_cost_per_token": "0",
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.0000011",
+        "output_cost_per_token": "0.0000044",
         "litellm_provider": "azure",
         "mode": "chat",
         "supports_function_calling": false,
@@ -1530,6 +1513,23 @@ export const aiModels: AIModels = {
         "litellm_provider": "azure",
         "mode": "chat",
         "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure_ai/deepseek-r1",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -2186,7 +2186,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/mistral.svg",
       "sample_spec": {
         "max_tokens": 8191,
-        "max_input_tokens": 64000,
+        "max_input_tokens": 65336,
         "max_output_tokens": 8191,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000006",
@@ -2309,7 +2309,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/deepseek.svg",
       "sample_spec": {
         "max_tokens": 8192,
-        "max_input_tokens": 64000,
+        "max_input_tokens": 65536,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000055",
         "output_cost_per_token": "0.00000219",
@@ -2325,9 +2325,9 @@ export const aiModels: AIModels = {
       "provider": "deepseek",
       "logo": "/logos/deepseek.svg",
       "sample_spec": {
-        "max_tokens": 4096,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 4096,
+        "max_tokens": 8192,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000014",
         "output_cost_per_token": "0.00000028",
         "litellm_provider": "deepseek",
@@ -5048,7 +5048,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 8192,
-        "max_input_tokens": 64000,
+        "max_input_tokens": 65336,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000055",
         "output_cost_per_token": "0.00000219",
@@ -5065,8 +5065,8 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 8192,
-        "max_input_tokens": 66000,
-        "max_output_tokens": 4096,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000014",
         "output_cost_per_token": "0.00000028",
         "litellm_provider": "openrouter",
