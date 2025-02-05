@@ -4323,6 +4323,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "vertex_ai/codestral-2501",
+      "provider": "vertex_ai-mistral_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "vertex_ai-mistral_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "palm/chat-bison",
       "provider": "palm",
       "logo": "/logos/google.svg",
