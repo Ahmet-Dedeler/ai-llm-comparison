@@ -3449,7 +3449,6 @@
         "supports_response_schema": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-1.5-flash",
         "deprecation_date": "2025-09-24",
-        "deprecation_date": "2025-09-24",
         "supports_tool_choice": true
     },
     "gemini-1.5-flash-001": {
@@ -3651,8 +3650,54 @@
         "supports_vision": true,
         "supports_response_schema": true,
         "supports_audio_output": true,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash",
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
         "supports_tool_choice": true
+    },
+    "gemini/gemini-2.0-flash": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 8192,
+        "max_images_per_prompt": 3000,
+        "max_videos_per_prompt": 10,
+        "max_video_length": 1,
+        "max_audio_length_hours": 8.4,
+        "max_audio_per_prompt": 1,
+        "max_pdf_size_mb": 30,
+        "input_cost_per_audio_token": 0.001,
+        "input_cost_per_token": 0.00015,
+        "output_cost_per_token": 0.0006,
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_system_messages": true,
+        "supports_function_calling": true,
+        "supports_vision": true,
+        "supports_response_schema": true,
+        "supports_audio_output": true,
+        "supports_tool_choice": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash"
+    },
+    "gemini-2.0-flash-001": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 8192,
+        "max_images_per_prompt": 3000,
+        "max_videos_per_prompt": 10,
+        "max_video_length": 1,
+        "max_audio_length_hours": 8.4,
+        "max_audio_per_prompt": 1,
+        "max_pdf_size_mb": 30,
+        "input_cost_per_audio_token": 0.000001,
+        "input_cost_per_token": 0.00000015,
+        "output_cost_per_token": 0.0000006,
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "chat",
+        "supports_system_messages": true,
+        "supports_function_calling": true,
+        "supports_vision": true,
+        "supports_response_schema": true,
+        "supports_audio_output": true,
+        "supports_tool_choice": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
     },
     "gemini-2.0-flash-thinking-exp": {
         "max_tokens": 8192,
@@ -5749,8 +5794,7 @@
         "input_cost_per_token": 0.0000125,
         "output_cost_per_token": 0.0000125,
         "litellm_provider": "bedrock",
-        "mode": "chat",
-        "supports_tool_choice": true
+        "mode": "chat"
     },
     "ai21.j2-ultra-v1": {
         "max_tokens": 8191, 
@@ -5759,8 +5803,7 @@
         "input_cost_per_token": 0.0000188,
         "output_cost_per_token": 0.0000188,
         "litellm_provider": "bedrock",
-        "mode": "chat",
-        "supports_tool_choice": true
+        "mode": "chat"
     },
     "ai21.jamba-instruct-v1:0": {
         "max_tokens": 4096,
@@ -5779,8 +5822,7 @@
         "input_cost_per_token": 0.000002,
         "output_cost_per_token": 0.000008,
         "litellm_provider": "bedrock",
-        "mode": "chat",
-        "supports_tool_choice": true
+        "mode": "chat"
     },
     "ai21.jamba-1-5-mini-v1:0": {
         "max_tokens": 256000,
@@ -5789,8 +5831,7 @@
         "input_cost_per_token": 0.0000002,
         "output_cost_per_token": 0.0000004,
         "litellm_provider": "bedrock",
-        "mode": "chat",
-        "supports_tool_choice": true
+        "mode": "chat"
     },
     "amazon.titan-text-lite-v1": {
         "max_tokens": 4000, 
@@ -8904,5 +8945,17 @@
         "supports_function_calling": true,
         "mode": "chat",
         "supports_tool_choice": true
+    },
+    "assemblyai/nano": {
+        "mode": "audio_transcription",
+        "input_cost_per_second": 0.00010278,
+        "output_cost_per_second": 0.00, 
+        "litellm_provider": "assemblyai"
+    },
+    "assemblyai/best": {
+        "mode": "audio_transcription",
+        "input_cost_per_second": 0.00003333,
+        "output_cost_per_second": 0.00, 
+        "litellm_provider": "assemblyai"
     }
 }
