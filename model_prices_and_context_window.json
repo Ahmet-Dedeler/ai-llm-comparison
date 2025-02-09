@@ -6116,7 +6116,8 @@
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_prompt_caching": true
+        "supports_prompt_caching": true,
+        "supports_response_schema": true
     },
     "us.amazon.nova-micro-v1:0": {
         "max_tokens": 4096, 
@@ -6141,7 +6142,8 @@
         "supports_function_calling": true,
         "supports_vision": true,
         "supports_pdf_input": true,
-        "supports_prompt_caching": true
+        "supports_prompt_caching": true,
+        "supports_response_schema": true
     },
     "us.amazon.nova-lite-v1:0": {
         "max_tokens": 4096, 
@@ -6154,7 +6156,8 @@
         "supports_function_calling": true,
         "supports_vision": true,
         "supports_pdf_input": true,
-        "supports_prompt_caching": true
+        "supports_prompt_caching": true,
+        "supports_response_schema": true
     },
     "amazon.nova-pro-v1:0": {
         "max_tokens": 4096, 
@@ -6167,7 +6170,8 @@
         "supports_function_calling": true,
         "supports_vision": true,
         "supports_pdf_input": true,
-        "supports_prompt_caching": true
+        "supports_prompt_caching": true,
+        "supports_response_schema": true
     },
     "us.amazon.nova-pro-v1:0": {
         "max_tokens": 4096, 
@@ -6180,7 +6184,8 @@
         "supports_function_calling": true,
         "supports_vision": true,
         "supports_pdf_input": true,
-        "supports_prompt_caching": true
+        "supports_prompt_caching": true,
+        "supports_response_schema": true
     },
     "anthropic.claude-3-sonnet-20240229-v1:0": {
         "max_tokens": 4096, 
@@ -6191,6 +6196,7 @@
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
+        "supports_response_schema": true,
         "supports_vision": true,
         "supports_tool_choice": true
     },
@@ -6203,6 +6209,7 @@
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
+        "supports_response_schema": true,
         "supports_vision": true,
         "supports_tool_choice": true
     },
@@ -6230,6 +6237,7 @@
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
+        "supports_response_schema": true,
         "supports_vision": true,
         "supports_tool_choice": true
     },
@@ -6243,6 +6251,7 @@
         "mode": "chat",
         "supports_assistant_prefill": true,
         "supports_function_calling": true,
+        "supports_response_schema": true,
         "supports_prompt_caching": true,
         "supports_tool_choice": true
     },
@@ -6255,6 +6264,7 @@
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
+        "supports_response_schema": true,
         "supports_vision": true,
         "supports_tool_choice": true
     },
@@ -6267,6 +6277,7 @@
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
+        "supports_response_schema": true,
         "supports_vision": true,
         "supports_tool_choice": true
     },
@@ -6279,6 +6290,7 @@
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
+        "supports_response_schema": true,
         "supports_vision": true,
         "supports_tool_choice": true
     },
@@ -6306,6 +6318,7 @@
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
+        "supports_response_schema": true,
         "supports_vision": true,
         "supports_tool_choice": true
     },
@@ -6320,6 +6333,7 @@
         "supports_assistant_prefill": true,
         "supports_function_calling": true,
         "supports_prompt_caching": true,
+        "supports_response_schema": true,
         "supports_tool_choice": true
     },
     "us.anthropic.claude-3-opus-20240229-v1:0": {
@@ -6331,6 +6345,7 @@
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
+        "supports_response_schema": true,
         "supports_vision": true,
         "supports_tool_choice": true
     },
@@ -6343,6 +6358,7 @@
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
+        "supports_response_schema": true,
         "supports_vision": true,
         "supports_tool_choice": true
     },
@@ -6355,6 +6371,7 @@
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
+        "supports_response_schema": true,
         "supports_vision": true,
         "supports_tool_choice": true
     },
@@ -6382,6 +6399,7 @@
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
+        "supports_response_schema": true,
         "supports_vision": true,
         "supports_tool_choice": true
     },
@@ -6408,6 +6426,7 @@
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
+        "supports_response_schema": true,
         "supports_vision": true,
         "supports_tool_choice": true
     },
