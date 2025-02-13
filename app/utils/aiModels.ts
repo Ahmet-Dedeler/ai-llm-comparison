@@ -1450,6 +1450,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/gpt-3.5-turbo-0125",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "azure/gpt-35-turbo-16k",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -1468,6 +1485,23 @@ export const aiModels: AIModels = {
     },
     {
       "name": "azure/gpt-35-turbo",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4097,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/gpt-3.5-turbo",
       "provider": "azure",
       "logo": "/logos/azure.svg",
       "sample_spec": {
@@ -9595,6 +9629,40 @@ export const aiModels: AIModels = {
         "max_output_tokens": 127072,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.0000002",
+        "litellm_provider": "perplexity",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "perplexity/sonar",
+      "provider": "perplexity",
+      "logo": "/logos/perplexity.svg",
+      "sample_spec": {
+        "max_tokens": 127072,
+        "max_input_tokens": 127072,
+        "max_output_tokens": 127072,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000001",
+        "litellm_provider": "perplexity",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "perplexity/sonar-pro",
+      "provider": "perplexity",
+      "logo": "/logos/perplexity.svg",
+      "sample_spec": {
+        "max_tokens": 200000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8096,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
         "litellm_provider": "perplexity",
         "mode": "chat",
         "supports_function_calling": false,
