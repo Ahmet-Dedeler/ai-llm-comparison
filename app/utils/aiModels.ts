@@ -3787,6 +3787,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini-2.0-pro-exp-02-05",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 2097152,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+      }
+    },
+    {
       "name": "gemini-2.0-flash-exp",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
@@ -8016,7 +8034,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000072",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -8593,6 +8611,23 @@ export const aiModels: AIModels = {
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000002",
         "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "us.meta.llama3-3-70b-instruct-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000072",
+        "output_cost_per_token": "0.00000072",
+        "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
