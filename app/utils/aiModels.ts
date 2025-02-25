@@ -3139,6 +3139,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "claude-3-7-sonnet-20250219",
+      "provider": "anthropic",
+      "logo": "/logos/anthropic.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "anthropic",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "claude-3-5-sonnet-20241022",
       "provider": "anthropic",
       "logo": "/logos/anthropic.svg",
@@ -6755,6 +6772,23 @@ export const aiModels: AIModels = {
         "max_tokens": 4096,
         "max_input_tokens": 200000,
         "max_output_tokens": 4096,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "anthropic.claude-3-7-sonnet-20250219-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "bedrock",
