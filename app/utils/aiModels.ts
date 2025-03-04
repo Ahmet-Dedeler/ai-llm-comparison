@@ -6936,6 +6936,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "bedrock/invoke/anthropic.claude-3-5-sonnet-20240620-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "anthropic.claude-3-5-sonnet-20240620-v1:0",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
