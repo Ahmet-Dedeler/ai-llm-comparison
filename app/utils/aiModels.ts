@@ -3246,9 +3246,9 @@ export const aiModels: AIModels = {
       "provider": "anthropic",
       "logo": "/logos/anthropic.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 128000,
         "max_input_tokens": 200000,
-        "max_output_tokens": 8192,
+        "max_output_tokens": 128000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "anthropic",
@@ -3263,9 +3263,9 @@ export const aiModels: AIModels = {
       "provider": "anthropic",
       "logo": "/logos/anthropic.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 128000,
         "max_input_tokens": 200000,
-        "max_output_tokens": 8192,
+        "max_output_tokens": 128000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "anthropic",
