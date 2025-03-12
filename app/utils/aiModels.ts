@@ -1610,13 +1610,32 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "input_cost_per_token": "0",
-        "output_cost_per_token": "0",
+        "input_cost_per_token": "0.00000135",
+        "output_cost_per_token": "0.0000054",
         "litellm_provider": "azure_ai",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://techcommunity.microsoft.com/blog/machinelearningblog/deepseek-r1-improved-performance-higher-limits-and-transparent-pricing/4386367"
+      }
+    },
+    {
+      "name": "azure_ai/deepseek-v3",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000114",
+        "output_cost_per_token": "0.00000456",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://techcommunity.microsoft.com/blog/machinelearningblog/announcing-deepseek-v3-on-azure-ai-foundry-and-github/4390438"
       }
     },
     {
@@ -1634,6 +1653,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "azure_ai/mistral-nemo",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azuremarketplace.microsoft.com/en/marketplace/apps/000-000.mistral-nemo-12b-2407?tab=PlansAndPrice"
       }
     },
     {
@@ -1832,13 +1869,49 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "azure_ai/Phi-4",
+      "name": "azure_ai/Phi-4-mini-instruct",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 4096,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 131072,
         "max_output_tokens": 4096,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/models-featured#microsoft"
+      }
+    },
+    {
+      "name": "azure_ai/Phi-4-multimodal-instruct",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/models-featured#microsoft"
+      }
+    },
+    {
+      "name": "azure_ai/Phi-4",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
         "input_cost_per_token": "0.000000125",
         "output_cost_per_token": "0.0000005",
         "litellm_provider": "azure_ai",
@@ -3977,24 +4050,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "gemini/gemini-2.0-flash",
-      "provider": "gemini",
-      "logo": "/logos/google.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 1048576,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0000001",
-        "output_cost_per_token": "0.0000004",
-        "litellm_provider": "gemini",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true,
-        "source": "https://ai.google.dev/pricing#2_0flash"
-      }
-    },
-    {
       "name": "gemini-2.0-flash-001",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
@@ -4046,6 +4101,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash"
+      }
+    },
+    {
+      "name": "gemini/gemini-2.0-pro-exp-02-05",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 2097152,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "gemini/gemini-2.0-flash",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/pricing#2_0flash"
       }
     },
     {
@@ -12243,6 +12334,24 @@ export const aiModels: AIModels = {
     },
     {
       "name": "vertex_ai/imagegeneration@006",
+      "provider": "vertex_ai-image-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "vertex_ai-image-models",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "vertex_ai/imagen-3.0-generate-002",
       "provider": "vertex_ai-image-models",
       "logo": "/logos/google.svg",
       "sample_spec": {
