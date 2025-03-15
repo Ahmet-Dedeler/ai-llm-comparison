@@ -11528,6 +11528,414 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
+    },
+    {
+      "name": "snowflake/deepseek-r1",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/snowflake-arctic",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/claude-3-5-sonnet",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 18000,
+        "max_input_tokens": 18000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/mistral-large",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/mistral-large2",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/reka-flash",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 100000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/reka-core",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/jamba-instruct",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/jamba-1.5-mini",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/jamba-1.5-large",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/mixtral-8x7b",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/llama2-70b-chat",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/llama3-8b",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 8000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/llama3-70b",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 8000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/llama3.1-8b",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/llama3.1-70b",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/llama3.3-70b",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/snowflake-llama-3.3-70b",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 8000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/llama3.1-405b",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/snowflake-llama-3.1-405b",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 8000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/llama3.2-1b",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/llama3.2-3b",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/mistral-7b",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/gemma-7b",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 8000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
     }
   ],
   "embedding": [
