@@ -9,17 +9,6 @@ export default function Header() {
         <span className="text-2xl font-bold">countless.dev</span>
       </div>
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-3">
-        <Button variant="outline" size="sm" asChild className="border-black text-black hover:bg-gray-100 px-2">
-          <a href="https://sssmodel.com/?utm_source=countless" target="_blank" rel="noopener noreferrer">
-            <img
-              src="/sssmodel.png"
-              alt="SSS Model Logo"
-              className="mr-1 h-6 w-7"
-              style={{ marginLeft: '-2px' }}
-            />
-            sssmodel.com
-          </a>
-        </Button>
         <Button variant="outline" size="sm" asChild className="border-black text-black hover:bg-gray-100">
           <a href="https://github.com/Ahmet-Dedeler/ai-llm-comparison" target="_blank" rel="noopener noreferrer">
             <Github className="mr-2 h-4 w-4" />
