@@ -12319,6 +12319,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "text-embedding-large-exp-03-07",
+      "provider": "vertex_ai-embedding-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0",
+        "litellm_provider": "vertex_ai-embedding-models",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models"
+      }
+    },
+    {
       "name": "textembedding-gecko",
       "provider": "vertex_ai-embedding-models",
       "logo": "/logos/google.svg",
