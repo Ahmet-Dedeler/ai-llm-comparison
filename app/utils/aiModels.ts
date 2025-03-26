@@ -5120,6 +5120,40 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "vertex_ai/mistral-small-2503@001",
+      "provider": "vertex_ai-mistral_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 8191,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 8191,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "vertex_ai-mistral_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "vertex_ai/mistral-small-2503",
+      "provider": "vertex_ai-mistral_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "vertex_ai-mistral_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "vertex_ai/jamba-1.5-mini@001",
       "provider": "vertex_ai-ai21_models",
       "logo": "/logos/google.svg",
