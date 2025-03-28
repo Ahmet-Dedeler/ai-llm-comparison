@@ -12389,6 +12389,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "multimodalembedding",
+      "provider": "vertex_ai-embedding-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 2048,
+        "max_input_tokens": 2048,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0",
+        "litellm_provider": "vertex_ai-embedding-models",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models"
+      }
+    },
+    {
       "name": "text-embedding-large-exp-03-07",
       "provider": "vertex_ai-embedding-models",
       "logo": "/logos/google.svg",
@@ -14594,6 +14612,40 @@ export const aiModels: AIModels = {
     }
   ],
   "audio_transcription": [
+    {
+      "name": "gpt-4o-transcribe",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openai",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "gpt-4o-mini-transcribe",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "openai",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
     {
       "name": "whisper-1",
       "provider": "openai",
