@@ -4490,6 +4490,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini-2.5-pro-exp-03-25",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+      }
+    },
+    {
       "name": "gemini-2.0-pro-exp-02-05",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
@@ -11455,6 +11473,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "databricks/databricks-claude-3-7-sonnet",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 200000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00017857",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/foundation-model-serving"
+      }
+    },
+    {
       "name": "databricks/databricks-meta-llama-3-1-405b-instruct",
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
@@ -11491,7 +11527,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "databricks/meta-llama-3.3-70b-instruct",
+      "name": "databricks/databricks-meta-llama-3-3-70b-instruct",
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
