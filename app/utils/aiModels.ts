@@ -2219,6 +2219,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/mistral-large-latest",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azuremarketplace.microsoft.com/en/marketplace/apps/000-000.mistral-ai-large-2407-offer?tab=Overview"
+      }
+    },
+    {
       "name": "azure_ai/ministral-3b",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
