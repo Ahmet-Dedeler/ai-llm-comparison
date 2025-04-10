@@ -2387,14 +2387,14 @@ export const aiModels: AIModels = {
         "max_tokens": 4096,
         "max_input_tokens": 131072,
         "max_output_tokens": 4096,
-        "input_cost_per_token": "0",
-        "output_cost_per_token": "0",
+        "input_cost_per_token": "0.000000075",
+        "output_cost_per_token": "0.0000003",
         "litellm_provider": "azure_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/models-featured#microsoft"
+        "source": "https://techcommunity.microsoft.com/blog/Azure-AI-Services-blog/announcing-new-phi-pricing-empowering-your-business-with-small-language-models/4395112"
       }
     },
     {
@@ -2405,14 +2405,14 @@ export const aiModels: AIModels = {
         "max_tokens": 4096,
         "max_input_tokens": 131072,
         "max_output_tokens": 4096,
-        "input_cost_per_token": "0",
-        "output_cost_per_token": "0",
+        "input_cost_per_token": "0.00000008",
+        "output_cost_per_token": "0.00032",
         "litellm_provider": "azure_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/models-featured#microsoft"
+        "source": "https://techcommunity.microsoft.com/blog/Azure-AI-Services-blog/announcing-new-phi-pricing-empowering-your-business-with-small-language-models/4395112"
       }
     },
     {
