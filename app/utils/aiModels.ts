@@ -4532,8 +4532,8 @@ export const aiModels: AIModels = {
         "max_tokens": 65536,
         "max_input_tokens": 1048576,
         "max_output_tokens": 65536,
-        "input_cost_per_token": "0",
-        "output_cost_per_token": "0",
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00001",
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
@@ -4550,8 +4550,8 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 2097152,
         "max_output_tokens": 8192,
-        "input_cost_per_token": "0",
-        "output_cost_per_token": "0",
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00001",
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
@@ -4652,6 +4652,24 @@ export const aiModels: AIModels = {
     },
     {
       "name": "gemini-2.0-flash-lite",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.000000075",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash"
+      }
+    },
+    {
+      "name": "gemini-2.0-flash-lite-001",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
       "sample_spec": {
