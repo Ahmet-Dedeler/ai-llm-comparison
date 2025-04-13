@@ -4926,7 +4926,7 @@ export const aiModels: AIModels = {
         "max_input_tokens": 1048576,
         "max_output_tokens": 65536,
         "input_cost_per_token": "0.00000125",
-        "output_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.00001",
         "litellm_provider": "gemini",
         "mode": "chat",
         "supports_function_calling": true,
