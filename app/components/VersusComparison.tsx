@@ -100,8 +100,8 @@ const VersusComparison: React.FC<VersusComparisonProps> = ({
                       ? typeof model.sample_spec[param] ===
                         'boolean'
                         ? model.sample_spec[param]
-                          ? 'Yes'
-                          : 'No'
+                          ? '✅'
+                          : '❌'
                         : model.sample_spec[param]
                       : 'N/A'}
                   </td>
