@@ -68,7 +68,7 @@ const VersusComparison: React.FC<VersusComparisonProps> = ({
               {comparisonModels.map((model, index) => (
                 <th
                   key={index}
-                  className="border p-2 bg-gray-100"
+                  className="border p-2 bg-gray-100 text-right"
                 >
                   <div className="flex items-center justify-between">
                     <span className="truncate">
@@ -95,7 +95,7 @@ const VersusComparison: React.FC<VersusComparisonProps> = ({
                   {parameterNames[param] || param}
                 </td>
                 {comparisonModels.map((model, index) => (
-                  <td key={index} className="border p-2">
+                  <td key={index} className="border p-2 font-mono text-right">
                     {model.sample_spec[param] !== undefined
                       ? typeof model.sample_spec[param] ===
                         'boolean'
