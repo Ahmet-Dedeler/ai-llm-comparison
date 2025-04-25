@@ -6450,6 +6450,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "command-a-03-2025",
+      "provider": "cohere_chat",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "cohere_chat",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "command-r",
       "provider": "cohere_chat",
       "logo": "/logos/cohere.svg",
