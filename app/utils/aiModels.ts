@@ -429,6 +429,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "computer-use-preview",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 1024,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 1024,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "o3",
       "provider": "openai",
       "logo": "/logos/openai.svg",
