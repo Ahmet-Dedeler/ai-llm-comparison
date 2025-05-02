@@ -16201,6 +16201,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gpt-4o-mini-tts",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openai",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "azure/tts-1",
       "provider": "azure",
       "logo": "/logos/azure.svg",
