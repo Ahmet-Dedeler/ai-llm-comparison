@@ -4660,6 +4660,78 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "meta_llama/Llama-4-Scout-17B-16E-Instruct-FP8",
+      "provider": "meta_llama",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 10000000,
+        "max_output_tokens": 4028,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "meta_llama",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://llama.developer.meta.com/docs/models"
+      }
+    },
+    {
+      "name": "meta_llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+      "provider": "meta_llama",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 4028,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "meta_llama",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://llama.developer.meta.com/docs/models"
+      }
+    },
+    {
+      "name": "meta_llama/Llama-3.3-70B-Instruct",
+      "provider": "meta_llama",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4028,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "meta_llama",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://llama.developer.meta.com/docs/models"
+      }
+    },
+    {
+      "name": "meta_llama/Llama-3.3-8B-Instruct",
+      "provider": "meta_llama",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4028,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "meta_llama",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://llama.developer.meta.com/docs/models"
+      }
+    },
+    {
       "name": "gemini-pro",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
@@ -5781,7 +5853,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "vertex_ai/meta/llama-4-scout-128b-16e-instruct-maas",
+      "name": "vertex_ai/meta/llama-4-scout-17b-128e-instruct-maas",
       "provider": "vertex_ai-llama_models",
       "logo": "/logos/google.svg",
       "sample_spec": {
@@ -8579,6 +8651,23 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "us.amazon.nova-premier-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.0000125",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
       }
     },
     {
@@ -11744,40 +11833,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "perplexity/sonar",
-      "provider": "perplexity",
-      "logo": "/logos/perplexity.svg",
-      "sample_spec": {
-        "max_tokens": 127072,
-        "max_input_tokens": 127072,
-        "max_output_tokens": 127072,
-        "input_cost_per_token": "0.000001",
-        "output_cost_per_token": "0.000001",
-        "litellm_provider": "perplexity",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "perplexity/sonar-pro",
-      "provider": "perplexity",
-      "logo": "/logos/perplexity.svg",
-      "sample_spec": {
-        "max_tokens": 200000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 8096,
-        "input_cost_per_token": "0.000003",
-        "output_cost_per_token": "0.000015",
-        "litellm_provider": "perplexity",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
       "name": "perplexity/pplx-7b-chat",
       "provider": "perplexity",
       "logo": "/logos/perplexity.svg",
@@ -11957,6 +12012,23 @@ export const aiModels: AIModels = {
         "max_output_tokens": 12000,
         "input_cost_per_token": "0",
         "output_cost_per_token": "0.0000018",
+        "litellm_provider": "perplexity",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "perplexity/sonar-deep-research",
+      "provider": "perplexity",
+      "logo": "/logos/perplexity.svg",
+      "sample_spec": {
+        "max_tokens": 12000,
+        "max_input_tokens": 12000,
+        "max_output_tokens": 12000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000008",
         "litellm_provider": "perplexity",
         "mode": "chat",
         "supports_function_calling": false,
