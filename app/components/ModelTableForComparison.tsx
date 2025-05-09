@@ -124,14 +124,14 @@ const ModelTableForComparison: React.FC<ModelTableForComparisonProps> = ({
               </TableHead>
               <TableHead
                 onClick={() => requestSort('max_input_tokens')}
-                className="cursor-pointer w-20"
+                className="cursor-pointer w-20 text-right"
               >
                 Input<br />Length{' '}
                 <ArrowUpDown className="inline-block ml-1 h-4 w-4" />
               </TableHead>
               <TableHead
                 onClick={() => requestSort('max_output_tokens')}
-                className="cursor-pointer w-20"
+                className="cursor-pointer w-20 text-right"
               >
                 Output<br />Length{' '}
                 <ArrowUpDown className="inline-block ml-1 h-4 w-4" />
@@ -139,7 +139,7 @@ const ModelTableForComparison: React.FC<ModelTableForComparisonProps> = ({
               {/* Reduced widths for Input Price, Output Price, and Supports Vision */}
               <TableHead
                 onClick={() => requestSort('input_cost_per_token')}
-                className="cursor-pointer w-16 px-1"
+                className="cursor-pointer w-16 px-1 text-right"
               >
                 Input Price<br />
                 (per 1M tokens){' '}
@@ -147,7 +147,7 @@ const ModelTableForComparison: React.FC<ModelTableForComparisonProps> = ({
               </TableHead>
               <TableHead
                 onClick={() => requestSort('output_cost_per_token')}
-                className="cursor-pointer w-16 px-1"
+                className="cursor-pointer w-16 px-1 text-right"
               >
                 Output Price<br />
                 (per 1M tokens){' '}
@@ -180,14 +180,14 @@ const ModelTableForComparison: React.FC<ModelTableForComparisonProps> = ({
                     </span>
                   </div>
                 </TableCell>
-                <TableCell className="w-20 text-center">
+                <TableCell className="w-20 text-right font-mono">
                   {model.sample_spec.max_input_tokens ?? 'N/A'}
                 </TableCell>
-                <TableCell className="w-20 text-center">
+                <TableCell className="w-20 text-right font-mono">
                   {model.sample_spec.max_output_tokens ?? 'N/A'}
                 </TableCell>
                 {/* Adjusted widths and padding for data cells */}
-                <TableCell className="w-16 px-1 text-center">
+                <TableCell className="w-16 px-1 text-right font-mono">
                   {model.sample_spec.input_cost_per_token
                     ? (
                         Number(model.sample_spec.input_cost_per_token) *
@@ -195,7 +195,7 @@ const ModelTableForComparison: React.FC<ModelTableForComparisonProps> = ({
                       ).toFixed(2)
                     : 'N/A'}
                 </TableCell>
-                <TableCell className="w-16 px-1 text-center">
+                <TableCell className="w-16 px-1 text-right font-mono">
                   {model.sample_spec.output_cost_per_token
                     ? (
                         Number(model.sample_spec.output_cost_per_token) *
