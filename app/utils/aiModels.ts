@@ -4155,7 +4155,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "cerebras/llama3.3-70b",
+      "name": "cerebras/llama-3.3-70b",
       "provider": "cerebras",
       "logo": "/logos/cerebras.svg",
       "sample_spec": {
@@ -12124,13 +12124,81 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "perplexity/sonar",
+      "provider": "perplexity",
+      "logo": "/logos/perplexity.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000001",
+        "litellm_provider": "perplexity",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "perplexity/sonar-pro",
+      "provider": "perplexity",
+      "logo": "/logos/perplexity.svg",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "perplexity",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "perplexity/sonar-reasoning",
+      "provider": "perplexity",
+      "logo": "/logos/perplexity.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "perplexity",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "perplexity/sonar-reasoning-pro",
+      "provider": "perplexity",
+      "logo": "/logos/perplexity.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000008",
+        "litellm_provider": "perplexity",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "perplexity/sonar-deep-research",
       "provider": "perplexity",
       "logo": "/logos/perplexity.svg",
       "sample_spec": {
-        "max_tokens": 12000,
-        "max_input_tokens": 12000,
-        "max_output_tokens": 12000,
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000008",
         "litellm_provider": "perplexity",
@@ -13430,6 +13498,258 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "nscale/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+      "provider": "nscale",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000009",
+        "output_cost_per_token": "0.00000029",
+        "litellm_provider": "nscale",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.nscale.com/docs/inference/serverless-models/current#chat-models"
+      }
+    },
+    {
+      "name": "nscale/Qwen/Qwen2.5-Coder-3B-Instruct",
+      "provider": "nscale",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000001",
+        "output_cost_per_token": "0.00000003",
+        "litellm_provider": "nscale",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.nscale.com/docs/inference/serverless-models/current#chat-models"
+      }
+    },
+    {
+      "name": "nscale/Qwen/Qwen2.5-Coder-7B-Instruct",
+      "provider": "nscale",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000001",
+        "output_cost_per_token": "0.00000003",
+        "litellm_provider": "nscale",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.nscale.com/docs/inference/serverless-models/current#chat-models"
+      }
+    },
+    {
+      "name": "nscale/Qwen/Qwen2.5-Coder-32B-Instruct",
+      "provider": "nscale",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "nscale",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.nscale.com/docs/inference/serverless-models/current#chat-models"
+      }
+    },
+    {
+      "name": "nscale/Qwen/QwQ-32B",
+      "provider": "nscale",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000018",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "nscale",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.nscale.com/docs/inference/serverless-models/current#chat-models"
+      }
+    },
+    {
+      "name": "nscale/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "provider": "nscale",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000000375",
+        "output_cost_per_token": "0.000000375",
+        "litellm_provider": "nscale",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.nscale.com/docs/inference/serverless-models/current#chat-models"
+      }
+    },
+    {
+      "name": "nscale/deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+      "provider": "nscale",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000000025",
+        "output_cost_per_token": "0.000000025",
+        "litellm_provider": "nscale",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.nscale.com/docs/inference/serverless-models/current#chat-models"
+      }
+    },
+    {
+      "name": "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+      "provider": "nscale",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000009",
+        "output_cost_per_token": "0.00000009",
+        "litellm_provider": "nscale",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.nscale.com/docs/inference/serverless-models/current#chat-models"
+      }
+    },
+    {
+      "name": "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+      "provider": "nscale",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "nscale",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.nscale.com/docs/inference/serverless-models/current#chat-models"
+      }
+    },
+    {
+      "name": "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+      "provider": "nscale",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000007",
+        "output_cost_per_token": "0.00000007",
+        "litellm_provider": "nscale",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.nscale.com/docs/inference/serverless-models/current#chat-models"
+      }
+    },
+    {
+      "name": "nscale/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "provider": "nscale",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "nscale",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.nscale.com/docs/inference/serverless-models/current#chat-models"
+      }
+    },
+    {
+      "name": "nscale/mistralai/mixtral-8x22b-instruct-v0.1",
+      "provider": "nscale",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "nscale",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.nscale.com/docs/inference/serverless-models/current#chat-models"
+      }
+    },
+    {
+      "name": "nscale/meta-llama/Llama-3.1-8B-Instruct",
+      "provider": "nscale",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.00000003",
+        "litellm_provider": "nscale",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.nscale.com/docs/inference/serverless-models/current#chat-models"
+      }
+    },
+    {
+      "name": "nscale/meta-llama/Llama-3.3-70B-Instruct",
+      "provider": "nscale",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "nscale",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.nscale.com/docs/inference/serverless-models/current#chat-models"
       }
     }
   ],
@@ -15331,6 +15651,42 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "nscale/black-forest-labs/FLUX.1-schnell",
+      "provider": "nscale",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nscale",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.nscale.com/docs/inference/serverless-models/current#image-models"
+      }
+    },
+    {
+      "name": "nscale/stabilityai/stable-diffusion-xl-base-1.0",
+      "provider": "nscale",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "nscale",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.nscale.com/docs/inference/serverless-models/current#image-models"
       }
     }
   ],
