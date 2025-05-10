@@ -2574,6 +2574,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/deepseek-v3-0324",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000114",
+        "output_cost_per_token": "0.00000456",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://techcommunity.microsoft.com/blog/machinelearningblog/announcing-deepseek-v3-on-azure-ai-foundry-and-github/4390438"
+      }
+    },
+    {
       "name": "azure_ai/jamba-instruct",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
@@ -2747,6 +2765,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://azuremarketplace.microsoft.com/en/marketplace/apps/metagenai.llama-3-3-70b-instruct-offer?tab=Overview"
+      }
+    },
+    {
+      "name": "azure_ai/Llama-4-Scout-17B-16E-Instruct",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 10000000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.00000078",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/blog/introducing-the-llama-4-herd-in-azure-ai-foundry-and-azure-databricks/"
+      }
+    },
+    {
+      "name": "azure_ai/Llama-4-Maverick-17B-128E-Instruct-FP8",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000141",
+        "output_cost_per_token": "0.00000035",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/blog/introducing-the-llama-4-herd-in-azure-ai-foundry-and-azure-databricks/"
       }
     },
     {
@@ -11404,7 +11458,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0",
         "litellm_provider": "ollama",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -11421,7 +11475,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0",
         "litellm_provider": "ollama",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -11438,7 +11492,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0",
         "litellm_provider": "ollama",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -11455,7 +11509,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0",
         "litellm_provider": "ollama",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -11472,7 +11526,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0",
         "litellm_provider": "ollama",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -16506,7 +16560,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0",
         "litellm_provider": "ollama",
         "mode": "completion",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
