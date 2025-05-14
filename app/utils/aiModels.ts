@@ -9067,6 +9067,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "eu.anthropic.claude-3-7-sonnet-20250219-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "eu.anthropic.claude-3-haiku-20240307-v1:0",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -13981,6 +13998,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/embed-v-4-0",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0",
+        "litellm_provider": "azure_ai",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azuremarketplace.microsoft.com/pt-br/marketplace/apps/cohere.cohere-embed-4-offer?tab=PlansAndPrice"
+      }
+    },
+    {
       "name": "mistral/mistral-embed",
       "provider": "mistral",
       "logo": "/logos/mistral.svg",
@@ -16869,6 +16904,23 @@ export const aiModels: AIModels = {
         "input_cost_per_token": "0.0000025",
         "output_cost_per_token": "0.00001",
         "litellm_provider": "openai",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/gpt-4o-mini-tts",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "azure",
         "mode": "audio_speech",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
