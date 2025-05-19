@@ -13907,6 +13907,40 @@ export const aiModels: AIModels = {
         "supports_vision": false,
         "source": "https://docs.nscale.com/docs/inference/serverless-models/current#chat-models"
       }
+    },
+    {
+      "name": "featherless_ai/featherless-ai/Qwerky-72B",
+      "provider": "featherless_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "featherless_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "featherless_ai/featherless-ai/Qwerky-QwQ-32B",
+      "provider": "featherless_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "featherless_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
     }
   ],
   "embedding": [
