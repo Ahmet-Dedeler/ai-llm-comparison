@@ -46,7 +46,7 @@ const ModelTableForCalculator: React.FC<ModelTableForCalculatorProps> = ({
     key: string | null;
     direction: 'ascending' | 'descending';
   }>({ key: null, direction: 'ascending' });
-  
+
   const [selectedProviders, setSelectedProviders] = useState<string[]>([]);
 
   const filteredModels = useMemo(() => {
@@ -127,21 +127,21 @@ const ModelTableForCalculator: React.FC<ModelTableForCalculatorProps> = ({
               {/* Other columns with fixed widths */}
               <TableHead
                 onClick={() => requestSort('max_input_tokens')}
-                className="cursor-pointer w-20"
+                className="cursor-pointer w-20 text-right"
               >
                 Input<br />Length{' '}
                 <ArrowUpDown className="inline-block ml-1 h-4 w-4" />
               </TableHead>
               <TableHead
                 onClick={() => requestSort('max_output_tokens')}
-                className="cursor-pointer w-20"
+                className="cursor-pointer w-20 text-right"
               >
                 Output<br />Length{' '}
                 <ArrowUpDown className="inline-block ml-1 h-4 w-4" />
               </TableHead>
               <TableHead
                 onClick={() => requestSort('input_cost_per_token')}
-                className="cursor-pointer w-24 px-1"
+                className="cursor-pointer w-24 px-1 text-right"
               >
                 Input Price<br />
                 (per 1M tokens){' '}
@@ -149,16 +149,16 @@ const ModelTableForCalculator: React.FC<ModelTableForCalculatorProps> = ({
               </TableHead>
               <TableHead
                 onClick={() => requestSort('output_cost_per_token')}
-                className="cursor-pointer w-24 px-1"
+                className="cursor-pointer w-24 px-1 text-right"
               >
                 Output Price<br />
                 (per 1M tokens){' '}
                 <ArrowUpDown className="inline-block ml-1 h-4 w-4" />
               </TableHead>
               {/* Cost columns */}
-              <TableHead className="px-1 w-24">Input Cost</TableHead>
-              <TableHead className="px-1 w-24">Output Cost</TableHead>
-              <TableHead className="px-1 w-24">Total Cost</TableHead>
+              <TableHead className="px-1 w-24 text-right">Input Cost</TableHead>
+              <TableHead className="px-1 w-24 text-right">Output Cost</TableHead>
+              <TableHead className="px-1 w-24 text-right">Total Cost</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -192,13 +192,13 @@ const ModelTableForCalculator: React.FC<ModelTableForCalculatorProps> = ({
                     </div>
                   </TableCell>
                   {/* Other fixed width cells */}
-                  <TableCell className="w-20 text-center">
+                  <TableCell className="w-20 text-right font-mono">
                     {model.sample_spec.max_input_tokens ?? 'N/A'}
                   </TableCell>
-                  <TableCell className="w-20 text-center">
+                  <TableCell className="w-20 text-right font-mono">
                     {model.sample_spec.max_output_tokens ?? 'N/A'}
                   </TableCell>
-                  <TableCell className="w-24 px-1 text-center">
+                  <TableCell className="w-24 px-1 text-right font-mono">
                     {model.sample_spec.input_cost_per_token !== null &&
                     model.sample_spec.input_cost_per_token !== undefined
                       ? (
@@ -206,7 +206,7 @@ const ModelTableForCalculator: React.FC<ModelTableForCalculatorProps> = ({
                         ).toFixed(2)
                       : 'N/A'}
                   </TableCell>
-                  <TableCell className="w-24 px-1 text-center">
+                  <TableCell className="w-24 px-1 text-right font-mono">
                     {model.sample_spec.output_cost_per_token !== null &&
                     model.sample_spec.output_cost_per_token !== undefined
                       ? (
@@ -215,21 +215,21 @@ const ModelTableForCalculator: React.FC<ModelTableForCalculatorProps> = ({
                       : 'N/A'}
                   </TableCell>
                   {/* Cost cells */}
-                  <TableCell className="px-1 w-24 text-center font-bold whitespace-nowrap">
+                  <TableCell className="px-1 w-24 text-right font-bold whitespace-nowrap font-mono">
                     {model.sample_spec.input_cost_per_token ? (
                       `$${inputCost.toFixed(4)}`
                     ) : (
                       'N/A'
                     )}
                   </TableCell>
-                  <TableCell className="px-1 w-24 text-center font-bold whitespace-nowrap">
+                  <TableCell className="px-1 w-24 text-right font-bold whitespace-nowrap font-mono">
                     {model.sample_spec.output_cost_per_token ? (
                       `$${outputCost.toFixed(4)}`
                     ) : (
                       'N/A'
                     )}
                   </TableCell>
-                  <TableCell className="px-1 w-24 text-center font-bold whitespace-nowrap">
+                  <TableCell className="px-1 w-24 text-right font-bold whitespace-nowrap font-mono">
                     {model.sample_spec.input_cost_per_token &&
                     model.sample_spec.output_cost_per_token ? (
                       `$${totalCost.toFixed(4)}`
