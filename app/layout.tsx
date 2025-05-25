@@ -7,10 +7,10 @@ import { CSPostHogProvider } from './providers'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Countless.dev | AI Model Comparison',
+  title: 'llmarena.ai | AI Model Comparison',
   description: 'Compare AI models easily! All providers in one place.',
   openGraph: {
-    title: 'Countless.dev | AI Model Comparison',
+    title: 'llmarena.ai | AI Model Comparison',
     description: 'Compare AI models easily! All providers in one place.',
     images: [
       {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Countless.dev | AI Model Comparison',
+    title: 'llmarena.ai | AI Model Comparison',
     description: 'Compare AI models easily! All providers in one place.',
     images: [
       {

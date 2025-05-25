@@ -37,13 +37,13 @@ export default function Home() {
                     {/* Product Hunt Embed */}
                     <div className="flex justify-center mb-5">
             <a
-              href="https://www.producthunt.com/posts/countless-dev?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-countless&#0045;dev"
+              href="https://www.producthunt.com/posts/llmarena-ai?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-llmarena-ai"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
                 src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=677434&theme=light&period=daily"
-                alt="Countless.dev - Discover, compare, and choose AI models—100% Free | Product Hunt"
+                alt="llmarena.ai - Discover, compare, and choose AI models—100% Free | Product Hunt"
                 style={{ width: '312.5px', height: '67.5px' }}
                 width="312.5"
                 height="67.5"

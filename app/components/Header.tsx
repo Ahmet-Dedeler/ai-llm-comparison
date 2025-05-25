@@ -6,7 +6,12 @@ export default function Header() {
     <header className="flex flex-col md:flex-row justify-between items-center mb-16 space-y-4 md:space-y-0">
       <div className="flex items-center space-x-2">
         <BarChart3 className="w-8 h-8" />
-        <span className="text-2xl font-bold">countless.dev</span>
+        <div className="flex items-center space-x-2">
+          <span className="text-2xl font-bold">llmarena.ai</span>
+          <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full font-medium">
+            countless.dev is now llmarena.ai!
+          </span>
+        </div>
       </div>
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-3">
         <Button variant="outline" size="sm" asChild className="border-black text-black hover:bg-gray-100">

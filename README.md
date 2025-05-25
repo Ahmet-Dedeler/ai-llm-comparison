@@ -1,4 +1,4 @@
-# Introducing ✨ Countless.dev ✨ 
+# Introducing ✨ llmarena.ai ✨ 
 ### A website where you can compare every AI Model, examine the prices, and find the best one!
 
 ![image](https://github.com/user-attachments/assets/a39c4252-8d95-489b-aa89-1aa5790959a4)
