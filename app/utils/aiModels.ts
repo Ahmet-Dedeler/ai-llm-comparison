@@ -310,6 +310,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gpt-4o-mini-audio-preview",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "gpt-4o-mini-audio-preview-2024-12-17",
       "provider": "openai",
       "logo": "/logos/openai.svg",
@@ -3216,13 +3233,30 @@ export const aiModels: AIModels = {
       "logo": "/logos/mistral.svg",
       "sample_spec": {
         "max_tokens": 8191,
-        "max_input_tokens": 32000,
+        "max_input_tokens": 131072,
         "max_output_tokens": 8191,
-        "input_cost_per_token": "0.0000027",
-        "output_cost_per_token": "0.0000081",
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.000002",
         "litellm_provider": "mistral",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "mistral/mistral-medium-2505",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 8191,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 8191,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
