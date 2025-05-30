@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/select";
 import { AIModelMode } from '../types';
 import { aiModels, parameterNames } from '../utils/aiModels';
+import { formatNumberWithCommas, formatPricePerMillionTokens } from '../utils/formatting';
 
 interface VersusComparisonProps {
   selectedMode: AIModelMode;
@@ -96,14 +97,36 @@ const VersusComparison: React.FC<VersusComparisonProps> = ({
                 </td>
                 {comparisonModels.map((model, index) => (
                   <td key={index} className="border p-2">
-                    {model.sample_spec[param] !== undefined
-                      ? typeof model.sample_spec[param] ===
-                        'boolean'
-                        ? model.sample_spec[param]
-                          ? 'Yes'
-                          : 'No'
-                        : model.sample_spec[param]
-                      : 'N/A'}
+                    {model.sample_spec[param] !== undefined ? (
+                      (() => {
+                        const value = model.sample_spec[param];
+                        if (typeof value === 'boolean') {
+                          return value ? 'Yes' : 'No';
+                        }
+                        
+                        // Format token-related fields with commas
+                        if (param.includes('tokens') && (typeof value === 'number' || !isNaN(Number(value)))) {
+                          return formatNumberWithCommas(Number(value));
+                        }
+                        
+                        // Format cost per token fields with dollar signs (actual per-token cost)
+                        if (param.includes('cost_per_token') && (typeof value === 'number' || !isNaN(Number(value)))) {
+                          const numValue = Number(value);
+                          // Format to 8 decimal places, then remove trailing zeros without using scientific notation
+                          const formatted = numValue.toFixed(8).replace(/\.?0+$/, '');
+                          return `$${formatted}`;
+                        }
+                        
+                        // For other cost fields, add dollar sign if it's a number
+                        if (param.includes('cost') && (typeof value === 'number' || !isNaN(Number(value)))) {
+                          return `$${Number(value).toFixed(6)}`;
+                        }
+                        
+                        return value;
+                      })()
+                    ) : (
+                      'N/A'
+                    )}
                   </td>
                 ))}
               </tr>

@@ -17,6 +17,7 @@ import {
   isOtherProvider,
   getDisplayName,
 } from '../utils/providerMapping';
+import { formatNumberWithCommas, formatPricePerMillionTokens } from '../utils/formatting';
 
 interface ModelTableForComparisonProps {
   selectedMode: AIModelMode;
@@ -181,26 +182,20 @@ const ModelTableForComparison: React.FC<ModelTableForComparisonProps> = ({
                   </div>
                 </TableCell>
                 <TableCell className="w-20 text-center">
-                  {model.sample_spec.max_input_tokens ?? 'N/A'}
+                  {formatNumberWithCommas(model.sample_spec.max_input_tokens)}
                 </TableCell>
                 <TableCell className="w-20 text-center">
-                  {model.sample_spec.max_output_tokens ?? 'N/A'}
+                  {formatNumberWithCommas(model.sample_spec.max_output_tokens)}
                 </TableCell>
                 {/* Adjusted widths and padding for data cells */}
                 <TableCell className="w-16 px-1 text-center">
                   {model.sample_spec.input_cost_per_token
-                    ? (
-                        Number(model.sample_spec.input_cost_per_token) *
-                        1e6
-                      ).toFixed(2)
+                    ? formatPricePerMillionTokens(Number(model.sample_spec.input_cost_per_token))
                     : 'N/A'}
                 </TableCell>
                 <TableCell className="w-16 px-1 text-center">
                   {model.sample_spec.output_cost_per_token
-                    ? (
-                        Number(model.sample_spec.output_cost_per_token) *
-                        1e6
-                      ).toFixed(2)
+                    ? formatPricePerMillionTokens(Number(model.sample_spec.output_cost_per_token))
                     : 'N/A'}
                 </TableCell>
                 <TableCell className="w-12 px-1 text-center">

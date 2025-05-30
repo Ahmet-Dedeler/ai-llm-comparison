@@ -15,6 +15,7 @@ import {
   getDisplayName,
 } from '../utils/providerMapping';
 import { getFilteredModels, getSortedModels, preloadModeData } from '../utils/dataService';
+import { formatNumberWithCommas, formatPricePerMillionTokens } from '../utils/formatting';
 
 interface OptimizedModelTableProps {
   selectedMode: AIModelMode;
@@ -81,20 +82,16 @@ const ModelRow = React.memo(({
         </div>
       </TableCell>
       <TableCell className="w-20 text-center">
-        {model.sample_spec.max_input_tokens ?? 'N/A'}
+        {formatNumberWithCommas(model.sample_spec.max_input_tokens)}
       </TableCell>
       <TableCell className="w-20 text-center">
-        {model.sample_spec.max_output_tokens ?? 'N/A'}
+        {formatNumberWithCommas(model.sample_spec.max_output_tokens)}
       </TableCell>
       <TableCell className="w-16 px-1 text-center">
-        {model.sample_spec.input_cost_per_token
-          ? (Number(model.sample_spec.input_cost_per_token) * 1e6).toFixed(2)
-          : 'N/A'}
+        {formatPricePerMillionTokens(model.sample_spec.input_cost_per_token)}
       </TableCell>
       <TableCell className="w-16 px-1 text-center">
-        {model.sample_spec.output_cost_per_token
-          ? (Number(model.sample_spec.output_cost_per_token) * 1e6).toFixed(2)
-          : 'N/A'}
+        {formatPricePerMillionTokens(model.sample_spec.output_cost_per_token)}
       </TableCell>
       {showPricingCalculator && calculatedCosts ? (
         <>

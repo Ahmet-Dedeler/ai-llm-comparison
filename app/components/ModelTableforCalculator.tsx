@@ -1,6 +1,6 @@
 // components/ModelTableForCalculator.tsx
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useCallback } from 'react';
 import {
   Table,
   TableBody,
@@ -20,6 +20,7 @@ import {
   isOtherProvider,
   getDisplayName,
 } from '../utils/providerMapping';
+import { formatNumberWithCommas, formatPricePerMillionTokens } from '../utils/formatting';
 
 interface ModelTableForCalculatorProps {
   selectedMode: AIModelMode;
@@ -193,25 +194,21 @@ const ModelTableForCalculator: React.FC<ModelTableForCalculatorProps> = ({
                   </TableCell>
                   {/* Other fixed width cells */}
                   <TableCell className="w-20 text-center">
-                    {model.sample_spec.max_input_tokens ?? 'N/A'}
+                    {formatNumberWithCommas(model.sample_spec.max_input_tokens)}
                   </TableCell>
                   <TableCell className="w-20 text-center">
-                    {model.sample_spec.max_output_tokens ?? 'N/A'}
+                    {formatNumberWithCommas(model.sample_spec.max_output_tokens)}
                   </TableCell>
                   <TableCell className="w-24 px-1 text-center">
                     {model.sample_spec.input_cost_per_token !== null &&
                     model.sample_spec.input_cost_per_token !== undefined
-                      ? (
-                          Number(model.sample_spec.input_cost_per_token) * 1e6
-                        ).toFixed(2)
+                      ? formatPricePerMillionTokens(Number(model.sample_spec.input_cost_per_token))
                       : 'N/A'}
                   </TableCell>
                   <TableCell className="w-24 px-1 text-center">
                     {model.sample_spec.output_cost_per_token !== null &&
                     model.sample_spec.output_cost_per_token !== undefined
-                      ? (
-                          Number(model.sample_spec.output_cost_per_token) * 1e6
-                        ).toFixed(2)
+                      ? formatPricePerMillionTokens(Number(model.sample_spec.output_cost_per_token))
                       : 'N/A'}
                   </TableCell>
                   {/* Cost cells */}
