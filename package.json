@@ -28,7 +28,7 @@
     "lucide-react": "^0.441.0",
     "next": "^14.2.29",
     "next-themes": "^0.4.6",
-    "posthog-js": "^1.195.0",
+    "posthog-js": "^1.248.1",
     "react": "^18",
     "react-dom": "^18",
     "shadcn-ui": "^0.9.1",
