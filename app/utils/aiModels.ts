@@ -5004,7 +5004,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
       }
@@ -5022,7 +5022,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#google_models"
       }
@@ -5040,7 +5040,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
       }
@@ -5058,7 +5058,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "As of Jun, 2024. There is no available doc on vertex ai pricing gemini-1.0-ultra-001. Using gemini-1.0-pro pricing. Got max_tokens info here: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
       }
@@ -5076,7 +5076,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "As of Jun, 2024. There is no available doc on vertex ai pricing gemini-1.0-ultra-001. Using gemini-1.0-pro pricing. Got max_tokens info here: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
       }
@@ -5094,7 +5094,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
       }
@@ -5112,7 +5112,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
       }
@@ -5130,7 +5130,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-1.5-pro"
       }
@@ -5148,7 +5148,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
       }
@@ -5166,7 +5166,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
       }
@@ -5184,7 +5184,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
       }
@@ -5202,7 +5202,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
       }
@@ -5220,7 +5220,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
       }
@@ -5238,7 +5238,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
       }
@@ -5256,7 +5256,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-1.5-flash"
       }
@@ -5274,7 +5274,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
       }
@@ -5292,7 +5292,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
       }
@@ -5310,7 +5310,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/gemini-experimental"
       }
@@ -5328,7 +5328,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/gemini-experimental"
       }
@@ -5346,7 +5346,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-vision-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
       }
@@ -5364,7 +5364,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-vision-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
       }
@@ -5382,7 +5382,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-vision-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#foundation_models"
       }
@@ -5436,7 +5436,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
       }
@@ -5454,7 +5454,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
       }
@@ -5472,7 +5472,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
       }
@@ -5490,7 +5490,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
       }
@@ -5508,7 +5508,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash"
       }
@@ -5526,7 +5526,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash"
       }
@@ -5616,7 +5616,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview"
       }
@@ -5634,7 +5634,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview"
       }
@@ -5652,7 +5652,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://ai.google.dev/pricing#2_0flash"
       }
@@ -5670,7 +5670,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash"
       }
@@ -5688,7 +5688,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash"
       }
@@ -5706,7 +5706,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview"
       }
@@ -5724,7 +5724,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview"
       }
@@ -5742,7 +5742,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://ai.google.dev/pricing#2_0flash"
       }
@@ -5760,7 +5760,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
+        "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro-preview"
       }
