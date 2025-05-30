@@ -117,7 +117,7 @@ export default function Home() {
             {/* Product Hunt Embed */}
             <div className="flex justify-center mb-5">
               <a
-                href="https://www.producthunt.com/posts/llmarena-ai?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-llmarena-ai"
+                href="https://www.producthunt.com/posts/countless-dev?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-llmarena-ai"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="View llmarena.ai on Product Hunt"
