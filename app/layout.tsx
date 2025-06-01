@@ -2,7 +2,7 @@ import { Inter } from 'next/font/google'
 import type { Metadata } from 'next'
 import './globals.css'
 import { Analytics } from "@vercel/analytics/react"
-import { CSPostHogProvider } from './providers'
+import { CSPostHogProvider, NextThemesProvider } from './providers'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -90,7 +90,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <meta name="theme-color" content="#ffffff" />
@@ -99,12 +99,16 @@ export default function RootLayout({
         <link rel="icon" href="/icon.png" type="image/png" />
         <link rel="apple-touch-icon" href="/icon.png" />
       </head>
-      <CSPostHogProvider>
-        <body className={inter.className}>
-          {children}
-          <Analytics />
-        </body>
-      </CSPostHogProvider>
+      <body>
+        <CSPostHogProvider>
+          <NextThemesProvider>
+            <div className={inter.className}>
+              {children}
+              <Analytics />
+            </div>
+          </NextThemesProvider>
+        </CSPostHogProvider>
+      </body>
     </html>
   )
 }

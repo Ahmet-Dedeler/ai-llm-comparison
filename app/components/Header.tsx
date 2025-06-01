@@ -1,5 +1,6 @@
 import { Github, BarChart3 } from 'lucide-react';
 import { Button } from "@/components/ui/button";
+import { ThemeSwitcherButton } from './ThemeSwitcherButton';
 
 export default function Header() {
   return (
@@ -25,6 +26,7 @@ export default function Header() {
             GitHub
           </a>
         </Button>
+        <ThemeSwitcherButton />
         {/* ... (other buttons) ... */}
       </nav>
     </header>
