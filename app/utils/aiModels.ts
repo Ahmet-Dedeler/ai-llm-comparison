@@ -4398,6 +4398,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "cerebras/qwen-3-32b",
+      "provider": "cerebras",
+      "logo": "/logos/cerebras.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000008",
+        "litellm_provider": "cerebras",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://inference-docs.cerebras.ai/support/pricing"
+      }
+    },
+    {
       "name": "friendliai/meta-llama-3.1-8b-instruct",
       "provider": "friendliai",
       "logo": "/logos/friendliai.svg",
@@ -14694,6 +14712,24 @@ export const aiModels: AIModels = {
         "max_input_tokens": 2048,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0",
+        "litellm_provider": "vertex_ai-embedding-models",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models"
+      }
+    },
+    {
+      "name": "gemini-embedding-001",
+      "provider": "vertex_ai-embedding-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 2048,
+        "max_input_tokens": 2048,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000015",
         "output_cost_per_token": "0",
         "litellm_provider": "vertex_ai-embedding-models",
         "mode": "embedding",
