@@ -4671,6 +4671,40 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "claude-4-opus-20250514",
+      "provider": "anthropic",
+      "logo": "/logos/anthropic.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.000015",
+        "output_cost_per_token": "0.000075",
+        "litellm_provider": "anthropic",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "claude-4-sonnet-20250514",
+      "provider": "anthropic",
+      "logo": "/logos/anthropic.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "anthropic",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "claude-3-7-sonnet-latest",
       "provider": "anthropic",
       "logo": "/logos/anthropic.svg",
@@ -12777,7 +12811,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000001",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
-        "supports_function_calling": true,
+        "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://fireworks.ai/pricing"
@@ -12795,7 +12829,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000001",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
-        "supports_function_calling": true,
+        "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://fireworks.ai/pricing"
@@ -12813,7 +12847,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000001",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
-        "supports_function_calling": true,
+        "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://fireworks.ai/pricing"
@@ -12831,14 +12865,14 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000002",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
-        "supports_function_calling": true,
+        "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://fireworks.ai/pricing"
       }
     },
     {
-      "name": "accounts/fireworks/models/llama-v3p2-90b-vision-instruct",
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v3p2-90b-vision-instruct",
       "provider": "fireworks_ai",
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
@@ -12849,7 +12883,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000009",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
-        "supports_function_calling": true,
+        "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://fireworks.ai/pricing"
@@ -12903,7 +12937,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000009",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
-        "supports_function_calling": true,
+        "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://fireworks.ai/pricing"
@@ -12921,7 +12955,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000009",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
-        "supports_function_calling": true,
+        "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://fireworks.ai/pricing"
@@ -12939,7 +12973,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000003",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
-        "supports_function_calling": true,
+        "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://fireworks.ai/pricing"
@@ -12957,7 +12991,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000012",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
-        "supports_function_calling": true,
+        "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://fireworks.ai/pricing"
@@ -13018,6 +13052,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-r1-0528",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 160000,
+        "max_input_tokens": 160000,
+        "max_output_tokens": 160000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000008",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fireworks.ai/pricing"
+      }
+    },
+    {
       "name": "fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct",
       "provider": "fireworks_ai",
       "logo": "/logos/fireworks ai.svg",
@@ -13029,7 +13081,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000003",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://fireworks.ai/pricing"
