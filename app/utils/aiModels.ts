@@ -5746,6 +5746,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini-2.5-pro-preview-06-05",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview"
+      }
+    },
+    {
       "name": "gemini-2.5-pro-preview-05-06",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
@@ -5909,6 +5927,24 @@ export const aiModels: AIModels = {
     },
     {
       "name": "gemini/gemini-2.5-pro-preview-tts",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro-preview"
+      }
+    },
+    {
+      "name": "gemini/gemini-2.5-pro-preview-06-05",
       "provider": "gemini",
       "logo": "/logos/google.svg",
       "sample_spec": {
@@ -9012,9 +9048,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 10000,
         "max_input_tokens": 300000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 10000,
         "input_cost_per_token": "0.000000035",
         "output_cost_per_token": "0.00000014",
         "litellm_provider": "bedrock_converse",
@@ -9029,9 +9065,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 10000,
         "max_input_tokens": 300000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 10000,
         "input_cost_per_token": "0.000000035",
         "output_cost_per_token": "0.00000014",
         "litellm_provider": "bedrock_converse",
@@ -9046,9 +9082,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 10000,
         "max_input_tokens": 300000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 10000,
         "input_cost_per_token": "0.000000046",
         "output_cost_per_token": "0.000000184",
         "litellm_provider": "bedrock_converse",
@@ -9063,9 +9099,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 10000,
         "max_input_tokens": 128000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 10000,
         "input_cost_per_token": "0.00000006",
         "output_cost_per_token": "0.00000024",
         "litellm_provider": "bedrock_converse",
@@ -9080,9 +9116,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 10000,
         "max_input_tokens": 128000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 10000,
         "input_cost_per_token": "0.00000006",
         "output_cost_per_token": "0.00000024",
         "litellm_provider": "bedrock_converse",
@@ -9097,9 +9133,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 10000,
         "max_input_tokens": 128000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 10000,
         "input_cost_per_token": "0.000000078",
         "output_cost_per_token": "0.000000312",
         "litellm_provider": "bedrock_converse",
@@ -9114,9 +9150,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 10000,
         "max_input_tokens": 300000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 10000,
         "input_cost_per_token": "0.0000008",
         "output_cost_per_token": "0.0000032",
         "litellm_provider": "bedrock_converse",
@@ -9131,9 +9167,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 10000,
         "max_input_tokens": 300000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 10000,
         "input_cost_per_token": "0.0000008",
         "output_cost_per_token": "0.0000032",
         "litellm_provider": "bedrock_converse",
@@ -9148,9 +9184,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 10000,
         "max_input_tokens": 300000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 10000,
         "input_cost_per_token": "0.00000105",
         "output_cost_per_token": "0.0000042",
         "litellm_provider": "bedrock_converse",
@@ -9166,9 +9202,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 10000,
         "max_input_tokens": 1000000,
-        "max_output_tokens": 4096,
+        "max_output_tokens": 10000,
         "input_cost_per_token": "0.0000025",
         "output_cost_per_token": "0.0000125",
         "litellm_provider": "bedrock_converse",
