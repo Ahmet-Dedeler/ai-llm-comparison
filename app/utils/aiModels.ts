@@ -480,6 +480,40 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "o3-pro",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.00002",
+        "output_cost_per_token": "0.00008",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "o3-pro-2025-06-10",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.00002",
+        "output_cost_per_token": "0.00008",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "o3",
       "provider": "openai",
       "logo": "/logos/openai.svg",
@@ -487,8 +521,8 @@ export const aiModels: AIModels = {
         "max_tokens": 100000,
         "max_input_tokens": 200000,
         "max_output_tokens": 100000,
-        "input_cost_per_token": "0.00001",
-        "output_cost_per_token": "0.00004",
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000008",
         "litellm_provider": "openai",
         "mode": "chat",
         "supports_function_calling": true,
@@ -504,8 +538,8 @@ export const aiModels: AIModels = {
         "max_tokens": 100000,
         "max_input_tokens": 200000,
         "max_output_tokens": 100000,
-        "input_cost_per_token": "0.00001",
-        "output_cost_per_token": "0.00004",
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000008",
         "litellm_provider": "openai",
         "mode": "chat",
         "supports_function_calling": true,
@@ -3590,6 +3624,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "mistral/magistral-medium-2506",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 40000,
+        "max_input_tokens": 40000,
+        "max_output_tokens": 40000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://mistral.ai/news/magistral"
+      }
+    },
+    {
+      "name": "mistral/magistral-small-2506",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 40000,
+        "max_input_tokens": 40000,
+        "max_output_tokens": 40000,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://mistral.ai/news/magistral"
+      }
+    },
+    {
       "name": "deepseek/deepseek-reasoner",
       "provider": "deepseek",
       "logo": "/logos/deepseek.svg",
@@ -6242,6 +6312,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "vertex_ai/claude-opus-4",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.000015",
+        "output_cost_per_token": "0.000075",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "vertex_ai/claude-opus-4@20250514",
       "provider": "vertex_ai-anthropic_models",
       "logo": "/logos/google.svg",
@@ -6251,6 +6338,23 @@ export const aiModels: AIModels = {
         "max_output_tokens": 32000,
         "input_cost_per_token": "0.000015",
         "output_cost_per_token": "0.000075",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "vertex_ai/claude-sonnet-4",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
         "litellm_provider": "vertex_ai-anthropic_models",
         "mode": "chat",
         "supports_function_calling": true,
