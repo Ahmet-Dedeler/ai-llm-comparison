@@ -480,40 +480,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "o3-pro",
-      "provider": "openai",
-      "logo": "/logos/openai.svg",
-      "sample_spec": {
-        "max_tokens": 100000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 100000,
-        "input_cost_per_token": "0.00002",
-        "output_cost_per_token": "0.00008",
-        "litellm_provider": "openai",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true
-      }
-    },
-    {
-      "name": "o3-pro-2025-06-10",
-      "provider": "openai",
-      "logo": "/logos/openai.svg",
-      "sample_spec": {
-        "max_tokens": 100000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 100000,
-        "input_cost_per_token": "0.00002",
-        "output_cost_per_token": "0.00008",
-        "litellm_provider": "openai",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true
-      }
-    },
-    {
       "name": "o3",
       "provider": "openai",
       "logo": "/logos/openai.svg",
@@ -17753,6 +17719,654 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "deepgram/nova-3",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/nova-3-general",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/nova-3-medical",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/nova-2",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/nova-2-general",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/nova-2-meeting",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/nova-2-phonecall",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/nova-2-voicemail",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/nova-2-finance",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/nova-2-conversationalai",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/nova-2-video",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/nova-2-drivethru",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/nova-2-automotive",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/nova-2-atc",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/nova",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/nova-general",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/nova-phonecall",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/enhanced",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/enhanced-general",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/enhanced-meeting",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/enhanced-phonecall",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/enhanced-finance",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/base",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/base-general",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/base-meeting",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/base-phonecall",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/base-voicemail",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/base-finance",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/base-conversationalai",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/base-video",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/whisper",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/whisper-tiny",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/whisper-base",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/whisper-small",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/whisper-medium",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
+      }
+    },
+    {
+      "name": "deepgram/whisper-large",
+      "provider": "deepgram",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "deepgram",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepgram.com/pricing"
       }
     }
   ],
