@@ -17637,6 +17637,40 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/gpt-4o-transcribe",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 16000,
+        "max_output_tokens": 2000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "azure",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/gpt-4o-mini-transcribe",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 16000,
+        "max_output_tokens": 2000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "azure",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "groq/whisper-large-v3",
       "provider": "groq",
       "logo": "/logos/groq.svg",
