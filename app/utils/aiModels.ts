@@ -3590,6 +3590,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "mistral/magistral-medium-latest",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 40000,
+        "max_input_tokens": 40000,
+        "max_output_tokens": 40000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://mistral.ai/news/magistral"
+      }
+    },
+    {
       "name": "mistral/magistral-medium-2506",
       "provider": "mistral",
       "logo": "/logos/mistral.svg",
@@ -3608,6 +3626,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "mistral/magistral-small-latest",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 40000,
+        "max_input_tokens": 40000,
+        "max_output_tokens": 40000,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://mistral.ai/pricing#api-pricing"
+      }
+    },
+    {
       "name": "mistral/magistral-small-2506",
       "provider": "mistral",
       "logo": "/logos/mistral.svg",
@@ -3615,14 +3651,14 @@ export const aiModels: AIModels = {
         "max_tokens": 40000,
         "max_input_tokens": 40000,
         "max_output_tokens": 40000,
-        "input_cost_per_token": "0",
-        "output_cost_per_token": "0",
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
         "litellm_provider": "mistral",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://mistral.ai/news/magistral"
+        "source": "https://mistral.ai/pricing#api-pricing"
       }
     },
     {
@@ -3782,6 +3818,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "xai/grok-3-latest",
+      "provider": "xai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "xai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://x.ai/api#pricing"
+      }
+    },
+    {
       "name": "xai/grok-3-beta",
       "provider": "xai",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -3836,6 +3890,78 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "xai/grok-3-mini",
+      "provider": "xai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "xai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://x.ai/api#pricing"
+      }
+    },
+    {
+      "name": "xai/grok-3-mini-latest",
+      "provider": "xai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "xai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://x.ai/api#pricing"
+      }
+    },
+    {
+      "name": "xai/grok-3-mini-fast",
+      "provider": "xai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "xai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://x.ai/api#pricing"
+      }
+    },
+    {
+      "name": "xai/grok-3-mini-fast-latest",
+      "provider": "xai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "xai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://x.ai/api#pricing"
+      }
+    },
+    {
       "name": "xai/grok-3-mini-beta",
       "provider": "xai",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -3855,24 +3981,6 @@ export const aiModels: AIModels = {
     },
     {
       "name": "xai/grok-3-mini-fast-beta",
-      "provider": "xai",
-      "logo": "/placeholder.svg?height=30&width=30",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.0000006",
-        "output_cost_per_token": "0.000004",
-        "litellm_provider": "xai",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://x.ai/api#pricing"
-      }
-    },
-    {
-      "name": "xai/grok-3-mini-fast-latest",
       "provider": "xai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
