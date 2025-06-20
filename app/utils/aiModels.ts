@@ -5144,7 +5144,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": null,
         "litellm_provider": "meta_llama",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://llama.developer.meta.com/docs/models"
@@ -5162,7 +5162,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": null,
         "litellm_provider": "meta_llama",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://llama.developer.meta.com/docs/models"
@@ -5180,7 +5180,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": null,
         "litellm_provider": "meta_llama",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://llama.developer.meta.com/docs/models"
@@ -5198,7 +5198,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": null,
         "litellm_provider": "meta_llama",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://llama.developer.meta.com/docs/models"
@@ -5781,6 +5781,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini/gemini-2.5-flash",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview"
+      }
+    },
+    {
       "name": "gemini-2.5-flash",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
@@ -5824,8 +5842,8 @@ export const aiModels: AIModels = {
         "max_tokens": 65535,
         "max_input_tokens": 1048576,
         "max_output_tokens": 65535,
-        "input_cost_per_token": "0.00000015",
-        "output_cost_per_token": "0.0000006",
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000025",
         "litellm_provider": "gemini",
         "mode": "chat",
         "supports_function_calling": true,
@@ -5853,6 +5871,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini/gemini-2.5-flash-lite-preview-06-17",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-lite"
+      }
+    },
+    {
       "name": "gemini-2.5-flash-preview-05-20",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
@@ -5860,8 +5896,8 @@ export const aiModels: AIModels = {
         "max_tokens": 65535,
         "max_input_tokens": 1048576,
         "max_output_tokens": 65535,
-        "input_cost_per_token": "0.00000015",
-        "output_cost_per_token": "0.0000006",
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000025",
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
