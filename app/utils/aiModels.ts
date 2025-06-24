@@ -8208,7 +8208,24 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "mistralai/mistral-small-3.1-24b-instruct",
+      "name": "openrouter/mistralai/mistral-small-3.1-24b-instruct",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
