@@ -18893,6 +18893,42 @@ export const aiModels: AIModels = {
         "supports_vision": false,
         "source": "https://deepgram.com/pricing"
       }
+    },
+    {
+      "name": "elevenlabs/scribe_v1",
+      "provider": "elevenlabs",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "elevenlabs",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://elevenlabs.io/pricing"
+      }
+    },
+    {
+      "name": "elevenlabs/scribe_v1_experimental",
+      "provider": "elevenlabs",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "elevenlabs",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://elevenlabs.io/pricing"
+      }
     }
   ],
   "audio_speech": [
