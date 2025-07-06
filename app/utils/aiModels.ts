@@ -191,6 +191,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "watsonx/mistralai/mistral-large",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "gpt-4o-search-preview-2025-03-11",
       "provider": "openai",
       "logo": "/logos/openai.svg",
