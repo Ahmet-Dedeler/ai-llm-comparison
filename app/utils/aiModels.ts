@@ -3177,23 +3177,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "claude-instant-1",
-      "provider": "anthropic",
-      "logo": "/logos/anthropic.svg",
-      "sample_spec": {
-        "max_tokens": 8191,
-        "max_input_tokens": 100000,
-        "max_output_tokens": 8191,
-        "input_cost_per_token": "0.00000163",
-        "output_cost_per_token": "0.00000551",
-        "litellm_provider": "anthropic",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
       "name": "mistral/mistral-tiny",
       "provider": "mistral",
       "logo": "/logos/mistral.svg",
@@ -4649,6 +4632,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "groq/moonshotai-kimi-k2-instruct",
+      "provider": "groq",
+      "logo": "/logos/groq.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "groq",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "cerebras/llama3.1-8b",
       "provider": "cerebras",
       "logo": "/logos/cerebras.svg",
@@ -4748,23 +4748,6 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "claude-instant-1.2",
-      "provider": "anthropic",
-      "logo": "/logos/anthropic.svg",
-      "sample_spec": {
-        "max_tokens": 8191,
-        "max_input_tokens": 100000,
-        "max_output_tokens": 8191,
-        "input_cost_per_token": "0.000000163",
-        "output_cost_per_token": "0.000000551",
-        "litellm_provider": "anthropic",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
         "supports_vision": false
       }
     },
@@ -9646,7 +9629,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 10000,
-        "max_input_tokens": 300000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 10000,
         "input_cost_per_token": "0.000000035",
         "output_cost_per_token": "0.00000014",
@@ -9663,7 +9646,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 10000,
-        "max_input_tokens": 300000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 10000,
         "input_cost_per_token": "0.000000035",
         "output_cost_per_token": "0.00000014",
@@ -9680,7 +9663,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 10000,
-        "max_input_tokens": 300000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 10000,
         "input_cost_per_token": "0.000000046",
         "output_cost_per_token": "0.000000184",
@@ -9697,7 +9680,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 10000,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 300000,
         "max_output_tokens": 10000,
         "input_cost_per_token": "0.00000006",
         "output_cost_per_token": "0.00000024",
@@ -9714,7 +9697,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 10000,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 300000,
         "max_output_tokens": 10000,
         "input_cost_per_token": "0.00000006",
         "output_cost_per_token": "0.00000024",
@@ -9731,7 +9714,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 10000,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 300000,
         "max_output_tokens": 10000,
         "input_cost_per_token": "0.000000078",
         "output_cost_per_token": "0.000000312",
@@ -9800,7 +9783,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 10000,
-        "max_input_tokens": 300000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 10000,
         "input_cost_per_token": "0.000000037",
         "output_cost_per_token": "0.000000148",
@@ -9817,7 +9800,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 10000,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 300000,
         "max_output_tokens": 10000,
         "input_cost_per_token": "0.000000063",
         "output_cost_per_token": "0.000000252",
@@ -12437,8 +12420,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": null,
         "max_output_tokens": null,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.00000027",
+        "output_cost_per_token": "0.00000085",
         "litellm_provider": "together_ai",
         "mode": "chat",
         "supports_function_calling": true,
@@ -12454,8 +12437,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": null,
         "max_output_tokens": null,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.00000018",
+        "output_cost_per_token": "0.00000059",
         "litellm_provider": "together_ai",
         "mode": "chat",
         "supports_function_calling": true,
@@ -12522,8 +12505,25 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": null,
         "max_output_tokens": null,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00000125",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "together_ai/deepseek-ai/DeepSeek-R1",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000007",
         "litellm_provider": "together_ai",
         "mode": "chat",
         "supports_function_calling": true,
@@ -12546,6 +12546,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "together_ai/moonshotai/Kimi-K2-Instruct",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://www.together.ai/models/kimi-k2-instruct"
       }
     },
     {
