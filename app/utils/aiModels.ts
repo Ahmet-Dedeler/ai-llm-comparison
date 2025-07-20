@@ -4722,7 +4722,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "groq/moonshotai-kimi-k2-instruct",
+      "name": "groq/moonshotai/kimi-k2-instruct",
       "provider": "groq",
       "logo": "/logos/groq.svg",
       "sample_spec": {
@@ -9085,6 +9085,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/switchpoint/router",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000085",
+        "output_cost_per_token": "0.0000034",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/switchpoint/router"
+      }
+    },
+    {
       "name": "jamba-1.5-mini@001",
       "provider": "ai21",
       "logo": "/logos/ai21.svg",
@@ -12592,9 +12610,9 @@ export const aiModels: AIModels = {
       "provider": "together_ai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 8192,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00000125",
         "litellm_provider": "together_ai",
@@ -12609,9 +12627,9 @@ export const aiModels: AIModels = {
       "provider": "together_ai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 20480,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 20480,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000007",
         "litellm_provider": "together_ai",
@@ -14280,6 +14298,57 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "v0/v0-1.0-md",
+      "provider": "v0",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "v0",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "v0/v0-1.5-md",
+      "provider": "v0",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "v0",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "v0/v0-1.5-lg",
+      "provider": "v0",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 512000,
+        "max_input_tokens": 512000,
+        "max_output_tokens": 512000,
+        "input_cost_per_token": "0.000015",
+        "output_cost_per_token": "0.000075",
+        "litellm_provider": "v0",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "databricks/databricks-claude-3-7-sonnet",
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
@@ -15424,6 +15493,278 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "bedrock/us-gov-east-1/amazon.titan-text-express-v1",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 42000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.0000013",
+        "output_cost_per_token": "0.0000017",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-gov-east-1/amazon.titan-text-lite-v1",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 4000,
+        "max_input_tokens": 42000,
+        "max_output_tokens": 4000,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-gov-east-1/amazon.titan-text-premier-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 42000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-gov-east-1/anthropic.claude-3-5-sonnet-20240620-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000036",
+        "output_cost_per_token": "0.000018",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "bedrock/us-gov-east-1/anthropic.claude-3-haiku-20240307-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "bedrock/us-gov-east-1/meta.llama3-70b-instruct-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 2048,
+        "max_input_tokens": 8000,
+        "max_output_tokens": 2048,
+        "input_cost_per_token": "0.00000265",
+        "output_cost_per_token": "0.0000035",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-gov-east-1/meta.llama3-8b-instruct-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 2048,
+        "max_input_tokens": 8000,
+        "max_output_tokens": 2048,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.00000265",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-gov-west-1/amazon.titan-text-express-v1",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 42000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.0000013",
+        "output_cost_per_token": "0.0000017",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-gov-west-1/amazon.titan-text-lite-v1",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 4000,
+        "max_input_tokens": 42000,
+        "max_output_tokens": 4000,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-gov-west-1/amazon.titan-text-premier-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 42000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-gov-west-1/anthropic.claude-3-5-sonnet-20240620-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000036",
+        "output_cost_per_token": "0.000018",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "bedrock/us-gov-west-1/anthropic.claude-3-haiku-20240307-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "bedrock/us-gov-west-1/meta.llama3-70b-instruct-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 2048,
+        "max_input_tokens": 8000,
+        "max_output_tokens": 2048,
+        "input_cost_per_token": "0.00000265",
+        "output_cost_per_token": "0.0000035",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-gov-west-1/meta.llama3-8b-instruct-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 2048,
+        "max_input_tokens": 8000,
+        "max_output_tokens": 2048,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.00000265",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-gov-east-1/amazon.nova-pro-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 10000,
+        "max_input_tokens": 300000,
+        "max_output_tokens": 10000,
+        "input_cost_per_token": "0.00000096",
+        "output_cost_per_token": "0.00000384",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "bedrock/us-gov-west-1/amazon.nova-pro-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 10000,
+        "max_input_tokens": 300000,
+        "max_output_tokens": 10000,
+        "input_cost_per_token": "0.00000096",
+        "output_cost_per_token": "0.00000384",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "dashscope/qwen-max",
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -15503,8 +15844,8 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 8192,
         "max_output_tokens": 8192,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.000002",
         "litellm_provider": "moonshot",
         "mode": "chat",
         "supports_function_calling": true,
@@ -15521,8 +15862,8 @@ export const aiModels: AIModels = {
         "max_tokens": 32768,
         "max_input_tokens": 32768,
         "max_output_tokens": 32768,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
         "litellm_provider": "moonshot",
         "mode": "chat",
         "supports_function_calling": true,
@@ -15539,8 +15880,8 @@ export const aiModels: AIModels = {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000005",
         "litellm_provider": "moonshot",
         "mode": "chat",
         "supports_function_calling": true,
@@ -15557,8 +15898,8 @@ export const aiModels: AIModels = {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000005",
         "litellm_provider": "moonshot",
         "mode": "chat",
         "supports_function_calling": true,
@@ -15593,8 +15934,8 @@ export const aiModels: AIModels = {
         "max_tokens": 32768,
         "max_input_tokens": 32768,
         "max_output_tokens": 32768,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
         "litellm_provider": "moonshot",
         "mode": "chat",
         "supports_function_calling": true,
@@ -15611,8 +15952,8 @@ export const aiModels: AIModels = {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000005",
         "litellm_provider": "moonshot",
         "mode": "chat",
         "supports_function_calling": true,
@@ -15629,13 +15970,157 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 8192,
         "max_output_tokens": 8192,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.000002",
         "litellm_provider": "moonshot",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
+        "source": "https://platform.moonshot.ai/docs/pricing"
+      }
+    },
+    {
+      "name": "moonshot/kimi-latest",
+      "provider": "moonshot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "moonshot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.moonshot.ai/docs/pricing"
+      }
+    },
+    {
+      "name": "moonshot/kimi-latest-8k",
+      "provider": "moonshot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "moonshot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.moonshot.ai/docs/pricing"
+      }
+    },
+    {
+      "name": "moonshot/kimi-latest-32k",
+      "provider": "moonshot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "moonshot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.moonshot.ai/docs/pricing"
+      }
+    },
+    {
+      "name": "moonshot/kimi-latest-128k",
+      "provider": "moonshot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "moonshot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.moonshot.ai/docs/pricing"
+      }
+    },
+    {
+      "name": "moonshot/kimi-thinking-preview",
+      "provider": "moonshot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00003",
+        "output_cost_per_token": "0.00003",
+        "litellm_provider": "moonshot",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.moonshot.ai/docs/pricing"
+      }
+    },
+    {
+      "name": "moonshot/moonshot-v1-8k-vision-preview",
+      "provider": "moonshot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "moonshot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.moonshot.ai/docs/pricing"
+      }
+    },
+    {
+      "name": "moonshot/moonshot-v1-32k-vision-preview",
+      "provider": "moonshot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "moonshot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.moonshot.ai/docs/pricing"
+      }
+    },
+    {
+      "name": "moonshot/moonshot-v1-128k-vision-preview",
+      "provider": "moonshot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "moonshot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
         "source": "https://platform.moonshot.ai/docs/pricing"
       }
     }
@@ -16667,6 +17152,74 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://www.databricks.com/product/pricing/foundation-model-serving"
+      }
+    },
+    {
+      "name": "bedrock/us-gov-east-1/amazon.titan-embed-text-v1",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0",
+        "litellm_provider": "bedrock",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-gov-east-1/amazon.titan-embed-text-v2:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0",
+        "litellm_provider": "bedrock",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-gov-west-1/amazon.titan-embed-text-v1",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0",
+        "litellm_provider": "bedrock",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-gov-west-1/amazon.titan-embed-text-v2:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0",
+        "litellm_provider": "bedrock",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
       }
     }
   ],
