@@ -1,7 +1,23 @@
 import { BarChart3 } from 'lucide-react';
-import React from 'react';
+import React, { useState, useRef } from 'react';
 
 export default function Header() {
+  const [showTooltip, setShowTooltip] = useState(false);
+  const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
+  const tooltipRef = useRef<HTMLDivElement>(null);
+
+  const handleMouseEnter = () => {
+    setShowTooltip(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowTooltip(false);
+  };
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    setTooltipPosition({ x: e.clientX, y: e.clientY });
+  };
+
   return (
     <>
       <header className="flex flex-col md:flex-row justify-between items-center mb-16 space-y-4 md:space-y-0" role="banner">
@@ -24,6 +40,9 @@ export default function Header() {
               rel="noopener noreferrer sponsored"
               aria-label="DataWizz - Smarter routing, cheaper AI"
               className="datawizz-button"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+              onMouseMove={handleMouseMove}
             >
               <img src="/datawizz.svg" alt="DataWizz" className="datawizz-logo" />
               <span className="datawizz-tagline">Smarter routing, cheaper AI</span>
@@ -39,6 +58,23 @@ export default function Header() {
           </div>
         </nav>
       </header>
+
+      {/* Cursor-following Tooltip */}
+      {showTooltip && (
+        <div
+          ref={tooltipRef}
+          className="datawizz-tooltip"
+          style={{
+            left: tooltipPosition.x - 23,
+            top: tooltipPosition.y + 28,
+          }}
+        >
+          <div className="datawizz-tooltip-content">
+            Datawizz cuts AI costs by up to 95% by routing tasks to the best models for each job!
+          </div>
+          <div className="datawizz-tooltip-arrow"></div>
+        </div>
+      )}
     </>
   );
 }
