@@ -35,7 +35,7 @@ export default function Header() {
           {/* Datawizz promotion with arrow */}
           <div className="datawizz-promotion">
             <a
-              href="https://datawizz.ai"
+              href="https://datawizz.ai?ref=llmarena.ai"
               target="_blank"
               rel="noopener noreferrer sponsored"
               aria-label="DataWizz - Smarter routing, cheaper AI"
