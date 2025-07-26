@@ -786,6 +786,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gpt-4o-realtime-preview-2025-06-03",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.00002",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "gpt-4o-mini-realtime-preview",
       "provider": "openai",
       "logo": "/logos/openai.svg",
@@ -8123,6 +8140,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/bytedance/ui-tars-1.5-7b",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 2048,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 2048,
+        "input_cost_per_token": "0.1",
+        "output_cost_per_token": "0.2",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/api/v1/models/bytedance/ui-tars-1.5-7b"
+      }
+    },
+    {
       "name": "openrouter/deepseek/deepseek-r1",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
@@ -9174,6 +9209,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "openrouter/qwen/qwen3-coder",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/qwen/qwen3-coder"
       }
     },
     {
