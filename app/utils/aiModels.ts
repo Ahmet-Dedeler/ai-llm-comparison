@@ -4995,6 +4995,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "claude-opus-4-1-20250805",
+      "provider": "anthropic",
+      "logo": "/logos/anthropic.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.000015",
+        "output_cost_per_token": "0.000075",
+        "litellm_provider": "anthropic",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "logo": "/logos/anthropic.svg",
@@ -6606,6 +6623,40 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://aistudio.google.com"
+      }
+    },
+    {
+      "name": "vertex_ai/claude-opus-4-1",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.000015",
+        "output_cost_per_token": "0.000075",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "vertex_ai/claude-opus-4-1@20250805",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.000015",
+        "output_cost_per_token": "0.000075",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
       }
     },
     {
@@ -10168,6 +10219,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "anthropic.claude-opus-4-1-20250805-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.000015",
+        "output_cost_per_token": "0.000075",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "anthropic.claude-opus-4-20250514-v1:0",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -10355,6 +10423,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "us.anthropic.claude-opus-4-1-20250805-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.000015",
+        "output_cost_per_token": "0.000075",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "us.anthropic.claude-opus-4-20250514-v1:0",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -10518,6 +10603,23 @@ export const aiModels: AIModels = {
         "input_cost_per_token": "0.00000025",
         "output_cost_per_token": "0.00000125",
         "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "eu.anthropic.claude-opus-4-1-20250805-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.000015",
+        "output_cost_per_token": "0.000075",
+        "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
@@ -14194,6 +14296,78 @@ export const aiModels: AIModels = {
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
         "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fireworks.ai/pricing"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/glm-4p5",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 96000,
+        "input_cost_per_token": "0.00000055",
+        "output_cost_per_token": "0.00000219",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fireworks.ai/models/fireworks/glm-4p5"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/glm-4p5-air",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 96000,
+        "input_cost_per_token": "0.00000022",
+        "output_cost_per_token": "0.00000088",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://artificialanalysis.ai/models/glm-4-5-air"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/gpt-oss-120b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fireworks.ai/pricing"
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/gpt-oss-20b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://fireworks.ai/pricing"
