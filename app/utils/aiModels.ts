@@ -501,11 +501,11 @@ export const aiModels: AIModels = {
       "provider": "openai",
       "logo": "/logos/openai.svg",
       "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 1047576,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.000005",
-        "output_cost_per_token": "0.00002",
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00001",
         "litellm_provider": "openai",
         "mode": "chat",
         "supports_function_calling": true,
@@ -1438,7 +1438,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -1455,7 +1455,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -1472,7 +1472,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000025",
         "output_cost_per_token": "0.000002",
@@ -1489,7 +1489,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000025",
         "output_cost_per_token": "0.000002",
@@ -1506,7 +1506,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000005",
         "output_cost_per_token": "0.0000004",
@@ -1523,7 +1523,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000005",
         "output_cost_per_token": "0.0000004",
@@ -1539,16 +1539,17 @@ export const aiModels: AIModels = {
       "provider": "azure",
       "logo": "/logos/azure.svg",
       "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 1047576,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.000005",
-        "output_cost_per_token": "0.00002",
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00001",
         "litellm_provider": "azure",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/blog/gpt-5-in-azure-ai-foundry-the-future-of-ai-apps-and-agents-starts-here/"
       }
     },
     {
@@ -1557,7 +1558,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
