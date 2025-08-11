@@ -1540,7 +1540,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -1558,7 +1558,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -10620,8 +10620,8 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 32000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000007",
         "output_cost_per_token": "0.0000003",
         "litellm_provider": "bedrock_converse",
@@ -10637,8 +10637,8 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 32000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000015",
         "output_cost_per_token": "0.0000006",
         "litellm_provider": "bedrock_converse",
@@ -14736,7 +14736,7 @@ export const aiModels: AIModels = {
       "provider": "fireworks_ai",
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 96000,
         "max_input_tokens": 128000,
         "max_output_tokens": 96000,
         "input_cost_per_token": "0.00000055",
@@ -14754,7 +14754,7 @@ export const aiModels: AIModels = {
       "provider": "fireworks_ai",
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 96000,
         "max_input_tokens": 128000,
         "max_output_tokens": 96000,
         "input_cost_per_token": "0.00000022",
