@@ -508,8 +508,8 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00001",
         "litellm_provider": "openai",
         "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
         "supports_vision": true
       }
     },
@@ -525,8 +525,8 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00001",
         "litellm_provider": "openai",
         "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
         "supports_vision": true
       }
     },
