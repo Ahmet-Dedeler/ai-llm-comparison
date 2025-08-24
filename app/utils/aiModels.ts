@@ -8605,6 +8605,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/deepseek/deepseek-chat-v3.1",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000008",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "openrouter/x-ai/grok-4",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
@@ -17596,24 +17613,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "databricks/databricks-meta-llama-3-1-70b-instruct",
-      "provider": "databricks",
-      "logo": "/logos/databricks.svg",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.00000100002",
-        "output_cost_per_token": "0.00000299999",
-        "litellm_provider": "databricks",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://www.databricks.com/product/pricing/foundation-model-serving"
-      }
-    },
-    {
       "name": "databricks/databricks-meta-llama-3-3-70b-instruct",
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
@@ -17641,24 +17640,6 @@ export const aiModels: AIModels = {
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000005",
         "output_cost_per_token": "0.000015",
-        "litellm_provider": "databricks",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://www.databricks.com/product/pricing/foundation-model-serving"
-      }
-    },
-    {
-      "name": "databricks/databricks-dbrx-instruct",
-      "provider": "databricks",
-      "logo": "/logos/databricks.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.00000074998",
-        "output_cost_per_token": "0.00000224901",
         "litellm_provider": "databricks",
         "mode": "chat",
         "supports_function_calling": false,
@@ -22151,6 +22132,184 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://www.recraft.ai/docs#pricing"
+      }
+    },
+    {
+      "name": "aiml/flux/kontext-pro/text-to-image",
+      "provider": "aiml",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "aiml",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.aimlapi.com/"
+      }
+    },
+    {
+      "name": "aiml/flux/kontext-max/text-to-image",
+      "provider": "aiml",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "aiml",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.aimlapi.com/"
+      }
+    },
+    {
+      "name": "aiml/flux-pro/v1.1-ultra",
+      "provider": "aiml",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "aiml",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "aiml/flux-pro/v1.1",
+      "provider": "aiml",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "aiml",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "aiml/flux-realism",
+      "provider": "aiml",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "aiml",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.aimlapi.com/"
+      }
+    },
+    {
+      "name": "aiml/flux/schnell",
+      "provider": "aiml",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "aiml",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.aimlapi.com/"
+      }
+    },
+    {
+      "name": "aiml/flux/dev",
+      "provider": "aiml",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "aiml",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.aimlapi.com/"
+      }
+    },
+    {
+      "name": "aiml/flux-pro",
+      "provider": "aiml",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "aiml",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.aimlapi.com/"
+      }
+    },
+    {
+      "name": "aiml/dall-e-3",
+      "provider": "aiml",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "aiml",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.aimlapi.com/"
+      }
+    },
+    {
+      "name": "aiml/dall-e-2",
+      "provider": "aiml",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "aiml",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.aimlapi.com/"
       }
     }
   ],
