@@ -9493,6 +9493,57 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/openai/gpt-5-mini",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5-nano",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5-chat",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "openrouter/openai/gpt-oss-20b",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
@@ -13961,389 +14012,15 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/deepseek-ai/DeepSeek-V3",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 163840,
-        "max_input_tokens": 163840,
-        "max_output_tokens": 163840,
-        "input_cost_per_token": "0.00000038",
-        "output_cost_per_token": "0.00000089",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Phind/Phind-CodeLlama-34B-v2",
+      "name": "deepinfra/Austism/chronos-hermes-13b-v2",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
         "max_tokens": 4096,
         "max_input_tokens": 4096,
         "max_output_tokens": 4096,
-        "input_cost_per_token": "0.0000006",
-        "output_cost_per_token": "0.0000006",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.000000015",
-        "output_cost_per_token": "0.00000002",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/google/gemma-2-9b-it",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000003",
-        "output_cost_per_token": "0.00000006",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/deepseek-ai/DeepSeek-R1-0528-Turbo",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.000001",
-        "output_cost_per_token": "0.000003",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Qwen/Qwen2-7B-Instruct",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.000000055",
-        "output_cost_per_token": "0.000000055",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Qwen/QVQ-72B-Preview",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32000,
-        "max_input_tokens": 32000,
-        "max_output_tokens": 32000,
-        "input_cost_per_token": "0.00000025",
-        "output_cost_per_token": "0.0000005",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/meta-llama/Llama-3.3-70B-Instruct",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.00000023",
-        "output_cost_per_token": "0.0000004",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/microsoft/Phi-4-multimodal-instruct",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.00000005",
-        "output_cost_per_token": "0.0000001",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/mistralai/Devstral-Small-2507",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.00000007",
-        "output_cost_per_token": "0.00000028",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/microsoft/WizardLM-2-7B",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.000000055",
-        "output_cost_per_token": "0.000000055",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/meta-llama/Llama-3.2-90B-Vision-Instruct",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.00000035",
-        "output_cost_per_token": "0.0000004",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/mistralai/Mistral-Small-3.2-24B-Instruct-2506",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.00000005",
-        "output_cost_per_token": "0.0000001",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/deepseek-ai/DeepSeek-V3-0324",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 163840,
-        "max_input_tokens": 163840,
-        "max_output_tokens": 163840,
-        "input_cost_per_token": "0.00000028",
-        "output_cost_per_token": "0.00000088",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/mistralai/Mixtral-8x7B-Instruct-v0.1",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.00000008",
-        "output_cost_per_token": "0.00000024",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/anthropic/claude-3-7-sonnet-latest",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 200000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 200000,
-        "input_cost_per_token": "0.0000033",
-        "output_cost_per_token": "0.0000165",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/cognitivecomputations/dolphin-2.9.1-llama-3-70b",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000035",
-        "output_cost_per_token": "0.0000004",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Qwen/Qwen2.5-Coder-32B-Instruct",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.00000006",
-        "output_cost_per_token": "0.00000015",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Qwen/Qwen3-235B-A22B",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 40960,
-        "max_input_tokens": 40960,
-        "max_output_tokens": 40960,
         "input_cost_per_token": "0.00000013",
-        "output_cost_per_token": "0.0000006",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/deepseek-ai/DeepSeek-V3-0324-Turbo",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.000001",
-        "output_cost_per_token": "0.000003",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/microsoft/WizardLM-2-8x22B",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 65536,
-        "max_input_tokens": 65536,
-        "max_output_tokens": 65536,
-        "input_cost_per_token": "0.00000048",
-        "output_cost_per_token": "0.00000048",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Sao10K/L3-8B-Lunaris-v1-Turbo",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000002",
-        "output_cost_per_token": "0.00000005",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/meta-llama/Llama-Guard-4-12B",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 163840,
-        "max_input_tokens": 163840,
-        "max_output_tokens": 163840,
-        "input_cost_per_token": "0.00000018",
-        "output_cost_per_token": "0.00000018",
+        "output_cost_per_token": "0.00000013",
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_function_calling": false,
@@ -14369,15 +14046,15 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/meta-llama/Llama-3.2-1B-Instruct",
+      "name": "deepinfra/Gryphe/MythoMax-L2-13b-turbo",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.000000005",
-        "output_cost_per_token": "0.00000001",
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000013",
+        "output_cost_per_token": "0.00000013",
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_function_calling": false,
@@ -14386,82 +14063,14 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/google/gemma-2-27b-it",
+      "name": "deepinfra/KoboldAI/LLaMA2-13B-Tiefighter",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000027",
-        "output_cost_per_token": "0.00000027",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Qwen/Qwen2.5-VL-32B-Instruct",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.0000002",
-        "output_cost_per_token": "0.0000006",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/nvidia/Llama-3.1-Nemotron-70B-Instruct",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.00000012",
-        "output_cost_per_token": "0.0000003",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/mistralai/Mixtral-8x22B-Instruct-v0.1",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 65536,
-        "max_input_tokens": 65536,
-        "max_output_tokens": 65536,
-        "input_cost_per_token": "0.00000065",
-        "output_cost_per_token": "0.00000065",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Qwen/Qwen2.5-7B-Instruct",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.00000004",
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.0000001",
         "litellm_provider": "deepinfra",
         "mode": "chat",
@@ -14471,15 +14080,15 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/google/gemini-1.5-flash-8b",
+      "name": "deepinfra/NousResearch/Hermes-3-Llama-3.1-405B",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
-        "max_tokens": 1000000,
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 1000000,
-        "input_cost_per_token": "0.0000000375",
-        "output_cost_per_token": "0.00000015",
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000007",
+        "output_cost_per_token": "0.0000008",
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_function_calling": false,
@@ -14505,6 +14114,635 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "deepinfra/NovaSky-AI/Sky-T1-32B-Preview",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0.00000018",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Phind/Phind-CodeLlama-34B-v2",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/QVQ-72B-Preview",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/QwQ-32B",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000000075",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/QwQ-32B-Preview",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0.00000018",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/Qwen2-72B-Instruct",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000035",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/Qwen2-7B-Instruct",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000000055",
+        "output_cost_per_token": "0.000000055",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/Qwen2.5-72B-Instruct",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0.00000039",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/Qwen2.5-7B-Instruct",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000004",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/Qwen2.5-Coder-32B-Instruct",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/Qwen2.5-Coder-7B",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000000025",
+        "output_cost_per_token": "0.00000005",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/Qwen2.5-VL-32B-Instruct",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/Qwen3-14B",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 40960,
+        "max_input_tokens": 40960,
+        "max_output_tokens": 40960,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000024",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/Qwen3-235B-A22B",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 40960,
+        "max_input_tokens": 40960,
+        "max_output_tokens": 40960,
+        "input_cost_per_token": "0.00000013",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000013",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/Qwen3-235B-A22B-Thinking-2507",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000013",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/Qwen3-30B-A3B",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 40960,
+        "max_input_tokens": 40960,
+        "max_output_tokens": 40960,
+        "input_cost_per_token": "0.00000008",
+        "output_cost_per_token": "0.00000029",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/Qwen3-32B",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 40960,
+        "max_input_tokens": 40960,
+        "max_output_tokens": 40960,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/Qwen3-Coder-480B-A35B-Instruct",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000016",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Sao10K/L3-70B-Euryale-v2.1",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000007",
+        "output_cost_per_token": "0.0000008",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Sao10K/L3-8B-Lunaris-v1",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.00000006",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Sao10K/L3-8B-Lunaris-v1-Turbo",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000002",
+        "output_cost_per_token": "0.00000005",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Sao10K/L3.1-70B-Euryale-v2.2",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000065",
+        "output_cost_per_token": "0.00000075",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/Sao10K/L3.3-70B-Euryale-v2.3",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000065",
+        "output_cost_per_token": "0.00000075",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/allenai/olmOCR-7B-0725-FP8",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000027",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/anthropic/claude-3-7-sonnet-latest",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 200000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 200000,
+        "input_cost_per_token": "0.0000033",
+        "output_cost_per_token": "0.0000165",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/anthropic/claude-4-opus",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 200000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 200000,
+        "input_cost_per_token": "0.0000165",
+        "output_cost_per_token": "0.0000825",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/anthropic/claude-4-sonnet",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 200000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 200000,
+        "input_cost_per_token": "0.0000033",
+        "output_cost_per_token": "0.0000165",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/bigcode/starcoder2-15b-instruct-v0.1",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/cognitivecomputations/dolphin-2.6-mixtral-8x7b",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000024",
+        "output_cost_per_token": "0.00000024",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/cognitivecomputations/dolphin-2.9.1-llama-3-70b",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000035",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/deepinfra/airoboros-70b",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000007",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/deepseek-ai/DeepSeek-Prover-V2-671B",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.00000218",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/deepseek-ai/DeepSeek-R1",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.00000045",
+        "output_cost_per_token": "0.00000215",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/deepseek-ai/DeepSeek-R1-0528",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.00000215",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/deepseek-ai/DeepSeek-R1-0528-Turbo",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "deepinfra/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
@@ -14522,15 +14760,15 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/meta-llama/Llama-Guard-3-8B",
+      "name": "deepinfra/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": "0.000000055",
-        "output_cost_per_token": "0.000000055",
+        "input_cost_per_token": "0.000000075",
+        "output_cost_per_token": "0.00000015",
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_function_calling": false,
@@ -14539,15 +14777,287 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/mistralai/Mistral-Small-24B-Instruct-2501",
+      "name": "deepinfra/deepseek-ai/DeepSeek-R1-Turbo",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/deepseek-ai/DeepSeek-V3",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.00000038",
+        "output_cost_per_token": "0.00000089",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/deepseek-ai/DeepSeek-V3-0324",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.00000028",
+        "output_cost_per_token": "0.00000088",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/deepseek-ai/DeepSeek-V3-0324-Turbo",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
         "max_tokens": 32768,
         "max_input_tokens": 32768,
         "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/deepseek-ai/DeepSeek-V3.1",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.000001",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/google/codegemma-7b-it",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000007",
+        "output_cost_per_token": "0.00000007",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/google/gemini-1.5-flash",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
+        "input_cost_per_token": "0.000000075",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/google/gemini-1.5-flash-8b",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
+        "input_cost_per_token": "0.0000000375",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/google/gemini-2.0-flash-001",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/google/gemini-2.5-flash",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
+        "input_cost_per_token": "0.00000021",
+        "output_cost_per_token": "0.00000175",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/google/gemini-2.5-pro",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
+        "input_cost_per_token": "0.000000875",
+        "output_cost_per_token": "0.000007",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/google/gemma-1.1-7b-it",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000007",
+        "output_cost_per_token": "0.00000007",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/google/gemma-2-27b-it",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000027",
+        "output_cost_per_token": "0.00000027",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/google/gemma-2-9b-it",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.00000006",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/google/gemma-3-12b-it",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
         "input_cost_per_token": "0.00000005",
-        "output_cost_per_token": "0.00000008",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/google/gemma-3-27b-it",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000009",
+        "output_cost_per_token": "0.00000017",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/google/gemma-3-4b-it",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000002",
+        "output_cost_per_token": "0.00000004",
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_function_calling": false,
@@ -14563,6 +15073,23 @@ export const aiModels: AIModels = {
         "max_tokens": 4096,
         "max_input_tokens": 4096,
         "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000035",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/mattshumer/Reflection-Llama-3.1-70B",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000035",
         "output_cost_per_token": "0.0000004",
         "litellm_provider": "deepinfra",
@@ -14590,269 +15117,14 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/anthropic/claude-4-opus",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 200000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 200000,
-        "input_cost_per_token": "0.0000165",
-        "output_cost_per_token": "0.0000825",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/openchat/openchat-3.6-8b",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.000000055",
-        "output_cost_per_token": "0.000000055",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/google/gemma-3-27b-it",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.00000009",
-        "output_cost_per_token": "0.00000017",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Austism/chronos-hermes-13b-v2",
+      "name": "deepinfra/meta-llama/Llama-2-70b-chat-hf",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
         "max_tokens": 4096,
         "max_input_tokens": 4096,
         "max_output_tokens": 4096,
-        "input_cost_per_token": "0.00000013",
-        "output_cost_per_token": "0.00000013",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Sao10K/L3.1-70B-Euryale-v2.2",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.00000065",
-        "output_cost_per_token": "0.00000075",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Qwen/QwQ-32B-Preview",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.00000012",
-        "output_cost_per_token": "0.00000018",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/anthropic/claude-4-sonnet",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 200000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 200000,
-        "input_cost_per_token": "0.0000033",
-        "output_cost_per_token": "0.0000165",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/microsoft/Phi-3-medium-4k-instruct",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 4096,
-        "max_input_tokens": 4096,
-        "max_output_tokens": 4096,
-        "input_cost_per_token": "0.00000014",
-        "output_cost_per_token": "0.00000014",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/mattshumer/Reflection-Llama-3.1-70B",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000035",
-        "output_cost_per_token": "0.0000004",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/openchat/openchat_3.5",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.000000055",
-        "output_cost_per_token": "0.000000055",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Sao10K/L3.3-70B-Euryale-v2.3",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.00000065",
-        "output_cost_per_token": "0.00000075",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/meta-llama/Meta-Llama-3.1-70B-Instruct",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.00000023",
-        "output_cost_per_token": "0.0000004",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/deepseek-ai/DeepSeek-V3.1",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 163840,
-        "max_input_tokens": 163840,
-        "max_output_tokens": 163840,
-        "input_cost_per_token": "0.00000032",
-        "output_cost_per_token": "0.00000115",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Qwen/Qwen2.5-Coder-7B",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.000000025",
-        "output_cost_per_token": "0.00000005",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/cognitivecomputations/dolphin-2.6-mixtral-8x7b",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.00000024",
-        "output_cost_per_token": "0.00000024",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/meta-llama/Meta-Llama-3.1-405B-Instruct",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.0000008",
+        "input_cost_per_token": "0.00000064",
         "output_cost_per_token": "0.0000008",
         "litellm_provider": "deepinfra",
         "mode": "chat",
@@ -14862,15 +15134,15 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/deepseek-ai/DeepSeek-Prover-V2-671B",
+      "name": "deepinfra/meta-llama/Llama-3.2-11B-Vision-Instruct",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
-        "max_tokens": 163840,
-        "max_input_tokens": 163840,
-        "max_output_tokens": 163840,
-        "input_cost_per_token": "0.0000005",
-        "output_cost_per_token": "0.00000218",
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000000049",
+        "output_cost_per_token": "0.000000049",
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_function_calling": false,
@@ -14879,15 +15151,15 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/zai-org/GLM-4.5",
+      "name": "deepinfra/meta-llama/Llama-3.2-1B-Instruct",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": "0.00000055",
-        "output_cost_per_token": "0.000002",
+        "input_cost_per_token": "0.000000005",
+        "output_cost_per_token": "0.00000001",
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_function_calling": false,
@@ -14913,14 +15185,14 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/meta-llama/Meta-Llama-3-70B-Instruct",
+      "name": "deepinfra/meta-llama/Llama-3.2-90B-Vision-Instruct",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0000003",
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000035",
         "output_cost_per_token": "0.0000004",
         "litellm_provider": "deepinfra",
         "mode": "chat",
@@ -14930,83 +15202,15 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/google/gemini-1.5-flash",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 1000000,
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 1000000,
-        "input_cost_per_token": "0.000000075",
-        "output_cost_per_token": "0.0000003",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/KoboldAI/LLaMA2-13B-Tiefighter",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 4096,
-        "max_input_tokens": 4096,
-        "max_output_tokens": 4096,
-        "input_cost_per_token": "0.0000001",
-        "output_cost_per_token": "0.0000001",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/google/gemini-2.5-pro",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 1000000,
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 1000000,
-        "input_cost_per_token": "0.000000875",
-        "output_cost_per_token": "0.000007",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Qwen/Qwen3-30B-A3B",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 40960,
-        "max_input_tokens": 40960,
-        "max_output_tokens": 40960,
-        "input_cost_per_token": "0.00000008",
-        "output_cost_per_token": "0.00000029",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Qwen/QwQ-32B",
+      "name": "deepinfra/meta-llama/Llama-3.3-70B-Instruct",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": "0.000000075",
-        "output_cost_per_token": "0.00000015",
+        "input_cost_per_token": "0.00000023",
+        "output_cost_per_token": "0.0000004",
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_function_calling": false,
@@ -15015,355 +15219,15 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/moonshotai/Kimi-K2-Instruct",
+      "name": "deepinfra/meta-llama/Llama-3.3-70B-Instruct-Turbo",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": "0.0000005",
-        "output_cost_per_token": "0.000002",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Sao10K/L3-70B-Euryale-v2.1",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0000007",
-        "output_cost_per_token": "0.0000008",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/microsoft/phi-4-reasoning-plus",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.00000007",
-        "output_cost_per_token": "0.00000035",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/google/gemma-3-12b-it",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.00000005",
-        "output_cost_per_token": "0.0000001",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/google/gemini-2.5-flash",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 1000000,
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 1000000,
-        "input_cost_per_token": "0.00000021",
-        "output_cost_per_token": "0.00000175",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/deepseek-ai/DeepSeek-R1",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 163840,
-        "max_input_tokens": 163840,
-        "max_output_tokens": 163840,
-        "input_cost_per_token": "0.00000045",
-        "output_cost_per_token": "0.00000215",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/mistralai/Mistral-7B-Instruct-v0.3",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.000000028",
-        "output_cost_per_token": "0.000000054",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Qwen/Qwen2.5-72B-Instruct",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.00000012",
-        "output_cost_per_token": "0.00000039",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Qwen/Qwen3-14B",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 40960,
-        "max_input_tokens": 40960,
-        "max_output_tokens": 40960,
-        "input_cost_per_token": "0.00000006",
-        "output_cost_per_token": "0.00000024",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/allenai/olmOCR-7B-0725-FP8",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 16384,
-        "max_input_tokens": 16384,
-        "max_output_tokens": 16384,
-        "input_cost_per_token": "0.00000027",
-        "output_cost_per_token": "0.0000015",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Qwen/Qwen3-Coder-480B-A35B-Instruct",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 262144,
-        "max_input_tokens": 262144,
-        "max_output_tokens": 262144,
-        "input_cost_per_token": "0.0000004",
-        "output_cost_per_token": "0.0000016",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/microsoft/phi-4",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 16384,
-        "max_input_tokens": 16384,
-        "max_output_tokens": 16384,
-        "input_cost_per_token": "0.00000007",
-        "output_cost_per_token": "0.00000014",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/NousResearch/Hermes-3-Llama-3.1-405B",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.0000007",
-        "output_cost_per_token": "0.0000008",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/zai-org/GLM-4.5-Air",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.0000002",
-        "output_cost_per_token": "0.0000011",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.000000075",
-        "output_cost_per_token": "0.00000015",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/openai/gpt-oss-120b",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.00000009",
-        "output_cost_per_token": "0.00000045",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/google/codegemma-7b-it",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000007",
-        "output_cost_per_token": "0.00000007",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 262144,
-        "max_input_tokens": 262144,
-        "max_output_tokens": 262144,
-        "input_cost_per_token": "0.0000003",
-        "output_cost_per_token": "0.0000012",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/mistralai/Mistral-Nemo-Instruct-2407",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.00000002",
-        "output_cost_per_token": "0.00000004",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/openbmb/MiniCPM-Llama3-V-2_5",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000034",
-        "output_cost_per_token": "0.00000034",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/bigcode/starcoder2-15b-instruct-v0.1",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 4096,
-        "max_input_tokens": 4096,
-        "max_output_tokens": 4096,
-        "input_cost_per_token": "0.00000015",
-        "output_cost_per_token": "0.00000015",
+        "input_cost_per_token": "0.000000038",
+        "output_cost_per_token": "0.00000012",
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_function_calling": false,
@@ -15389,6 +15253,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "deepinfra/meta-llama/Llama-4-Maverick-17B-128E-Instruct-Turbo",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "deepinfra/meta-llama/Llama-4-Scout-17B-16E-Instruct",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
@@ -15406,14 +15287,48 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/google/gemini-2.0-flash-001",
+      "name": "deepinfra/meta-llama/Llama-Guard-3-8B",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
-        "max_tokens": 1000000,
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 1000000,
-        "input_cost_per_token": "0.0000001",
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000000055",
+        "output_cost_per_token": "0.000000055",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/meta-llama/Llama-Guard-4-12B",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.00000018",
+        "output_cost_per_token": "0.00000018",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/meta-llama/Meta-Llama-3-70B-Instruct",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000003",
         "output_cost_per_token": "0.0000004",
         "litellm_provider": "deepinfra",
         "mode": "chat",
@@ -15423,15 +15338,15 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/Gryphe/MythoMax-L2-13b-turbo",
+      "name": "deepinfra/meta-llama/Meta-Llama-3-8B-Instruct",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
-        "max_tokens": 4096,
-        "max_input_tokens": 4096,
-        "max_output_tokens": 4096,
-        "input_cost_per_token": "0.00000013",
-        "output_cost_per_token": "0.00000013",
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.00000006",
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_function_calling": false,
@@ -15440,15 +15355,32 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/google/gemma-1.1-7b-it",
+      "name": "deepinfra/meta-llama/Meta-Llama-3.1-405B-Instruct",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000007",
-        "output_cost_per_token": "0.00000007",
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000008",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000023",
+        "output_cost_per_token": "0.0000004",
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_function_calling": false,
@@ -15491,15 +15423,15 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/Qwen/Qwen3-32B",
+      "name": "deepinfra/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
-        "max_tokens": 40960,
-        "max_input_tokens": 40960,
-        "max_output_tokens": 40960,
-        "input_cost_per_token": "0.0000001",
-        "output_cost_per_token": "0.0000003",
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000000015",
+        "output_cost_per_token": "0.00000002",
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_function_calling": false,
@@ -15508,32 +15440,15 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/Qwen/Qwen3-235B-A22B-Thinking-2507",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 262144,
-        "max_input_tokens": 262144,
-        "max_output_tokens": 262144,
-        "input_cost_per_token": "0.00000013",
-        "output_cost_per_token": "0.0000006",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/meta-llama/Llama-2-70b-chat-hf",
+      "name": "deepinfra/microsoft/Phi-3-medium-4k-instruct",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
         "max_tokens": 4096,
         "max_input_tokens": 4096,
         "max_output_tokens": 4096,
-        "input_cost_per_token": "0.00000064",
-        "output_cost_per_token": "0.0000008",
+        "input_cost_per_token": "0.00000014",
+        "output_cost_per_token": "0.00000014",
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_function_calling": false,
@@ -15542,98 +15457,13 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/nvidia/Nemotron-4-340B-Instruct",
+      "name": "deepinfra/microsoft/Phi-4-multimodal-instruct",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
-        "max_tokens": 4096,
-        "max_input_tokens": 4096,
-        "max_output_tokens": 4096,
-        "input_cost_per_token": "0.0000042",
-        "output_cost_per_token": "0.0000042",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/deepseek-ai/DeepSeek-R1-0528",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 163840,
-        "max_input_tokens": 163840,
-        "max_output_tokens": 163840,
-        "input_cost_per_token": "0.0000005",
-        "output_cost_per_token": "0.00000215",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/deepseek-ai/DeepSeek-R1-Turbo",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 163840,
-        "max_input_tokens": 163840,
-        "max_output_tokens": 163840,
-        "input_cost_per_token": "0.000001",
-        "output_cost_per_token": "0.000003",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/NovaSky-AI/Sky-T1-32B-Preview",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.00000012",
-        "output_cost_per_token": "0.00000018",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 262144,
-        "max_input_tokens": 262144,
-        "max_output_tokens": 262144,
-        "input_cost_per_token": "0.00000013",
-        "output_cost_per_token": "0.0000006",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/mistralai/Mistral-Small-3.1-24B-Instruct-2503",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 128000,
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
         "input_cost_per_token": "0.00000005",
         "output_cost_per_token": "0.0000001",
         "litellm_provider": "deepinfra",
@@ -15644,7 +15474,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/mistralai/Mistral-7B-Instruct-v0.1",
+      "name": "deepinfra/microsoft/WizardLM-2-7B",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
@@ -15661,134 +15491,49 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/Qwen/Qwen2-72B-Instruct",
+      "name": "deepinfra/microsoft/WizardLM-2-8x22B",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000048",
+        "output_cost_per_token": "0.00000048",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/microsoft/phi-4",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000007",
+        "output_cost_per_token": "0.00000014",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/microsoft/phi-4-reasoning-plus",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
         "max_tokens": 32768,
         "max_input_tokens": 32768,
         "max_output_tokens": 32768,
-        "input_cost_per_token": "0.00000035",
-        "output_cost_per_token": "0.0000004",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/meta-llama/Llama-4-Maverick-17B-128E-Instruct-Turbo",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0000005",
-        "output_cost_per_token": "0.0000005",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/Sao10K/L3-8B-Lunaris-v1",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000003",
-        "output_cost_per_token": "0.00000006",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/deepinfra/airoboros-70b",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 4096,
-        "max_input_tokens": 4096,
-        "max_output_tokens": 4096,
-        "input_cost_per_token": "0.0000007",
-        "output_cost_per_token": "0.0000009",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/google/gemma-3-4b-it",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.00000002",
-        "output_cost_per_token": "0.00000004",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/meta-llama/Meta-Llama-3-8B-Instruct",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000003",
-        "output_cost_per_token": "0.00000006",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/mistralai/Mistral-7B-Instruct-v0.2",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.000000055",
-        "output_cost_per_token": "0.000000055",
-        "litellm_provider": "deepinfra",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "deepinfra/meta-llama/Llama-3.3-70B-Instruct-Turbo",
-      "provider": "deepinfra",
-      "logo": "/logos/deepinfra.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 131072,
-        "input_cost_per_token": "0.000000038",
-        "output_cost_per_token": "0.00000012",
+        "input_cost_per_token": "0.00000007",
+        "output_cost_per_token": "0.00000035",
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_function_calling": false,
@@ -15814,15 +15559,236 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "deepinfra/meta-llama/Llama-3.2-11B-Vision-Instruct",
+      "name": "deepinfra/mistralai/Devstral-Small-2507",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000007",
+        "output_cost_per_token": "0.00000028",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/mistralai/Mistral-7B-Instruct-v0.1",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000000055",
+        "output_cost_per_token": "0.000000055",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/mistralai/Mistral-7B-Instruct-v0.2",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000000055",
+        "output_cost_per_token": "0.000000055",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/mistralai/Mistral-7B-Instruct-v0.3",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000000028",
+        "output_cost_per_token": "0.000000054",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/mistralai/Mistral-Nemo-Instruct-2407",
       "provider": "deepinfra",
       "logo": "/logos/deepinfra.svg",
       "sample_spec": {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": "0.000000049",
-        "output_cost_per_token": "0.000000049",
+        "input_cost_per_token": "0.00000002",
+        "output_cost_per_token": "0.00000004",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/mistralai/Mistral-Small-24B-Instruct-2501",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.00000008",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/mistralai/Mixtral-8x22B-Instruct-v0.1",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000065",
+        "output_cost_per_token": "0.00000065",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000008",
+        "output_cost_per_token": "0.00000024",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/moonshotai/Kimi-K2-Instruct",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/nvidia/Llama-3.1-Nemotron-70B-Instruct",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000012",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/nvidia/Nemotron-4-340B-Instruct",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000042",
+        "output_cost_per_token": "0.0000042",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/openai/gpt-oss-120b",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000009",
+        "output_cost_per_token": "0.00000045",
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_function_calling": false,
@@ -15840,6 +15806,91 @@ export const aiModels: AIModels = {
         "max_output_tokens": 131072,
         "input_cost_per_token": "0.00000004",
         "output_cost_per_token": "0.00000016",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/openbmb/MiniCPM-Llama3-V-2_5",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000034",
+        "output_cost_per_token": "0.00000034",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/openchat/openchat-3.6-8b",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.000000055",
+        "output_cost_per_token": "0.000000055",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/openchat/openchat_3.5",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.000000055",
+        "output_cost_per_token": "0.000000055",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/zai-org/GLM-4.5",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000055",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/zai-org/GLM-4.5-Air",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000011",
         "litellm_provider": "deepinfra",
         "mode": "chat",
         "supports_function_calling": false,
