@@ -9581,6 +9581,108 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/openai/gpt-4.1",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 1047576,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000008",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-4.1-2025-04-14",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 1047576,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000008",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-4.1-mini",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 1047576,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000016",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-4.1-mini-2025-04-14",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 1047576,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000016",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-4.1-nano",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 1047576,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-4.1-nano-2025-04-14",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 1047576,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "openrouter/openai/gpt-5-mini",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
@@ -13609,8 +13711,8 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000006",
         "litellm_provider": "together_ai",
         "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://www.together.ai/models/qwen3-235b-a22b-instruct-2507-fp8"
       }
@@ -13627,8 +13729,8 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000002",
         "litellm_provider": "together_ai",
         "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://www.together.ai/models/qwen3-coder-480b-a35b-instruct"
       }
@@ -13645,8 +13747,8 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000003",
         "litellm_provider": "together_ai",
         "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://www.together.ai/models/qwen3-235b-a22b-thinking-2507"
       }
@@ -13715,8 +13817,8 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000219",
         "litellm_provider": "together_ai",
         "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://www.together.ai/models/deepseek-r1-0528-throughput"
       }
@@ -13768,8 +13870,8 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000006",
         "litellm_provider": "together_ai",
         "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://www.together.ai/models/gpt-oss-120b"
       }
@@ -13786,8 +13888,8 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000002",
         "litellm_provider": "together_ai",
         "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://www.together.ai/models/gpt-oss-20b"
       }
@@ -13804,10 +13906,28 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000011",
         "litellm_provider": "together_ai",
         "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://www.together.ai/models/glm-4-5-air"
+      }
+    },
+    {
+      "name": "together_ai/deepseek-ai/DeepSeek-V3.1",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000017",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://www.together.ai/models/deepseek-v3-1"
       }
     },
     {
