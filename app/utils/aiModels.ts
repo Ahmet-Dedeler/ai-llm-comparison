@@ -4760,23 +4760,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "groq/llama3-8b-8192",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000005",
-        "output_cost_per_token": "0.00000008",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
       "name": "groq/llama-3.2-1b-preview",
       "provider": "groq",
       "logo": "/logos/groq.svg",
@@ -4876,23 +4859,6 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true
-      }
-    },
-    {
-      "name": "groq/llama3-70b-8192",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000059",
-        "output_cost_per_token": "0.00000079",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
       }
     },
     {
@@ -7466,6 +7432,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#partner-models"
+      }
+    },
+    {
+      "name": "vertex_ai/openai/gpt-oss-20b-maas",
+      "provider": "vertex_ai-openai_models",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000000075",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "vertex_ai-openai_models",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://console.cloud.google.com/vertex-ai/publishers/openai/model-garden/gpt-oss-120b-maas"
+      }
+    },
+    {
+      "name": "vertex_ai/openai/gpt-oss-120b-maas",
+      "provider": "vertex_ai-openai_models",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "vertex_ai-openai_models",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://console.cloud.google.com/vertex-ai/publishers/openai/model-garden/gpt-oss-120b-maas"
       }
     },
     {
