@@ -5186,24 +5186,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "cerebras/openai/gpt-oss-20b",
-      "provider": "cerebras",
-      "logo": "/logos/cerebras.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.00000007",
-        "output_cost_per_token": "0.0000003",
-        "litellm_provider": "cerebras",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": false,
-        "source": "https://inference-docs.cerebras.ai/support/pricing"
-      }
-    },
-    {
       "name": "cerebras/openai/gpt-oss-120b",
       "provider": "cerebras",
       "logo": "/logos/cerebras.svg",
