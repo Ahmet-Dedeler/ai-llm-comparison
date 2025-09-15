@@ -20847,6 +20847,276 @@ export const aiModels: AIModels = {
         "supports_vision": false,
         "source": "https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/pricing"
       }
+    },
+    {
+      "name": "ovhcloud/Qwen2.5-VL-72B-Instruct",
+      "provider": "ovhcloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.00000091",
+        "output_cost_per_token": "0.00000091",
+        "litellm_provider": "ovhcloud",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://endpoints.ai.cloud.ovh.net/models/qwen2-5-vl-72b-instruct"
+      }
+    },
+    {
+      "name": "ovhcloud/llava-v1.6-mistral-7b-hf",
+      "provider": "ovhcloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.00000029",
+        "output_cost_per_token": "0.00000029",
+        "litellm_provider": "ovhcloud",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://endpoints.ai.cloud.ovh.net/models/llava-next-mistral-7b"
+      }
+    },
+    {
+      "name": "ovhcloud/gpt-oss-120b",
+      "provider": "ovhcloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131000,
+        "max_input_tokens": 131000,
+        "max_output_tokens": 131000,
+        "input_cost_per_token": "0.00000008",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "ovhcloud",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://endpoints.ai.cloud.ovh.net/models/gpt-oss-120b"
+      }
+    },
+    {
+      "name": "ovhcloud/Meta-Llama-3_3-70B-Instruct",
+      "provider": "ovhcloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131000,
+        "max_input_tokens": 131000,
+        "max_output_tokens": 131000,
+        "input_cost_per_token": "0.00000067",
+        "output_cost_per_token": "0.00000067",
+        "litellm_provider": "ovhcloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://endpoints.ai.cloud.ovh.net/models/meta-llama-3-3-70b-instruct"
+      }
+    },
+    {
+      "name": "ovhcloud/Qwen2.5-Coder-32B-Instruct",
+      "provider": "ovhcloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.00000087",
+        "output_cost_per_token": "0.00000087",
+        "litellm_provider": "ovhcloud",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://endpoints.ai.cloud.ovh.net/models/qwen2-5-coder-32b-instruct"
+      }
+    },
+    {
+      "name": "ovhcloud/Mixtral-8x7B-Instruct-v0.1",
+      "provider": "ovhcloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.00000063",
+        "output_cost_per_token": "0.00000063",
+        "litellm_provider": "ovhcloud",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://endpoints.ai.cloud.ovh.net/models/mixtral-8x7b-instruct-v0-1"
+      }
+    },
+    {
+      "name": "ovhcloud/Meta-Llama-3_1-70B-Instruct",
+      "provider": "ovhcloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131000,
+        "max_input_tokens": 131000,
+        "max_output_tokens": 131000,
+        "input_cost_per_token": "0.00000067",
+        "output_cost_per_token": "0.00000067",
+        "litellm_provider": "ovhcloud",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://endpoints.ai.cloud.ovh.net/models/meta-llama-3-1-70b-instruct"
+      }
+    },
+    {
+      "name": "ovhcloud/Mistral-Small-3.2-24B-Instruct-2506",
+      "provider": "ovhcloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000009",
+        "output_cost_per_token": "0.00000028",
+        "litellm_provider": "ovhcloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://endpoints.ai.cloud.ovh.net/models/mistral-small-3-2-24b-instruct-2506"
+      }
+    },
+    {
+      "name": "ovhcloud/DeepSeek-R1-Distill-Llama-70B",
+      "provider": "ovhcloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131000,
+        "max_input_tokens": 131000,
+        "max_output_tokens": 131000,
+        "input_cost_per_token": "0.00000067",
+        "output_cost_per_token": "0.00000067",
+        "litellm_provider": "ovhcloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://endpoints.ai.cloud.ovh.net/models/deepseek-r1-distill-llama-70b"
+      }
+    },
+    {
+      "name": "ovhcloud/Llama-3.1-8B-Instruct",
+      "provider": "ovhcloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131000,
+        "max_input_tokens": 131000,
+        "max_output_tokens": 131000,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "ovhcloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://endpoints.ai.cloud.ovh.net/models/llama-3-1-8b-instruct"
+      }
+    },
+    {
+      "name": "ovhcloud/Mistral-7B-Instruct-v0.3",
+      "provider": "ovhcloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 127000,
+        "max_input_tokens": 127000,
+        "max_output_tokens": 127000,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "ovhcloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://endpoints.ai.cloud.ovh.net/models/mistral-7b-instruct-v0-3"
+      }
+    },
+    {
+      "name": "ovhcloud/gpt-oss-20b",
+      "provider": "ovhcloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131000,
+        "max_input_tokens": 131000,
+        "max_output_tokens": 131000,
+        "input_cost_per_token": "0.00000004",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "ovhcloud",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://endpoints.ai.cloud.ovh.net/models/gpt-oss-20b"
+      }
+    },
+    {
+      "name": "ovhcloud/Mistral-Nemo-Instruct-2407",
+      "provider": "ovhcloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 118000,
+        "max_input_tokens": 118000,
+        "max_output_tokens": 118000,
+        "input_cost_per_token": "0.00000013",
+        "output_cost_per_token": "0.00000013",
+        "litellm_provider": "ovhcloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://endpoints.ai.cloud.ovh.net/models/mistral-nemo-instruct-2407"
+      }
+    },
+    {
+      "name": "ovhcloud/Qwen3-32B",
+      "provider": "ovhcloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.00000008",
+        "output_cost_per_token": "0.00000023",
+        "litellm_provider": "ovhcloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://endpoints.ai.cloud.ovh.net/models/qwen3-32b"
+      }
+    },
+    {
+      "name": "ovhcloud/mamba-codestral-7B-v0.1",
+      "provider": "ovhcloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.00000019",
+        "output_cost_per_token": "0.00000019",
+        "litellm_provider": "ovhcloud",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://endpoints.ai.cloud.ovh.net/models/mamba-codestral-7b-v0-1"
+      }
     }
   ],
   "embedding": [
