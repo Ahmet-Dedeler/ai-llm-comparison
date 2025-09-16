@@ -11321,6 +11321,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "bedrock/us.anthropic.claude-3-5-haiku-20241022-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "us.anthropic.claude-3-opus-20240229-v1:0",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
