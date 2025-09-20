@@ -8410,24 +8410,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "gemini-2.5-flash-image-preview",
-      "provider": "vertex_ai-language-models",
-      "logo": "/logos/google.svg",
-      "sample_spec": {
-        "max_tokens": 65535,
-        "max_input_tokens": 1048576,
-        "max_output_tokens": 65535,
-        "input_cost_per_token": "0.0000003",
-        "output_cost_per_token": "0.00003",
-        "litellm_provider": "vertex_ai-language-models",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview"
-      }
-    },
-    {
       "name": "gemini-2.5-flash-lite",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
@@ -9121,24 +9103,6 @@ export const aiModels: AIModels = {
         "max_output_tokens": 65535,
         "input_cost_per_token": "0.0000003",
         "output_cost_per_token": "0.0000025",
-        "litellm_provider": "gemini",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview"
-      }
-    },
-    {
-      "name": "gemini/gemini-2.5-flash-image-preview",
-      "provider": "gemini",
-      "logo": "/logos/google.svg",
-      "sample_spec": {
-        "max_tokens": 65535,
-        "max_input_tokens": 1048576,
-        "max_output_tokens": 65535,
-        "input_cost_per_token": "0.0000003",
-        "output_cost_per_token": "0.00003",
         "litellm_provider": "gemini",
         "mode": "chat",
         "supports_function_calling": true,
@@ -23161,6 +23125,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://azuremarketplace.microsoft.com/pt-br/marketplace/apps/cohere.cohere-embed-4-offer?tab=PlansAndPrice"
+      }
+    },
+    {
+      "name": "gemini-2.5-flash-image-preview",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.00003",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "image_generation",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview"
+      }
+    },
+    {
+      "name": "gemini/gemini-2.5-flash-image-preview",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.00003",
+        "litellm_provider": "gemini",
+        "mode": "image_generation",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview"
       }
     },
     {
