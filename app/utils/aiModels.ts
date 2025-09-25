@@ -450,9 +450,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 64000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 64000,
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "bedrock_converse",
@@ -831,9 +831,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 64000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 64000,
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "bedrock_converse",
@@ -4815,9 +4815,9 @@ export const aiModels: AIModels = {
       "provider": "anthropic",
       "logo": "/logos/anthropic.svg",
       "sample_spec": {
-        "max_tokens": 64000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 64000,
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "anthropic",
@@ -5260,6 +5260,42 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true
+      }
+    },
+    {
+      "name": "deepseek-chat",
+      "provider": "deepseek",
+      "logo": "/logos/deepseek.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000017",
+        "litellm_provider": "deepseek",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://api-docs.deepseek.com/quick_start/pricing"
+      }
+    },
+    {
+      "name": "deepseek-reasoner",
+      "provider": "deepseek",
+      "logo": "/logos/deepseek.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000017",
+        "litellm_provider": "deepseek",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api-docs.deepseek.com/quick_start/pricing"
       }
     },
     {
@@ -6960,6 +6996,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "deepseek.v3-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 81920,
+        "input_cost_per_token": "0.00000058",
+        "output_cost_per_token": "0.00000168",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "eu.amazon.nova-lite-v1:0",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -7169,9 +7222,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 64000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 64000,
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "bedrock_converse",
@@ -14496,9 +14549,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 64000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 64000,
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "openrouter",
@@ -16403,6 +16456,74 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "qwen.qwen3-coder-480b-a35b-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262000,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000022",
+        "output_cost_per_token": "0.0000018",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "qwen.qwen3-235b-a22b-2507-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000022",
+        "output_cost_per_token": "0.00000088",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "qwen.qwen3-coder-30b-a3b-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "qwen.qwen3-32b-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "replicate/meta/llama-2-13b",
       "provider": "replicate",
       "logo": "/logos/replicate.svg",
@@ -16918,6 +17039,42 @@ export const aiModels: AIModels = {
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000004",
         "output_cost_per_token": "0.0000008",
+        "litellm_provider": "sambanova",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.sambanova.ai/plans/pricing"
+      }
+    },
+    {
+      "name": "sambanova/DeepSeek-V3.1",
+      "provider": "sambanova",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.0000045",
+        "litellm_provider": "sambanova",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.sambanova.ai/plans/pricing"
+      }
+    },
+    {
+      "name": "sambanova/gpt-oss-120b",
+      "provider": "sambanova",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.0000045",
         "litellm_provider": "sambanova",
         "mode": "chat",
         "supports_function_calling": true,
@@ -18114,9 +18271,9 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 64000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 64000,
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "bedrock_converse",
@@ -20103,9 +20260,9 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai-anthropic_models",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 64000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 64000,
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "vertex_ai-anthropic_models",
@@ -20120,9 +20277,9 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai-anthropic_models",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 64000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 64000,
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "vertex_ai-anthropic_models",
@@ -20181,6 +20338,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "vertex_ai/deepseek-ai/deepseek-v3.1-maas",
+      "provider": "vertex_ai-deepseek_models",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000135",
+        "output_cost_per_token": "0.0000054",
+        "litellm_provider": "vertex_ai-deepseek_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#partner-models"
       }
     },
     {
@@ -20693,6 +20868,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "vertex_ai/qwen/qwen3-next-80b-a3b-instruct-maas",
+      "provider": "vertex_ai-qwen_models",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "vertex_ai-qwen_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "vertex_ai/qwen/qwen3-next-80b-a3b-thinking-maas",
+      "provider": "vertex_ai-qwen_models",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "vertex_ai-qwen_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+      }
+    },
+    {
       "name": "wandb/openai/gpt-oss-120b",
       "provider": "wandb",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -20962,42 +21173,6 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
-      }
-    },
-    {
-      "name": "vertex_ai/qwen/qwen3-next-80b-a3b-instruct-maas",
-      "provider": "vertex_ai-qwen_models",
-      "logo": "/placeholder.svg?height=30&width=30",
-      "sample_spec": {
-        "max_tokens": 262144,
-        "max_input_tokens": 262144,
-        "max_output_tokens": 262144,
-        "input_cost_per_token": "0.00000015",
-        "output_cost_per_token": "0.0000012",
-        "litellm_provider": "vertex_ai-qwen_models",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
-      }
-    },
-    {
-      "name": "vertex_ai/qwen/qwen3-next-80b-a3b-thinking-maas",
-      "provider": "vertex_ai-qwen_models",
-      "logo": "/placeholder.svg?height=30&width=30",
-      "sample_spec": {
-        "max_tokens": 262144,
-        "max_input_tokens": 262144,
-        "max_output_tokens": 262144,
-        "input_cost_per_token": "0.00000015",
-        "output_cost_per_token": "0.0000012",
-        "litellm_provider": "vertex_ai-qwen_models",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
       }
     },
     {
