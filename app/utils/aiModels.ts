@@ -10506,7 +10506,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -10523,7 +10523,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -10540,7 +10540,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -10557,7 +10557,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -10574,7 +10574,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000025",
         "output_cost_per_token": "0.000002",
@@ -10591,7 +10591,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000025",
         "output_cost_per_token": "0.000002",
@@ -10608,7 +10608,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000005",
         "output_cost_per_token": "0.0000004",
@@ -10625,7 +10625,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000005",
         "output_cost_per_token": "0.0000004",
@@ -15528,7 +15528,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -15545,7 +15545,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -15562,7 +15562,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -15579,7 +15579,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000025",
         "output_cost_per_token": "0.000002",
@@ -15596,7 +15596,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000005",
         "output_cost_per_token": "0.0000004",
