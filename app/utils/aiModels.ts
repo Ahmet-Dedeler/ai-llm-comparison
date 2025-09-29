@@ -14179,6 +14179,57 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "ollama/deepseek-v3.1:671b-cloud",
+      "provider": "ollama",
+      "logo": "/logos/ollama.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "ollama",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "ollama/gpt-oss:120b-cloud",
+      "provider": "ollama",
+      "logo": "/logos/ollama.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "ollama",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "ollama/gpt-oss:20b-cloud",
+      "provider": "ollama",
+      "logo": "/logos/ollama.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "ollama",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "ollama/internlm2_5-20b-chat",
       "provider": "ollama",
       "logo": "/logos/ollama.svg",
@@ -14407,6 +14458,23 @@ export const aiModels: AIModels = {
         "max_tokens": 32768,
         "max_input_tokens": 32768,
         "max_output_tokens": 32768,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "ollama",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "ollama/qwen3-coder:480b-cloud",
+      "provider": "ollama",
+      "logo": "/logos/ollama.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
         "input_cost_per_token": "0",
         "output_cost_per_token": "0",
         "litellm_provider": "ollama",
