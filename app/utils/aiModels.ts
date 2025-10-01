@@ -4760,7 +4760,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "anthropic/claude-sonnet-4-5",
+      "name": "claude-sonnet-4-5",
       "provider": "anthropic",
       "logo": "/logos/anthropic.svg",
       "sample_spec": {
@@ -8551,42 +8551,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "gemini-flash-latest",
-      "provider": "vertex_ai-language-models",
-      "logo": "/logos/google.svg",
-      "sample_spec": {
-        "max_tokens": 65535,
-        "max_input_tokens": 1048576,
-        "max_output_tokens": 65535,
-        "input_cost_per_token": "0.0000003",
-        "output_cost_per_token": "0.0000025",
-        "litellm_provider": "vertex_ai-language-models",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": true,
-        "source": "https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/"
-      }
-    },
-    {
-      "name": "gemini-flash-lite-latest",
-      "provider": "vertex_ai-language-models",
-      "logo": "/logos/google.svg",
-      "sample_spec": {
-        "max_tokens": 65535,
-        "max_input_tokens": 1048576,
-        "max_output_tokens": 65535,
-        "input_cost_per_token": "0.0000001",
-        "output_cost_per_token": "0.0000004",
-        "litellm_provider": "vertex_ai-language-models",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": true,
-        "source": "https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/"
-      }
-    },
-    {
       "name": "gemini-2.5-flash-lite-preview-06-17",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
@@ -10926,6 +10890,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "lemonade/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+      "provider": "lemonade",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "lemonade",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "groq/deepseek-r1-distill-llama-70b",
       "provider": "groq",
       "logo": "/logos/groq.svg",
@@ -11306,6 +11287,23 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "groq",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "groq/moonshotai/kimi-k2-instruct-0905",
+      "provider": "groq",
+      "logo": "/logos/groq.svg",
+      "sample_spec": {
+        "max_tokens": 278528,
+        "max_input_tokens": 262144,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.000001",
         "output_cost_per_token": "0.000003",
