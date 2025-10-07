@@ -21695,6 +21695,431 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "watsonx/bigscience/mt0-xxl-13b",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0005",
+        "output_cost_per_token": "0.002",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/core42/jais-13b-chat",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0005",
+        "output_cost_per_token": "0.002",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/google/flan-t5-xl-3b",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0001",
+        "output_cost_per_token": "0.00025",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/ibm/granite-13b-chat-v2",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0005",
+        "output_cost_per_token": "0.002",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/ibm/granite-13b-instruct-v2",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0005",
+        "output_cost_per_token": "0.002",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/ibm/granite-3-3-8b-instruct",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00025",
+        "output_cost_per_token": "0.001",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/ibm/granite-4-h-small",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 20480,
+        "max_input_tokens": 20480,
+        "max_output_tokens": 20480,
+        "input_cost_per_token": "0.000625",
+        "output_cost_per_token": "0.0025",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/ibm/granite-guardian-3-2-2b",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00015",
+        "output_cost_per_token": "0.0006",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/ibm/granite-guardian-3-3-8b",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00025",
+        "output_cost_per_token": "0.001",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/ibm/granite-ttm-1024-96-r2",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 512,
+        "max_input_tokens": 512,
+        "max_output_tokens": 512,
+        "input_cost_per_token": "0.000625",
+        "output_cost_per_token": "0.000625",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/ibm/granite-ttm-1536-96-r2",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 512,
+        "max_input_tokens": 512,
+        "max_output_tokens": 512,
+        "input_cost_per_token": "0.000625",
+        "output_cost_per_token": "0.000625",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/ibm/granite-ttm-512-96-r2",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 512,
+        "max_input_tokens": 512,
+        "max_output_tokens": 512,
+        "input_cost_per_token": "0.000625",
+        "output_cost_per_token": "0.000625",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/ibm/granite-vision-3-2-2b",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00015",
+        "output_cost_per_token": "0.0006",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "watsonx/meta-llama/llama-3-2-11b-vision-instruct",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00025",
+        "output_cost_per_token": "0.001",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "watsonx/meta-llama/llama-3-2-1b-instruct",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0001",
+        "output_cost_per_token": "0.0002",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/meta-llama/llama-3-2-3b-instruct",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00015",
+        "output_cost_per_token": "0.0006",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/meta-llama/llama-3-2-90b-vision-instruct",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.002",
+        "output_cost_per_token": "0.008",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "watsonx/meta-llama/llama-3-3-70b-instruct",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.002",
+        "output_cost_per_token": "0.006",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/meta-llama/llama-4-maverick-17b",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0005",
+        "output_cost_per_token": "0.002",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/meta-llama/llama-guard-3-11b-vision",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00025",
+        "output_cost_per_token": "0.001",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "watsonx/mistralai/mistral-medium-2505",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00225",
+        "output_cost_per_token": "0.00675",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/mistralai/mistral-small-2503",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.0002",
+        "output_cost_per_token": "0.0006",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/mistralai/pixtral-12b-2409",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00015",
+        "output_cost_per_token": "0.00015",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "watsonx/openai/gpt-oss-120b",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.004",
+        "output_cost_per_token": "0.016",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/sdaia/allam-1-13b-instruct",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0005",
+        "output_cost_per_token": "0.002",
+        "litellm_provider": "watsonx",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "xai/grok-2",
       "provider": "xai",
       "logo": "/placeholder.svg?height=30&width=30",
