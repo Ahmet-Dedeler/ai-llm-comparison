@@ -10855,7 +10855,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": false
       }
     },
     {
@@ -22986,6 +22986,23 @@ export const aiModels: AIModels = {
         "max_input_tokens": 512,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0",
+        "litellm_provider": "bedrock",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cohere.embed-v4:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000012",
         "output_cost_per_token": "0",
         "litellm_provider": "bedrock",
         "mode": "embedding",
