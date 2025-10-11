@@ -844,6 +844,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "au.anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 200000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000033",
+        "output_cost_per_token": "0.0000165",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "azure/command-r-plus",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -14472,6 +14489,60 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "oci/cohere.command-latest",
+      "provider": "oci",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4000,
+        "input_cost_per_token": "0.00000156",
+        "output_cost_per_token": "0.00000156",
+        "litellm_provider": "oci",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.oracle.com/cloud/ai/generative-ai/pricing/"
+      }
+    },
+    {
+      "name": "oci/cohere.command-a-03-2025",
+      "provider": "oci",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 4000,
+        "input_cost_per_token": "0.00000156",
+        "output_cost_per_token": "0.00000156",
+        "litellm_provider": "oci",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.oracle.com/cloud/ai/generative-ai/pricing/"
+      }
+    },
+    {
+      "name": "oci/cohere.command-plus-latest",
+      "provider": "oci",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4000,
+        "input_cost_per_token": "0.00000156",
+        "output_cost_per_token": "0.00000156",
+        "litellm_provider": "oci",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.oracle.com/cloud/ai/generative-ai/pricing/"
+      }
+    },
+    {
       "name": "ollama/codegeex4",
       "provider": "ollama",
       "logo": "/logos/ollama.svg",
@@ -18633,6 +18704,60 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://www.together.ai/models/glm-4-5-air"
+      }
+    },
+    {
+      "name": "together_ai/moonshotai/Kimi-K2-Instruct-0905",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://www.together.ai/models/kimi-k2-0905"
+      }
+    },
+    {
+      "name": "together_ai/Qwen/Qwen3-Next-80B-A3B-Instruct",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://www.together.ai/models/qwen3-next-80b-a3b-instruct"
+      }
+    },
+    {
+      "name": "together_ai/Qwen/Qwen3-Next-80B-A3B-Thinking",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://www.together.ai/models/qwen3-next-80b-a3b-thinking"
       }
     },
     {
