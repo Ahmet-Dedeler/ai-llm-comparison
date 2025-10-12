@@ -4891,7 +4891,7 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": 1000000,
         "max_input_tokens": 1000000,
-        "max_output_tokens": 1000000,
+        "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "anthropic",
@@ -18972,7 +18972,7 @@ export const aiModels: AIModels = {
         "max_tokens": 200000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "input_cost_per_token": "0.000033",
+        "input_cost_per_token": "0.0000033",
         "output_cost_per_token": "0.0000165",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
@@ -23864,6 +23864,40 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": null,
         "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000000008",
+        "output_cost_per_token": "0",
+        "litellm_provider": "together_ai",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "together_ai/baai/bge-base-en-v1.5",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 512,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000000008",
+        "output_cost_per_token": "0",
+        "litellm_provider": "together_ai",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "together_ai/BAAI/bge-base-en-v1.5",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 512,
         "max_output_tokens": null,
         "input_cost_per_token": "0.000000008",
         "output_cost_per_token": "0",
