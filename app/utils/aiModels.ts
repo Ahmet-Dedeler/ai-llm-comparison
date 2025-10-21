@@ -902,7 +902,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.0000033",
@@ -4994,7 +4994,7 @@ export const aiModels: AIModels = {
       "provider": "anthropic",
       "logo": "/logos/anthropic.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
@@ -5011,7 +5011,7 @@ export const aiModels: AIModels = {
       "provider": "anthropic",
       "logo": "/logos/anthropic.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
@@ -7606,7 +7606,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.0000033",
@@ -10003,7 +10003,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
@@ -12366,7 +12366,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.0000033",
@@ -19213,7 +19213,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.0000033",
@@ -21271,7 +21271,7 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai-anthropic_models",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
@@ -21288,7 +21288,7 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai-anthropic_models",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
