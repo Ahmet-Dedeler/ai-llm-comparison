@@ -24022,6 +24022,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini/gemini-embedding-001",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 2048,
+        "max_input_tokens": 2048,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0",
+        "litellm_provider": "gemini",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ai.google.dev/gemini-api/docs/embeddings#model-versions"
+      }
+    },
+    {
       "name": "mistral/mistral-embed",
       "provider": "mistral",
       "logo": "/logos/mistral.svg",
