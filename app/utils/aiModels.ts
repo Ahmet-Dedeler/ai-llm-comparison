@@ -6270,7 +6270,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -16570,7 +16570,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -19600,23 +19600,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "vercel_ai_gateway/glm-4.6",
-      "provider": "vercel_ai_gateway",
-      "logo": "/placeholder.svg?height=30&width=30",
-      "sample_spec": {
-        "max_tokens": 200000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 200000,
-        "input_cost_per_token": "0.0000006",
-        "output_cost_per_token": "0.0000022",
-        "litellm_provider": "vercel_ai_gateway",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
       "name": "vercel_ai_gateway/alibaba/qwen-3-235b",
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -21025,6 +21008,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "vercel_ai_gateway/zai/glm-4.6",
+      "provider": "vercel_ai_gateway",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 200000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 200000,
+        "input_cost_per_token": "0.00000045",
+        "output_cost_per_token": "0.0000018",
+        "litellm_provider": "vercel_ai_gateway",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://vercel.com/ai-gateway/models/glm-4.6"
       }
     },
     {
