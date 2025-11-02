@@ -16079,6 +16079,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/nvidia/nemotron-nano-9b-v2:free",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/nvidia/nemotron-nano-9b-v2:free"
+      }
+    },
+    {
       "name": "openrouter/openai/gpt-3.5-turbo",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
