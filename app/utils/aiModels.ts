@@ -966,6 +966,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/container",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "azure/eu/gpt-4o-2024-08-06",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -23380,6 +23397,23 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true
       }
+    },
+    {
+      "name": "openai/container",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
     }
   ],
   "embedding": [
@@ -25376,6 +25410,176 @@ export const aiModels: AIModels = {
     },
     {
       "name": "azure/medium/1536-x-1024/gpt-image-1",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "azure",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/gpt-image-1-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "azure",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/low/1024-x-1024/gpt-image-1-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "azure",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/low/1024-x-1536/gpt-image-1-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "azure",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/low/1536-x-1024/gpt-image-1-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "azure",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/medium/1024-x-1024/gpt-image-1-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "azure",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/medium/1024-x-1536/gpt-image-1-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "azure",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/medium/1536-x-1024/gpt-image-1-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "azure",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/high/1024-x-1024/gpt-image-1-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "azure",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/high/1024-x-1536/gpt-image-1-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "azure",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/high/1536-x-1024/gpt-image-1-mini",
       "provider": "azure",
       "logo": "/logos/azure.svg",
       "sample_spec": {
