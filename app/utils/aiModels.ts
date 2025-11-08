@@ -10127,13 +10127,14 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 200000,
         "max_output_tokens": 8192,
-        "input_cost_per_token": "0.000001",
-        "output_cost_per_token": "0.000005",
+        "input_cost_per_token": "0.0000011",
+        "output_cost_per_token": "0.0000055",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://aws.amazon.com/about-aws/whats-new/2025/10/claude-4-5-haiku-anthropic-amazon-bedrock"
       }
     },
     {
@@ -21889,6 +21890,24 @@ export const aiModels: AIModels = {
         "litellm_provider": "vertex_ai-llama_models",
         "mode": "chat",
         "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#partner-models"
+      }
+    },
+    {
+      "name": "vertex_ai/minimaxai/minimax-m2-maas",
+      "provider": "vertex_ai-minimax_models",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 196608,
+        "max_input_tokens": 196608,
+        "max_output_tokens": 196608,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "vertex_ai-minimax_models",
+        "mode": "chat",
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#partner-models"
