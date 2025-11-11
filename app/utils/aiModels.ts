@@ -13936,6 +13936,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "moonshot/kimi-k2-thinking",
+      "provider": "moonshot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "moonshot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://platform.moonshot.ai/docs/pricing/chat#generation-model-kimi-k2"
+      }
+    },
+    {
       "name": "moonshot/moonshot-v1-128k",
       "provider": "moonshot",
       "logo": "/placeholder.svg?height=30&width=30",
