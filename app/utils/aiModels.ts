@@ -13431,6 +13431,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "mistral/magistral-medium-2509",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 40000,
+        "max_input_tokens": 40000,
+        "max_output_tokens": 40000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://mistral.ai/news/magistral"
+      }
+    },
+    {
       "name": "mistral/magistral-medium-latest",
       "provider": "mistral",
       "logo": "/logos/mistral.svg",
