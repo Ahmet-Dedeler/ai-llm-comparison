@@ -15676,6 +15676,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/deepseek/deepseek-v3.2-exp",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "openrouter/deepseek/deepseek-coder",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
@@ -16045,6 +16062,23 @@ export const aiModels: AIModels = {
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "openrouter/minimax/minimax-m2",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 204800,
+        "max_output_tokens": 204800,
+        "input_cost_per_token": "0.000000255",
+        "output_cost_per_token": "0.00000102",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -16668,14 +16702,14 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 1000000,
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 1000000,
-        "input_cost_per_token": "0.000001",
-        "output_cost_per_token": "0.000005",
+        "max_tokens": 262100,
+        "max_input_tokens": 262100,
+        "max_output_tokens": 262100,
+        "input_cost_per_token": "0.00000022",
+        "output_cost_per_token": "0.00000095",
         "litellm_provider": "openrouter",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://openrouter.ai/qwen/qwen3-coder"
@@ -16750,6 +16784,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://openrouter.ai/x-ai/grok-4-fast:free"
+      }
+    },
+    {
+      "name": "openrouter/z-ai/glm-4.6",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 202800,
+        "max_input_tokens": 202800,
+        "max_output_tokens": 131000,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.00000175",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/z-ai/glm-4.6"
+      }
+    },
+    {
+      "name": "openrouter/z-ai/glm-4.6:exacto",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 202800,
+        "max_input_tokens": 202800,
+        "max_output_tokens": 131000,
+        "input_cost_per_token": "0.00000045",
+        "output_cost_per_token": "0.0000019",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/z-ai/glm-4.6:exacto"
       }
     },
     {
@@ -26742,6 +26812,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "runwayml/gen4_image",
+      "provider": "runwayml",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "runwayml",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.dev.runwayml.com/guides/pricing/"
+      }
+    },
+    {
+      "name": "runwayml/gen4_image_turbo",
+      "provider": "runwayml",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "runwayml",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.dev.runwayml.com/guides/pricing/"
       }
     }
   ],
