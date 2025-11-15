@@ -22071,6 +22071,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "vertex_ai/moonshotai/kimi-k2-thinking-maas",
+      "provider": "vertex_ai-moonshot_models",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "vertex_ai-moonshot_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#partner-models"
+      }
+    },
+    {
       "name": "vertex_ai/mistral-medium-3",
       "provider": "vertex_ai-mistral_models",
       "logo": "/logos/google.svg",
@@ -24895,6 +24913,40 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "voyage/voyage-3.5",
+      "provider": "voyage",
+      "logo": "/logos/voyage.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0",
+        "litellm_provider": "voyage",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "voyage/voyage-3.5-lite",
+      "provider": "voyage",
+      "logo": "/logos/voyage.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000002",
+        "output_cost_per_token": "0",
+        "litellm_provider": "voyage",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "voyage/voyage-code-2",
       "provider": "voyage",
       "logo": "/logos/voyage.svg",
@@ -25927,7 +25979,58 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "fal_ai/fal-ai/flux/schnell",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "fal_ai/fal-ai/imagen4/preview",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/imagen4/preview/fast",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/imagen4/preview/ultra",
       "provider": "fal_ai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
