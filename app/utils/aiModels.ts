@@ -499,6 +499,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "anthropic.claude-opus-4-5-20251101-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "anthropic.claude-sonnet-4-20250514-v1:0",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -5611,6 +5628,23 @@ export const aiModels: AIModels = {
         "max_output_tokens": 32000,
         "input_cost_per_token": "0.000015",
         "output_cost_per_token": "0.000075",
+        "litellm_provider": "anthropic",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "claude-opus-4-5-20251101",
+      "provider": "anthropic",
+      "logo": "/logos/anthropic.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
         "litellm_provider": "anthropic",
         "mode": "chat",
         "supports_function_calling": true,
@@ -20132,6 +20166,23 @@ export const aiModels: AIModels = {
         "max_output_tokens": 32000,
         "input_cost_per_token": "0.000015",
         "output_cost_per_token": "0.000075",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "us.anthropic.claude-opus-4-5-20251101-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
