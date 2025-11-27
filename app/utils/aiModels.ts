@@ -8531,6 +8531,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "fireworks_ai/accounts/fireworks/models/glm-4p6",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 202800,
+        "max_input_tokens": 202800,
+        "max_output_tokens": 202800,
+        "input_cost_per_token": "0.00000055",
+        "output_cost_per_token": "0.00000219",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fireworks.ai/pricing"
+      }
+    },
+    {
       "name": "fireworks_ai/accounts/fireworks/models/gpt-oss-120b",
       "provider": "fireworks_ai",
       "logo": "/logos/fireworks ai.svg",
@@ -16233,6 +16251,23 @@ export const aiModels: AIModels = {
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/anthropic/claude-opus-4.5",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
@@ -25040,6 +25075,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "embed-multilingual-light-v3.0",
+      "provider": "cohere",
+      "logo": "/logos/cohere.svg",
+      "sample_spec": {
+        "max_tokens": 1024,
+        "max_input_tokens": 1024,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0001",
+        "output_cost_per_token": "0",
+        "litellm_provider": "cohere",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "fireworks_ai/WhereIsAI/UAE-Large-V1",
       "provider": "fireworks_ai-embedding-models",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -29746,6 +29798,23 @@ export const aiModels: AIModels = {
         "input_cost_per_token": null,
         "output_cost_per_token": null,
         "litellm_provider": "groq",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "watsonx/whisper-large-v3-turbo",
+      "provider": "watsonx",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "watsonx",
         "mode": "audio_transcription",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
