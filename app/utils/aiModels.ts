@@ -18325,6 +18325,168 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "publicai/swiss-ai/apertus-8b-instruct",
+      "provider": "publicai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "publicai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://platform.publicai.co/docs"
+      }
+    },
+    {
+      "name": "publicai/swiss-ai/apertus-70b-instruct",
+      "provider": "publicai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "publicai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://platform.publicai.co/docs"
+      }
+    },
+    {
+      "name": "publicai/aisingapore/Gemma-SEA-LION-v4-27B-IT",
+      "provider": "publicai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "publicai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://platform.publicai.co/docs"
+      }
+    },
+    {
+      "name": "publicai/BSC-LT/salamandra-7b-instruct-tools-16k",
+      "provider": "publicai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "publicai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://platform.publicai.co/docs"
+      }
+    },
+    {
+      "name": "publicai/BSC-LT/ALIA-40b-instruct_Q8_0",
+      "provider": "publicai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "publicai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://platform.publicai.co/docs"
+      }
+    },
+    {
+      "name": "publicai/allenai/Olmo-3-7B-Instruct",
+      "provider": "publicai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "publicai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://platform.publicai.co/docs"
+      }
+    },
+    {
+      "name": "publicai/aisingapore/Qwen-SEA-LION-v4-32B-IT",
+      "provider": "publicai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "publicai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://platform.publicai.co/docs"
+      }
+    },
+    {
+      "name": "publicai/allenai/Olmo-3-7B-Think",
+      "provider": "publicai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "publicai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://platform.publicai.co/docs"
+      }
+    },
+    {
+      "name": "publicai/allenai/Olmo-3-32B-Think",
+      "provider": "publicai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "publicai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://platform.publicai.co/docs"
+      }
+    },
+    {
       "name": "qwen.qwen3-coder-480b-a35b-v1:0",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -26309,6 +26471,23 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://docs.aimlapi.com/"
+      }
+    },
+    {
+      "name": "amazon.nova-canvas-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 2600,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "bedrock",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
       }
     },
     {
