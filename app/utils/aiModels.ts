@@ -8603,6 +8603,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "fireworks_ai/accounts/fireworks/models/kimi-k2-instruct-0905",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://app.fireworks.ai/models/fireworks/kimi-k2-instruct-0905"
+      }
+    },
+    {
       "name": "fireworks_ai/accounts/fireworks/models/kimi-k2-thinking",
       "provider": "fireworks_ai",
       "logo": "/logos/fireworks ai.svg",
