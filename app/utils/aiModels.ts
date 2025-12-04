@@ -8365,6 +8365,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "deepseek/deepseek-v3.2",
+      "provider": "deepseek",
+      "logo": "/logos/deepseek.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.00000028",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "deepseek",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "deepseek.v3-v1:0",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -9414,7 +9431,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": false
       }
     },
     {
@@ -9431,7 +9448,75 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "ft:gpt-4.1-2025-04-14",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 1047576,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "ft:gpt-4.1-mini-2025-04-14",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 1047576,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000032",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "ft:gpt-4.1-nano-2025-04-14",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 1047576,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000008",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "ft:o4-mini-2025-04-16",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 100000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "input_cost_per_token": "0.000004",
+        "output_cost_per_token": "0.000016",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
       }
     },
     {
@@ -16857,6 +16942,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/deepseek/deepseek-v3.2",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.00000028",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "openrouter/deepseek/deepseek-v3.2-exp",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
@@ -20850,6 +20952,23 @@ export const aiModels: AIModels = {
     },
     {
       "name": "us.anthropic.claude-opus-4-5-20251101-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "global.anthropic.claude-opus-4-5-20251101-v1:0",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
@@ -29098,8 +29217,8 @@ export const aiModels: AIModels = {
         "max_tokens": 16384,
         "max_input_tokens": 16384,
         "max_output_tokens": 4096,
-        "input_cost_per_token": "0.0000004",
-        "output_cost_per_token": "0.0000004",
+        "input_cost_per_token": "0.0000016",
+        "output_cost_per_token": "0.0000016",
         "litellm_provider": "text-completion-openai",
         "mode": "completion",
         "supports_function_calling": false,
@@ -29115,8 +29234,8 @@ export const aiModels: AIModels = {
         "max_tokens": 16384,
         "max_input_tokens": 16384,
         "max_output_tokens": 4096,
-        "input_cost_per_token": "0.000002",
-        "output_cost_per_token": "0.000002",
+        "input_cost_per_token": "0.000012",
+        "output_cost_per_token": "0.000012",
         "litellm_provider": "text-completion-openai",
         "mode": "completion",
         "supports_function_calling": false,
