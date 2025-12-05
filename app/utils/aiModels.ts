@@ -15113,6 +15113,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "moonshot/kimi-k2-0905-preview",
+      "provider": "moonshot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "moonshot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://platform.moonshot.ai/docs/pricing/chat#generation-model-kimi-k2"
+      }
+    },
+    {
+      "name": "moonshot/kimi-k2-turbo-preview",
+      "provider": "moonshot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000115",
+        "output_cost_per_token": "0.000008",
+        "litellm_provider": "moonshot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://platform.moonshot.ai/docs/pricing/chat#generation-model-kimi-k2"
+      }
+    },
+    {
       "name": "moonshot/kimi-latest",
       "provider": "moonshot",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -15192,14 +15228,14 @@ export const aiModels: AIModels = {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": "0.00003",
-        "output_cost_per_token": "0.00003",
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000025",
         "litellm_provider": "moonshot",
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://platform.moonshot.ai/docs/pricing"
+        "source": "https://platform.moonshot.ai/docs/pricing/chat#generation-model-kimi-k2"
       }
     },
     {
@@ -15212,6 +15248,24 @@ export const aiModels: AIModels = {
         "max_output_tokens": 262144,
         "input_cost_per_token": "0.0000006",
         "output_cost_per_token": "0.0000025",
+        "litellm_provider": "moonshot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://platform.moonshot.ai/docs/pricing/chat#generation-model-kimi-k2"
+      }
+    },
+    {
+      "name": "moonshot/kimi-k2-thinking-turbo",
+      "provider": "moonshot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000115",
+        "output_cost_per_token": "0.000008",
         "litellm_provider": "moonshot",
         "mode": "chat",
         "supports_function_calling": true,
@@ -24007,8 +24061,8 @@ export const aiModels: AIModels = {
         "max_tokens": 128000,
         "max_input_tokens": 128000,
         "max_output_tokens": 128000,
-        "input_cost_per_token": "0.135",
-        "output_cost_per_token": "0.4",
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000025",
         "litellm_provider": "wandb",
         "mode": "chat",
         "supports_function_calling": false,
@@ -27199,6 +27253,23 @@ export const aiModels: AIModels = {
     },
     {
       "name": "amazon.titan-image-generator-v2",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "bedrock",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "amazon.titan-image-generator-v2:0",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
