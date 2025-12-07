@@ -12765,6 +12765,74 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "amazon-nova/nova-micro-v1",
+      "provider": "amazon_nova",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 10000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 10000,
+        "input_cost_per_token": "0.000000035",
+        "output_cost_per_token": "0.00000014",
+        "litellm_provider": "amazon_nova",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "amazon-nova/nova-lite-v1",
+      "provider": "amazon_nova",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 10000,
+        "max_input_tokens": 300000,
+        "max_output_tokens": 10000,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000024",
+        "litellm_provider": "amazon_nova",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "amazon-nova/nova-premier-v1",
+      "provider": "amazon_nova",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 10000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 10000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.0000125",
+        "litellm_provider": "amazon_nova",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "amazon-nova/nova-pro-v1",
+      "provider": "amazon_nova",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 10000,
+        "max_input_tokens": 300000,
+        "max_output_tokens": 10000,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000032",
+        "litellm_provider": "amazon_nova",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "groq/deepseek-r1-distill-llama-70b",
       "provider": "groq",
       "logo": "/logos/groq.svg",
