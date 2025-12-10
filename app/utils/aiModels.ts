@@ -123,6 +123,74 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "us.writer.palmyra-x4-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "us.writer.palmyra-x5-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "writer.palmyra-x4-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "writer.palmyra-x5-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "amazon.nova-lite-v1:0",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -5306,6 +5374,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://inference-docs.cerebras.ai/support/pricing"
+      }
+    },
+    {
+      "name": "cerebras/zai-glm-4.6",
+      "provider": "cerebras",
+      "logo": "/logos/cerebras.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000225",
+        "output_cost_per_token": "0.00000275",
+        "litellm_provider": "cerebras",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.cerebras.ai/pricing"
       }
     },
     {
@@ -25803,6 +25889,3542 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-coder-480b-a35b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000045",
+        "output_cost_per_token": "0.0000018",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/chronos-hermes-13b-v2",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/code-llama-13b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/code-llama-13b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/code-llama-13b-python",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/code-llama-34b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/code-llama-34b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/code-llama-34b-python",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/code-llama-70b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/code-llama-70b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/code-llama-70b-python",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/code-llama-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/code-llama-7b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/code-llama-7b-python",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/code-qwen-1p5-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/codegemma-2b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/codegemma-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/cogito-671b-v2-p1",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/cogito-v1-preview-llama-3b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/cogito-v1-preview-llama-70b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/cogito-v1-preview-llama-8b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/cogito-v1-preview-qwen-14b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/cogito-v1-preview-qwen-32b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/dbrx-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-coder-1b-base",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-coder-33b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-coder-7b-base",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-coder-7b-base-v1p5",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-coder-7b-instruct-v1p5",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-coder-v2-lite-base",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-coder-v2-lite-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-prover-v2",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-r1-0528-distill-qwen3-8b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-r1-distill-llama-70b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-r1-distill-llama-8b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-r1-distill-qwen-14b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-r1-distill-qwen-1p5b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-r1-distill-qwen-32b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-r1-distill-qwen-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-v2-lite-chat",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/deepseek-v2p5",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/devstral-small-2505",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/dobby-mini-unhinged-plus-llama-3-1-8b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/dobby-unhinged-llama-3-3-70b-new",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/dolphin-2-9-2-qwen2-72b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/dolphin-2p6-mixtral-8x7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/ernie-4p5-21b-a3b-pt",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/ernie-4p5-300b-a47b-pt",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/fare-20b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/firefunction-v1",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/firellava-13b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/firesearch-ocr-v6",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/flux-1-dev",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/flux-1-dev-controlnet-union",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.000000001",
+        "output_cost_per_token": "0.000000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/flux-1-schnell",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/gemma-2b-it",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/gemma-3-27b-it",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/gemma-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/gemma-7b-it",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/gemma2-9b-it",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/glm-4p5v",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/gpt-oss-safeguard-120b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/gpt-oss-safeguard-20b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/hermes-2-pro-mistral-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/internvl3-38b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/internvl3-78b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/internvl3-8b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/kat-coder",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/kat-dev-32b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/kat-dev-72b-exp",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-guard-2-8b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-guard-3-1b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-guard-3-8b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v2-13b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v2-13b-chat",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v2-70b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v2-70b-chat",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 2048,
+        "max_input_tokens": 2048,
+        "max_output_tokens": 2048,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v2-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v2-7b-chat",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v3-70b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v3-70b-instruct-hf",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v3-8b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v3-8b-instruct-hf",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct-long",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v3p1-70b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v3p1-70b-instruct-1b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v3p1-nemotron-70b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v3p2-1b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v3p2-3b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llama-v3p3-70b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llamaguard-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/llava-yi-34b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/minimax-m1-80k",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/minimax-m2",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/ministral-3-14b-instruct-2512",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/ministral-3-3b-instruct-2512",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/ministral-3-8b-instruct-2512",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/mistral-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/mistral-7b-instruct-4k",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/mistral-7b-instruct-v0p2",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/mistral-7b-instruct-v3",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/mistral-7b-v0p2",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/mistral-large-3-fp8",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/mistral-nemo-base-2407",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/mistral-nemo-instruct-2407",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/mistral-small-24b-instruct-2501",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/mixtral-8x22b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/mixtral-8x22b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/mixtral-8x7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/mixtral-8x7b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/mixtral-8x7b-instruct-hf",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/mythomax-l2-13b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/nemotron-nano-v2-12b-vl",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/nous-capybara-7b-v1p9",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/nous-hermes-2-mixtral-8x7b-dpo",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/nous-hermes-2-yi-34b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/nous-hermes-llama2-13b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/nous-hermes-llama2-70b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/nous-hermes-llama2-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/nvidia-nemotron-nano-12b-v2",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/nvidia-nemotron-nano-9b-v2",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/openchat-3p5-0106-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/openhermes-2-mistral-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/openhermes-2p5-mistral-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/openorca-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/phi-2-3b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 2048,
+        "max_input_tokens": 2048,
+        "max_output_tokens": 2048,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/phi-3-mini-128k-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/phi-3-vision-128k-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32064,
+        "max_input_tokens": 32064,
+        "max_output_tokens": 32064,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/phind-code-llama-34b-python-v1",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/phind-code-llama-34b-v1",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/phind-code-llama-34b-v2",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/pythia-12b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 2048,
+        "max_input_tokens": 2048,
+        "max_output_tokens": 2048,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen-qwq-32b-preview",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen-v2p5-14b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen-v2p5-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen1p5-72b-chat",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2-7b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2-vl-2b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2-vl-72b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2-vl-7b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-0p5b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-14b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-1p5b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-32b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-32b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-72b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-72b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-7b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-0p5b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-0p5b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-14b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-14b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-1p5b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-1p5b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-32b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-32b-instruct-128k",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-32b-instruct-32k-rope",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-32b-instruct-64k",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-3b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-3b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-coder-7b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-math-72b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-vl-32b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-vl-3b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-vl-72b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen2p5-vl-7b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-0p6b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 40960,
+        "max_input_tokens": 40960,
+        "max_output_tokens": 40960,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-14b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 40960,
+        "max_input_tokens": 40960,
+        "max_output_tokens": 40960,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-1p7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-1p7b-fp8-draft",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-1p7b-fp8-draft-131072",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-1p7b-fp8-draft-40960",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 40960,
+        "max_input_tokens": 40960,
+        "max_output_tokens": 40960,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-235b-a22b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000022",
+        "output_cost_per_token": "0.00000088",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-235b-a22b-instruct-2507",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000022",
+        "output_cost_per_token": "0.00000088",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-235b-a22b-thinking-2507",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000022",
+        "output_cost_per_token": "0.00000088",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-30b-a3b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-30b-a3b-instruct-2507",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-30b-a3b-thinking-2507",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-32b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-4b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 40960,
+        "max_input_tokens": 40960,
+        "max_output_tokens": 40960,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-4b-instruct-2507",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-8b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 40960,
+        "max_input_tokens": 40960,
+        "max_output_tokens": 40960,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-coder-30b-a3b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-coder-480b-instruct-bf16",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-next-80b-a3b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-next-80b-a3b-thinking",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-vl-235b-a22b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000022",
+        "output_cost_per_token": "0.00000088",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-vl-235b-a22b-thinking",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000022",
+        "output_cost_per_token": "0.00000088",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-vl-30b-a3b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-vl-30b-a3b-thinking",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-vl-32b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-vl-8b-instruct",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwq-32b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/rolm-ocr",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/snorkel-mistral-7b-pairrm-dpo",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/stablecode-3b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/starcoder-16b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/starcoder-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/starcoder2-15b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/starcoder2-3b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/starcoder2-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/toppy-m-7b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/yi-34b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/yi-34b-200k-capybara",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 200000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 200000,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/yi-34b-chat",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/yi-6b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/zephyr-7b-beta",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
     }
   ],
   "embedding": [
@@ -27305,6 +30927,57 @@ export const aiModels: AIModels = {
         "input_cost_per_token": "0.00000012",
         "output_cost_per_token": "0",
         "litellm_provider": "voyage",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-embedding-0p6b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "fireworks_ai",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-embedding-4b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 40960,
+        "max_input_tokens": 40960,
+        "max_output_tokens": 40960,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "fireworks_ai",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/qwen3-embedding-8b",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 40960,
+        "max_input_tokens": 40960,
+        "max_output_tokens": 40960,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "fireworks_ai",
         "mode": "embedding",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
@@ -29424,6 +33097,159 @@ export const aiModels: AIModels = {
         "supports_vision": false,
         "source": "https://docs.dev.runwayml.com/guides/pricing/"
       }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/flux-kontext-pro",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000004",
+        "output_cost_per_token": "0.00000004",
+        "litellm_provider": "fireworks_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/SSD-1B",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000000013",
+        "output_cost_per_token": "0.00000000013",
+        "litellm_provider": "fireworks_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/flux-kontext-max",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000008",
+        "output_cost_per_token": "0.00000008",
+        "litellm_provider": "fireworks_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/flux-1-dev-fp8",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000000005",
+        "output_cost_per_token": "0.0000000005",
+        "litellm_provider": "fireworks_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/flux-1-schnell-fp8",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000000035",
+        "output_cost_per_token": "0.00000000035",
+        "litellm_provider": "fireworks_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/japanese-stable-diffusion-xl",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000000013",
+        "output_cost_per_token": "0.00000000013",
+        "litellm_provider": "fireworks_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/playground-v2-1024px-aesthetic",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000000013",
+        "output_cost_per_token": "0.00000000013",
+        "litellm_provider": "fireworks_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/playground-v2-5-1024px-aesthetic",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000000013",
+        "output_cost_per_token": "0.00000000013",
+        "litellm_provider": "fireworks_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/stable-diffusion-xl-1024-v1-0",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000000013",
+        "output_cost_per_token": "0.00000000013",
+        "litellm_provider": "fireworks_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
     }
   ],
   "completion": [
@@ -31199,6 +35025,74 @@ export const aiModels: AIModels = {
         "input_cost_per_token": null,
         "output_cost_per_token": null,
         "litellm_provider": "openai",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/fireworks-asr-large",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "fireworks_ai",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/fireworks-asr-v2",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "fireworks_ai",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/whisper-v3",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "fireworks_ai",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/models/whisper-v3-turbo",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "fireworks_ai",
         "mode": "audio_transcription",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
