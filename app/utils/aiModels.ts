@@ -11136,6 +11136,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini/gemini-2.5-computer-use-preview-10-2025",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/computer-use"
+      }
+    },
+    {
       "name": "gemini/gemini-3-pro-preview",
       "provider": "gemini",
       "logo": "/logos/google.svg",
@@ -23790,6 +23808,24 @@ export const aiModels: AIModels = {
         "max_output_tokens": 32768,
         "input_cost_per_token": "0.00000135",
         "output_cost_per_token": "0.0000054",
+        "litellm_provider": "vertex_ai-deepseek_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#partner-models"
+      }
+    },
+    {
+      "name": "vertex_ai/deepseek-ai/deepseek-v3.2-maas",
+      "provider": "vertex_ai-deepseek_models",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000056",
+        "output_cost_per_token": "0.00000168",
         "litellm_provider": "vertex_ai-deepseek_models",
         "mode": "chat",
         "supports_function_calling": true,
