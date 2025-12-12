@@ -1119,7 +1119,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "azure/claude-haiku-4-5",
+      "name": "azure_ai/claude-haiku-4-5",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
       "sample_spec": {
@@ -1136,7 +1136,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "azure/claude-opus-4-1",
+      "name": "azure_ai/claude-opus-4-1",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
       "sample_spec": {
@@ -1153,7 +1153,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "azure/claude-sonnet-4-5",
+      "name": "azure_ai/claude-sonnet-4-5",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
       "sample_spec": {
@@ -11498,8 +11498,8 @@ export const aiModels: AIModels = {
         "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "input_cost_per_token": "0.0000011",
-        "output_cost_per_token": "0.0000055",
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000005",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
@@ -12440,6 +12440,57 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "gpt-5.2",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000175",
+        "output_cost_per_token": "0.000014",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "gpt-5.2-2025-12-11",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000175",
+        "output_cost_per_token": "0.000014",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "gpt-5.2-chat-latest",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000175",
+        "output_cost_per_token": "0.000014",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
         "supports_vision": true
       }
     },
@@ -14950,6 +15001,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "mistral/codestral-2508",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://mistral.ai/news/codestral-25-08"
+      }
+    },
+    {
       "name": "mistral/codestral-latest",
       "provider": "mistral",
       "logo": "/logos/mistral.svg",
@@ -15036,6 +15105,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://mistral.ai/news/devstral"
+      }
+    },
+    {
+      "name": "mistral/labs-devstral-small-2512",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.mistral.ai/models/devstral-small-2-25-12"
+      }
+    },
+    {
+      "name": "mistral/devstral-2512",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://mistral.ai/news/devstral-2-vibe-cli"
       }
     },
     {
