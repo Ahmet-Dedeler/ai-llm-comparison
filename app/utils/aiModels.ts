@@ -18074,6 +18074,108 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/mistralai/devstral-2512:free",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "openrouter/mistralai/devstral-2512",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "openrouter/mistralai/ministral-3b-2512",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/mistralai/ministral-8b-2512",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/mistralai/ministral-14b-2512",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/mistralai/mistral-large-2512",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "openrouter/mistralai/mistral-7b-instruct",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
@@ -18479,6 +18581,57 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.2",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 400000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000175",
+        "output_cost_per_token": "0.000014",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.2-chat",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000175",
+        "output_cost_per_token": "0.000014",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.2-pro",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 400000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000021",
+        "output_cost_per_token": "0.000168",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
       }
     },
     {
@@ -32500,8 +32653,8 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": null,
         "max_output_tokens": null,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.00004",
         "litellm_provider": "openai",
         "mode": "image_generation",
         "supports_function_calling": false,
