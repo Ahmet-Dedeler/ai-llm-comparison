@@ -3523,6 +3523,40 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/deepseek-v3.2",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.00000058",
+        "output_cost_per_token": "0.00000168",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure_ai/deepseek-v3.2-speciale",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.00000058",
+        "output_cost_per_token": "0.00000168",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "azure_ai/deepseek-r1",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
@@ -5693,9 +5727,9 @@ export const aiModels: AIModels = {
       "provider": "anthropic",
       "logo": "/logos/anthropic.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
-        "max_output_tokens": 128000,
+        "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "anthropic",
@@ -5710,9 +5744,9 @@ export const aiModels: AIModels = {
       "provider": "anthropic",
       "logo": "/logos/anthropic.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
-        "max_output_tokens": 128000,
+        "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "anthropic",
@@ -11454,6 +11488,414 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://aistudio.google.com"
+      }
+    },
+    {
+      "name": "github_copilot/claude-haiku-4.5",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "github_copilot/claude-opus-4.5",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "github_copilot/claude-opus-41",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16000,
+        "max_input_tokens": 80000,
+        "max_output_tokens": 16000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "github_copilot/claude-sonnet-4",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "github_copilot/claude-sonnet-4.5",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "github_copilot/gemini-2.5-pro",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "github_copilot/gemini-3-pro-preview",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "github_copilot/gpt-3.5-turbo",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "github_copilot/gpt-3.5-turbo-0613",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "github_copilot/gpt-4",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "github_copilot/gpt-4-0613",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "github_copilot/gpt-4-o-preview",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 64000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "github_copilot/gpt-4.1",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "github_copilot/gpt-4.1-2025-04-14",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "github_copilot/gpt-4o",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 64000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "github_copilot/gpt-4o-2024-05-13",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 64000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "github_copilot/gpt-4o-2024-08-06",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 64000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "github_copilot/gpt-4o-2024-11-20",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 64000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "github_copilot/gpt-4o-mini",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 64000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "github_copilot/gpt-4o-mini-2024-07-18",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 64000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "github_copilot/gpt-5",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "github_copilot/gpt-5-mini",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "github_copilot/gpt-5.1",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "github_copilot/gpt-5.2",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
       }
     },
     {
@@ -30518,6 +30960,57 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "github_copilot/text-embedding-3-small",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8191,
+        "max_input_tokens": 8191,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "github_copilot/text-embedding-3-small-inference",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8191,
+        "max_input_tokens": 8191,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "github_copilot/text-embedding-ada-002",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8191,
+        "max_input_tokens": 8191,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "mistral/mistral-embed",
       "provider": "mistral",
       "logo": "/logos/mistral.svg",
@@ -31330,14 +31823,14 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "fireworks_ai/accounts/fireworks/models/qwen3-embedding-8b",
+      "name": "fireworks_ai/accounts/fireworks/models/",
       "provider": "fireworks_ai",
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
         "max_tokens": 40960,
         "max_input_tokens": 40960,
         "max_output_tokens": 40960,
-        "input_cost_per_token": "0",
+        "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0",
         "litellm_provider": "fireworks_ai",
         "mode": "embedding",
@@ -34076,6 +34569,23 @@ export const aiModels: AIModels = {
         "input_cost_per_token": "0.000012",
         "output_cost_per_token": "0.000012",
         "litellm_provider": "text-completion-openai",
+        "mode": "completion",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "github_copilot/gpt-41-copilot",
+      "provider": "github_copilot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "github_copilot",
         "mode": "completion",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
