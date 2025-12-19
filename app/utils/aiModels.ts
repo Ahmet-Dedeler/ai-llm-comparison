@@ -10429,6 +10429,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "vertex_ai/gemini-3-flash-preview",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+      }
+    },
+    {
       "name": "gemini-2.5-pro-exp-03-25",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
@@ -18558,7 +18576,7 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": 262144,
         "max_input_tokens": 262144,
-        "max_output_tokens": null,
+        "max_output_tokens": 262144,
         "input_cost_per_token": "0",
         "output_cost_per_token": "0",
         "litellm_provider": "openrouter",
@@ -18592,7 +18610,7 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
-        "max_output_tokens": null,
+        "max_output_tokens": 131072,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.0000001",
         "litellm_provider": "openrouter",
@@ -18609,7 +18627,7 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": 262144,
         "max_input_tokens": 262144,
-        "max_output_tokens": null,
+        "max_output_tokens": 262144,
         "input_cost_per_token": "0.00000015",
         "output_cost_per_token": "0.00000015",
         "litellm_provider": "openrouter",
@@ -18626,7 +18644,7 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": 262144,
         "max_input_tokens": 262144,
-        "max_output_tokens": null,
+        "max_output_tokens": 262144,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.0000002",
         "litellm_provider": "openrouter",
@@ -18643,7 +18661,7 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": 262144,
         "max_input_tokens": 262144,
-        "max_output_tokens": null,
+        "max_output_tokens": 262144,
         "input_cost_per_token": "0.0000005",
         "output_cost_per_token": "0.0000015",
         "litellm_provider": "openrouter",
