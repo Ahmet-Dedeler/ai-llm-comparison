@@ -1204,6 +1204,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/gpt-oss-120b",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/"
+      }
+    },
+    {
       "name": "azure/eu/gpt-4o-2024-08-06",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -13586,91 +13604,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "groq/deepseek-r1-distill-llama-70b",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.00000075",
-        "output_cost_per_token": "0.00000099",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "groq/gemma-7b-it",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000007",
-        "output_cost_per_token": "0.00000007",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "groq/gemma2-9b-it",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0000002",
-        "output_cost_per_token": "0.0000002",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "groq/llama-3.1-405b-reasoning",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000059",
-        "output_cost_per_token": "0.00000079",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "groq/llama-3.1-70b-versatile",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000059",
-        "output_cost_per_token": "0.00000079",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
       "name": "groq/llama-3.1-8b-instant",
       "provider": "groq",
       "logo": "/logos/groq.svg",
@@ -13683,125 +13616,6 @@ export const aiModels: AIModels = {
         "litellm_provider": "groq",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "groq/llama-3.2-11b-text-preview",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000018",
-        "output_cost_per_token": "0.00000018",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "groq/llama-3.2-11b-vision-preview",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000018",
-        "output_cost_per_token": "0.00000018",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true
-      }
-    },
-    {
-      "name": "groq/llama-3.2-1b-preview",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000004",
-        "output_cost_per_token": "0.00000004",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "groq/llama-3.2-3b-preview",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000006",
-        "output_cost_per_token": "0.00000006",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "groq/llama-3.2-90b-text-preview",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0000009",
-        "output_cost_per_token": "0.0000009",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "groq/llama-3.2-90b-vision-preview",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0000009",
-        "output_cost_per_token": "0.0000009",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true
-      }
-    },
-    {
-      "name": "groq/llama-3.3-70b-specdec",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000059",
-        "output_cost_per_token": "0.00000099",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -13824,7 +13638,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "groq/llama-guard-3-8b",
+      "name": "groq/meta-llama/llama-guard-4-12b",
       "provider": "groq",
       "logo": "/logos/groq.svg",
       "sample_spec": {
@@ -13836,57 +13650,6 @@ export const aiModels: AIModels = {
         "litellm_provider": "groq",
         "mode": "chat",
         "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "groq/llama2-70b-4096",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 4096,
-        "max_input_tokens": 4096,
-        "max_output_tokens": 4096,
-        "input_cost_per_token": "0.0000007",
-        "output_cost_per_token": "0.0000008",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "groq/llama3-groq-70b-8192-tool-use-preview",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000089",
-        "output_cost_per_token": "0.00000089",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "groq/llama3-groq-8b-8192-tool-use-preview",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.00000019",
-        "output_cost_per_token": "0.00000019",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -13905,7 +13668,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -13922,58 +13685,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "groq/mistral-saba-24b",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 32000,
-        "max_input_tokens": 32000,
-        "max_output_tokens": 32000,
-        "input_cost_per_token": "0.00000079",
-        "output_cost_per_token": "0.00000079",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "groq/mixtral-8x7b-32768",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 32768,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "input_cost_per_token": "0.00000024",
-        "output_cost_per_token": "0.00000024",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "groq/moonshotai/kimi-k2-instruct",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": 131072,
-        "max_input_tokens": 131072,
-        "max_output_tokens": 16384,
-        "input_cost_per_token": "0.000001",
-        "output_cost_per_token": "0.000003",
-        "litellm_provider": "groq",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -15322,6 +15034,57 @@ export const aiModels: AIModels = {
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "minimax/MiniMax-M2.1",
+      "provider": "minimax",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "minimax",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "minimax/MiniMax-M2.1-lightning",
+      "provider": "minimax",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000024",
+        "litellm_provider": "minimax",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "minimax/MiniMax-M2",
+      "provider": "minimax",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "minimax",
+        "mode": "chat",
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -32516,6 +32279,40 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/gpt-image-1.5",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": null,
+        "litellm_provider": "azure",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/gpt-image-1.5-2025-12-16",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": null,
+        "litellm_provider": "azure",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "azure/low/1024-x-1024/gpt-image-1-mini",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -36077,23 +35874,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "groq/distil-whisper-large-v3-en",
-      "provider": "groq",
-      "logo": "/logos/groq.svg",
-      "sample_spec": {
-        "max_tokens": null,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
-        "litellm_provider": "groq",
-        "mode": "audio_transcription",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
       "name": "groq/whisper-large-v3",
       "provider": "groq",
       "logo": "/logos/groq.svg",
@@ -36346,6 +36126,74 @@ export const aiModels: AIModels = {
         "input_cost_per_token": null,
         "output_cost_per_token": null,
         "litellm_provider": "groq",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "minimax/speech-02-hd",
+      "provider": "minimax",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "minimax",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "minimax/speech-02-turbo",
+      "provider": "minimax",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "minimax",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "minimax/speech-2.6-hd",
+      "provider": "minimax",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "minimax",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "minimax/speech-2.6-turbo",
+      "provider": "minimax",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "minimax",
         "mode": "audio_speech",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
