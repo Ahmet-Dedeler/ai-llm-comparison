@@ -2515,6 +2515,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/gpt-5.2-chat",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000175",
+        "output_cost_per_token": "0.000014",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "azure/gpt-5.2-chat-2025-12-11",
       "provider": "azure",
       "logo": "/logos/azure.svg",
