@@ -31990,6 +31990,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "aiml/google/imagen-4.0-ultra-generate-001",
+      "provider": "aiml",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "aiml",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.aimlapi.com/api-references/image-models/google/imagen-4-ultra-generate"
+      }
+    },
+    {
+      "name": "aiml/google/nano-banana-pro",
+      "provider": "aiml",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "aiml",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.aimlapi.com/api-references/image-models/google/gemini-3-pro-image-preview"
+      }
+    },
+    {
       "name": "amazon.nova-canvas-v1:0",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
