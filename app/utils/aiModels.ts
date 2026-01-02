@@ -13655,6 +13655,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "groq/gemma-7b-it",
+      "provider": "groq",
+      "logo": "/logos/groq.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.00000008",
+        "litellm_provider": "groq",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "groq/meta-llama/llama-guard-4-12b",
       "provider": "groq",
       "logo": "/logos/groq.svg",
