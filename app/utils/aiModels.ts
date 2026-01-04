@@ -26385,6 +26385,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "zai/glm-4.7",
+      "provider": "zai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000022",
+        "litellm_provider": "zai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.z.ai/guides/overview/pricing"
+      }
+    },
+    {
       "name": "zai/glm-4.6",
       "provider": "zai",
       "logo": "/placeholder.svg?height=30&width=30",
