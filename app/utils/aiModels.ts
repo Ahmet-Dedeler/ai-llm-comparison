@@ -18095,6 +18095,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/google/gemini-3-flash-preview",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/pricing/gemini-3"
+      }
+    },
+    {
       "name": "openrouter/google/gemini-pro-1.5",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
