@@ -11988,6 +11988,57 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gigachat/GigaChat-2-Lite",
+      "provider": "gigachat",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "gigachat",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "gigachat/GigaChat-2-Max",
+      "provider": "gigachat",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "gigachat",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "gigachat/GigaChat-2-Pro",
+      "provider": "gigachat",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "gigachat",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "google.gemma-3-12b-it",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -30116,9 +30167,265 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
+    },
+    {
+      "name": "llamagate/llama-3.1-8b",
+      "provider": "llamagate",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.00000005",
+        "litellm_provider": "llamagate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "llamagate/llama-3.2-3b",
+      "provider": "llamagate",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000004",
+        "output_cost_per_token": "0.00000008",
+        "litellm_provider": "llamagate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "llamagate/mistral-7b-v0.3",
+      "provider": "llamagate",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "llamagate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "llamagate/qwen3-8b",
+      "provider": "llamagate",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000004",
+        "output_cost_per_token": "0.00000014",
+        "litellm_provider": "llamagate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "llamagate/dolphin3-8b",
+      "provider": "llamagate",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000008",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "llamagate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "llamagate/deepseek-r1-8b",
+      "provider": "llamagate",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "llamagate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "llamagate/deepseek-r1-7b-qwen",
+      "provider": "llamagate",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000008",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "llamagate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "llamagate/openthinker-7b",
+      "provider": "llamagate",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000008",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "llamagate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "llamagate/qwen2.5-coder-7b",
+      "provider": "llamagate",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000012",
+        "litellm_provider": "llamagate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "llamagate/deepseek-coder-6.7b",
+      "provider": "llamagate",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000012",
+        "litellm_provider": "llamagate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "llamagate/codellama-7b",
+      "provider": "llamagate",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000012",
+        "litellm_provider": "llamagate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "llamagate/qwen3-vl-8b",
+      "provider": "llamagate",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000055",
+        "litellm_provider": "llamagate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "llamagate/llava-7b",
+      "provider": "llamagate",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 2048,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 2048,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "llamagate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "llamagate/gemma3-4b",
+      "provider": "llamagate",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.00000008",
+        "litellm_provider": "llamagate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
     }
   ],
   "embedding": [
+    {
+      "name": "amazon.nova-2-multimodal-embeddings-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8172,
+        "max_input_tokens": 8172,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000000135",
+        "output_cost_per_token": "0",
+        "litellm_provider": "bedrock",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/model-catalog/serverless/amazon.nova-2-multimodal-embeddings-v1:0"
+      }
+    },
     {
       "name": "amazon.titan-embed-image-v1",
       "provider": "bedrock",
@@ -30891,6 +31198,57 @@ export const aiModels: AIModels = {
         "input_cost_per_token": null,
         "output_cost_per_token": null,
         "litellm_provider": "github_copilot",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "gigachat/Embeddings",
+      "provider": "gigachat",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 512,
+        "max_input_tokens": 512,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "gigachat",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "gigachat/Embeddings-2",
+      "provider": "gigachat",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 512,
+        "max_input_tokens": 512,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "gigachat",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "gigachat/EmbeddingsGigaR",
+      "provider": "gigachat",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "gigachat",
         "mode": "embedding",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
@@ -31720,6 +32078,40 @@ export const aiModels: AIModels = {
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0",
         "litellm_provider": "fireworks_ai",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "llamagate/nomic-embed-text",
+      "provider": "llamagate",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000002",
+        "output_cost_per_token": "0",
+        "litellm_provider": "llamagate",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "llamagate/qwen3-embedding-8b",
+      "provider": "llamagate",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 40960,
+        "max_input_tokens": 40960,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000002",
+        "output_cost_per_token": "0",
+        "litellm_provider": "llamagate",
         "mode": "embedding",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
