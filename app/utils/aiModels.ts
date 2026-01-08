@@ -33068,6 +33068,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/flux.2-pro",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "azure_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ai.azure.com/explore/models/flux.2-pro/version/1/registry/azureml-blackforestlabs"
+      }
+    },
+    {
       "name": "fal_ai/bria/text-to-image/3.2",
       "provider": "fal_ai",
       "logo": "/placeholder.svg?height=30&width=30",
