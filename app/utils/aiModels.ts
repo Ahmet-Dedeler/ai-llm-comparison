@@ -6469,7 +6469,7 @@ export const aiModels: AIModels = {
       "provider": "deepseek",
       "logo": "/logos/deepseek.svg",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 8192,
         "max_input_tokens": 131072,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000006",
@@ -6523,7 +6523,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1000000,
+        "max_tokens": 32768,
         "max_input_tokens": 997952,
         "max_output_tokens": 32768,
         "input_cost_per_token": null,
@@ -7081,7 +7081,7 @@ export const aiModels: AIModels = {
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 32000,
         "max_input_tokens": 128000,
         "max_output_tokens": 32000,
         "input_cost_per_token": "0.00000015000999999999998",
@@ -24852,6 +24852,24 @@ export const aiModels: AIModels = {
         "input_cost_per_token": "0.0000006",
         "output_cost_per_token": "0.0000025",
         "litellm_provider": "vertex_ai-moonshot_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#partner-models"
+      }
+    },
+    {
+      "name": "vertex_ai/zai-org/glm-4.7-maas",
+      "provider": "vertex_ai-zai_models",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "vertex_ai-zai_models",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
