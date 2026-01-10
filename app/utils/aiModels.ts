@@ -1668,7 +1668,7 @@ export const aiModels: AIModels = {
       "provider": "azure",
       "logo": "/logos/azure.svg",
       "sample_spec": {
-        "max_tokens": 4097,
+        "max_tokens": 4096,
         "max_input_tokens": 4097,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000002",
@@ -1685,7 +1685,7 @@ export const aiModels: AIModels = {
       "provider": "azure",
       "logo": "/logos/azure.svg",
       "sample_spec": {
-        "max_tokens": 4097,
+        "max_tokens": 4096,
         "max_input_tokens": 4097,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000015",
@@ -3562,7 +3562,7 @@ export const aiModels: AIModels = {
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 163840,
         "max_input_tokens": 163840,
         "max_output_tokens": 163840,
         "input_cost_per_token": "0.00000058",
@@ -3579,7 +3579,7 @@ export const aiModels: AIModels = {
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 163840,
         "max_input_tokens": 163840,
         "max_output_tokens": 163840,
         "input_cost_per_token": "0.00000058",
@@ -5864,7 +5864,7 @@ export const aiModels: AIModels = {
       "provider": "anthropic",
       "logo": "/logos/anthropic.svg",
       "sample_spec": {
-        "max_tokens": 1000000,
+        "max_tokens": 64000,
         "max_input_tokens": 1000000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
@@ -6487,7 +6487,7 @@ export const aiModels: AIModels = {
       "provider": "deepseek",
       "logo": "/logos/deepseek.svg",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 65536,
         "max_input_tokens": 131072,
         "max_output_tokens": 65536,
         "input_cost_per_token": "0.0000006",
@@ -6505,7 +6505,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1000000,
+        "max_tokens": 16384,
         "max_input_tokens": 1000000,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000003",
@@ -6541,7 +6541,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1000000,
+        "max_tokens": 32768,
         "max_input_tokens": 997952,
         "max_output_tokens": 32768,
         "input_cost_per_token": null,
@@ -6559,7 +6559,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 8192,
         "max_input_tokens": 30720,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000016",
@@ -6577,7 +6577,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "max_input_tokens": 129024,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000004",
@@ -6595,7 +6595,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 8192,
         "max_input_tokens": 129024,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000004",
@@ -6613,7 +6613,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "max_input_tokens": 129024,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000004",
@@ -6631,7 +6631,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "max_input_tokens": 129024,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000004",
@@ -6649,7 +6649,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1000000,
+        "max_tokens": 32768,
         "max_input_tokens": 997952,
         "max_output_tokens": 32768,
         "input_cost_per_token": null,
@@ -6667,7 +6667,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1000000,
+        "max_tokens": 32768,
         "max_input_tokens": 997952,
         "max_output_tokens": 32768,
         "input_cost_per_token": null,
@@ -6685,7 +6685,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1000000,
+        "max_tokens": 32768,
         "max_input_tokens": 997952,
         "max_output_tokens": 32768,
         "input_cost_per_token": null,
@@ -6703,7 +6703,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "max_input_tokens": 129024,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.00000005",
@@ -6721,7 +6721,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1000000,
+        "max_tokens": 8192,
         "max_input_tokens": 1000000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000005",
@@ -6739,7 +6739,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1000000,
+        "max_tokens": 16384,
         "max_input_tokens": 1000000,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.00000005",
@@ -6757,7 +6757,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1000000,
+        "max_tokens": 16384,
         "max_input_tokens": 1000000,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.00000005",
@@ -6775,7 +6775,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "max_input_tokens": 129024,
         "max_output_tokens": 16384,
         "input_cost_per_token": null,
@@ -6793,7 +6793,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1000000,
+        "max_tokens": 65536,
         "max_input_tokens": 997952,
         "max_output_tokens": 65536,
         "input_cost_per_token": null,
@@ -6811,7 +6811,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1000000,
+        "max_tokens": 65536,
         "max_input_tokens": 997952,
         "max_output_tokens": 65536,
         "input_cost_per_token": null,
@@ -6829,7 +6829,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1000000,
+        "max_tokens": 65536,
         "max_input_tokens": 997952,
         "max_output_tokens": 65536,
         "input_cost_per_token": null,
@@ -6847,7 +6847,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1000000,
+        "max_tokens": 65536,
         "max_input_tokens": 997952,
         "max_output_tokens": 65536,
         "input_cost_per_token": null,
@@ -6865,7 +6865,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 262144,
+        "max_tokens": 65536,
         "max_input_tokens": 258048,
         "max_output_tokens": 65536,
         "input_cost_per_token": null,
@@ -6883,7 +6883,7 @@ export const aiModels: AIModels = {
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 8192,
         "max_input_tokens": 98304,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000008",
@@ -6901,7 +6901,7 @@ export const aiModels: AIModels = {
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 128000,
         "max_input_tokens": 200000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000029999900000000002",
@@ -6919,7 +6919,7 @@ export const aiModels: AIModels = {
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.00000100002",
@@ -6937,7 +6937,7 @@ export const aiModels: AIModels = {
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 32000,
         "max_input_tokens": 200000,
         "max_output_tokens": 32000,
         "input_cost_per_token": "0.000015000020000000002",
@@ -6955,7 +6955,7 @@ export const aiModels: AIModels = {
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 32000,
         "max_input_tokens": 200000,
         "max_output_tokens": 32000,
         "input_cost_per_token": "0.000015000020000000002",
@@ -6973,7 +6973,7 @@ export const aiModels: AIModels = {
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.00000500003",
@@ -6991,7 +6991,7 @@ export const aiModels: AIModels = {
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.0000029999900000000002",
@@ -7009,7 +7009,7 @@ export const aiModels: AIModels = {
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.0000029999900000000002",
@@ -7027,7 +7027,7 @@ export const aiModels: AIModels = {
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.0000029999900000000002",
@@ -7045,7 +7045,7 @@ export const aiModels: AIModels = {
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
-        "max_tokens": 1048576,
+        "max_tokens": 65535,
         "max_input_tokens": 1048576,
         "max_output_tokens": 65535,
         "input_cost_per_token": "0.00000030001999999999996",
@@ -7063,7 +7063,7 @@ export const aiModels: AIModels = {
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
-        "max_tokens": 1048576,
+        "max_tokens": 65536,
         "max_input_tokens": 1048576,
         "max_output_tokens": 65536,
         "input_cost_per_token": "0.00000124999",
@@ -7099,7 +7099,7 @@ export const aiModels: AIModels = {
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
-        "max_tokens": 400000,
+        "max_tokens": 128000,
         "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000124999",
@@ -7117,7 +7117,7 @@ export const aiModels: AIModels = {
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
-        "max_tokens": 400000,
+        "max_tokens": 128000,
         "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000124999",
@@ -7135,7 +7135,7 @@ export const aiModels: AIModels = {
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
-        "max_tokens": 400000,
+        "max_tokens": 128000,
         "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000024997000000000006",
@@ -7153,7 +7153,7 @@ export const aiModels: AIModels = {
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
-        "max_tokens": 400000,
+        "max_tokens": 128000,
         "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000004998",
@@ -7261,7 +7261,7 @@ export const aiModels: AIModels = {
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 128000,
         "max_input_tokens": 200000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000015000999999999998",
@@ -8593,7 +8593,7 @@ export const aiModels: AIModels = {
       "provider": "deepseek",
       "logo": "/logos/deepseek.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 163840,
         "max_input_tokens": 163840,
         "max_output_tokens": 163840,
         "input_cost_per_token": "0.00000028",
@@ -8610,7 +8610,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 163840,
+        "max_tokens": 81920,
         "max_input_tokens": 163840,
         "max_output_tokens": 81920,
         "input_cost_per_token": "0.00000058",
@@ -8884,7 +8884,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000013",
@@ -8901,7 +8901,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000019",
@@ -8918,7 +8918,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.000002",
@@ -8935,7 +8935,7 @@ export const aiModels: AIModels = {
       "provider": "featherless_ai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 4096,
         "max_input_tokens": 32768,
         "max_output_tokens": 4096,
         "input_cost_per_token": null,
@@ -8952,7 +8952,7 @@ export const aiModels: AIModels = {
       "provider": "featherless_ai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 4096,
         "max_input_tokens": 32768,
         "max_output_tokens": 4096,
         "input_cost_per_token": null,
@@ -9239,7 +9239,7 @@ export const aiModels: AIModels = {
       "provider": "fireworks_ai",
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "max_input_tokens": 131072,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000006",
@@ -9257,7 +9257,7 @@ export const aiModels: AIModels = {
       "provider": "fireworks_ai",
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
-        "max_tokens": 262144,
+        "max_tokens": 32768,
         "max_input_tokens": 262144,
         "max_output_tokens": 32768,
         "input_cost_per_token": "0.0000006",
@@ -9838,7 +9838,7 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 2048,
         "max_input_tokens": 8192,
         "max_output_tokens": 2048,
         "input_cost_per_token": "0.0000005",
@@ -9856,7 +9856,7 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 2048,
         "max_input_tokens": 8192,
         "max_output_tokens": 2048,
         "input_cost_per_token": "0.0000005",
@@ -11026,7 +11026,7 @@ export const aiModels: AIModels = {
       "provider": "gemini",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 65536,
         "max_input_tokens": 1048576,
         "max_output_tokens": 65536,
         "input_cost_per_token": "0",
@@ -11044,7 +11044,7 @@ export const aiModels: AIModels = {
       "provider": "gemini",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 65536,
         "max_input_tokens": 1048576,
         "max_output_tokens": 65536,
         "input_cost_per_token": "0",
@@ -12163,7 +12163,7 @@ export const aiModels: AIModels = {
       "provider": "openai",
       "logo": "/logos/openai.svg",
       "sample_spec": {
-        "max_tokens": 4097,
+        "max_tokens": 4096,
         "max_input_tokens": 16385,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000005",
@@ -12180,7 +12180,7 @@ export const aiModels: AIModels = {
       "provider": "openai",
       "logo": "/logos/openai.svg",
       "sample_spec": {
-        "max_tokens": 16385,
+        "max_tokens": 4096,
         "max_input_tokens": 16385,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000005",
@@ -12197,7 +12197,7 @@ export const aiModels: AIModels = {
       "provider": "openai",
       "logo": "/logos/openai.svg",
       "sample_spec": {
-        "max_tokens": 4097,
+        "max_tokens": 4096,
         "max_input_tokens": 4097,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000015",
@@ -12214,7 +12214,7 @@ export const aiModels: AIModels = {
       "provider": "openai",
       "logo": "/logos/openai.svg",
       "sample_spec": {
-        "max_tokens": 4097,
+        "max_tokens": 4096,
         "max_input_tokens": 4097,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000015",
@@ -12231,7 +12231,7 @@ export const aiModels: AIModels = {
       "provider": "openai",
       "logo": "/logos/openai.svg",
       "sample_spec": {
-        "max_tokens": 16385,
+        "max_tokens": 4096,
         "max_input_tokens": 16385,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.000001",
@@ -12248,7 +12248,7 @@ export const aiModels: AIModels = {
       "provider": "openai",
       "logo": "/logos/openai.svg",
       "sample_spec": {
-        "max_tokens": 16385,
+        "max_tokens": 4096,
         "max_input_tokens": 16385,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.000003",
@@ -12265,7 +12265,7 @@ export const aiModels: AIModels = {
       "provider": "openai",
       "logo": "/logos/openai.svg",
       "sample_spec": {
-        "max_tokens": 16385,
+        "max_tokens": 4096,
         "max_input_tokens": 16385,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.000003",
@@ -13523,7 +13523,7 @@ export const aiModels: AIModels = {
       "provider": "lemonade",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 262144,
+        "max_tokens": 32768,
         "max_input_tokens": 262144,
         "max_output_tokens": 32768,
         "input_cost_per_token": "0",
@@ -13540,7 +13540,7 @@ export const aiModels: AIModels = {
       "provider": "lemonade",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 32768,
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
         "input_cost_per_token": "0",
@@ -13557,7 +13557,7 @@ export const aiModels: AIModels = {
       "provider": "lemonade",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 32768,
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
         "input_cost_per_token": "0",
@@ -13574,7 +13574,7 @@ export const aiModels: AIModels = {
       "provider": "lemonade",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0",
@@ -13591,7 +13591,7 @@ export const aiModels: AIModels = {
       "provider": "lemonade",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 262144,
+        "max_tokens": 32768,
         "max_input_tokens": 262144,
         "max_output_tokens": 32768,
         "input_cost_per_token": "0",
@@ -13778,7 +13778,7 @@ export const aiModels: AIModels = {
       "provider": "groq",
       "logo": "/logos/groq.svg",
       "sample_spec": {
-        "max_tokens": 278528,
+        "max_tokens": 16384,
         "max_input_tokens": 262144,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.000001",
@@ -14527,7 +14527,7 @@ export const aiModels: AIModels = {
       "provider": "lambda_ai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 8192,
         "max_input_tokens": 131072,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000005",
@@ -14544,7 +14544,7 @@ export const aiModels: AIModels = {
       "provider": "lambda_ai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 16384,
+        "max_tokens": 8192,
         "max_input_tokens": 16384,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000005",
@@ -14835,7 +14835,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000532",
@@ -14852,7 +14852,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 2048,
         "max_input_tokens": 128000,
         "max_output_tokens": 2048,
         "input_cost_per_token": "0.00000099",
@@ -14869,7 +14869,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 2048,
         "max_input_tokens": 128000,
         "max_output_tokens": 2048,
         "input_cost_per_token": "0.00000022",
@@ -14886,7 +14886,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000035",
@@ -14903,7 +14903,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000001",
@@ -14920,7 +14920,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000015",
@@ -14937,7 +14937,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.000002",
@@ -15039,7 +15039,7 @@ export const aiModels: AIModels = {
       "provider": "meta_llama",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4028,
         "max_input_tokens": 128000,
         "max_output_tokens": 4028,
         "input_cost_per_token": null,
@@ -15057,7 +15057,7 @@ export const aiModels: AIModels = {
       "provider": "meta_llama",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4028,
         "max_input_tokens": 128000,
         "max_output_tokens": 4028,
         "input_cost_per_token": null,
@@ -15075,7 +15075,7 @@ export const aiModels: AIModels = {
       "provider": "meta_llama",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4028,
         "max_input_tokens": 1000000,
         "max_output_tokens": 4028,
         "input_cost_per_token": null,
@@ -15093,7 +15093,7 @@ export const aiModels: AIModels = {
       "provider": "meta_llama",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4028,
         "max_input_tokens": 10000000,
         "max_output_tokens": 4028,
         "input_cost_per_token": null,
@@ -16895,7 +16895,7 @@ export const aiModels: AIModels = {
       "provider": "oci",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
         "input_cost_per_token": "0.00001068",
@@ -16913,7 +16913,7 @@ export const aiModels: AIModels = {
       "provider": "oci",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
         "input_cost_per_token": "0.000002",
@@ -16931,7 +16931,7 @@ export const aiModels: AIModels = {
       "provider": "oci",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
         "input_cost_per_token": "0.00000072",
@@ -16949,7 +16949,7 @@ export const aiModels: AIModels = {
       "provider": "oci",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 512000,
+        "max_tokens": 4000,
         "max_input_tokens": 512000,
         "max_output_tokens": 4000,
         "input_cost_per_token": "0.00000072",
@@ -16967,7 +16967,7 @@ export const aiModels: AIModels = {
       "provider": "oci",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 192000,
+        "max_tokens": 4000,
         "max_input_tokens": 192000,
         "max_output_tokens": 4000,
         "input_cost_per_token": "0.00000072",
@@ -17075,7 +17075,7 @@ export const aiModels: AIModels = {
       "provider": "oci",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
         "input_cost_per_token": "0.00000156",
@@ -17093,7 +17093,7 @@ export const aiModels: AIModels = {
       "provider": "oci",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 256000,
+        "max_tokens": 4000,
         "max_input_tokens": 256000,
         "max_output_tokens": 4000,
         "input_cost_per_token": "0.00000156",
@@ -17111,7 +17111,7 @@ export const aiModels: AIModels = {
       "provider": "oci",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
         "input_cost_per_token": "0.00000156",
@@ -17129,7 +17129,7 @@ export const aiModels: AIModels = {
       "provider": "ollama",
       "logo": "/logos/ollama.svg",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 8192,
         "max_input_tokens": 32768,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0",
@@ -17146,7 +17146,7 @@ export const aiModels: AIModels = {
       "provider": "ollama",
       "logo": "/logos/ollama.svg",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 8192,
         "max_input_tokens": 32768,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0",
@@ -17163,7 +17163,7 @@ export const aiModels: AIModels = {
       "provider": "ollama",
       "logo": "/logos/ollama.svg",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 8192,
         "max_input_tokens": 32768,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0",
@@ -17231,7 +17231,7 @@ export const aiModels: AIModels = {
       "provider": "ollama",
       "logo": "/logos/ollama.svg",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 8192,
         "max_input_tokens": 32768,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0",
@@ -17333,7 +17333,7 @@ export const aiModels: AIModels = {
       "provider": "ollama",
       "logo": "/logos/ollama.svg",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 8192,
         "max_input_tokens": 8192,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0",
@@ -17418,7 +17418,7 @@ export const aiModels: AIModels = {
       "provider": "ollama",
       "logo": "/logos/ollama.svg",
       "sample_spec": {
-        "max_tokens": 65536,
+        "max_tokens": 8192,
         "max_input_tokens": 65536,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0",
@@ -17554,7 +17554,7 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 100000,
+        "max_tokens": 8191,
         "max_input_tokens": null,
         "max_output_tokens": 8191,
         "input_cost_per_token": "0.00001102",
@@ -17741,7 +17741,7 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 100000,
+        "max_tokens": 8191,
         "max_input_tokens": null,
         "max_output_tokens": 8191,
         "input_cost_per_token": "0.00000163",
@@ -17963,7 +17963,7 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 163840,
         "max_input_tokens": 163840,
         "max_output_tokens": 163840,
         "input_cost_per_token": "0.0000002",
@@ -17980,7 +17980,7 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 163840,
         "max_input_tokens": 163840,
         "max_output_tokens": 163840,
         "input_cost_per_token": "0.00000028",
@@ -17997,7 +17997,7 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 163840,
         "max_input_tokens": 163840,
         "max_output_tokens": 163840,
         "input_cost_per_token": "0.0000002",
@@ -18014,7 +18014,7 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 4096,
         "max_input_tokens": 66000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000014",
@@ -18423,7 +18423,7 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 204800,
         "max_input_tokens": 204800,
         "max_output_tokens": 204800,
         "input_cost_per_token": "0.000000255",
@@ -18457,7 +18457,7 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 262144,
+        "max_tokens": 65536,
         "max_input_tokens": 262144,
         "max_output_tokens": 65536,
         "input_cost_per_token": "0.00000015",
@@ -18950,7 +18950,7 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 400000,
+        "max_tokens": 128000,
         "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000175",
@@ -18967,7 +18967,7 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 16384,
         "max_input_tokens": 128000,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.00000175",
@@ -18984,7 +18984,7 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 400000,
+        "max_tokens": 128000,
         "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000021",
@@ -19190,7 +19190,7 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 2048,
         "max_input_tokens": 8192,
         "max_output_tokens": 2048,
         "input_cost_per_token": "0.00000021",
@@ -19278,7 +19278,7 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 2000000,
+        "max_tokens": 30000,
         "max_input_tokens": 2000000,
         "max_output_tokens": 30000,
         "input_cost_per_token": "0",
@@ -19296,7 +19296,7 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 202800,
+        "max_tokens": 131000,
         "max_input_tokens": 202800,
         "max_output_tokens": 131000,
         "input_cost_per_token": "0.0000004",
@@ -19314,7 +19314,7 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 202800,
+        "max_tokens": 131000,
         "max_input_tokens": 202800,
         "max_output_tokens": 131000,
         "input_cost_per_token": "0.00000045",
@@ -20063,7 +20063,7 @@ export const aiModels: AIModels = {
       "provider": "publicai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 4096,
         "max_input_tokens": 8192,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0",
@@ -20081,7 +20081,7 @@ export const aiModels: AIModels = {
       "provider": "publicai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 4096,
         "max_input_tokens": 8192,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0",
@@ -20099,7 +20099,7 @@ export const aiModels: AIModels = {
       "provider": "publicai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 4096,
         "max_input_tokens": 8192,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0",
@@ -20117,7 +20117,7 @@ export const aiModels: AIModels = {
       "provider": "publicai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 16384,
+        "max_tokens": 4096,
         "max_input_tokens": 16384,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0",
@@ -20135,7 +20135,7 @@ export const aiModels: AIModels = {
       "provider": "publicai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 4096,
         "max_input_tokens": 8192,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0",
@@ -20153,7 +20153,7 @@ export const aiModels: AIModels = {
       "provider": "publicai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 4096,
         "max_input_tokens": 32768,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0",
@@ -20171,7 +20171,7 @@ export const aiModels: AIModels = {
       "provider": "publicai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 4096,
         "max_input_tokens": 32768,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0",
@@ -20189,7 +20189,7 @@ export const aiModels: AIModels = {
       "provider": "publicai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 4096,
         "max_input_tokens": 32768,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0",
@@ -20207,7 +20207,7 @@ export const aiModels: AIModels = {
       "provider": "publicai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 4096,
         "max_input_tokens": 32768,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0",
@@ -20225,7 +20225,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 262144,
+        "max_tokens": 65536,
         "max_input_tokens": 262000,
         "max_output_tokens": 65536,
         "input_cost_per_token": "0.00000022",
@@ -20242,7 +20242,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 262144,
+        "max_tokens": 131072,
         "max_input_tokens": 262144,
         "max_output_tokens": 131072,
         "input_cost_per_token": "0.00000022",
@@ -20259,7 +20259,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 262144,
+        "max_tokens": 131072,
         "max_input_tokens": 262144,
         "max_output_tokens": 131072,
         "input_cost_per_token": "0.00000015",
@@ -20276,7 +20276,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "max_input_tokens": 131072,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.00000015",
@@ -20887,7 +20887,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 18000,
+        "max_tokens": 8192,
         "max_input_tokens": 18000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -20904,7 +20904,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 8192,
         "max_input_tokens": 32768,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -20921,7 +20921,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8000,
+        "max_tokens": 8192,
         "max_input_tokens": 8000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -20938,7 +20938,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 256000,
+        "max_tokens": 8192,
         "max_input_tokens": 256000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -20955,7 +20955,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 256000,
+        "max_tokens": 8192,
         "max_input_tokens": 256000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -20972,7 +20972,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 256000,
+        "max_tokens": 8192,
         "max_input_tokens": 256000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -20989,7 +20989,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 8192,
         "max_input_tokens": 4096,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21006,7 +21006,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8000,
+        "max_tokens": 8192,
         "max_input_tokens": 8000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21023,7 +21023,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8000,
+        "max_tokens": 8192,
         "max_input_tokens": 8000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21040,7 +21040,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21057,7 +21057,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21074,7 +21074,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21091,7 +21091,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21108,7 +21108,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21125,7 +21125,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21142,7 +21142,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32000,
+        "max_tokens": 8192,
         "max_input_tokens": 32000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21159,7 +21159,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32000,
+        "max_tokens": 8192,
         "max_input_tokens": 32000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21176,7 +21176,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21193,7 +21193,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32000,
+        "max_tokens": 8192,
         "max_input_tokens": 32000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21210,7 +21210,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32000,
+        "max_tokens": 8192,
         "max_input_tokens": 32000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21227,7 +21227,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 100000,
+        "max_tokens": 8192,
         "max_input_tokens": 100000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21244,7 +21244,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 4096,
+        "max_tokens": 8192,
         "max_input_tokens": 4096,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21261,7 +21261,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8000,
+        "max_tokens": 8192,
         "max_input_tokens": 8000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -21278,7 +21278,7 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8000,
+        "max_tokens": 8192,
         "max_input_tokens": 8000,
         "max_output_tokens": 8192,
         "input_cost_per_token": null,
@@ -22279,7 +22279,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000532",
@@ -22296,7 +22296,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 2048,
         "max_input_tokens": 128000,
         "max_output_tokens": 2048,
         "input_cost_per_token": "0.00000099",
@@ -22313,7 +22313,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 2048,
         "max_input_tokens": 128000,
         "max_output_tokens": 2048,
         "input_cost_per_token": "0.00000022",
@@ -22330,7 +22330,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000035",
@@ -22347,7 +22347,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000001",
@@ -22364,7 +22364,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000015",
@@ -22381,7 +22381,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.000002",
@@ -22449,7 +22449,7 @@ export const aiModels: AIModels = {
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.000002",
@@ -22517,7 +22517,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 40960,
+        "max_tokens": 16384,
         "max_input_tokens": 40960,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.00000008",
@@ -22534,7 +22534,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 40960,
+        "max_tokens": 16384,
         "max_input_tokens": 40960,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000002",
@@ -22551,7 +22551,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 40960,
+        "max_tokens": 16384,
         "max_input_tokens": 40960,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000001",
@@ -22568,7 +22568,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 40960,
+        "max_tokens": 16384,
         "max_input_tokens": 40960,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000001",
@@ -22585,7 +22585,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 262144,
+        "max_tokens": 66536,
         "max_input_tokens": 262144,
         "max_output_tokens": 66536,
         "input_cost_per_token": "0.0000004",
@@ -22602,7 +22602,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 300000,
+        "max_tokens": 8192,
         "max_input_tokens": 300000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000006",
@@ -22619,7 +22619,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.000000035",
@@ -22636,7 +22636,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 300000,
+        "max_tokens": 8192,
         "max_input_tokens": 300000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000008",
@@ -22670,7 +22670,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 4096,
         "max_input_tokens": 200000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000025",
@@ -22687,7 +22687,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 4096,
         "max_input_tokens": 200000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.000015",
@@ -22704,7 +22704,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 8192,
         "max_input_tokens": 200000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000008",
@@ -22721,7 +22721,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 8192,
         "max_input_tokens": 200000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.000003",
@@ -22738,7 +22738,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
@@ -22755,7 +22755,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 32000,
         "max_input_tokens": 200000,
         "max_output_tokens": 32000,
         "input_cost_per_token": "0.000015",
@@ -22772,7 +22772,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
@@ -22789,7 +22789,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 256000,
+        "max_tokens": 8000,
         "max_input_tokens": 256000,
         "max_output_tokens": 8000,
         "input_cost_per_token": "0.0000025",
@@ -22806,7 +22806,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000015",
@@ -22823,7 +22823,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000025",
@@ -22857,7 +22857,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000055",
@@ -22891,7 +22891,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000009",
@@ -22908,7 +22908,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1048576,
+        "max_tokens": 8192,
         "max_input_tokens": 1048576,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000015",
@@ -22925,7 +22925,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1048576,
+        "max_tokens": 8192,
         "max_input_tokens": 1048576,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.000000075",
@@ -22942,7 +22942,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1000000,
+        "max_tokens": 65536,
         "max_input_tokens": 1000000,
         "max_output_tokens": 65536,
         "input_cost_per_token": "0.0000003",
@@ -22959,7 +22959,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1048576,
+        "max_tokens": 65536,
         "max_input_tokens": 1048576,
         "max_output_tokens": 65536,
         "input_cost_per_token": "0.0000025",
@@ -22993,7 +22993,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32000,
+        "max_tokens": 16384,
         "max_input_tokens": 32000,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.00000025",
@@ -23044,7 +23044,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000072",
@@ -23061,7 +23061,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 131000,
+        "max_tokens": 131072,
         "max_input_tokens": 131000,
         "max_output_tokens": 131072,
         "input_cost_per_token": "0.00000005",
@@ -23078,7 +23078,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000016",
@@ -23095,7 +23095,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000001",
@@ -23112,7 +23112,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000015",
@@ -23129,7 +23129,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000072",
@@ -23146,7 +23146,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000072",
@@ -23163,7 +23163,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 8192,
         "max_input_tokens": 131072,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000002",
@@ -23180,7 +23180,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 8192,
         "max_input_tokens": 131072,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000001",
@@ -23197,7 +23197,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 256000,
+        "max_tokens": 4000,
         "max_input_tokens": 256000,
         "max_output_tokens": 4000,
         "input_cost_per_token": "0.0000003",
@@ -23248,7 +23248,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 64000,
         "max_input_tokens": 128000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000002",
@@ -23265,7 +23265,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 64000,
         "max_input_tokens": 128000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.0000005",
@@ -23282,7 +23282,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
         "input_cost_per_token": "0.00000004",
@@ -23299,7 +23299,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
         "input_cost_per_token": "0.0000001",
@@ -23333,7 +23333,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32000,
+        "max_tokens": 4000,
         "max_input_tokens": 32000,
         "max_output_tokens": 4000,
         "input_cost_per_token": "0.000002",
@@ -23367,7 +23367,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32000,
+        "max_tokens": 4000,
         "max_input_tokens": 32000,
         "max_output_tokens": 4000,
         "input_cost_per_token": "0.0000001",
@@ -23384,7 +23384,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 65536,
+        "max_tokens": 2048,
         "max_input_tokens": 65536,
         "max_output_tokens": 2048,
         "input_cost_per_token": "0.0000012",
@@ -23401,7 +23401,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
         "input_cost_per_token": "0.00000015",
@@ -23418,7 +23418,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
         "input_cost_per_token": "0.000002",
@@ -23435,7 +23435,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "max_input_tokens": 131072,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.00000055",
@@ -23452,7 +23452,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 16384,
         "max_input_tokens": 32768,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000008",
@@ -23469,7 +23469,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 16384,
         "max_input_tokens": 32768,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000009",
@@ -23486,7 +23486,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 16385,
+        "max_tokens": 4096,
         "max_input_tokens": 16385,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000005",
@@ -23503,7 +23503,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 4096,
         "max_input_tokens": 8192,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000015",
@@ -23520,7 +23520,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.00001",
@@ -23537,7 +23537,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1047576,
+        "max_tokens": 32768,
         "max_input_tokens": 1047576,
         "max_output_tokens": 32768,
         "input_cost_per_token": "0.000002",
@@ -23554,7 +23554,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1047576,
+        "max_tokens": 32768,
         "max_input_tokens": 1047576,
         "max_output_tokens": 32768,
         "input_cost_per_token": "0.0000004",
@@ -23571,7 +23571,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 1047576,
+        "max_tokens": 32768,
         "max_input_tokens": 1047576,
         "max_output_tokens": 32768,
         "input_cost_per_token": "0.0000001",
@@ -23588,7 +23588,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 16384,
         "max_input_tokens": 128000,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000025",
@@ -23605,7 +23605,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 16384,
         "max_input_tokens": 128000,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.00000015",
@@ -23622,7 +23622,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 100000,
         "max_input_tokens": 200000,
         "max_output_tokens": 100000,
         "input_cost_per_token": "0.000015",
@@ -23639,7 +23639,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 100000,
         "max_input_tokens": 200000,
         "max_output_tokens": 100000,
         "input_cost_per_token": "0.000002",
@@ -23656,7 +23656,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 100000,
         "max_input_tokens": 200000,
         "max_output_tokens": 100000,
         "input_cost_per_token": "0.0000011",
@@ -23673,7 +23673,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 100000,
         "max_input_tokens": 200000,
         "max_output_tokens": 100000,
         "input_cost_per_token": "0.0000011",
@@ -23690,7 +23690,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 127000,
+        "max_tokens": 8000,
         "max_input_tokens": 127000,
         "max_output_tokens": 8000,
         "input_cost_per_token": "0.000001",
@@ -23707,7 +23707,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 200000,
+        "max_tokens": 8000,
         "max_input_tokens": 200000,
         "max_output_tokens": 8000,
         "input_cost_per_token": "0.000003",
@@ -23724,7 +23724,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 127000,
+        "max_tokens": 8000,
         "max_input_tokens": 127000,
         "max_output_tokens": 8000,
         "input_cost_per_token": "0.000001",
@@ -23741,7 +23741,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 127000,
+        "max_tokens": 8000,
         "max_input_tokens": 127000,
         "max_output_tokens": 8000,
         "input_cost_per_token": "0.000002",
@@ -23758,7 +23758,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 32000,
         "max_input_tokens": 128000,
         "max_output_tokens": 32000,
         "input_cost_per_token": "0.000003",
@@ -23775,7 +23775,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 32768,
         "max_input_tokens": 128000,
         "max_output_tokens": 32768,
         "input_cost_per_token": "0.000003",
@@ -23792,7 +23792,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 4000,
         "max_input_tokens": 131072,
         "max_output_tokens": 4000,
         "input_cost_per_token": "0.000002",
@@ -23928,7 +23928,7 @@ export const aiModels: AIModels = {
       "provider": "vercel_ai_gateway",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 96000,
         "max_input_tokens": 128000,
         "max_output_tokens": 96000,
         "input_cost_per_token": "0.0000002",
@@ -24491,7 +24491,7 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai-deepseek_models",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 163840,
+        "max_tokens": 32768,
         "max_input_tokens": 163840,
         "max_output_tokens": 32768,
         "input_cost_per_token": "0.00000135",
@@ -24509,7 +24509,7 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai-deepseek_models",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 163840,
+        "max_tokens": 32768,
         "max_input_tokens": 163840,
         "max_output_tokens": 32768,
         "input_cost_per_token": "0.00000056",
@@ -24630,7 +24630,7 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai-llama_models",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 2048,
         "max_input_tokens": 128000,
         "max_output_tokens": 2048,
         "input_cost_per_token": "0.000005",
@@ -24648,7 +24648,7 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai-llama_models",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 2048,
         "max_input_tokens": 128000,
         "max_output_tokens": 2048,
         "input_cost_per_token": "0",
@@ -24666,7 +24666,7 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai-llama_models",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 2048,
         "max_input_tokens": 128000,
         "max_output_tokens": 2048,
         "input_cost_per_token": "0",
@@ -24684,7 +24684,7 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai-llama_models",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 128000,
+        "max_tokens": 2048,
         "max_input_tokens": 128000,
         "max_output_tokens": 2048,
         "input_cost_per_token": "0",
@@ -25432,7 +25432,7 @@ export const aiModels: AIModels = {
       "provider": "watsonx",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 1024,
         "max_input_tokens": 8192,
         "max_output_tokens": 1024,
         "input_cost_per_token": "0.0000002",
@@ -25449,7 +25449,7 @@ export const aiModels: AIModels = {
       "provider": "watsonx",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "max_input_tokens": 131072,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.000003",
@@ -30187,6 +30187,1332 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "novita/deepseek/deepseek-v3.2",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00269",
+        "output_cost_per_token": "0.004",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/minimax/minimax-m2.1",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 204800,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.003",
+        "output_cost_per_token": "0.012",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/zai-org/glm-4.7",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 204800,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.006",
+        "output_cost_per_token": "0.022",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/xiaomimimo/mimo-v2-flash",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.001",
+        "output_cost_per_token": "0.003",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/zai-org/autoglm-phone-9b-multilingual",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00035",
+        "output_cost_per_token": "0.00138",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/moonshotai/kimi-k2-thinking",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0048",
+        "output_cost_per_token": "0.02",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/minimax/minimax-m2",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 204800,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0024",
+        "output_cost_per_token": "0.0096",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/paddlepaddle/paddleocr-vl",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00016",
+        "output_cost_per_token": "0.00016",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/deepseek/deepseek-v3.2-exp",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00216",
+        "output_cost_per_token": "0.00328",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-vl-235b-a22b-thinking",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00784",
+        "output_cost_per_token": "0.0316",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/zai-org/glm-4.6v",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.003",
+        "output_cost_per_token": "0.009",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/zai-org/glm-4.6",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 204800,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0044",
+        "output_cost_per_token": "0.0176",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-next-80b-a3b-instruct",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0012",
+        "output_cost_per_token": "0.012",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-next-80b-a3b-thinking",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0012",
+        "output_cost_per_token": "0.012",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/deepseek/deepseek-ocr",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00024",
+        "output_cost_per_token": "0.00024",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/deepseek/deepseek-v3.1-terminus",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00216",
+        "output_cost_per_token": "0.008",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-vl-235b-a22b-instruct",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0024",
+        "output_cost_per_token": "0.012",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-max",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.01688",
+        "output_cost_per_token": "0.0676",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/skywork/r1v4-lite",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.002",
+        "output_cost_per_token": "0.006",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/deepseek/deepseek-v3.1",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00216",
+        "output_cost_per_token": "0.008",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/moonshotai/kimi-k2-0905",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0048",
+        "output_cost_per_token": "0.02",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-coder-480b-a35b-instruct",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0024",
+        "output_cost_per_token": "0.0104",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-coder-30b-a3b-instruct",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 160000,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0007",
+        "output_cost_per_token": "0.0027",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/openai/gpt-oss-120b",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0004",
+        "output_cost_per_token": "0.002",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/moonshotai/kimi-k2-instruct",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00456",
+        "output_cost_per_token": "0.0184",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/deepseek/deepseek-v3-0324",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.00216",
+        "output_cost_per_token": "0.00896",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/zai-org/glm-4.5",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 98304,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 98304,
+        "input_cost_per_token": "0.0048",
+        "output_cost_per_token": "0.0176",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-235b-a22b-thinking-2507",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0024",
+        "output_cost_per_token": "0.024",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/meta-llama/llama-3.1-8b-instruct",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0002",
+        "output_cost_per_token": "0.0005",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/google/gemma-3-12b-it",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0004",
+        "output_cost_per_token": "0.0008",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/zai-org/glm-4.5v",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0048",
+        "output_cost_per_token": "0.0144",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/openai/gpt-oss-20b",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00032",
+        "output_cost_per_token": "0.0012",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-235b-a22b-instruct-2507",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00072",
+        "output_cost_per_token": "0.00464",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/deepseek/deepseek-r1-distill-qwen-14b",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0012",
+        "output_cost_per_token": "0.0012",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/meta-llama/llama-3.3-70b-instruct",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 120000,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 120000,
+        "input_cost_per_token": "0.00108",
+        "output_cost_per_token": "0.0032",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen-2.5-72b-instruct",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00304",
+        "output_cost_per_token": "0.0032",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/mistralai/mistral-nemo",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16000,
+        "max_input_tokens": 60288,
+        "max_output_tokens": 16000,
+        "input_cost_per_token": "0.00032",
+        "output_cost_per_token": "0.00136",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/minimaxai/minimax-m1-80k",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 40000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 40000,
+        "input_cost_per_token": "0.0044",
+        "output_cost_per_token": "0.0176",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/deepseek/deepseek-r1-0528",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0056",
+        "output_cost_per_token": "0.02",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/deepseek/deepseek-r1-distill-qwen-32b",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 64000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.0024",
+        "output_cost_per_token": "0.0024",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/meta-llama/llama-3-8b-instruct",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00032",
+        "output_cost_per_token": "0.00032",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/microsoft/wizardlm-2-8x22b",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 65535,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.00496",
+        "output_cost_per_token": "0.00496",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/deepseek/deepseek-r1-0528-qwen3-8b",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.00048",
+        "output_cost_per_token": "0.00072",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/deepseek/deepseek-r1-distill-llama-70b",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0064",
+        "output_cost_per_token": "0.0064",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/meta-llama/llama-3-70b-instruct",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.0051",
+        "output_cost_per_token": "0.0074",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-235b-a22b-fp8",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 20000,
+        "max_input_tokens": 40960,
+        "max_output_tokens": 20000,
+        "input_cost_per_token": "0.0016",
+        "output_cost_per_token": "0.0064",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0016",
+        "output_cost_per_token": "0.0072",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/meta-llama/llama-4-scout-17b-16e-instruct",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0008",
+        "output_cost_per_token": "0.004",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/nousresearch/hermes-2-pro-llama-3-8b",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0014",
+        "output_cost_per_token": "0.0014",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen2.5-vl-72b-instruct",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0064",
+        "output_cost_per_token": "0.0064",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/sao10k/l3-70b-euryale-v2.1",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0148",
+        "output_cost_per_token": "0.0148",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/baidu/ernie-4.5-21B-a3b-thinking",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00056",
+        "output_cost_per_token": "0.00224",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/sao10k/l3-8b-lunaris",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0005",
+        "output_cost_per_token": "0.0005",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/baichuan/baichuan-m2-32b",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00056",
+        "output_cost_per_token": "0.00056",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/thudm/glm-4.1v-9b-thinking",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.00028",
+        "output_cost_per_token": "0.001104",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/baidu/ernie-4.5-vl-424b-a47b",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16000,
+        "max_input_tokens": 123000,
+        "max_output_tokens": 16000,
+        "input_cost_per_token": "0.00336",
+        "output_cost_per_token": "0.01",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/baidu/ernie-4.5-300b-a47b-paddle",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 12000,
+        "max_input_tokens": 123000,
+        "max_output_tokens": 12000,
+        "input_cost_per_token": "0.00224",
+        "output_cost_per_token": "0.0088",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/deepseek/deepseek-prover-v2-671b",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 160000,
+        "max_input_tokens": 160000,
+        "max_output_tokens": 160000,
+        "input_cost_per_token": "0.0056",
+        "output_cost_per_token": "0.02",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-32b-fp8",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 20000,
+        "max_input_tokens": 40960,
+        "max_output_tokens": 20000,
+        "input_cost_per_token": "0.0008",
+        "output_cost_per_token": "0.0036",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-30b-a3b-fp8",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 20000,
+        "max_input_tokens": 40960,
+        "max_output_tokens": 20000,
+        "input_cost_per_token": "0.00072",
+        "output_cost_per_token": "0.0036",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/google/gemma-3-27b-it",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 98304,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000952",
+        "output_cost_per_token": "0.0016",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/deepseek/deepseek-v3-turbo",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16000,
+        "max_input_tokens": 64000,
+        "max_output_tokens": 16000,
+        "input_cost_per_token": "0.0032",
+        "output_cost_per_token": "0.0104",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/deepseek/deepseek-r1-turbo",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16000,
+        "max_input_tokens": 64000,
+        "max_output_tokens": 16000,
+        "input_cost_per_token": "0.0056",
+        "output_cost_per_token": "0.02",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/Sao10K/L3-8B-Stheno-v3.2",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.0005",
+        "output_cost_per_token": "0.0005",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/gryphe/mythomax-l2-13b",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 3200,
+        "max_input_tokens": 4096,
+        "max_output_tokens": 3200,
+        "input_cost_per_token": "0.00072",
+        "output_cost_per_token": "0.00072",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/baidu/ernie-4.5-vl-28b-a3b-thinking",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0039",
+        "output_cost_per_token": "0.0039",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-vl-8b-instruct",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00064",
+        "output_cost_per_token": "0.004",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/zai-org/glm-4.5-air",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 98304,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 98304,
+        "input_cost_per_token": "0.00104",
+        "output_cost_per_token": "0.0068",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-vl-30b-a3b-instruct",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0016",
+        "output_cost_per_token": "0.0056",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-vl-30b-a3b-thinking",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0016",
+        "output_cost_per_token": "0.008",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/qwen/qwen-mt-plus",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 16384,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.002",
+        "output_cost_per_token": "0.006",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/baidu/ernie-4.5-vl-28b-a3b",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 30000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.00112",
+        "output_cost_per_token": "0.00448",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "novita/baidu/ernie-4.5-21B-a3b",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": 120000,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": "0.00056",
+        "output_cost_per_token": "0.00224",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-8b-fp8",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 20000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 20000,
+        "input_cost_per_token": "0.00028",
+        "output_cost_per_token": "0.001104",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-4b-fp8",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 20000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 20000,
+        "input_cost_per_token": "0.00024",
+        "output_cost_per_token": "0.00024",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen2.5-7b-instruct",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.00056",
+        "output_cost_per_token": "0.00056",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/meta-llama/llama-3.2-3b-instruct",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.00024",
+        "output_cost_per_token": "0.0004",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/sao10k/l31-70b-euryale-v2.2",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0148",
+        "output_cost_per_token": "0.0148",
+        "litellm_provider": "novita",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "llamagate/llama-3.1-8b",
       "provider": "llamagate",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -32103,6 +33429,57 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "novita/qwen/qwen3-embedding-0.6b",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00056",
+        "output_cost_per_token": "0",
+        "litellm_provider": "novita",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/qwen/qwen3-embedding-8b",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.00056",
+        "output_cost_per_token": "0",
+        "litellm_provider": "novita",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "novita/baai/bge-m3",
+      "provider": "novita",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 96000,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 96000,
+        "input_cost_per_token": "0.0001",
+        "output_cost_per_token": "0.0001",
+        "litellm_provider": "novita",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "llamagate/nomic-embed-text",
       "provider": "llamagate",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -33348,7 +34725,7 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 65536,
+        "max_tokens": 32768,
         "max_input_tokens": 65536,
         "max_output_tokens": 32768,
         "input_cost_per_token": "0.000002",
@@ -33402,7 +34779,7 @@ export const aiModels: AIModels = {
       "provider": "gemini",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 65536,
+        "max_tokens": 32768,
         "max_input_tokens": 65536,
         "max_output_tokens": 32768,
         "input_cost_per_token": "0.000002",
@@ -34842,7 +36219,7 @@ export const aiModels: AIModels = {
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
       "sample_spec": {
-        "max_tokens": 65536,
+        "max_tokens": 32768,
         "max_input_tokens": 65536,
         "max_output_tokens": 32768,
         "input_cost_per_token": "0.000002",
@@ -35246,7 +36623,7 @@ export const aiModels: AIModels = {
       "provider": "text-completion-openai",
       "logo": "/logos/openai.svg",
       "sample_spec": {
-        "max_tokens": 16384,
+        "max_tokens": 4096,
         "max_input_tokens": 16384,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000004",
@@ -35441,7 +36818,7 @@ export const aiModels: AIModels = {
       "provider": "text-completion-openai",
       "logo": "/logos/openai.svg",
       "sample_spec": {
-        "max_tokens": 16384,
+        "max_tokens": 4096,
         "max_input_tokens": 16384,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.000002",
@@ -35475,7 +36852,7 @@ export const aiModels: AIModels = {
       "provider": "text-completion-openai",
       "logo": "/logos/openai.svg",
       "sample_spec": {
-        "max_tokens": 16384,
+        "max_tokens": 4096,
         "max_input_tokens": 16384,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000016",
@@ -35492,7 +36869,7 @@ export const aiModels: AIModels = {
       "provider": "text-completion-openai",
       "logo": "/logos/openai.svg",
       "sample_spec": {
-        "max_tokens": 16384,
+        "max_tokens": 4096,
         "max_input_tokens": 16384,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.000012",
