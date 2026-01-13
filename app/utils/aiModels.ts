@@ -19022,8 +19022,8 @@ export const aiModels: AIModels = {
         "max_tokens": 32768,
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
-        "input_cost_per_token": "0.00000018",
-        "output_cost_per_token": "0.0000008",
+        "input_cost_per_token": "0.00000002",
+        "output_cost_per_token": "0.0000001",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
@@ -20536,6 +20536,465 @@ export const aiModels: AIModels = {
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000003",
         "output_cost_per_token": "0.000001",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-5",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "replicateopenai/gpt-oss-20b",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000009",
+        "output_cost_per_token": "0.00000036",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "replicate/anthropic/claude-4.5-haiku",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "replicate/ibm-granite/granite-3.3-8b-instruct",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.00000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-4o",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "replicate/openai/o4-mini",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "replicate/openai/o1-mini",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000011",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "replicate/openai/o1",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000015",
+        "output_cost_per_token": "0.00006",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-4o-mini",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "replicate/qwen/qwen3-235b-a22b-instruct-2507",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000000264",
+        "output_cost_per_token": "0.00000106",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "replicate/anthropic/claude-4-sonnet",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "replicate/deepseek-ai/deepseek-v3",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000145",
+        "output_cost_per_token": "0.00000145",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "replicate/anthropic/claude-3.7-sonnet",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "replicate/anthropic/claude-3.5-haiku",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "replicate/anthropic/claude-3.5-sonnet",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000375",
+        "output_cost_per_token": "0.00001875",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "replicate/google/gemini-3-pro",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "replicate/anthropic/claude-4.5-sonnet",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-4.1",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000008",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-4.1-nano",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-4.1-mini",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000016",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-5-nano",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-5-mini",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "replicate/google/gemini-2.5-flash",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "replicate/openai/gpt-oss-120b",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000018",
+        "output_cost_per_token": "0.00000072",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "replicate/deepseek-ai/deepseek-v3.1",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.000000672",
+        "output_cost_per_token": "0.000002016",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "replicate/xai/grok-4",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000072",
+        "output_cost_per_token": "0.000036",
+        "litellm_provider": "replicate",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "replicate/deepseek-ai/deepseek-r1",
+      "provider": "replicate",
+      "logo": "/logos/replicate.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000375",
+        "output_cost_per_token": "0.00001",
         "litellm_provider": "replicate",
         "mode": "chat",
         "supports_function_calling": false,
