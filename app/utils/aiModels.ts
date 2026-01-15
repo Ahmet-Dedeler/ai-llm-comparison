@@ -2298,7 +2298,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -2520,7 +2520,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000175",
         "output_cost_per_token": "0.000014",
@@ -3706,14 +3706,14 @@ export const aiModels: AIModels = {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": "0.0000033",
-        "output_cost_per_token": "0.0000165",
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
         "litellm_provider": "azure_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://devblogs.microsoft.com/foundry/announcing-grok-3-and-grok-3-mini-on-azure-ai-foundry/"
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/grok/"
       }
     },
     {
@@ -3724,14 +3724,14 @@ export const aiModels: AIModels = {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": "0.000000275",
-        "output_cost_per_token": "0.00000138",
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.00000127",
         "litellm_provider": "azure_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://devblogs.microsoft.com/foundry/announcing-grok-3-and-grok-3-mini-on-azure-ai-foundry/"
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/grok/"
       }
     },
     {
@@ -3742,14 +3742,14 @@ export const aiModels: AIModels = {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": "0.0000055",
-        "output_cost_per_token": "0.0000275",
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
         "litellm_provider": "azure_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azure.microsoft.com/en-us/blog/grok-4-is-now-available-in-azure-ai-foundry-unlock-frontier-intelligence-and-business-ready-capabilities/"
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/grok/"
       }
     },
     {
@@ -3760,8 +3760,8 @@ export const aiModels: AIModels = {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": "0.00000043",
-        "output_cost_per_token": "0.00000173",
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000005",
         "litellm_provider": "azure_ai",
         "mode": "chat",
         "supports_function_calling": true,
@@ -3777,14 +3777,14 @@ export const aiModels: AIModels = {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": "0.00000043",
-        "output_cost_per_token": "0.00000173",
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000005",
         "litellm_provider": "azure_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/announcing-the-grok-4-fast-models-from-xai-now-available-in-azure-ai-foundry/4456701"
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/grok/"
       }
     },
     {
@@ -3795,14 +3795,14 @@ export const aiModels: AIModels = {
         "max_tokens": 131072,
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
-        "input_cost_per_token": "0.0000035",
-        "output_cost_per_token": "0.0000175",
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000015",
         "litellm_provider": "azure_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azure.microsoft.com/en-us/blog/grok-4-is-now-available-in-azure-ai-foundry-unlock-frontier-intelligence-and-business-ready-capabilities/"
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/grok/"
       }
     },
     {
@@ -5532,6 +5532,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "cerebras/zai-glm-4.7",
+      "provider": "cerebras",
+      "logo": "/logos/cerebras.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000225",
+        "output_cost_per_token": "0.00000275",
+        "litellm_provider": "cerebras",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.cerebras.ai/pricing"
+      }
+    },
+    {
       "name": "chat-bison",
       "provider": "vertex_ai-chat-models",
       "logo": "/logos/google.svg",
@@ -7117,7 +7135,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/databricks.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000124999",
         "output_cost_per_token": "0.000009999990000000002",
@@ -7135,7 +7153,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/databricks.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000124999",
         "output_cost_per_token": "0.000009999990000000002",
@@ -7153,7 +7171,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/databricks.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000024997000000000006",
         "output_cost_per_token": "0.0000019999700000000004",
@@ -7171,7 +7189,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/databricks.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000004998",
         "output_cost_per_token": "0.00000039998000000000007",
@@ -13031,7 +13049,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -13048,7 +13066,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -13065,7 +13083,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -13099,7 +13117,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000175",
         "output_cost_per_token": "0.000014",
@@ -13116,7 +13134,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000175",
         "output_cost_per_token": "0.000014",
@@ -13150,7 +13168,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -13201,7 +13219,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000025",
         "output_cost_per_token": "0.000002",
@@ -13218,7 +13236,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000025",
         "output_cost_per_token": "0.000002",
@@ -13235,7 +13253,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000005",
         "output_cost_per_token": "0.0000004",
@@ -13252,7 +13270,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000005",
         "output_cost_per_token": "0.0000004",
@@ -18900,10 +18918,27 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "openrouter/openai/gpt-5.2-codex",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000175",
+        "output_cost_per_token": "0.000014",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": false,
@@ -18917,7 +18952,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
@@ -18934,7 +18969,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000025",
         "output_cost_per_token": "0.000002",
@@ -18951,7 +18986,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000005",
         "output_cost_per_token": "0.0000004",
@@ -18968,7 +19003,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000175",
         "output_cost_per_token": "0.000014",
@@ -19002,7 +19037,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000021",
         "output_cost_per_token": "0.000168",
