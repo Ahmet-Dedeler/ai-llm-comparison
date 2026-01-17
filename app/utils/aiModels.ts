@@ -2566,6 +2566,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/gpt-5.2-codex",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000175",
+        "output_cost_per_token": "0.000014",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "azure/mistral-large-2402",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -25378,8 +25395,8 @@ export const aiModels: AIModels = {
         "max_tokens": 128000,
         "max_input_tokens": 200000,
         "max_output_tokens": 128000,
-        "input_cost_per_token": "0.0000003",
-        "output_cost_per_token": "0.0000012",
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000022",
         "litellm_provider": "vertex_ai-zai_models",
         "mode": "chat",
         "supports_function_calling": true,
