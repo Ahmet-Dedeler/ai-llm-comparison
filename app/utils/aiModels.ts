@@ -13851,7 +13851,7 @@ export const aiModels: AIModels = {
         "max_input_tokens": 131072,
         "max_output_tokens": 32766,
         "input_cost_per_token": "0.00000015",
-        "output_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.0000006",
         "litellm_provider": "groq",
         "mode": "chat",
         "supports_function_calling": true,
@@ -13867,8 +13867,8 @@ export const aiModels: AIModels = {
         "max_tokens": 32768,
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
-        "input_cost_per_token": "0.0000001",
-        "output_cost_per_token": "0.0000005",
+        "input_cost_per_token": "0.000000075",
+        "output_cost_per_token": "0.0000003",
         "litellm_provider": "groq",
         "mode": "chat",
         "supports_function_calling": true,
@@ -35040,6 +35040,40 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://ai.azure.com/explore/models/flux.2-pro/version/1/registry/azureml-blackforestlabs"
+      }
+    },
+    {
+      "name": "dall-e-2",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "openai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "dall-e-3",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "openai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
       }
     },
     {
