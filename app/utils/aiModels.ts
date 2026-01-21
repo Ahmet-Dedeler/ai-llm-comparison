@@ -10624,6 +10624,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini-2.5-computer-use-preview-10-2025",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/computer-use"
+      }
+    },
+    {
       "name": "gemini-flash-experimental",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
@@ -22725,8 +22743,8 @@ export const aiModels: AIModels = {
         "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "input_cost_per_token": "0.000005",
-        "output_cost_per_token": "0.000025",
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.0000275",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
