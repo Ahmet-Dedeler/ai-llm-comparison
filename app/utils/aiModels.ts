@@ -32329,6 +32329,23 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true
       }
+    },
+    {
+      "name": "sarvam/sarvam-m",
+      "provider": "sarvam",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "sarvam",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
     }
   ],
   "embedding": [
