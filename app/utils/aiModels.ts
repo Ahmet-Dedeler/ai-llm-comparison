@@ -225,6 +225,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "amazon.nova-2-pro-preview-20251202-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000021875",
+        "output_cost_per_token": "0.0000175",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "apac.amazon.nova-2-lite-v1:0",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -234,6 +251,23 @@ export const aiModels: AIModels = {
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.00000033",
         "output_cost_per_token": "0.00000275",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "apac.amazon.nova-2-pro-preview-20251202-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000021875",
+        "output_cost_per_token": "0.0000175",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
@@ -259,6 +293,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "eu.amazon.nova-2-pro-preview-20251202-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000021875",
+        "output_cost_per_token": "0.0000175",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "us.amazon.nova-2-lite-v1:0",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -268,6 +319,23 @@ export const aiModels: AIModels = {
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.00000033",
         "output_cost_per_token": "0.00000275",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "us.amazon.nova-2-pro-preview-20251202-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000021875",
+        "output_cost_per_token": "0.0000175",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
@@ -10658,6 +10726,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini-robotics-er-1.5-preview",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/models#gemini-robotics-er-1-5-preview"
+      }
+    },
+    {
       "name": "gemini/gemini-robotics-er-1.5-preview",
       "provider": "gemini",
       "logo": "/logos/google.svg",
@@ -19821,6 +19907,74 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://openrouter.ai/z-ai/glm-4.6:exacto"
+      }
+    },
+    {
+      "name": "openrouter/xiaomi/mimo-v2-flash",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000009",
+        "output_cost_per_token": "0.00000029",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "openrouter/z-ai/glm-4.7",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 202752,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/z-ai/glm-4.7-flash",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.00000007",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/minimax/minimax-m2.1",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 204000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.00000027",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
       }
     },
     {
