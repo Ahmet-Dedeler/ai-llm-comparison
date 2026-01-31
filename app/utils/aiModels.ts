@@ -19222,6 +19222,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/moonshotai/kimi-k2.5",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/moonshotai/kimi-k2.5"
+      }
+    },
+    {
       "name": "openrouter/nousresearch/nous-hermes-llama2-13b",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
