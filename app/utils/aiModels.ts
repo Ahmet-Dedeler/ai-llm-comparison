@@ -1307,6 +1307,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/model_router",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000014",
+        "output_cost_per_token": "0",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-services/"
+      }
+    },
+    {
       "name": "azure/eu/gpt-4o-2024-08-06",
       "provider": "azure",
       "logo": "/logos/azure.svg",
