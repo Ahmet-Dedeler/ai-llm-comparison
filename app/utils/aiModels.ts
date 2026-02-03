@@ -538,7 +538,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 4096,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 4096,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
@@ -555,7 +555,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 8192,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
@@ -5571,8 +5571,8 @@ export const aiModels: AIModels = {
         "max_tokens": 32768,
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
-        "input_cost_per_token": "0.00000025",
-        "output_cost_per_token": "0.00000069",
+        "input_cost_per_token": "0.00000035",
+        "output_cost_per_token": "0.00000075",
         "litellm_provider": "cerebras",
         "mode": "chat",
         "supports_function_calling": true,
@@ -16658,6 +16658,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://platform.moonshot.ai/docs/pricing/chat#generation-model-kimi-k2"
+      }
+    },
+    {
+      "name": "moonshot/kimi-k2.5",
+      "provider": "moonshot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "moonshot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.moonshot.ai/docs/pricing/chat"
       }
     },
     {
