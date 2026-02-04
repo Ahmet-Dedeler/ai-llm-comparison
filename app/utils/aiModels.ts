@@ -23026,6 +23026,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "together_ai/zai-org/GLM-4.7",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 200000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 200000,
+        "input_cost_per_token": "0.00000045",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://www.together.ai/models/glm-4-7"
+      }
+    },
+    {
+      "name": "together_ai/moonshotai/Kimi-K2.5",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000028",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.together.ai/models/kimi-k2-5"
+      }
+    },
+    {
       "name": "together_ai/moonshotai/Kimi-K2-Instruct-0905",
       "provider": "together_ai",
       "logo": "/placeholder.svg?height=30&width=30",
