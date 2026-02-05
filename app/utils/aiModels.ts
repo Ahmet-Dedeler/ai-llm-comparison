@@ -23774,7 +23774,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000003",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -23791,7 +23791,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000016",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -23808,9 +23808,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000024",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -23825,7 +23825,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000014",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -23842,9 +23842,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000032",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -23876,9 +23876,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000125",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -23893,9 +23893,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000075",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -23910,9 +23910,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000004",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -23927,9 +23927,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000015",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -23944,9 +23944,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000015",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -23961,9 +23961,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000075",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -23978,7 +23978,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000015",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -23995,7 +23995,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00001",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24012,7 +24012,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000006",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24029,7 +24029,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00001",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24080,7 +24080,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000099",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24114,9 +24114,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000006",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24131,9 +24131,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000003",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24148,9 +24148,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000025",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24165,9 +24165,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00001",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24182,9 +24182,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000002",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24267,7 +24267,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000008",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24284,9 +24284,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000016",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24318,7 +24318,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000015",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24335,9 +24335,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000072",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24352,7 +24352,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000072",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24386,9 +24386,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000003",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24403,7 +24403,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000009",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24437,7 +24437,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000028",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24454,7 +24454,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000005",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24471,7 +24471,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000015",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24488,7 +24488,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000004",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24505,9 +24505,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000001",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24539,7 +24539,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000006",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24573,7 +24573,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000003",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24590,7 +24590,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000012",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24607,9 +24607,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000015",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24624,9 +24624,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000006",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24641,7 +24641,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000022",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24692,7 +24692,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000015",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24726,9 +24726,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00003",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24743,9 +24743,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000008",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24760,9 +24760,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000016",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24777,9 +24777,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000004",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24794,9 +24794,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00001",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24811,9 +24811,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000006",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24828,9 +24828,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00006",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24845,9 +24845,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000008",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24862,7 +24862,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000044",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24879,9 +24879,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000044",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24964,9 +24964,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000015",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24981,9 +24981,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000015",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24998,7 +24998,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00001",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -25015,9 +25015,9 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00001",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -25032,7 +25032,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000015",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -25049,7 +25049,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000025",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -25066,7 +25066,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000005",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -25083,7 +25083,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000004",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -25100,7 +25100,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000015",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -25117,7 +25117,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000022",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -25134,7 +25134,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000011",
         "litellm_provider": "vercel_ai_gateway",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -25205,7 +25205,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude/haiku-4-5"
       }
     },
@@ -36023,6 +36023,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "deep-research-pro-preview-12-2025",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      }
+    },
+    {
       "name": "gemini/gemini-2.5-flash-image",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
@@ -36060,6 +36078,24 @@ export const aiModels: AIModels = {
     },
     {
       "name": "gemini/gemini-3-pro-image-preview",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "gemini",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      }
+    },
+    {
+      "name": "gemini/deep-research-pro-preview-12-2025",
       "provider": "gemini",
       "logo": "/logos/google.svg",
       "sample_spec": {
@@ -37500,6 +37536,24 @@ export const aiModels: AIModels = {
     },
     {
       "name": "vertex_ai/gemini-3-pro-image-preview",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/3-pro-image"
+      }
+    },
+    {
+      "name": "vertex_ai/deep-research-pro-preview-12-2025",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
       "sample_spec": {
