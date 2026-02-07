@@ -720,12 +720,12 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "anthropic.claude-opus-4-6-v1:0",
+      "name": "anthropic.claude-opus-4-6-v1",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000005",
         "output_cost_per_token": "0.000025",
@@ -737,12 +737,12 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "global.anthropic.claude-opus-4-6-v1:0",
+      "name": "global.anthropic.claude-opus-4-6-v1",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000005",
         "output_cost_per_token": "0.000025",
@@ -759,7 +759,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000055",
         "output_cost_per_token": "0.0000275",
@@ -771,12 +771,12 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "eu.anthropic.claude-opus-4-6-v1:0",
+      "name": "us.anthropic.claude-opus-4-6-v1",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000055",
         "output_cost_per_token": "0.0000275",
@@ -788,7 +788,41 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "apac.anthropic.claude-opus-4-6-v1:0",
+      "name": "eu.anthropic.claude-opus-4-6-v1",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.0000275",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "apac.anthropic.claude-opus-4-6-v1",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.0000275",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "au.anthropic.claude-opus-4-6-v1:0",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
@@ -6241,10 +6275,27 @@ export const aiModels: AIModels = {
       "logo": "/logos/anthropic.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000005",
         "output_cost_per_token": "0.000025",
+        "litellm_provider": "anthropic",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "us/claude-opus-4-6",
+      "provider": "anthropic",
+      "logo": "/logos/anthropic.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.0000275",
         "litellm_provider": "anthropic",
         "mode": "chat",
         "supports_function_calling": true,
@@ -6258,10 +6309,27 @@ export const aiModels: AIModels = {
       "logo": "/logos/anthropic.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000005",
         "output_cost_per_token": "0.000025",
+        "litellm_provider": "anthropic",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "us/claude-opus-4-6-20260205",
+      "provider": "anthropic",
+      "logo": "/logos/anthropic.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.0000275",
         "litellm_provider": "anthropic",
         "mode": "chat",
         "supports_function_calling": true,
@@ -25659,7 +25727,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/google.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000005",
         "output_cost_per_token": "0.000025",
@@ -40044,6 +40112,42 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "elevenlabs/eleven_v3",
+      "provider": "elevenlabs",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "elevenlabs",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://elevenlabs.io/pricing"
+      }
+    },
+    {
+      "name": "elevenlabs/eleven_multilingual_v2",
+      "provider": "elevenlabs",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "elevenlabs",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://elevenlabs.io/pricing"
       }
     },
     {
