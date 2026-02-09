@@ -754,23 +754,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "us.anthropic.claude-opus-4-6-v1:0",
-      "provider": "bedrock_converse",
-      "logo": "/logos/amazon.svg",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.0000055",
-        "output_cost_per_token": "0.0000275",
-        "litellm_provider": "bedrock_converse",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true
-      }
-    },
-    {
       "name": "us.anthropic.claude-opus-4-6-v1",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -811,23 +794,6 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": 128000,
         "max_input_tokens": 1000000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.0000055",
-        "output_cost_per_token": "0.0000275",
-        "litellm_provider": "bedrock_converse",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true
-      }
-    },
-    {
-      "name": "au.anthropic.claude-opus-4-6-v1:0",
-      "provider": "bedrock_converse",
-      "logo": "/logos/amazon.svg",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 200000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000055",
         "output_cost_per_token": "0.0000275",
