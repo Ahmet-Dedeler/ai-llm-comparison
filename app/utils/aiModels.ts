@@ -4029,6 +4029,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/kimi-k2.5",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/kimi-k2-5-now-in-microsoft-foundry/4492321"
+      }
+    },
+    {
       "name": "azure_ai/ministral-3b",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
@@ -4408,6 +4426,57 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "bedrock/ap-northeast-1/moonshotai.kimi-k2-thinking",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000073",
+        "output_cost_per_token": "0.00000303",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/moonshotai.kimi-k2-thinking",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000073",
+        "output_cost_per_token": "0.00000303",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/moonshotai.kimi-k2.5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000073",
+        "output_cost_per_token": "0.00000303",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "bedrock/ap-south-1/meta.llama3-70b-instruct-v1:0",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -4437,6 +4506,23 @@ export const aiModels: AIModels = {
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/ap-south-1/moonshotai.kimi-k2-thinking",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000071",
+        "output_cost_per_token": "0.00000294",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -4799,6 +4885,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "bedrock/sa-east-1/moonshotai.kimi-k2-thinking",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000073",
+        "output_cost_per_token": "0.00000303",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "bedrock/us-east-1/1-month-commitment/anthropic.claude-instant-v1",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -5032,6 +5135,40 @@ export const aiModels: AIModels = {
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-east-1/moonshotai.kimi-k2-thinking",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-east-2/moonshotai.kimi-k2-thinking",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -5593,6 +5730,23 @@ export const aiModels: AIModels = {
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-west-2/moonshotai.kimi-k2-thinking",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
