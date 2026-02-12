@@ -7375,6 +7375,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "dashscope/qwen3-max",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 258048,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
       "name": "dashscope/qwq-plus",
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -9005,15 +9023,16 @@ export const aiModels: AIModels = {
       "logo": "/logos/deepseek.svg",
       "sample_spec": {
         "max_tokens": 8192,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 131072,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000028",
         "output_cost_per_token": "0.00000042",
         "litellm_provider": "deepseek",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://api-docs.deepseek.com/quick_start/pricing"
       }
     },
     {
@@ -9055,16 +9074,17 @@ export const aiModels: AIModels = {
       "provider": "deepseek",
       "logo": "/logos/deepseek.svg",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 8192,
+        "max_tokens": 65536,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 65536,
         "input_cost_per_token": "0.00000028",
         "output_cost_per_token": "0.00000042",
         "litellm_provider": "deepseek",
         "mode": "chat",
-        "supports_function_calling": true,
+        "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://api-docs.deepseek.com/quick_start/pricing"
       }
     },
     {
