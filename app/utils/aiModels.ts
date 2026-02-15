@@ -18503,7 +18503,7 @@ export const aiModels: AIModels = {
         "litellm_provider": "openai",
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
+        "supports_parallel_function_calling": false,
         "supports_vision": true
       }
     },
