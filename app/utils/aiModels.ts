@@ -788,7 +788,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "apac.anthropic.claude-opus-4-6-v1",
+      "name": "au.anthropic.claude-opus-4-6-v1",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
@@ -10577,6 +10577,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "fireworks_ai/accounts/fireworks/models/kimi-k2p5",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fireworks.ai/pricing"
+      }
+    },
+    {
       "name": "fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct",
       "provider": "fireworks_ai",
       "logo": "/logos/fireworks ai.svg",
@@ -18793,7 +18811,7 @@ export const aiModels: AIModels = {
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
         "input_cost_per_token": "0.000003",
-        "output_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.000015",
         "litellm_provider": "oci",
         "mode": "chat",
         "supports_function_calling": true,
@@ -18865,7 +18883,7 @@ export const aiModels: AIModels = {
         "max_input_tokens": 128000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000003",
-        "output_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.000015",
         "litellm_provider": "oci",
         "mode": "chat",
         "supports_function_calling": true,
