@@ -11888,6 +11888,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini-3.1-pro-preview",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#gemini-models"
+      }
+    },
+    {
+      "name": "gemini-3.1-pro-preview-customtools",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#gemini-models"
+      }
+    },
+    {
       "name": "vertex_ai/gemini-3-pro-preview",
       "provider": "vertex_ai",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -11921,6 +11957,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "vertex_ai/gemini-3.1-pro-preview",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#gemini-models"
+      }
+    },
+    {
+      "name": "vertex_ai/gemini-3.1-pro-preview-customtools",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#gemini-models"
       }
     },
     {
@@ -12803,6 +12875,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://ai.google.dev/pricing/gemini-3"
+      }
+    },
+    {
+      "name": "gemini/gemini-3.1-pro-preview",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/models#gemini-3.1-pro-preview"
+      }
+    },
+    {
+      "name": "gemini/gemini-3.1-pro-preview-customtools",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/models#gemini-3.1-pro-preview"
       }
     },
     {
