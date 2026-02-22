@@ -21030,6 +21030,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/minimax/minimax-m2.5",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 196608,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000011",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/minimax/minimax-m2.5"
+      }
+    },
+    {
       "name": "ovhcloud/DeepSeek-R1-Distill-Llama-70B",
       "provider": "ovhcloud",
       "logo": "/placeholder.svg?height=30&width=30",
