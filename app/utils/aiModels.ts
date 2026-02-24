@@ -7110,23 +7110,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "us/claude-sonnet-4-6",
-      "provider": "anthropic",
-      "logo": "/logos/anthropic.svg",
-      "sample_spec": {
-        "max_tokens": 64000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 64000,
-        "input_cost_per_token": "0.0000033",
-        "output_cost_per_token": "0.0000165",
-        "litellm_provider": "anthropic",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true
-      }
-    },
-    {
       "name": "claude-sonnet-4-5-20250929-v1:0",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -7246,57 +7229,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "fast/claude-opus-4-6",
-      "provider": "anthropic",
-      "logo": "/logos/anthropic.svg",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.00003",
-        "output_cost_per_token": "0.00015",
-        "litellm_provider": "anthropic",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true
-      }
-    },
-    {
-      "name": "us/claude-opus-4-6",
-      "provider": "anthropic",
-      "logo": "/logos/anthropic.svg",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.0000055",
-        "output_cost_per_token": "0.0000275",
-        "litellm_provider": "anthropic",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true
-      }
-    },
-    {
-      "name": "fast/us/claude-opus-4-6",
-      "provider": "anthropic",
-      "logo": "/logos/anthropic.svg",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.00003",
-        "output_cost_per_token": "0.00015",
-        "litellm_provider": "anthropic",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true
-      }
-    },
-    {
       "name": "claude-opus-4-6-20260205",
       "provider": "anthropic",
       "logo": "/logos/anthropic.svg",
@@ -7306,40 +7238,6 @@ export const aiModels: AIModels = {
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000005",
         "output_cost_per_token": "0.000025",
-        "litellm_provider": "anthropic",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true
-      }
-    },
-    {
-      "name": "fast/claude-opus-4-6-20260205",
-      "provider": "anthropic",
-      "logo": "/logos/anthropic.svg",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.00003",
-        "output_cost_per_token": "0.00015",
-        "litellm_provider": "anthropic",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": true
-      }
-    },
-    {
-      "name": "us/claude-opus-4-6-20260205",
-      "provider": "anthropic",
-      "logo": "/logos/anthropic.svg",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 200000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.0000055",
-        "output_cost_per_token": "0.0000275",
         "litellm_provider": "anthropic",
         "mode": "chat",
         "supports_function_calling": true,
