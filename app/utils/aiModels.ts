@@ -15790,6 +15790,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "groq/openai/gpt-oss-safeguard-20b",
+      "provider": "groq",
+      "logo": "/logos/groq.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000000075",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "groq",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "groq/qwen/qwen3-32b",
       "provider": "groq",
       "logo": "/logos/groq.svg",
