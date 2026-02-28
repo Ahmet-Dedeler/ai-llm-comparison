@@ -14702,6 +14702,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gpt-audio-1.5",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "gpt-audio-2025-08-28",
       "provider": "openai",
       "logo": "/logos/openai.svg",
@@ -15247,6 +15264,23 @@ export const aiModels: AIModels = {
     },
     {
       "name": "gpt-realtime",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.000004",
+        "output_cost_per_token": "0.000016",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "gpt-realtime-1.5",
       "provider": "openai",
       "logo": "/logos/openai.svg",
       "sample_spec": {
@@ -19845,6 +19879,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/anthropic/claude-opus-4.6",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "openrouter/anthropic/claude-sonnet-4.5",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
@@ -20997,6 +21048,57 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/openrouter/auto",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 2000000,
+        "max_input_tokens": 2000000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/openrouter/free",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 200000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/openrouter/bodybuilder",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "ovhcloud/DeepSeek-R1-Distill-Llama-70B",
       "provider": "ovhcloud",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -21739,7 +21841,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0",
         "litellm_provider": "publicai",
         "mode": "chat",
-        "supports_function_calling": true,
+        "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://platform.publicai.co/docs"
@@ -21757,7 +21859,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0",
         "litellm_provider": "publicai",
         "mode": "chat",
-        "supports_function_calling": true,
+        "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://platform.publicai.co/docs"
@@ -37598,6 +37700,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini-3.1-flash-image-preview",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#gemini-models"
+      }
+    },
+    {
       "name": "deep-research-pro-preview-12-2025",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
@@ -39125,6 +39245,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/3-pro-image"
+      }
+    },
+    {
+      "name": "vertex_ai/gemini-3.1-flash-image-preview",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#gemini-models"
       }
     },
     {
