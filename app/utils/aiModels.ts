@@ -37737,7 +37737,7 @@ export const aiModels: AIModels = {
     },
     {
       "name": "gemini/gemini-2.5-flash-image",
-      "provider": "vertex_ai-language-models",
+      "provider": "gemini",
       "logo": "/logos/google.svg",
       "sample_spec": {
         "max_tokens": 32768,
@@ -37745,7 +37745,7 @@ export const aiModels: AIModels = {
         "max_output_tokens": 32768,
         "input_cost_per_token": "0.0000003",
         "output_cost_per_token": "0.0000025",
-        "litellm_provider": "vertex_ai-language-models",
+        "litellm_provider": "gemini",
         "mode": "image_generation",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
