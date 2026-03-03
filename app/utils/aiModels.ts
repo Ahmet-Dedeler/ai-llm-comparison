@@ -8164,6 +8164,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "dashscope/qwen3-vl-plus",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 260096,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "dashscope/qwen3.5-plus",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
       "name": "dashscope/qwq-plus",
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -17731,6 +17767,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "mistral/magistral-medium-1-2-2509",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 40000,
+        "max_input_tokens": 40000,
+        "max_output_tokens": 40000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://mistral.ai/news/magistral"
+      }
+    },
+    {
       "name": "mistral/magistral-medium-latest",
       "provider": "mistral",
       "logo": "/logos/mistral.svg",
@@ -17768,6 +17822,24 @@ export const aiModels: AIModels = {
     },
     {
       "name": "mistral/magistral-small-latest",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 40000,
+        "max_input_tokens": 40000,
+        "max_output_tokens": 40000,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://mistral.ai/pricing#api-pricing"
+      }
+    },
+    {
+      "name": "mistral/magistral-small-1-2-2509",
       "provider": "mistral",
       "logo": "/logos/mistral.svg",
       "sample_spec": {
@@ -17840,16 +17912,17 @@ export const aiModels: AIModels = {
       "provider": "mistral",
       "logo": "/logos/mistral.svg",
       "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.000002",
-        "output_cost_per_token": "0.000006",
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
         "litellm_provider": "mistral",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true,
+        "source": "https://docs.mistral.ai/models/mistral-large-3-25-12"
       }
     },
     {
@@ -17857,9 +17930,27 @@ export const aiModels: AIModels = {
       "provider": "mistral",
       "logo": "/logos/mistral.svg",
       "sample_spec": {
-        "max_tokens": 8191,
-        "max_input_tokens": 256000,
-        "max_output_tokens": 8191,
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.mistral.ai/models/mistral-large-3-25-12"
+      }
+    },
+    {
+      "name": "mistral/mistral-large-2512",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
         "input_cost_per_token": "0.0000005",
         "output_cost_per_token": "0.0000015",
         "litellm_provider": "mistral",
@@ -17926,16 +18017,34 @@ export const aiModels: AIModels = {
       "provider": "mistral",
       "logo": "/logos/mistral.svg",
       "sample_spec": {
-        "max_tokens": 8191,
+        "max_tokens": 131072,
         "max_input_tokens": 131072,
-        "max_output_tokens": 8191,
+        "max_output_tokens": 131072,
         "input_cost_per_token": "0.0000004",
         "output_cost_per_token": "0.000002",
         "litellm_provider": "mistral",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "mistral/mistral-medium-3-1-2508",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://mistral.ai/news/mistral-medium-3"
       }
     },
     {
@@ -17960,16 +18069,89 @@ export const aiModels: AIModels = {
       "provider": "mistral",
       "logo": "/logos/mistral.svg",
       "sample_spec": {
-        "max_tokens": 8191,
-        "max_input_tokens": 32000,
-        "max_output_tokens": 8191,
-        "input_cost_per_token": "0.0000001",
-        "output_cost_per_token": "0.0000003",
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000018",
         "litellm_provider": "mistral",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true,
+        "source": "https://mistral.ai/pricing"
+      }
+    },
+    {
+      "name": "mistral/mistral-small-3-2-2506",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000018",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://mistral.ai/pricing"
+      }
+    },
+    {
+      "name": "mistral/ministral-3-3b-2512",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000001",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://mistral.ai/pricing"
+      }
+    },
+    {
+      "name": "mistral/ministral-3-8b-2512",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://mistral.ai/pricing"
+      }
+    },
+    {
+      "name": "mistral/ministral-3-14b-2512",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://mistral.ai/pricing"
       }
     },
     {
