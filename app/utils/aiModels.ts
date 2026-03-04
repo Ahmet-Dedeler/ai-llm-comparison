@@ -8164,6 +8164,132 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "dashscope/qwen3-max-2026-01-23",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 258048,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "dashscope/qwen3-next-80b-a3b-instruct",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+      }
+    },
+    {
+      "name": "dashscope/qwen3-next-80b-a3b-thinking",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+      }
+    },
+    {
+      "name": "dashscope/qwen3-vl-235b-a22b-instruct",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000016",
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+      }
+    },
+    {
+      "name": "dashscope/qwen3-vl-235b-a22b-thinking",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+      }
+    },
+    {
+      "name": "dashscope/qwen3-vl-32b-instruct",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000016",
+        "output_cost_per_token": "0.00000064",
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+      }
+    },
+    {
+      "name": "dashscope/qwen3-vl-32b-thinking",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000016",
+        "output_cost_per_token": "0.00000287",
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+      }
+    },
+    {
       "name": "dashscope/qwen3-vl-plus",
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -11766,6 +11892,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini-3.1-flash-lite-preview",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/models"
+      }
+    },
+    {
       "name": "gemini-2.5-flash-lite",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
@@ -12915,6 +13059,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "gemini/gemini-3.1-flash-lite-preview",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/models"
       }
     },
     {
@@ -19027,6 +19189,492 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "nebius/deepseek-ai/DeepSeek-R1",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000024",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/deepseek-ai/DeepSeek-R1-0528",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 164000,
+        "max_input_tokens": 164000,
+        "max_output_tokens": 164000,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000024",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.00000075",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/deepseek-ai/DeepSeek-V3",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/deepseek-ai/DeepSeek-V3-0324",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/google/gemma-3-27b-it",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/meta-llama/Llama-3.3-70B-Instruct",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000013",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/meta-llama/Llama-Guard-3-8B",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000002",
+        "output_cost_per_token": "0.00000006",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000002",
+        "output_cost_per_token": "0.00000006",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000013",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/meta-llama/Meta-Llama-3.1-405B-Instruct",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/mistralai/Mistral-Nemo-Instruct-2407",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000004",
+        "output_cost_per_token": "0.00000012",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/NousResearch/Hermes-3-Llama-3.1-405B",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/nvidia/Llama-3.1-Nemotron-Ultra-253B-v1",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000018",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/nvidia/Llama-3.3-Nemotron-Super-49B-v1",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/Qwen/Qwen3-235B-A22B",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/Qwen/Qwen3-32B",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/Qwen/Qwen3-30B-A3B",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/Qwen/Qwen3-14B",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000008",
+        "output_cost_per_token": "0.00000024",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/Qwen/Qwen3-4B",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000008",
+        "output_cost_per_token": "0.00000024",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/Qwen/QwQ-32B",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000045",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/Qwen/Qwen2.5-72B-Instruct",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000013",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/Qwen/Qwen2.5-32B-Instruct",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/Qwen/Qwen2.5-Coder-7B",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000001",
+        "output_cost_per_token": "0.00000003",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/Qwen/Qwen2.5-VL-72B-Instruct",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000013",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/Qwen/Qwen2-VL-72B-Instruct",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000013",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/Qwen/Qwen2-VL-7B-Instruct",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000002",
+        "output_cost_per_token": "0.00000006",
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
       "name": "nvidia.nemotron-nano-12b-v2",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -20044,6 +20692,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/anthropic/claude-sonnet-4.6",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/anthropic/claude-sonnet-4.6"
+      }
+    },
+    {
       "name": "openrouter/anthropic/claude-opus-4.5",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
@@ -20332,6 +20998,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://ai.google.dev/pricing/gemini-3"
+      }
+    },
+    {
+      "name": "openrouter/google/gemini-3.1-pro-preview",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/google/gemini-3.1-pro-preview"
       }
     },
     {
@@ -20829,6 +21513,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/openai/gpt-5.1-codex-max",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/openai/gpt-5.1-codex-max"
+      }
+    },
+    {
       "name": "openrouter/openai/gpt-5.2",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
@@ -21019,6 +21721,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/qwen/qwen3-coder-plus",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/qwen/qwen3-coder-plus"
+      }
+    },
+    {
       "name": "openrouter/qwen/qwen3-235b-a22b-2507",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
@@ -21192,6 +21912,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/z-ai/glm-5",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 202752,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.00000256",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/z-ai/glm-5"
       }
     },
     {
@@ -27262,6 +28000,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "vertex_ai/gemini-3.1-flash-lite-preview",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#gemini-models"
+      }
+    },
+    {
       "name": "vertex_ai/jamba-1.5",
       "provider": "vertex_ai-ai21_models",
       "logo": "/logos/google.svg",
@@ -29226,6 +29982,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "zai/glm-5",
+      "provider": "zai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.0000032",
+        "litellm_provider": "zai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.z.ai/guides/overview/pricing"
+      }
+    },
+    {
+      "name": "zai/glm-5-code",
+      "provider": "zai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "zai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.z.ai/guides/overview/pricing"
       }
     },
     {
@@ -35793,6 +36585,96 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models"
+      }
+    },
+    {
+      "name": "nebius/BAAI/bge-en-icl",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000001",
+        "output_cost_per_token": "0",
+        "litellm_provider": "nebius",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/BAAI/bge-multilingual-gemma2",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000001",
+        "output_cost_per_token": "0",
+        "litellm_provider": "nebius",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "nebius/intfloat/e5-mistral-7b-instruct",
+      "provider": "nebius",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000001",
+        "output_cost_per_token": "0",
+        "litellm_provider": "nebius",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://nebius.com/prices-ai-studio"
+      }
+    },
+    {
+      "name": "perplexity/pplx-embed-v1-0.6b",
+      "provider": "perplexity",
+      "logo": "/logos/perplexity.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000000004",
+        "output_cost_per_token": "0",
+        "litellm_provider": "perplexity",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.perplexity.ai/docs/embeddings/quickstart"
+      }
+    },
+    {
+      "name": "perplexity/pplx-embed-v1-4b",
+      "provider": "perplexity",
+      "logo": "/logos/perplexity.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0",
+        "litellm_provider": "perplexity",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.perplexity.ai/docs/embeddings/quickstart"
       }
     },
     {
