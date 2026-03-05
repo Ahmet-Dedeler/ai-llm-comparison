@@ -8823,7 +8823,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000009",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -8840,7 +8840,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000001",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -8874,7 +8874,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000004",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -8891,7 +8891,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000039",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -8925,7 +8925,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000006",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true
       }
@@ -8942,7 +8942,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000024",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -8959,7 +8959,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000054",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -8976,7 +8976,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000006",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -8993,7 +8993,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000029",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9010,7 +9010,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000029",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9027,7 +9027,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000028",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9044,7 +9044,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000016",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9061,7 +9061,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000012",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9078,7 +9078,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000014",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9095,7 +9095,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000014",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9180,7 +9180,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000165",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9197,7 +9197,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000825",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9214,7 +9214,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000165",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9231,7 +9231,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000024",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9248,7 +9248,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000215",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9265,7 +9265,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000003",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9299,7 +9299,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000027",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9316,7 +9316,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000003",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9333,7 +9333,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000089",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9350,7 +9350,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000088",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9367,7 +9367,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000001",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9384,7 +9384,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000001",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9401,7 +9401,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000004",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9418,7 +9418,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000025",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9435,7 +9435,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00001",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9452,7 +9452,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000001",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9469,7 +9469,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000016",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9486,7 +9486,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000008",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9520,7 +9520,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000002",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9537,7 +9537,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000004",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9554,7 +9554,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000039",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9571,7 +9571,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000006",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9588,7 +9588,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000003",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9639,7 +9639,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000006",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9656,7 +9656,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000004",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9673,7 +9673,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000028",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9690,7 +9690,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000005",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9707,7 +9707,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000003",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9741,7 +9741,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000014",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9758,7 +9758,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000004",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9775,7 +9775,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000008",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9792,7 +9792,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000002",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9809,7 +9809,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000004",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9826,7 +9826,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000002",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9843,7 +9843,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.000002",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9860,7 +9860,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000006",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9877,7 +9877,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000004",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9894,7 +9894,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000016",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9911,7 +9911,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000045",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9928,7 +9928,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.00000015",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -9945,7 +9945,7 @@ export const aiModels: AIModels = {
         "output_cost_per_token": "0.0000016",
         "litellm_provider": "deepinfra",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -11961,42 +11961,6 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/"
-      }
-    },
-    {
-      "name": "gemini-live-2.5-flash-preview-native-audio-09-2025",
-      "provider": "vertex_ai-language-models",
-      "logo": "/logos/google.svg",
-      "sample_spec": {
-        "max_tokens": 65535,
-        "max_input_tokens": 1048576,
-        "max_output_tokens": 65535,
-        "input_cost_per_token": "0.0000003",
-        "output_cost_per_token": "0.000002",
-        "litellm_provider": "vertex_ai-language-models",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
-      }
-    },
-    {
-      "name": "gemini/gemini-live-2.5-flash-preview-native-audio-09-2025",
-      "provider": "gemini",
-      "logo": "/logos/google.svg",
-      "sample_spec": {
-        "max_tokens": 65535,
-        "max_input_tokens": 1048576,
-        "max_output_tokens": 65535,
-        "input_cost_per_token": "0.0000003",
-        "output_cost_per_token": "0.000002",
-        "litellm_provider": "gemini",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
       }
     },
     {
@@ -15342,6 +15306,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gpt-5.3-chat-latest",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000175",
+        "output_cost_per_token": "0.000014",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "gpt-5-2025-08-07",
       "provider": "openai",
       "logo": "/logos/openai.svg",
@@ -17472,6 +17453,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "mistral.devstral-2-123b",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
       }
     },
     {
@@ -25121,6 +25120,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "together_ai/Qwen/Qwen3.5-397B-A17B",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000036",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://www.together.ai/models/Qwen/Qwen3.5-397B-A17B"
+      }
+    },
+    {
       "name": "us.amazon.nova-lite-v1:0",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -29976,6 +29993,24 @@ export const aiModels: AIModels = {
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000006",
         "output_cost_per_token": "0.0000022",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "zai.glm-4.7-flash",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000007",
+        "output_cost_per_token": "0.0000004",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
