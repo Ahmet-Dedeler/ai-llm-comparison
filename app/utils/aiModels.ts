@@ -15393,40 +15393,6 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "gpt-5.4-pro",
-      "provider": "openai",
-      "logo": "/logos/openai.svg",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 1050000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.00003",
-        "output_cost_per_token": "0.00018",
-        "litellm_provider": "openai",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": true
-      }
-    },
-    {
-      "name": "gpt-5.4-pro-2026-03-05",
-      "provider": "openai",
-      "logo": "/logos/openai.svg",
-      "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": 1050000,
-        "max_output_tokens": 128000,
-        "input_cost_per_token": "0.00003",
-        "output_cost_per_token": "0.00018",
-        "litellm_provider": "openai",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": true
-      }
-    },
-    {
       "name": "gpt-5-2025-08-07",
       "provider": "openai",
       "logo": "/logos/openai.svg",
@@ -39058,6 +39024,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      }
+    },
+    {
+      "name": "gemini/gemini-3.1-flash-image-preview",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "gemini",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-image-preview"
       }
     },
     {
