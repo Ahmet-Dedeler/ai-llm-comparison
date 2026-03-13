@@ -34838,6 +34838,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini-flash-experimental",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+      }
+    },
+    {
       "name": "gemini/gemini-embedding-001",
       "provider": "gemini",
       "logo": "/logos/google.svg",
@@ -34863,7 +34881,25 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 8192,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.00000015",
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0",
+        "litellm_provider": "gemini",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      }
+    },
+    {
+      "name": "gemini/gemini-1.5-flash",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000000075",
         "output_cost_per_token": "0",
         "litellm_provider": "gemini",
         "mode": "embedding",
