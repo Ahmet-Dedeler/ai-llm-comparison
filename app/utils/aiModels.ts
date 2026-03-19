@@ -28214,6 +28214,60 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "xai/grok-4.20-multi-agent-beta-0309",
+      "provider": "xai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 2000000,
+        "max_input_tokens": 2000000,
+        "max_output_tokens": 2000000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "xai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.x.ai/docs/models"
+      }
+    },
+    {
+      "name": "xai/grok-4.20-beta-0309-reasoning",
+      "provider": "xai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 2000000,
+        "max_input_tokens": 2000000,
+        "max_output_tokens": 2000000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "xai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.x.ai/docs/models"
+      }
+    },
+    {
+      "name": "xai/grok-4.20-beta-0309-non-reasoning",
+      "provider": "xai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 2000000,
+        "max_input_tokens": 2000000,
+        "max_output_tokens": 2000000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "xai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.x.ai/docs/models"
+      }
+    },
+    {
       "name": "xai/grok-beta",
       "provider": "xai",
       "logo": "/placeholder.svg?height=30&width=30",
