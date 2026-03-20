@@ -2907,6 +2907,40 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/gpt-5.4-mini",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.0000045",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "azure/gpt-5.4-nano",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.00000125",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "azure/mistral-large-2402",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -34124,6 +34158,78 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "volcengine/doubao-seed-2-0-pro-260215",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "volcengine",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.volcengine.com/docs/82379/1330310"
+      }
+    },
+    {
+      "name": "volcengine/doubao-seed-2-0-lite-260215",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "volcengine",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.volcengine.com/docs/82379/1330310"
+      }
+    },
+    {
+      "name": "volcengine/doubao-seed-2-0-mini-260215",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "volcengine",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.volcengine.com/docs/82379/1330310"
+      }
+    },
+    {
+      "name": "volcengine/doubao-seed-2-0-code-preview-260215",
+      "provider": "volcengine",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "volcengine",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.volcengine.com/docs/82379/1330310"
       }
     }
   ],
