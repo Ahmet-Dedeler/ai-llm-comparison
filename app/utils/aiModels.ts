@@ -810,7 +810,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 64000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
@@ -827,7 +827,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 64000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
@@ -844,7 +844,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 64000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.0000033",
         "output_cost_per_token": "0.0000165",
@@ -861,7 +861,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 64000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.0000033",
         "output_cost_per_token": "0.0000165",
@@ -878,7 +878,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/amazon.svg",
       "sample_spec": {
         "max_tokens": 64000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.0000033",
         "output_cost_per_token": "0.0000165",
@@ -1447,7 +1447,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 64000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
@@ -7012,7 +7012,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/anthropic.svg",
       "sample_spec": {
         "max_tokens": 64000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
@@ -11967,6 +11967,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://aistudio.google.com"
+      }
+    },
+    {
+      "name": "gemini/lyria-3-clip-preview",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      }
+    },
+    {
+      "name": "gemini/lyria-3-pro-preview",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
       }
     },
     {
@@ -26169,7 +26205,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/google.svg",
       "sample_spec": {
         "max_tokens": 64000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
@@ -33985,6 +34021,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini-3.1-flash-live-preview",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.0000045",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      }
+    },
+    {
       "name": "gemini/gemini-2.5-flash-native-audio-latest",
       "provider": "gemini",
       "logo": "/logos/google.svg",
@@ -34036,6 +34090,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://ai.google.dev/pricing"
+      }
+    },
+    {
+      "name": "gemini/gemini-3.1-flash-live-preview",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.0000045",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
       }
     },
     {
@@ -34134,7 +34206,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/google.svg",
       "sample_spec": {
         "max_tokens": 64000,
-        "max_input_tokens": 200000,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 64000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
