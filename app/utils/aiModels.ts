@@ -35112,14 +35112,14 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 8192,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.00000015",
+        "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0",
         "litellm_provider": "vertex_ai",
         "mode": "embedding",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://ai.google.dev/gemini-api/docs/embeddings#multimodal"
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
       }
     },
     {
