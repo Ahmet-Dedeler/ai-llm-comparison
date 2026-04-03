@@ -6139,8 +6139,8 @@ export const aiModels: AIModels = {
         "max_tokens": 4096,
         "max_input_tokens": 200000,
         "max_output_tokens": 4096,
-        "input_cost_per_token": "0.0000033",
-        "output_cost_per_token": "0.0000165",
+        "input_cost_per_token": "0.0000036",
+        "output_cost_per_token": "0.000018",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
@@ -6309,8 +6309,8 @@ export const aiModels: AIModels = {
         "max_tokens": 4096,
         "max_input_tokens": 200000,
         "max_output_tokens": 4096,
-        "input_cost_per_token": "0.0000033",
-        "output_cost_per_token": "0.0000165",
+        "input_cost_per_token": "0.0000036",
+        "output_cost_per_token": "0.000018",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
@@ -34355,6 +34355,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://www.volcengine.com/docs/82379/1330310"
+      }
+    },
+    {
+      "name": "bedrock/us-gov-east-1/anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aws.amazon.com/about-aws/whats-new/2025/10/claude-4-5-haiku-anthropic-amazon-bedrock"
+      }
+    },
+    {
+      "name": "bedrock/us-gov-west-1/anthropic.claude-haiku-4-5-20251001-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aws.amazon.com/about-aws/whats-new/2025/10/claude-4-5-haiku-anthropic-amazon-bedrock"
       }
     }
   ],
