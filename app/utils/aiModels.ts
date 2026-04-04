@@ -4687,6 +4687,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "bedrock/ap-northeast-1/minimax.minimax-m2.5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000036",
+        "output_cost_per_token": "0.00000144",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
       "name": "bedrock/ap-northeast-1/moonshotai.kimi-k2-thinking",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -4845,6 +4863,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "bedrock/ap-south-1/minimax.minimax-m2.5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000036",
+        "output_cost_per_token": "0.00000144",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
       "name": "bedrock/ap-south-1/moonshotai.kimi-k2-thinking",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -4898,6 +4934,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "bedrock/ap-southeast-2/minimax.minimax-m2.5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.000000309",
+        "output_cost_per_token": "0.000001236",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
       "name": "bedrock/ap-southeast-3/deepseek.v3.2",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -4922,6 +4976,24 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": 8192,
         "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000036",
+        "output_cost_per_token": "0.00000144",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "bedrock/ap-southeast-3/minimax.minimax-m2.5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000036",
         "output_cost_per_token": "0.00000144",
@@ -5028,6 +5100,24 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": 8192,
         "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000036",
+        "output_cost_per_token": "0.00000144",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "bedrock/eu-north-1/minimax.minimax-m2.5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000036",
         "output_cost_per_token": "0.00000144",
@@ -5229,6 +5319,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "bedrock/eu-central-1/minimax.minimax-m2.5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000036",
+        "output_cost_per_token": "0.00000144",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
       "name": "bedrock/eu-central-1/qwen.qwen3-coder-next",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -5299,6 +5407,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "bedrock/eu-west-1/minimax.minimax-m2.5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000036",
+        "output_cost_per_token": "0.00000144",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
       "name": "bedrock/eu-west-1/qwen.qwen3-coder-next",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -5357,6 +5483,24 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": 8192,
         "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000047",
+        "output_cost_per_token": "0.00000186",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "bedrock/eu-west-2/minimax.minimax-m2.5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000047",
         "output_cost_per_token": "0.00000186",
@@ -5444,6 +5588,24 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": 8192,
         "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000036",
+        "output_cost_per_token": "0.00000144",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "bedrock/eu-south-1/minimax.minimax-m2.5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000036",
         "output_cost_per_token": "0.00000144",
@@ -5549,6 +5711,24 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": 8192,
         "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000036",
+        "output_cost_per_token": "0.00000144",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "bedrock/sa-east-1/minimax.minimax-m2.5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000036",
         "output_cost_per_token": "0.00000144",
@@ -5888,6 +6068,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "bedrock/us-east-1/minimax.minimax-m2.5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
       "name": "bedrock/us-east-1/moonshotai.kimi-k2-thinking",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -5965,6 +6163,24 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": 8192,
         "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "bedrock/us-east-2/minimax.minimax-m2.5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000003",
         "output_cost_per_token": "0.0000012",
@@ -6615,6 +6831,24 @@ export const aiModels: AIModels = {
       "sample_spec": {
         "max_tokens": 8192,
         "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "bedrock/us-west-2/minimax.minimax-m2.5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.0000003",
         "output_cost_per_token": "0.0000012",
@@ -15891,6 +16125,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "minimax.minimax-m2.5",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
       "name": "minimax/MiniMax-M2.1",
       "provider": "minimax",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -18237,6 +18489,24 @@ export const aiModels: AIModels = {
         "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000006",
         "output_cost_per_token": "0.00000024",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "nvidia.nemotron-super-3-120b",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000065",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
@@ -28515,6 +28785,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "zai.glm-5",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.0000032",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
       "name": "zai/glm-5",
       "provider": "zai",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -36582,6 +36870,23 @@ export const aiModels: AIModels = {
     },
     {
       "name": "amazon.nova-canvas-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 2600,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "bedrock",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "us.amazon.nova-canvas-v1:0",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
