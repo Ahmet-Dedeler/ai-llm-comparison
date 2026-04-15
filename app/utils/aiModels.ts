@@ -28076,6 +28076,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "wandb/moonshotai/Kimi-K2.5",
+      "provider": "wandb",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "wandb",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://wandb.ai/inference/coreweave/cw_moonshotai_Kimi-K2.5"
+      }
+    },
+    {
+      "name": "wandb/MiniMaxAI/MiniMax-M2.5",
+      "provider": "wandb",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 197000,
+        "max_input_tokens": 197000,
+        "max_output_tokens": 197000,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "wandb",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://wandb.ai/inference/coreweave/cw_MiniMaxAI_MiniMax-M2.5"
+      }
+    },
+    {
       "name": "wandb/meta-llama/Llama-3.1-8B-Instruct",
       "provider": "wandb",
       "logo": "/placeholder.svg?height=30&width=30",
