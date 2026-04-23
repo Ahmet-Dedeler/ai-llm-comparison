@@ -822,6 +822,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "anthropic.claude-mythos-preview",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "global.anthropic.claude-opus-4-7",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
