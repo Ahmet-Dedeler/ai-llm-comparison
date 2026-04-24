@@ -14383,6 +14383,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gpt-5.5",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.00003",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "gpt-5.4",
       "provider": "openai",
       "logo": "/logos/openai.svg",
@@ -17742,6 +17759,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "moonshot/kimi-k2.6",
+      "provider": "moonshot",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000095",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "moonshot",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.kimi.ai/docs/pricing/chat-k26"
+      }
+    },
+    {
       "name": "moonshot/kimi-latest",
       "provider": "moonshot",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -20153,6 +20188,23 @@ export const aiModels: AIModels = {
         "max_output_tokens": 200000,
         "input_cost_per_token": "0.000001",
         "output_cost_per_token": "0.000005",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "openrouter/anthropic/claude-opus-4.7",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
         "litellm_provider": "openrouter",
         "mode": "chat",
         "supports_function_calling": true,
@@ -38551,6 +38603,42 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "dashscope/qwen-image-2.0",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "dashscope",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "dashscope/qwen-image-2.0-pro",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "dashscope",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
       }
     },
     {
