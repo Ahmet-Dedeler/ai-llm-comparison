@@ -3077,7 +3077,41 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/gpt-5.4-mini-2026-03-17",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.0000045",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "azure/gpt-5.4-nano",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.00000125",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "azure/gpt-5.4-nano-2026-03-17",
       "provider": "azure",
       "logo": "/logos/azure.svg",
       "sample_spec": {
@@ -14502,7 +14536,41 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gpt-5.4-mini-2026-03-17",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.0000045",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "gpt-5.4-nano",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.00000125",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "gpt-5.4-nano-2026-03-17",
       "provider": "openai",
       "logo": "/logos/openai.svg",
       "sample_spec": {
@@ -14710,9 +14778,9 @@ export const aiModels: AIModels = {
       "provider": "gradient_ai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 2048,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 40960,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 40960,
         "input_cost_per_token": null,
         "output_cost_per_token": null,
         "litellm_provider": "gradient_ai",
@@ -14728,8 +14796,8 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 1024,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 1024,
         "input_cost_per_token": "0.000015",
         "output_cost_per_token": "0.000075",
         "litellm_provider": "gradient_ai",
@@ -14745,8 +14813,8 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 1024,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 1024,
         "input_cost_per_token": "0.0000008",
         "output_cost_per_token": "0.000004",
         "litellm_provider": "gradient_ai",
@@ -14762,8 +14830,8 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 1024,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 1024,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "gradient_ai",
@@ -14779,8 +14847,8 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 1024,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 1024,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "gradient_ai",
@@ -14796,8 +14864,8 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 8000,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 8000,
         "input_cost_per_token": "0.00000099",
         "output_cost_per_token": "0.00000099",
         "litellm_provider": "gradient_ai",
@@ -14813,8 +14881,8 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 512,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 512,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.0000002",
         "litellm_provider": "gradient_ai",
@@ -14830,8 +14898,8 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 2048,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 2048,
         "input_cost_per_token": "0.00000065",
         "output_cost_per_token": "0.00000065",
         "litellm_provider": "gradient_ai",
@@ -14847,8 +14915,8 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 512,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 512,
         "input_cost_per_token": "0.0000003",
         "output_cost_per_token": "0.0000003",
         "litellm_provider": "gradient_ai",
@@ -14864,8 +14932,8 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 16384,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
         "input_cost_per_token": null,
         "output_cost_per_token": null,
         "litellm_provider": "gradient_ai",
@@ -14881,8 +14949,8 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 16384,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
         "input_cost_per_token": null,
         "output_cost_per_token": null,
         "litellm_provider": "gradient_ai",
@@ -14898,8 +14966,8 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 100000,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
         "input_cost_per_token": "0.000002",
         "output_cost_per_token": "0.000008",
         "litellm_provider": "gradient_ai",
@@ -14915,8 +14983,8 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 100000,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
         "input_cost_per_token": "0.0000011",
         "output_cost_per_token": "0.0000044",
         "litellm_provider": "gradient_ai",
@@ -15271,9 +15339,9 @@ export const aiModels: AIModels = {
       "provider": "heroku",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 4096,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 8192,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
         "input_cost_per_token": null,
         "output_cost_per_token": null,
         "litellm_provider": "heroku",
@@ -15289,8 +15357,8 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 8192,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
         "input_cost_per_token": null,
         "output_cost_per_token": null,
         "litellm_provider": "heroku",
@@ -15306,8 +15374,8 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 8192,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
         "input_cost_per_token": null,
         "output_cost_per_token": null,
         "litellm_provider": "heroku",
@@ -15323,8 +15391,8 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 8192,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
         "input_cost_per_token": null,
         "output_cost_per_token": null,
         "litellm_provider": "heroku",
@@ -16131,57 +16199,6 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "luminous-base-control",
-      "provider": "aleph_alpha",
-      "logo": "/logos/aleph alpha.svg",
-      "sample_spec": {
-        "max_tokens": 2048,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.0000375",
-        "output_cost_per_token": "0.00004125",
-        "litellm_provider": "aleph_alpha",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "luminous-extended-control",
-      "provider": "aleph_alpha",
-      "logo": "/logos/aleph alpha.svg",
-      "sample_spec": {
-        "max_tokens": 2048,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.00005625",
-        "output_cost_per_token": "0.000061875",
-        "litellm_provider": "aleph_alpha",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "luminous-supreme-control",
-      "provider": "aleph_alpha",
-      "logo": "/logos/aleph alpha.svg",
-      "sample_spec": {
-        "max_tokens": 2048,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.00021875",
-        "output_cost_per_token": "0.000240625",
-        "litellm_provider": "aleph_alpha",
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
         "supports_vision": false
       }
     },
@@ -20063,9 +20080,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 200000,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 4096,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.00000025",
         "output_cost_per_token": "0.00000125",
         "litellm_provider": "openrouter",
@@ -20544,9 +20561,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 8000,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 2000,
+        "max_input_tokens": 8000,
+        "max_output_tokens": 2000,
         "input_cost_per_token": "0.000005625",
         "output_cost_per_token": "0.000005625",
         "litellm_provider": "openrouter",
@@ -20561,9 +20578,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 8000,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8000,
         "input_cost_per_token": "0.00000059",
         "output_cost_per_token": "0.00000079",
         "litellm_provider": "openrouter",
@@ -20680,9 +20697,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 8191,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 8191,
         "input_cost_per_token": "0.00000013",
         "output_cost_per_token": "0.00000013",
         "litellm_provider": "openrouter",
@@ -20697,9 +20714,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 32000,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 8191,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8191,
         "input_cost_per_token": "0.000008",
         "output_cost_per_token": "0.000024",
         "litellm_provider": "openrouter",
@@ -20714,9 +20731,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 32000,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.0000003",
         "litellm_provider": "openrouter",
@@ -20731,9 +20748,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 32000,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.0000003",
         "litellm_provider": "openrouter",
@@ -20749,8 +20766,8 @@ export const aiModels: AIModels = {
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
         "max_tokens": 65536,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_input_tokens": 65536,
+        "max_output_tokens": 65536,
         "input_cost_per_token": "0.00000065",
         "output_cost_per_token": "0.00000065",
         "litellm_provider": "openrouter",
@@ -20783,9 +20800,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 4095,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 4096,
+        "max_input_tokens": 16385,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.0000015",
         "output_cost_per_token": "0.000002",
         "litellm_provider": "openrouter",
@@ -20800,9 +20817,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 16383,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 4096,
+        "max_input_tokens": 16385,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000004",
         "litellm_provider": "openrouter",
@@ -20817,9 +20834,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 4096,
+        "max_input_tokens": 8191,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.00003",
         "output_cost_per_token": "0.00006",
         "litellm_provider": "openrouter",
@@ -21409,9 +21426,9 @@ export const aiModels: AIModels = {
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
       "sample_spec": {
-        "max_tokens": 6144,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 4096,
+        "max_input_tokens": 6144,
+        "max_output_tokens": 4096,
         "input_cost_per_token": "0.000001875",
         "output_cost_per_token": "0.000001875",
         "litellm_provider": "openrouter",
@@ -24250,9 +24267,9 @@ export const aiModels: AIModels = {
       "provider": "together_ai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 128000,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000006",
         "output_cost_per_token": "0.0000017",
         "litellm_provider": "together_ai",
@@ -35552,6 +35569,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "bedrock/us-east-1/zai.glm-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.0000032",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "bedrock/us-west-2/zai.glm-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.0000032",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
       "name": "bedrock/us-gov-east-1/anthropic.claude-haiku-4-5-20251001-v1:0",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -36335,7 +36388,43 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini-embedding-2",
+      "provider": "vertex_ai-embedding-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0",
+        "litellm_provider": "vertex_ai-embedding-models",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+      }
+    },
+    {
       "name": "vertex_ai/gemini-embedding-2-preview",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0",
+        "litellm_provider": "vertex_ai",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ai.google.dev/gemini-api/docs/embeddings#multimodal"
+      }
+    },
+    {
+      "name": "vertex_ai/gemini-embedding-2",
       "provider": "vertex_ai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
@@ -36349,7 +36438,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+        "source": "https://ai.google.dev/gemini-api/docs/embeddings#multimodal"
       }
     },
     {
@@ -36390,6 +36479,24 @@ export const aiModels: AIModels = {
     },
     {
       "name": "gemini/gemini-embedding-2-preview",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0",
+        "litellm_provider": "gemini",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      }
+    },
+    {
+      "name": "gemini/gemini-embedding-2",
       "provider": "gemini",
       "logo": "/logos/google.svg",
       "sample_spec": {
@@ -41170,57 +41277,6 @@ export const aiModels: AIModels = {
         "input_cost_per_token": "0.000015",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "ai21",
-        "mode": "completion",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "luminous-base",
-      "provider": "aleph_alpha",
-      "logo": "/logos/aleph alpha.svg",
-      "sample_spec": {
-        "max_tokens": 2048,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.00003",
-        "output_cost_per_token": "0.000033",
-        "litellm_provider": "aleph_alpha",
-        "mode": "completion",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "luminous-extended",
-      "provider": "aleph_alpha",
-      "logo": "/logos/aleph alpha.svg",
-      "sample_spec": {
-        "max_tokens": 2048,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.000045",
-        "output_cost_per_token": "0.0000495",
-        "litellm_provider": "aleph_alpha",
-        "mode": "completion",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "luminous-supreme",
-      "provider": "aleph_alpha",
-      "logo": "/logos/aleph alpha.svg",
-      "sample_spec": {
-        "max_tokens": 2048,
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "input_cost_per_token": "0.000175",
-        "output_cost_per_token": "0.0001925",
-        "litellm_provider": "aleph_alpha",
         "mode": "completion",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
