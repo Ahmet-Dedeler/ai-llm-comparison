@@ -38383,6 +38383,40 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/gpt-image-2",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "azure",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "azure/gpt-image-2-2026-04-21",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "azure",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "azure/low/1024-x-1024/gpt-image-1-mini",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -39274,6 +39308,40 @@ export const aiModels: AIModels = {
     },
     {
       "name": "gpt-image-1.5-2025-12-16",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "gpt-image-2",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "gpt-image-2-2026-04-21",
       "provider": "openai",
       "logo": "/logos/openai.svg",
       "sample_spec": {
