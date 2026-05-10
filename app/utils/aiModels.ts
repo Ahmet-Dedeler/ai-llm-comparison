@@ -21415,6 +21415,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/qwen/qwen3.6-plus",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000000325",
+        "output_cost_per_token": "0.00000195",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/qwen/qwen3.6-plus"
+      }
+    },
+    {
       "name": "openrouter/qwen/qwen3.5-35b-a3b",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
