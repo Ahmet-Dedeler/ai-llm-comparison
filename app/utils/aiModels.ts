@@ -14740,6 +14740,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gpt-realtime-2",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.000004",
+        "output_cost_per_token": "0.000016",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "gpt-realtime-mini",
       "provider": "openai",
       "logo": "/logos/openai.svg",
