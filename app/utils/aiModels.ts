@@ -992,6 +992,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "jp.anthropic.claude-sonnet-4-6",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000033",
+        "output_cost_per_token": "0.0000165",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "anthropic.claude-sonnet-4-20250514-v1:0",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -1627,6 +1644,114 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": true,
         "supports_vision": false,
         "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/"
+      }
+    },
+    {
+      "name": "azure_ai/gpt-5.4",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.azure.com/catalog/models/gpt-5.4"
+      }
+    },
+    {
+      "name": "azure_ai/gpt-5.4-2026-03-05",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.azure.com/catalog/models/gpt-5.4"
+      }
+    },
+    {
+      "name": "azure_ai/gpt-5.4-mini",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.0000045",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.azure.com/catalog/models/gpt-5.4-mini"
+      }
+    },
+    {
+      "name": "azure_ai/gpt-5.4-mini-2026-03-17",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.0000045",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.azure.com/catalog/models/gpt-5.4-mini"
+      }
+    },
+    {
+      "name": "azure_ai/gpt-5.4-nano",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.00000125",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.azure.com/catalog/models/gpt-5.4-nano"
+      }
+    },
+    {
+      "name": "azure_ai/gpt-5.4-nano-2026-03-17",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.00000125",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.azure.com/catalog/models/gpt-5.4-nano"
       }
     },
     {
