@@ -12026,6 +12026,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "vertex_ai/gemini-3.5-flash",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.000009",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+      }
+    },
+    {
       "name": "vertex_ai/gemini-3.1-pro-preview",
       "provider": "vertex_ai",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -12404,6 +12422,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini/gemini-3.5-flash",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.000009",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/pricing/gemini-3"
+      }
+    },
+    {
       "name": "gemini/gemini-3.1-pro-preview",
       "provider": "gemini",
       "logo": "/logos/google.svg",
@@ -12449,6 +12485,24 @@ export const aiModels: AIModels = {
         "max_output_tokens": 65535,
         "input_cost_per_token": "0.0000005",
         "output_cost_per_token": "0.000003",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/pricing/gemini-3"
+      }
+    },
+    {
+      "name": "gemini-3.5-flash",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.000009",
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
