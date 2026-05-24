@@ -19534,6 +19534,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "oci/meta.llama-3.1-8b-instruct",
+      "provider": "oci",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4000,
+        "input_cost_per_token": "0.00000072",
+        "output_cost_per_token": "0.00000072",
+        "litellm_provider": "oci",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/pricing"
+      }
+    },
+    {
+      "name": "oci/meta.llama-3.1-70b-instruct",
+      "provider": "oci",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4000,
+        "input_cost_per_token": "0.00000072",
+        "output_cost_per_token": "0.00000072",
+        "litellm_provider": "oci",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/pricing"
+      }
+    },
+    {
       "name": "oci/meta.llama-3.1-405b-instruct",
       "provider": "oci",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -19592,16 +19628,16 @@ export const aiModels: AIModels = {
       "provider": "oci",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 4000,
-        "max_input_tokens": 512000,
-        "max_output_tokens": 4000,
+        "max_tokens": 8192,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000072",
         "output_cost_per_token": "0.00000072",
         "litellm_provider": "oci",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/pricing"
       }
     },
@@ -19610,9 +19646,9 @@ export const aiModels: AIModels = {
       "provider": "oci",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 4000,
-        "max_input_tokens": 192000,
-        "max_output_tokens": 4000,
+        "max_tokens": 8192,
+        "max_input_tokens": 10485760,
+        "max_output_tokens": 8192,
         "input_cost_per_token": "0.00000072",
         "output_cost_per_token": "0.00000072",
         "litellm_provider": "oci",
@@ -19768,6 +19804,96 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "oci/google.gemini-2.5-flash",
+      "provider": "oci",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "oci",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/pricing"
+      }
+    },
+    {
+      "name": "oci/google.gemini-2.5-pro",
+      "provider": "oci",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "oci",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/pricing"
+      }
+    },
+    {
+      "name": "oci/google.gemini-2.5-flash-lite",
+      "provider": "oci",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000000075",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "oci",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/pricing"
+      }
+    },
+    {
+      "name": "oci/cohere.command-a-vision",
+      "provider": "oci",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000156",
+        "output_cost_per_token": "0.00000156",
+        "litellm_provider": "oci",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.oracle.com/cloud/ai/generative-ai/pricing/"
+      }
+    },
+    {
+      "name": "oci/cohere.command-a-reasoning",
+      "provider": "oci",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000156",
+        "output_cost_per_token": "0.00000156",
+        "litellm_provider": "oci",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.oracle.com/cloud/ai/generative-ai/pricing/"
+      }
+    },
+    {
       "name": "oci/cohere.command-a-reasoning-08-2025",
       "provider": "oci",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -19872,24 +19998,6 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/pricing"
-      }
-    },
-    {
-      "name": "oci/meta.llama-3.1-70b-instruct",
-      "provider": "oci",
-      "logo": "/placeholder.svg?height=30&width=30",
-      "sample_spec": {
-        "max_tokens": 4000,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 4000,
-        "input_cost_per_token": "0.00000072",
-        "output_cost_per_token": "0.00000072",
-        "litellm_provider": "oci",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false,
         "source": "https://www.oracle.com/artificial-intelligence/generative-ai/generative-ai-service/pricing"
       }
     },
@@ -20002,13 +20110,13 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "oci/google.gemini-2.5-pro",
+      "name": "oci/openai.gpt-5",
       "provider": "oci",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 65536,
-        "max_input_tokens": 1048576,
-        "max_output_tokens": 65536,
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00001",
         "litellm_provider": "oci",
@@ -20020,15 +20128,15 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "oci/google.gemini-2.5-flash",
+      "name": "oci/openai.gpt-5-mini",
       "provider": "oci",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 65536,
-        "max_input_tokens": 1048576,
-        "max_output_tokens": 65536,
-        "input_cost_per_token": "0.00000015",
-        "output_cost_per_token": "0.0000006",
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.000002",
         "litellm_provider": "oci",
         "mode": "chat",
         "supports_function_calling": true,
@@ -20038,15 +20146,15 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "oci/google.gemini-2.5-flash-lite",
+      "name": "oci/openai.gpt-5-nano",
       "provider": "oci",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 65536,
-        "max_input_tokens": 1048576,
-        "max_output_tokens": 65536,
-        "input_cost_per_token": "0.000000075",
-        "output_cost_per_token": "0.0000003",
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000004",
         "litellm_provider": "oci",
         "mode": "chat",
         "supports_function_calling": true,
@@ -37394,6 +37502,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "oci/cohere.embed-multilingual-image-v3.0",
+      "provider": "oci",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 512,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": null,
+        "litellm_provider": "oci",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.oracle.com/cloud/ai/generative-ai/pricing/"
+      }
+    },
+    {
       "name": "oci/cohere.embed-english-v3.0",
       "provider": "oci",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -42386,6 +42512,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "azure/speech/azure-stt",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "azure",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/speech-services/"
       }
     },
     {
