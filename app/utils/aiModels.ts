@@ -992,6 +992,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "jp.anthropic.claude-opus-4-7",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.0000275",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "anthropic.claude-sonnet-4-6",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -4686,6 +4703,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/kimi-k2.6",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000095",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-kimi-k2-6-in-microsoft-foundry/4513125"
+      }
+    },
+    {
       "name": "azure_ai/ministral-3b",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
@@ -6769,8 +6804,8 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 200000,
         "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0000033",
-        "output_cost_per_token": "0.0000165",
+        "input_cost_per_token": "0.0000036",
+        "output_cost_per_token": "0.000018",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
@@ -6786,8 +6821,8 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 200000,
         "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0000033",
-        "output_cost_per_token": "0.0000165",
+        "input_cost_per_token": "0.0000036",
+        "output_cost_per_token": "0.000018",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
@@ -6956,8 +6991,8 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 200000,
         "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0000033",
-        "output_cost_per_token": "0.0000165",
+        "input_cost_per_token": "0.0000036",
+        "output_cost_per_token": "0.000018",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
@@ -6973,8 +7008,8 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 200000,
         "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0000033",
-        "output_cost_per_token": "0.0000165",
+        "input_cost_per_token": "0.0000036",
+        "output_cost_per_token": "0.000018",
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": true,
@@ -16369,6 +16404,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "inception/mercury-2",
+      "provider": "inception",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 50000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 50000,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.00000075",
+        "litellm_provider": "inception",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "lambda_ai/deepseek-llama3.3-70b",
       "provider": "lambda_ai",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -17190,6 +17242,23 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "minimax/MiniMax-M3",
+      "provider": "minimax",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 512000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000024",
+        "litellm_provider": "minimax",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
       }
     },
     {
@@ -18054,6 +18123,24 @@ export const aiModels: AIModels = {
     },
     {
       "name": "mistral/ministral-8b-2512",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://mistral.ai/pricing"
+      }
+    },
+    {
+      "name": "mistral/ministral-8b-latest",
       "provider": "mistral",
       "logo": "/logos/mistral.svg",
       "sample_spec": {
@@ -24319,16 +24406,16 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 18000,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "max_tokens": 16384,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
         "litellm_provider": "snowflake",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": true
       }
     },
     {
@@ -24336,11 +24423,11 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 32768,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000135",
+        "output_cost_per_token": "0.0000054",
         "litellm_provider": "snowflake",
         "mode": "chat",
         "supports_function_calling": false,
@@ -24472,14 +24559,14 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 16384,
         "max_input_tokens": 128000,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.0000012",
         "litellm_provider": "snowflake",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24489,14 +24576,14 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 16384,
         "max_input_tokens": 128000,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000072",
+        "output_cost_per_token": "0.00000072",
         "litellm_provider": "snowflake",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24506,11 +24593,11 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 16384,
         "max_input_tokens": 128000,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000024",
+        "output_cost_per_token": "0.00000024",
         "litellm_provider": "snowflake",
         "mode": "chat",
         "supports_function_calling": false,
@@ -24557,14 +24644,14 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 16384,
         "max_input_tokens": 128000,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000072",
+        "output_cost_per_token": "0.00000072",
         "litellm_provider": "snowflake",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24608,14 +24695,14 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 16384,
         "max_input_tokens": 128000,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
         "litellm_provider": "snowflake",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -24710,14 +24797,14 @@ export const aiModels: AIModels = {
       "provider": "snowflake",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8000,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": null,
-        "output_cost_per_token": null,
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000072",
+        "output_cost_per_token": "0.00000072",
         "litellm_provider": "snowflake",
         "mode": "chat",
-        "supports_function_calling": false,
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -25649,8 +25736,8 @@ export const aiModels: AIModels = {
         "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "input_cost_per_token": "0.0000033",
-        "output_cost_per_token": "0.0000165",
+        "input_cost_per_token": "0.0000036",
+        "output_cost_per_token": "0.000018",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
@@ -28943,6 +29030,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "vertex_ai/google/gemma-4-26b-a4b-it-maas",
+      "provider": "vertex_ai-openai_models",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "vertex_ai-openai_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/maas/google/gemma-4-26b-a4b-it"
       }
     },
     {
@@ -36519,6 +36624,193 @@ export const aiModels: AIModels = {
         "supports_vision": true,
         "source": "https://aws.amazon.com/about-aws/whats-new/2025/10/claude-4-5-haiku-anthropic-amazon-bedrock"
       }
+    },
+    {
+      "name": "snowflake/claude-sonnet-4-5",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "snowflake/claude-sonnet-4-6",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "snowflake/claude-4-sonnet",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "snowflake/claude-4-opus",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "snowflake/claude-haiku-4-5",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "snowflake/claude-3-7-sonnet",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "snowflake/openai-gpt-4.1",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 300000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000008",
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "snowflake/openai-gpt-5",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 300000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "snowflake/openai-gpt-5-mini",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/openai-gpt-5-nano",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 5000000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/llama4-maverick",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000024",
+        "output_cost_per_token": "0.00000097",
+        "litellm_provider": "snowflake",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
     }
   ],
   "embedding": [
@@ -38570,6 +38862,40 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
+    },
+    {
+      "name": "snowflake/snowflake-arctic-embed-l-v2.0",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000007",
+        "output_cost_per_token": "0",
+        "litellm_provider": "snowflake",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "snowflake/snowflake-arctic-embed-m-v2.0",
+      "provider": "snowflake",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000007",
+        "output_cost_per_token": "0",
+        "litellm_provider": "snowflake",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
     }
   ],
   "image_generation": [
@@ -39920,6 +40246,40 @@ export const aiModels: AIModels = {
     },
     {
       "name": "fal_ai/fal-ai/stable-diffusion-v35-medium",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/nano-banana",
+      "provider": "fal_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "fal_ai",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "fal_ai/fal-ai/gemini-25-flash-image",
       "provider": "fal_ai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
@@ -42250,6 +42610,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "text-completion-inception/mercury-edit-2",
+      "provider": "text-completion-inception",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000025",
+        "output_cost_per_token": "0.00000075",
+        "litellm_provider": "text-completion-inception",
+        "mode": "completion",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "ollama/codegemma",
       "provider": "ollama",
       "logo": "/logos/ollama.svg",
@@ -43605,6 +43982,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "soniox/stt-async-v4",
+      "provider": "soniox",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8000,
+        "max_input_tokens": null,
+        "max_output_tokens": 8000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "soniox",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://soniox.com/pricing"
       }
     }
   ],
