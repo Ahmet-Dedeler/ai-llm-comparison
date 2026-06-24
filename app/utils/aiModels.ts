@@ -8205,6 +8205,448 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "cloudflare/@cf/openai/gpt-oss-120b",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000035",
+        "output_cost_per_token": "0.00000075",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/google/gemma-2b-it-lora",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/meta/llama-3.2-3b-instruct",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 80000,
+        "max_input_tokens": 80000,
+        "max_output_tokens": 80000,
+        "input_cost_per_token": "0.0000000509",
+        "output_cost_per_token": "0.000000335",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/meta/llama-guard-3-8b",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000000484",
+        "output_cost_per_token": "0.00000003",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/mistral/mistral-7b-instruct-v0.2-lora",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 15000,
+        "max_input_tokens": 15000,
+        "max_output_tokens": 15000,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/moonshotai/kimi-k2.7-code",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000095",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/deepseek-ai/deepseek-r1-distill-qwen-32b",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 80000,
+        "max_input_tokens": 80000,
+        "max_output_tokens": 80000,
+        "input_cost_per_token": "0.000000497",
+        "output_cost_per_token": "0.000004881",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/meta/llama-3.1-8b-instruct-fp8",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 32000,
+        "max_input_tokens": 32000,
+        "max_output_tokens": 32000,
+        "input_cost_per_token": "0.000000152",
+        "output_cost_per_token": "0.000000287",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/meta/llama-3.2-1b-instruct",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 60000,
+        "max_input_tokens": 60000,
+        "max_output_tokens": 60000,
+        "input_cost_per_token": "0.000000027",
+        "output_cost_per_token": "0.000000201",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/moonshotai/kimi-k2.6",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000095",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/zai-org/glm-4.7-flash",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000000605",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/meta-llama/llama-2-7b-chat-hf-lora",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 24000,
+        "max_input_tokens": 24000,
+        "max_output_tokens": 24000,
+        "input_cost_per_token": "0.000000293",
+        "output_cost_per_token": "0.000002253",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/ibm-granite/granite-4.0-h-micro",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 131000,
+        "max_input_tokens": 131000,
+        "max_output_tokens": 131000,
+        "input_cost_per_token": "0.000000017",
+        "output_cost_per_token": "0.000000112",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/qwen/qwen2.5-coder-32b-instruct",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000066",
+        "output_cost_per_token": "0.000001",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/zai-org/glm-5.2",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/nvidia/nemotron-3-120b-a12b",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/aisingapore/gemma-sea-lion-v4-27b-it",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000000351",
+        "output_cost_per_token": "0.000000555",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/qwen/qwen3-30b-a3b-fp8",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000000509",
+        "output_cost_per_token": "0.000000335",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/google/gemma-7b-it-lora",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 3500,
+        "max_input_tokens": 3500,
+        "max_output_tokens": 3500,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/google/gemma-4-26b-a4b-it",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000000351",
+        "output_cost_per_token": "0.000000555",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/meta/llama-3.2-11b-vision-instruct",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000000485",
+        "output_cost_per_token": "0.000000676",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "cloudflare/@cf/openai/gpt-oss-20b",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000003",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/meta/llama-4-scout-17b-16e-instruct",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 131000,
+        "max_input_tokens": 131000,
+        "max_output_tokens": 131000,
+        "input_cost_per_token": "0.00000027",
+        "output_cost_per_token": "0.00000085",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "cloudflare/@cf/qwen/qwq-32b",
+      "provider": "cloudflare",
+      "logo": "/logos/cloudflare.svg",
+      "sample_spec": {
+        "max_tokens": 24000,
+        "max_input_tokens": 24000,
+        "max_output_tokens": 24000,
+        "input_cost_per_token": "0.00000066",
+        "output_cost_per_token": "0.000001",
+        "litellm_provider": "cloudflare",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "codestral/codestral-2405",
       "provider": "codestral",
       "logo": "/logos/mistral.svg",
@@ -11858,7 +12300,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://docs.fireworks.ai/serverless/pricing"
       }
     },
@@ -12218,7 +12660,7 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://docs.fireworks.ai/serverless/pricing"
       }
     },
@@ -38368,6 +38810,42 @@ export const aiModels: AIModels = {
         "supports_vision": false,
         "source": "https://pinstripes.io/pricing"
       }
+    },
+    {
+      "name": "darkbloom/gemma-4-26b",
+      "provider": "darkbloom",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.000000165",
+        "litellm_provider": "darkbloom",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.darkbloom.dev/"
+      }
+    },
+    {
+      "name": "darkbloom/gpt-oss-20b",
+      "provider": "darkbloom",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000000145",
+        "output_cost_per_token": "0.00000007",
+        "litellm_provider": "darkbloom",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.darkbloom.dev/"
+      }
     }
   ],
   "embedding": [
@@ -38432,7 +38910,7 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 8192,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000002",
+        "input_cost_per_token": "0.00000002",
         "output_cost_per_token": "0",
         "litellm_provider": "bedrock",
         "mode": "embedding",
@@ -45582,40 +46060,6 @@ export const aiModels: AIModels = {
     },
     {
       "name": "fireworks_ai/accounts/fireworks/models/fireworks-asr-v2",
-      "provider": "fireworks_ai",
-      "logo": "/logos/fireworks ai.svg",
-      "sample_spec": {
-        "max_tokens": 4096,
-        "max_input_tokens": 4096,
-        "max_output_tokens": 4096,
-        "input_cost_per_token": "0",
-        "output_cost_per_token": "0",
-        "litellm_provider": "fireworks_ai",
-        "mode": "audio_transcription",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "fireworks_ai/accounts/fireworks/models/whisper-v3",
-      "provider": "fireworks_ai",
-      "logo": "/logos/fireworks ai.svg",
-      "sample_spec": {
-        "max_tokens": 4096,
-        "max_input_tokens": 4096,
-        "max_output_tokens": 4096,
-        "input_cost_per_token": "0",
-        "output_cost_per_token": "0",
-        "litellm_provider": "fireworks_ai",
-        "mode": "audio_transcription",
-        "supports_function_calling": false,
-        "supports_parallel_function_calling": false,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "fireworks_ai/accounts/fireworks/models/whisper-v3-turbo",
       "provider": "fireworks_ai",
       "logo": "/logos/fireworks ai.svg",
       "sample_spec": {
