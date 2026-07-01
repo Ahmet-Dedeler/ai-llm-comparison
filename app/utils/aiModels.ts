@@ -1077,6 +1077,108 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "anthropic.claude-sonnet-5",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "global.anthropic.claude-sonnet-5",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "us.anthropic.claude-sonnet-5",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000033",
+        "output_cost_per_token": "0.0000165",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "eu.anthropic.claude-sonnet-5",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000033",
+        "output_cost_per_token": "0.0000165",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "au.anthropic.claude-sonnet-5",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000033",
+        "output_cost_per_token": "0.0000165",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "jp.anthropic.claude-sonnet-5",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000033",
+        "output_cost_per_token": "0.0000165",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "anthropic.claude-sonnet-4-6",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -1772,6 +1874,23 @@ export const aiModels: AIModels = {
         "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "azure_ai/claude-sonnet-5",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "azure_ai",
@@ -7889,6 +8008,23 @@ export const aiModels: AIModels = {
         "max_tokens": 64000,
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "anthropic",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "claude-sonnet-5",
+      "provider": "anthropic",
+      "logo": "/logos/anthropic.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
         "input_cost_per_token": "0.000003",
         "output_cost_per_token": "0.000015",
         "litellm_provider": "anthropic",
@@ -29351,6 +29487,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "vertex_ai/claude-sonnet-5",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "vertex_ai/claude-sonnet-4-6",
       "provider": "vertex_ai-anthropic_models",
       "logo": "/logos/google.svg",
@@ -38109,6 +38262,23 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview"
+      }
+    },
+    {
+      "name": "vertex_ai/claude-sonnet-5@default",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
       }
     },
     {
