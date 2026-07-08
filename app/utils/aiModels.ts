@@ -3493,6 +3493,40 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/us/gpt-5.4",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000275",
+        "output_cost_per_token": "0.0000165",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "azure/eu/gpt-5.4",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000275",
+        "output_cost_per_token": "0.0000165",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "azure/gpt-5.4-2026-03-05",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -3502,6 +3536,40 @@ export const aiModels: AIModels = {
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000025",
         "output_cost_per_token": "0.000015",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "azure/us/gpt-5.4-2026-03-05",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000275",
+        "output_cost_per_token": "0.0000165",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "azure/eu/gpt-5.4-2026-03-05",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000275",
+        "output_cost_per_token": "0.0000165",
         "litellm_provider": "azure",
         "mode": "chat",
         "supports_function_calling": true,
@@ -3527,6 +3595,40 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/us/gpt-5.5",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.000033",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "azure/eu/gpt-5.5",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.000033",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "azure/gpt-5.5-2026-04-23",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -3536,6 +3638,40 @@ export const aiModels: AIModels = {
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000005",
         "output_cost_per_token": "0.00003",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "azure/us/gpt-5.5-2026-04-23",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.000033",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "azure/eu/gpt-5.5-2026-04-23",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.000033",
         "litellm_provider": "azure",
         "mode": "chat",
         "supports_function_calling": true,
@@ -46499,6 +46635,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "vertex_ai/chirp_3",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "vertex_ai",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/speech-to-text/pricing"
       }
     },
     {
