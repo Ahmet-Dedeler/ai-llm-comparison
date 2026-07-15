@@ -14153,6 +14153,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini/gemini-omni-flash-preview",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.000009",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      }
+    },
+    {
       "name": "gemini/gemini-3.1-pro-preview",
       "provider": "gemini",
       "logo": "/logos/google.svg",
@@ -14204,6 +14222,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": true,
         "supports_vision": true,
         "source": "https://ai.google.dev/pricing/gemini-3"
+      }
+    },
+    {
+      "name": "gemini-omni-flash-preview",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65535,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.000009",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/omni-flash-preview"
       }
     },
     {
