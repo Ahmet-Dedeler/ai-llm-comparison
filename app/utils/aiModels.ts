@@ -2183,7 +2183,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000075",
         "output_cost_per_token": "0.0000045",
@@ -2201,7 +2201,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000075",
         "output_cost_per_token": "0.0000045",
@@ -2219,7 +2219,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.00000125",
@@ -2237,7 +2237,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.00000125",
@@ -3872,7 +3872,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000075",
         "output_cost_per_token": "0.0000045",
@@ -3889,7 +3889,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000075",
         "output_cost_per_token": "0.0000045",
@@ -3906,7 +3906,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.00000125",
@@ -3923,7 +3923,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/azure.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.00000125",
@@ -9890,6 +9890,42 @@ export const aiModels: AIModels = {
     },
     {
       "name": "dashscope/qwen3.5-plus",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "dashscope/qwen3.7-max",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.0000075",
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "dashscope/qwen3.7-plus",
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
@@ -16491,7 +16527,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000075",
         "output_cost_per_token": "0.0000045",
@@ -16508,7 +16544,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000075",
         "output_cost_per_token": "0.0000045",
@@ -16525,7 +16561,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.00000125",
@@ -16542,7 +16578,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/openai.svg",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 1050000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.0000002",
         "output_cost_per_token": "0.00000125",
