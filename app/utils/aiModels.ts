@@ -13833,6 +13833,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini/gemini-robotics-er-2-preview",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-robotics-er-2"
+      }
+    },
+    {
+      "name": "gemini/gemini-robotics-er-1.6-preview",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-robotics-er"
+      }
+    },
+    {
       "name": "gemini-2.5-computer-use-preview-10-2025",
       "provider": "vertex_ai-language-models",
       "logo": "/logos/google.svg",
