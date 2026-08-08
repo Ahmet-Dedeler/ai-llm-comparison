@@ -25243,7 +25243,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "replicateopenai/gpt-oss-20b",
+      "name": "replicate/openai/gpt-oss-20b",
       "provider": "replicate",
       "logo": "/logos/replicate.svg",
       "sample_spec": {
