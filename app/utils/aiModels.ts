@@ -32244,11 +32244,11 @@ export const aiModels: AIModels = {
       "provider": "xai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 2000000,
-        "max_input_tokens": 2000000,
-        "max_output_tokens": 2000000,
-        "input_cost_per_token": "0.000002",
-        "output_cost_per_token": "0.000006",
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.0000025",
         "litellm_provider": "xai",
         "mode": "chat",
         "supports_function_calling": true,
@@ -32262,11 +32262,11 @@ export const aiModels: AIModels = {
       "provider": "xai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 2000000,
-        "max_input_tokens": 2000000,
-        "max_output_tokens": 2000000,
-        "input_cost_per_token": "0.000002",
-        "output_cost_per_token": "0.000006",
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.0000025",
         "litellm_provider": "xai",
         "mode": "chat",
         "supports_function_calling": true,
@@ -32280,11 +32280,11 @@ export const aiModels: AIModels = {
       "provider": "xai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 2000000,
-        "max_input_tokens": 2000000,
-        "max_output_tokens": 2000000,
-        "input_cost_per_token": "0.000002",
-        "output_cost_per_token": "0.000006",
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.0000025",
         "litellm_provider": "xai",
         "mode": "chat",
         "supports_function_calling": true,
@@ -32298,11 +32298,11 @@ export const aiModels: AIModels = {
       "provider": "xai",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
-        "max_tokens": 2000000,
-        "max_input_tokens": 2000000,
-        "max_output_tokens": 2000000,
-        "input_cost_per_token": "0.000002",
-        "output_cost_per_token": "0.000006",
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.0000025",
         "litellm_provider": "xai",
         "mode": "chat",
         "supports_function_calling": true,
@@ -32408,13 +32408,13 @@ export const aiModels: AIModels = {
         "max_tokens": 256000,
         "max_input_tokens": 256000,
         "max_output_tokens": 256000,
-        "input_cost_per_token": "0.0000002",
-        "output_cost_per_token": "0.0000015",
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000002",
         "litellm_provider": "xai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://docs.x.ai/docs/models"
       }
     },
@@ -32426,13 +32426,13 @@ export const aiModels: AIModels = {
         "max_tokens": 256000,
         "max_input_tokens": 256000,
         "max_output_tokens": 256000,
-        "input_cost_per_token": "0.0000002",
-        "output_cost_per_token": "0.0000015",
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000002",
         "litellm_provider": "xai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://docs.x.ai/docs/models"
       }
     },
@@ -32444,13 +32444,13 @@ export const aiModels: AIModels = {
         "max_tokens": 256000,
         "max_input_tokens": 256000,
         "max_output_tokens": 256000,
-        "input_cost_per_token": "0.0000002",
-        "output_cost_per_token": "0.0000015",
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000002",
         "litellm_provider": "xai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false,
+        "supports_vision": true,
         "source": "https://docs.x.ai/docs/models"
       }
     },
@@ -39653,6 +39653,150 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://www.darkbloom.dev/"
+      }
+    },
+    {
+      "name": "xai/grok-4.20-0309-non-reasoning",
+      "provider": "xai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "xai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.x.ai/docs/models"
+      }
+    },
+    {
+      "name": "xai/grok-4.20-multi-agent-0309",
+      "provider": "xai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "xai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.x.ai/docs/models"
+      }
+    },
+    {
+      "name": "xai/grok-build-0.1",
+      "provider": "xai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "xai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.x.ai/docs/models"
+      }
+    },
+    {
+      "name": "claude-mythos-5",
+      "provider": "anthropic",
+      "logo": "/logos/anthropic.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "anthropic",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.claude.com/en/docs/about-claude/models/overview"
+      }
+    },
+    {
+      "name": "claude-mythos-preview",
+      "provider": "anthropic",
+      "logo": "/logos/anthropic.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "anthropic",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.claude.com/en/docs/about-claude/models/overview"
+      }
+    },
+    {
+      "name": "gemini/gemini-robotics-er-2-streaming-preview",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      }
+    },
+    {
+      "name": "mistral/mistral-small-2603",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.mistral.ai/models/model-cards/mistral-small-4-0-26-03"
+      }
+    },
+    {
+      "name": "mistral/labs-leanstral-1-5",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "mistral",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.mistral.ai/models/model-cards/leanstral-1-5"
       }
     }
   ],
@@ -47148,6 +47292,78 @@ export const aiModels: AIModels = {
         "supports_vision": false,
         "source": "https://soniox.com/pricing"
       }
+    },
+    {
+      "name": "gpt-transcribe",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "openai",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://platform.openai.com/docs/models/gpt-transcribe"
+      }
+    },
+    {
+      "name": "gpt-live-transcribe",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "openai",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://platform.openai.com/docs/models/gpt-live-transcribe"
+      }
+    },
+    {
+      "name": "mistral/voxtral-mini-2602",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "mistral",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.mistral.ai/models/model-cards/voxtral-mini-transcribe-26-02"
+      }
+    },
+    {
+      "name": "mistral/voxtral-mini-transcribe-realtime-2602",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "mistral",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.mistral.ai/models/model-cards/voxtral-mini-transcribe-realtime-26-02"
+      }
     }
   ],
   "audio_speech": [
@@ -47620,6 +47836,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://ai.google.dev/pricing"
+      }
+    },
+    {
+      "name": "mistral/voxtral-mini-tts-2603",
+      "provider": "mistral",
+      "logo": "/logos/mistral.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "mistral",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.mistral.ai/models/model-cards/voxtral-tts-26-03"
       }
     }
   ]
