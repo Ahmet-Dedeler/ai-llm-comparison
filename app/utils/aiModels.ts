@@ -9349,6 +9349,114 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "dashscope/deepseek-v4-flash",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "dashscope/deepseek-v4-flash-0731",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "dashscope/deepseek-v4-pro",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.0000024",
+        "output_cost_per_token": "0.0000048",
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "dashscope/glm-5.1",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 202745,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "dashscope/glm-5.2",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "dashscope/kimi-k2.7-code",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 229376,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000095",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
       "name": "dashscope/qwen-coder",
       "provider": "dashscope",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -9934,6 +10042,24 @@ export const aiModels: AIModels = {
         "max_output_tokens": 65536,
         "input_cost_per_token": null,
         "output_cost_per_token": null,
+        "litellm_provider": "dashscope",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "dashscope/qwen3.8-max",
+      "provider": "dashscope",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
         "litellm_provider": "dashscope",
         "mode": "chat",
         "supports_function_calling": true,
@@ -11497,6 +11623,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "deepinfra/nvidia/NVIDIA-Nemotron-3.5-Lightning",
+      "provider": "deepinfra",
+      "logo": "/logos/deepinfra.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "deepinfra",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://deepinfra.com/nvidia/NVIDIA-Nemotron-3.5-Lightning"
       }
     },
     {
@@ -13743,6 +13887,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "vertex_ai/gemini-3.7-flash",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.00000375",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+      }
+    },
+    {
       "name": "vertex_ai/gemini-3.1-pro-preview",
       "provider": "vertex_ai",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -14229,6 +14391,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gemini/gemini-3.7-flash",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.00000375",
+        "litellm_provider": "gemini",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/pricing/gemini-3"
+      }
+    },
+    {
       "name": "gemini/gemini-omni-flash-preview",
       "provider": "gemini",
       "logo": "/logos/google.svg",
@@ -14346,6 +14526,24 @@ export const aiModels: AIModels = {
         "max_output_tokens": 65536,
         "input_cost_per_token": "0.0000015",
         "output_cost_per_token": "0.0000075",
+        "litellm_provider": "vertex_ai-language-models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.google.dev/pricing/gemini-3"
+      }
+    },
+    {
+      "name": "gemini-3.7-flash",
+      "provider": "vertex_ai-language-models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.00000375",
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
@@ -17123,9 +17321,9 @@ export const aiModels: AIModels = {
       "provider": "groq",
       "logo": "/logos/groq.svg",
       "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 8192,
+        "max_tokens": 131072,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
         "input_cost_per_token": "0.00000005",
         "output_cost_per_token": "0.00000008",
         "litellm_provider": "groq",
@@ -17141,7 +17339,7 @@ export const aiModels: AIModels = {
       "logo": "/logos/groq.svg",
       "sample_spec": {
         "max_tokens": 32768,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 131072,
         "max_output_tokens": 32768,
         "input_cost_per_token": "0.00000059",
         "output_cost_per_token": "0.00000079",
@@ -17167,6 +17365,42 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "groq/meta-llama/llama-prompt-guard-2-22m",
+      "provider": "groq",
+      "logo": "/logos/groq.svg",
+      "sample_spec": {
+        "max_tokens": 512,
+        "max_input_tokens": 512,
+        "max_output_tokens": 512,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.00000003",
+        "litellm_provider": "groq",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://console.groq.com/docs/models"
+      }
+    },
+    {
+      "name": "groq/meta-llama/llama-prompt-guard-2-86m",
+      "provider": "groq",
+      "logo": "/logos/groq.svg",
+      "sample_spec": {
+        "max_tokens": 512,
+        "max_input_tokens": 512,
+        "max_output_tokens": 512,
+        "input_cost_per_token": "0.00000004",
+        "output_cost_per_token": "0.00000004",
+        "litellm_provider": "groq",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://console.groq.com/docs/model/meta-llama/llama-prompt-guard-2-86m"
       }
     },
     {
@@ -17242,9 +17476,9 @@ export const aiModels: AIModels = {
       "provider": "groq",
       "logo": "/logos/groq.svg",
       "sample_spec": {
-        "max_tokens": 32766,
+        "max_tokens": 65536,
         "max_input_tokens": 131072,
-        "max_output_tokens": 32766,
+        "max_output_tokens": 65536,
         "input_cost_per_token": "0.00000015",
         "output_cost_per_token": "0.0000006",
         "litellm_provider": "groq",
@@ -17259,9 +17493,9 @@ export const aiModels: AIModels = {
       "provider": "groq",
       "logo": "/logos/groq.svg",
       "sample_spec": {
-        "max_tokens": 32768,
+        "max_tokens": 65536,
         "max_input_tokens": 131072,
-        "max_output_tokens": 32768,
+        "max_output_tokens": 65536,
         "input_cost_per_token": "0.000000075",
         "output_cost_per_token": "0.0000003",
         "litellm_provider": "groq",
@@ -17286,6 +17520,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "groq/qwen/qwen3.6-27b",
+      "provider": "groq",
+      "logo": "/logos/groq.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "groq",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://console.groq.com/docs/model/qwen/qwen3.6-27b"
       }
     },
     {
@@ -23152,6 +23404,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://openrouter.ai/moonshotai/kimi-k2.5"
+      }
+    },
+    {
+      "name": "openrouter/nvidia/nemotron-3.5-lightning",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://openrouter.ai/nvidia/nemotron-3.5-lightning"
       }
     },
     {
@@ -47523,6 +47793,42 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "groq/canopylabs/orpheus-v1-english",
+      "provider": "groq",
+      "logo": "/logos/groq.svg",
+      "sample_spec": {
+        "max_tokens": 50000,
+        "max_input_tokens": 4000,
+        "max_output_tokens": 50000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "groq",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://console.groq.com/docs/model/canopylabs/orpheus-v1-english"
+      }
+    },
+    {
+      "name": "groq/canopylabs/orpheus-arabic-saudi",
+      "provider": "groq",
+      "logo": "/logos/groq.svg",
+      "sample_spec": {
+        "max_tokens": 50000,
+        "max_input_tokens": 4000,
+        "max_output_tokens": 50000,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "groq",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://console.groq.com/docs/models"
       }
     },
     {
