@@ -4462,6 +4462,258 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/FW-DeepSeek-V3.2",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.00000062",
+        "output_cost_per_token": "0.00000185",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/"
+      }
+    },
+    {
+      "name": "azure_ai/FW-DeepSeek-V4-Pro",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 384000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 384000,
+        "input_cost_per_token": "0.000001925",
+        "output_cost_per_token": "0.000003828",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/"
+      }
+    },
+    {
+      "name": "azure_ai/FW-GLM-5",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000011",
+        "output_cost_per_token": "0.00000352",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/"
+      }
+    },
+    {
+      "name": "azure_ai/FW-GLM-5.1",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 202800,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000154",
+        "output_cost_per_token": "0.00000484",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/"
+      }
+    },
+    {
+      "name": "azure_ai/FW-GLM-5.2",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000154",
+        "output_cost_per_token": "0.00000484",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/"
+      }
+    },
+    {
+      "name": "azure_ai/FW-GLM-5.2-Fast",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000021",
+        "output_cost_per_token": "0.0000066",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.fireworks.ai/serverless/pricing"
+      }
+    },
+    {
+      "name": "azure_ai/FW-Inkling",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 1048576,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.00000405",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fireworks.ai/models/fireworks/inkling"
+      }
+    },
+    {
+      "name": "azure_ai/FW-Kimi-K2.5",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000066",
+        "output_cost_per_token": "0.0000033",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/"
+      }
+    },
+    {
+      "name": "azure_ai/FW-Kimi-K2.6",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.000001045",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/"
+      }
+    },
+    {
+      "name": "azure_ai/FW-Kimi-K2.7-Code",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000105",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/"
+      }
+    },
+    {
+      "name": "azure_ai/FW-Kimi-K3",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000033",
+        "output_cost_per_token": "0.0000165",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-kimi-k3-through-fireworks-ai-on-microsoft-foundry/4540187"
+      }
+    },
+    {
+      "name": "azure_ai/FW-MiniMax-M2.5",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 1000000,
+        "input_cost_per_token": "0.00000033",
+        "output_cost_per_token": "0.00000132",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/"
+      }
+    },
+    {
+      "name": "azure_ai/FW-MiniMax-M3",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 512000,
+        "max_input_tokens": 512000,
+        "max_output_tokens": 512000,
+        "input_cost_per_token": "0.00000033",
+        "output_cost_per_token": "0.00000132",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/fireworks/"
+      }
+    },
+    {
+      "name": "azure_ai/FW-Nemotron-3-Ultra-NVFP4",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000024",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://fireworks.ai/models/fireworks/nemotron-3-ultra-nvfp4"
+      }
+    },
+    {
       "name": "azure_ai/Llama-3.2-11B-Vision-Instruct",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
@@ -5124,6 +5376,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/grok/"
+      }
+    },
+    {
+      "name": "azure_ai/grok-4.3",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 200000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 200000,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.0000025",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-grok-4-3-on-microsoft-foundry-latest-generation-agentic-capabilities/4517096"
       }
     },
     {
@@ -18845,6 +19115,42 @@ export const aiModels: AIModels = {
         "max_output_tokens": 131072,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.00000425",
+        "litellm_provider": "meta",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://dev.meta.ai/docs/getting-started/pricing-rate-limits"
+      }
+    },
+    {
+      "name": "meta/muse-spark-1.2",
+      "provider": "meta",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000125",
+        "output_cost_per_token": "0.00000425",
+        "litellm_provider": "meta",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://dev.meta.ai/docs/getting-started/pricing-rate-limits"
+      }
+    },
+    {
+      "name": "meta/muse-spark-1.2-contributor",
+      "provider": "meta",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.0000002",
         "litellm_provider": "meta",
         "mode": "chat",
         "supports_function_calling": true,
@@ -32654,6 +32960,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "xai/grok-4.6",
+      "provider": "xai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 500000,
+        "max_input_tokens": 500000,
+        "max_output_tokens": 500000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "xai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://docs.x.ai/developers/models"
+      }
+    },
+    {
       "name": "xai/grok-beta",
       "provider": "xai",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -39678,9 +40002,9 @@ export const aiModels: AIModels = {
       "provider": "deepseek",
       "logo": "/logos/deepseek.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 393216,
         "max_input_tokens": 1000000,
-        "max_output_tokens": 8192,
+        "max_output_tokens": 393216,
         "input_cost_per_token": "0.00000014",
         "output_cost_per_token": "0.00000028",
         "litellm_provider": "deepseek",
@@ -39696,9 +40020,9 @@ export const aiModels: AIModels = {
       "provider": "deepseek",
       "logo": "/logos/deepseek.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 393216,
         "max_input_tokens": 1000000,
-        "max_output_tokens": 8192,
+        "max_output_tokens": 393216,
         "input_cost_per_token": "0.000000435",
         "output_cost_per_token": "0.00000087",
         "litellm_provider": "deepseek",
@@ -39714,9 +40038,9 @@ export const aiModels: AIModels = {
       "provider": "deepseek",
       "logo": "/logos/deepseek.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 393216,
         "max_input_tokens": 1000000,
-        "max_output_tokens": 8192,
+        "max_output_tokens": 393216,
         "input_cost_per_token": "0.00000014",
         "output_cost_per_token": "0.00000028",
         "litellm_provider": "deepseek",
@@ -39732,9 +40056,9 @@ export const aiModels: AIModels = {
       "provider": "deepseek",
       "logo": "/logos/deepseek.svg",
       "sample_spec": {
-        "max_tokens": 8192,
+        "max_tokens": 393216,
         "max_input_tokens": 1000000,
-        "max_output_tokens": 8192,
+        "max_output_tokens": 393216,
         "input_cost_per_token": "0.000000435",
         "output_cost_per_token": "0.00000087",
         "litellm_provider": "deepseek",
@@ -48124,6 +48448,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false
+      }
+    },
+    {
+      "name": "gemini/gemini-3.1-flash-tts-preview",
+      "provider": "gemini",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 8192,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.00002",
+        "litellm_provider": "gemini",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-tts-preview"
       }
     },
     {
