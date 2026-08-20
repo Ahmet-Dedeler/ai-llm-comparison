@@ -10447,6 +10447,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "databricks/databricks-claude-opus-4-6",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000500003",
+        "output_cost_per_token": "0.000025000010000000002",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
+      }
+    },
+    {
       "name": "databricks/databricks-claude-sonnet-4",
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
@@ -10501,6 +10519,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "databricks/databricks-claude-sonnet-4-6",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000029999900000000002",
+        "output_cost_per_token": "0.000015000020000000002",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
+      }
+    },
+    {
       "name": "databricks/databricks-gemini-2-5-flash",
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
@@ -10528,6 +10564,78 @@ export const aiModels: AIModels = {
         "max_output_tokens": 65536,
         "input_cost_per_token": "0.00000124999",
         "output_cost_per_token": "0.000009999990000000002",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
+      }
+    },
+    {
+      "name": "databricks/databricks-gemini-3-1-flash-lite",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000031248",
+        "output_cost_per_token": "0.00000187502",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
+      }
+    },
+    {
+      "name": "databricks/databricks-gemini-3-1-pro",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000249998",
+        "output_cost_per_token": "0.000015000020000000002",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
+      }
+    },
+    {
+      "name": "databricks/databricks-gemini-3-flash",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000062503",
+        "output_cost_per_token": "0.00000374997",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
+      }
+    },
+    {
+      "name": "databricks/databricks-gemini-3-pro",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000249998",
+        "output_cost_per_token": "0.000015000020000000002",
         "litellm_provider": "databricks",
         "mode": "chat",
         "supports_function_calling": true,
@@ -10582,6 +10690,150 @@ export const aiModels: AIModels = {
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000124999",
         "output_cost_per_token": "0.000009999990000000002",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
+      }
+    },
+    {
+      "name": "databricks/databricks-gpt-5-1-codex-max",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000124999",
+        "output_cost_per_token": "0.000009999990000000002",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
+      }
+    },
+    {
+      "name": "databricks/databricks-gpt-5-1-codex-mini",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000024997",
+        "output_cost_per_token": "0.00000199997",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
+      }
+    },
+    {
+      "name": "databricks/databricks-gpt-5-2",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000175",
+        "output_cost_per_token": "0.000014",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
+      }
+    },
+    {
+      "name": "databricks/databricks-gpt-5-2-codex",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000175",
+        "output_cost_per_token": "0.000014",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
+      }
+    },
+    {
+      "name": "databricks/databricks-gpt-5-3-codex",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000175",
+        "output_cost_per_token": "0.000014",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
+      }
+    },
+    {
+      "name": "databricks/databricks-gpt-5-4",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000249998",
+        "output_cost_per_token": "0.000015000020000000002",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
+      }
+    },
+    {
+      "name": "databricks/databricks-gpt-5-4-mini",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000074998",
+        "output_cost_per_token": "0.00000450002",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
+      }
+    },
+    {
+      "name": "databricks/databricks-gpt-5-4-nano",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000019999",
+        "output_cost_per_token": "0.00000124999",
         "litellm_provider": "databricks",
         "mode": "chat",
         "supports_function_calling": false,
@@ -14146,8 +14398,8 @@ export const aiModels: AIModels = {
         "max_tokens": 65536,
         "max_input_tokens": 1048576,
         "max_output_tokens": 65536,
-        "input_cost_per_token": "0.0000015",
-        "output_cost_per_token": "0.0000075",
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.00000375",
         "litellm_provider": "vertex_ai",
         "mode": "chat",
         "supports_function_calling": true,
@@ -14650,8 +14902,8 @@ export const aiModels: AIModels = {
         "max_tokens": 65536,
         "max_input_tokens": 1048576,
         "max_output_tokens": 65536,
-        "input_cost_per_token": "0.0000015",
-        "output_cost_per_token": "0.0000075",
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.00000375",
         "litellm_provider": "gemini",
         "mode": "chat",
         "supports_function_calling": true,
@@ -14794,8 +15046,8 @@ export const aiModels: AIModels = {
         "max_tokens": 65536,
         "max_input_tokens": 1048576,
         "max_output_tokens": 65536,
-        "input_cost_per_token": "0.0000015",
-        "output_cost_per_token": "0.0000075",
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.00000375",
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
