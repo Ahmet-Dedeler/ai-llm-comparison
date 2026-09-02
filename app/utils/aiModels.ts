@@ -924,7 +924,41 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "anthropic.claude-fable-5-1",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "global.anthropic.claude-fable-5",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "global.anthropic.claude-fable-5-1",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
@@ -958,7 +992,41 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "us.anthropic.claude-fable-5-1",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000011",
+        "output_cost_per_token": "0.000055",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "eu.anthropic.claude-fable-5",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000011",
+        "output_cost_per_token": "0.000055",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "eu.anthropic.claude-fable-5-1",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
       "sample_spec": {
@@ -1952,6 +2020,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/claude-fable-5-1",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "azure_ai/claude-opus-5",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
@@ -2264,7 +2349,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-services/"
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/aoai/"
       }
     },
     {
@@ -4745,7 +4830,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://azuremarketplace.microsoft.com/en/marketplace/apps/metagenai.meta-llama-3-2-11b-vision-instruct-offer?tab=Overview"
+        "source": "https://marketplace.microsoft.com/en/marketplace/apps/metagenai.meta-llama-3-2-11b-vision-instruct-offer?tab=Overview"
       }
     },
     {
@@ -4763,7 +4848,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://azuremarketplace.microsoft.com/en/marketplace/apps/metagenai.meta-llama-3-2-90b-vision-instruct-offer?tab=Overview"
+        "source": "https://marketplace.microsoft.com/en/marketplace/apps/metagenai.meta-llama-3-2-90b-vision-instruct-offer?tab=Overview"
       }
     },
     {
@@ -4781,7 +4866,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azuremarketplace.microsoft.com/en/marketplace/apps/metagenai.llama-3-3-70b-instruct-offer?tab=Overview"
+        "source": "https://marketplace.microsoft.com/en/marketplace/apps/metagenai.llama-3-3-70b-instruct-offer?tab=Overview"
       }
     },
     {
@@ -4852,7 +4937,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/metagenai.meta-llama-3-1-405b-instruct-offer?tab=PlansAndPrice"
+        "source": "https://marketplace.microsoft.com/en-us/marketplace/apps/metagenai.meta-llama-3-1-405b-instruct-offer?tab=PlansAndPrice"
       }
     },
     {
@@ -4870,7 +4955,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/metagenai.meta-llama-3-1-70b-instruct-offer?tab=PlansAndPrice"
+        "source": "https://marketplace.microsoft.com/en-us/marketplace/apps/metagenai.meta-llama-3-1-70b-instruct-offer?tab=PlansAndPrice"
       }
     },
     {
@@ -4888,7 +4973,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/metagenai.meta-llama-3-1-8b-instruct-offer?tab=PlansAndPrice"
+        "source": "https://marketplace.microsoft.com/en-us/marketplace/apps/metagenai.meta-llama-3-1-8b-instruct-offer?tab=PlansAndPrice"
       }
     },
     {
@@ -5306,6 +5391,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/deepseek-v4-flash-0731",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000019",
+        "output_cost_per_token": "0.00000051",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/ai-foundry-models/deepseek/"
+      }
+    },
+    {
       "name": "azure_ai/global/grok-3",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
@@ -5517,7 +5620,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azure.microsoft.com/en-us/products/ai-services/ai-foundry/models/jais-30b-chat"
+        "source": "https://ai.azure.com/catalog/models/jais-30b-chat"
       }
     },
     {
@@ -5588,7 +5691,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azuremarketplace.microsoft.com/en/marketplace/apps/000-000.ministral-3b-2410-offer?tab=Overview"
+        "source": "https://marketplace.microsoft.com/en/marketplace/apps/000-000.ministral-3b-2410-offer?tab=Overview"
       }
     },
     {
@@ -5623,7 +5726,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azuremarketplace.microsoft.com/en/marketplace/apps/000-000.mistral-ai-large-2407-offer?tab=Overview"
+        "source": "https://marketplace.microsoft.com/en/marketplace/apps/000-000.mistral-ai-large-2407-offer?tab=Overview"
       }
     },
     {
@@ -5641,7 +5744,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azuremarketplace.microsoft.com/en/marketplace/apps/000-000.mistral-ai-large-2407-offer?tab=Overview"
+        "source": "https://marketplace.microsoft.com/en/marketplace/apps/000-000.mistral-ai-large-2407-offer?tab=Overview"
       }
     },
     {
@@ -5694,7 +5797,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azuremarketplace.microsoft.com/en/marketplace/apps/000-000.mistral-nemo-12b-2407?tab=PlansAndPrice"
+        "source": "https://marketplace.microsoft.com/en/marketplace/apps/000-000.mistral-nemo-12b-2407?tab=PlansAndPrice"
       }
     },
     {
@@ -8800,6 +8903,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "claude-fable-5-1",
+      "provider": "anthropic",
+      "logo": "/logos/anthropic.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "anthropic",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/models/fable-5-1/overview"
+      }
+    },
+    {
       "name": "claude-opus-5",
       "provider": "anthropic",
       "logo": "/logos/anthropic.svg",
@@ -10377,6 +10498,1482 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "qwencloud/deepseek-v4-flash",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/deepseek-v4-flash-0731",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/deepseek-v4-pro",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.0000024",
+        "output_cost_per_token": "0.0000048",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/glm-5.1",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 202745,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/glm-5.2",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/kimi-k2.7-code",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 229376,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000095",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-coder",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-flash",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-flash-2025-07-28",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-max",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 30720,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000016",
+        "output_cost_per_token": "0.0000064",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-plus",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 129024,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-plus-2025-01-25",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 129024,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-plus-2025-04-28",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 129024,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-plus-2025-07-14",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 129024,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-plus-2025-07-28",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-plus-2025-09-11",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-plus-latest",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-turbo",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 129024,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-turbo-2024-11-01",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-turbo-2025-04-28",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-turbo-latest",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3-30b-a3b",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 129024,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3-coder-flash",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3-coder-flash-2025-07-28",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3-coder-plus",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3-coder-plus-2025-07-22",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3-max-preview",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 258048,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3-max",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 258048,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3-max-2026-01-23",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 258048,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3-next-80b-a3b-instruct",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3-next-80b-a3b-thinking",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3-vl-235b-a22b-instruct",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000016",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3-vl-235b-a22b-thinking",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3-vl-32b-instruct",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000016",
+        "output_cost_per_token": "0.00000064",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3-vl-32b-thinking",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000016",
+        "output_cost_per_token": "0.00000287",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3-vl-plus",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 260096,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3.5-plus",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3.7-max",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.0000075",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3.7-plus",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen3.8-max",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwq-plus",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 98304,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000024",
+        "litellm_provider": "qwencloud",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/deepseek-v4-flash",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/deepseek-v4-flash-0731",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/deepseek-v4-pro",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.0000024",
+        "output_cost_per_token": "0.0000048",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/glm-5.1",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 202745,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/glm-5.2",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/kimi-k2.7-code",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 229376,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000095",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-coder",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-flash",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-flash-2025-07-28",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-max",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 30720,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000016",
+        "output_cost_per_token": "0.0000064",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-plus",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 129024,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-plus-2025-01-25",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 129024,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-plus-2025-04-28",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 129024,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-plus-2025-07-14",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 129024,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-plus-2025-07-28",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-plus-2025-09-11",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-plus-latest",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-turbo",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 129024,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-turbo-2024-11-01",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-turbo-2025-04-28",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-turbo-latest",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": "0.00000005",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3-30b-a3b",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 16384,
+        "max_input_tokens": 129024,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3-coder-flash",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3-coder-flash-2025-07-28",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3-coder-plus",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3-coder-plus-2025-07-22",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 997952,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3-max-preview",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 258048,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3-max",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 258048,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3-max-2026-01-23",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 258048,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3-next-80b-a3b-instruct",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3-next-80b-a3b-thinking",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3-vl-235b-a22b-instruct",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.0000016",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3-vl-235b-a22b-thinking",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000004",
+        "output_cost_per_token": "0.000004",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3-vl-32b-instruct",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000016",
+        "output_cost_per_token": "0.00000064",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3-vl-32b-thinking",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000016",
+        "output_cost_per_token": "0.00000287",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3-vl-plus",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 260096,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3.5-plus",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3.7-max",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.0000075",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3.7-plus",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen3.8-max",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 991808,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwq-plus",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 98304,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000024",
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
       "name": "databricks/databricks-claude-3-7-sonnet",
       "provider": "databricks",
       "logo": "/logos/databricks.svg",
@@ -10644,6 +12241,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://www.databricks.com/product/pricing/proprietary-foundation-model-serving"
+      }
+    },
+    {
+      "name": "databricks/databricks-deepseek-v4-flash-0731",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.00000014",
+        "output_cost_per_token": "0.00000028",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/foundation-model-serving"
+      }
+    },
+    {
+      "name": "databricks/databricks-deepseek-v4-pro-0813",
+      "provider": "databricks",
+      "logo": "/logos/databricks.svg",
+      "sample_spec": {
+        "max_tokens": 393216,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 393216,
+        "input_cost_per_token": "0.00000131999",
+        "output_cost_per_token": "0.00000395997",
+        "litellm_provider": "databricks",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.databricks.com/product/pricing/foundation-model-serving"
       }
     },
     {
@@ -14050,6 +15683,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "friendliai/zai-org/GLM-5.3-Flash",
+      "provider": "friendliai",
+      "logo": "/logos/friendliai.svg",
+      "sample_spec": {
+        "max_tokens": 1048576,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "friendliai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://api.friendli.ai/serverless/v1/models"
+      }
+    },
+    {
+      "name": "friendliai/zai-org/GLM-5.3",
+      "provider": "friendliai",
+      "logo": "/logos/friendliai.svg",
+      "sample_spec": {
+        "max_tokens": 1048576,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.00000126",
+        "output_cost_per_token": "0.00000396",
+        "litellm_provider": "friendliai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://api.friendli.ai/serverless/v1/models"
+      }
+    },
+    {
       "name": "ft:gpt-3.5-turbo",
       "provider": "openai",
       "logo": "/logos/openai.svg",
@@ -15079,7 +16748,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/pricing/gemini-3"
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
       }
     },
     {
@@ -15097,7 +16766,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/pricing/gemini-3"
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
       }
     },
     {
@@ -15115,7 +16784,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/pricing/gemini-3"
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
       }
     },
     {
@@ -15133,7 +16802,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/pricing/gemini-3"
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
       }
     },
     {
@@ -15205,7 +16874,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/pricing/gemini-3"
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
       }
     },
     {
@@ -15241,7 +16910,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/pricing/gemini-3"
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
       }
     },
     {
@@ -15259,7 +16928,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/pricing/gemini-3"
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
       }
     },
     {
@@ -15277,7 +16946,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/pricing/gemini-3"
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
       }
     },
     {
@@ -15938,7 +17607,7 @@ export const aiModels: AIModels = {
       }
     },
     {
-      "name": "gigachat/GigaChat-2-Lite",
+      "name": "gigachat/GigaChat-2",
       "provider": "gigachat",
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
@@ -17466,7 +19135,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://platform.openai.com/docs/models/gpt-5.6-cyber"
+        "source": "https://developers.openai.com/api/docs/models/gpt-5.6-cyber"
       }
     },
     {
@@ -17484,7 +19153,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://platform.openai.com/docs/models/daybreak-red-latest"
+        "source": "https://developers.openai.com/api/docs/models/daybreak-red-latest"
       }
     },
     {
@@ -17502,7 +19171,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://platform.openai.com/docs/models/daybreak-blue-latest"
+        "source": "https://developers.openai.com/api/docs/models/daybreak-blue-latest"
       }
     },
     {
@@ -17520,7 +19189,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://platform.openai.com/docs/models/chat-latest"
+        "source": "https://developers.openai.com/api/docs/models/chat-latest"
       }
     },
     {
@@ -19686,7 +21355,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://dev.meta.ai/docs/getting-started/pricing-rate-limits"
+        "source": "https://ai.developer.meta.com/docs/pricing-rate-limits"
       }
     },
     {
@@ -19704,7 +21373,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://dev.meta.ai/docs/getting-started/pricing-rate-limits"
+        "source": "https://ai.developer.meta.com/docs/pricing-rate-limits"
       }
     },
     {
@@ -19722,7 +21391,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://dev.meta.ai/docs/getting-started/pricing-rate-limits"
+        "source": "https://ai.developer.meta.com/docs/pricing-rate-limits"
       }
     },
     {
@@ -19740,7 +21409,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://llama.developer.meta.com/docs/models"
+        "source": "https://ai.developer.meta.com/docs/models"
       }
     },
     {
@@ -19758,7 +21427,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://llama.developer.meta.com/docs/models"
+        "source": "https://ai.developer.meta.com/docs/models"
       }
     },
     {
@@ -19776,7 +21445,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://llama.developer.meta.com/docs/models"
+        "source": "https://ai.developer.meta.com/docs/models"
       }
     },
     {
@@ -19794,7 +21463,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://llama.developer.meta.com/docs/models"
+        "source": "https://ai.developer.meta.com/docs/models"
       }
     },
     {
@@ -22007,7 +23676,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22025,7 +23694,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22043,7 +23712,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22061,7 +23730,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22079,7 +23748,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22097,7 +23766,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22115,7 +23784,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22133,7 +23802,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22151,7 +23820,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22169,7 +23838,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22187,7 +23856,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22205,7 +23874,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22223,7 +23892,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22241,7 +23910,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22259,7 +23928,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22277,7 +23946,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22295,7 +23964,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22313,7 +23982,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22331,7 +24000,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22349,7 +24018,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22367,7 +24036,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22385,7 +24054,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22403,7 +24072,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22421,7 +24090,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22439,7 +24108,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22457,7 +24126,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22475,7 +24144,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -22915,7 +24584,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://www.oracle.com/cloud/ai/generative-ai/pricing/"
+        "source": "https://www.oracle.com/artificial-intelligence/enterprise-ai/cost-estimator/"
       }
     },
     {
@@ -22933,7 +24602,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://www.oracle.com/cloud/ai/generative-ai/pricing/"
+        "source": "https://www.oracle.com/artificial-intelligence/enterprise-ai/cost-estimator/"
       }
     },
     {
@@ -22951,7 +24620,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://www.oracle.com/cloud/ai/generative-ai/pricing/"
+        "source": "https://www.oracle.com/artificial-intelligence/enterprise-ai/cost-estimator/"
       }
     },
     {
@@ -23023,7 +24692,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://www.oracle.com/cloud/ai/generative-ai/pricing/"
+        "source": "https://www.oracle.com/artificial-intelligence/enterprise-ai/cost-estimator/"
       }
     },
     {
@@ -23041,7 +24710,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://www.oracle.com/cloud/ai/generative-ai/pricing/"
+        "source": "https://www.oracle.com/artificial-intelligence/enterprise-ai/cost-estimator/"
       }
     },
     {
@@ -23977,7 +25646,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://openrouter.ai/api/v1/models/bytedance/ui-tars-1.5-7b"
+        "source": "https://openrouter.ai/bytedance/ui-tars-1.5-7b"
       }
     },
     {
@@ -24218,7 +25887,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/pricing/gemini-3"
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
       }
     },
     {
@@ -24236,7 +25905,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/pricing/gemini-3"
+        "source": "https://ai.google.dev/gemini-api/docs/pricing"
       }
     },
     {
@@ -25486,7 +27155,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://endpoints.ai.cloud.ovh.net/models/deepseek-r1-distill-llama-70b"
+        "source": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
       }
     },
     {
@@ -25504,7 +27173,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://endpoints.ai.cloud.ovh.net/models/llama-3-1-8b-instruct"
+        "source": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
       }
     },
     {
@@ -25522,7 +27191,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://endpoints.ai.cloud.ovh.net/models/meta-llama-3-1-70b-instruct"
+        "source": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
       }
     },
     {
@@ -25540,7 +27209,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://endpoints.ai.cloud.ovh.net/models/meta-llama-3-3-70b-instruct"
+        "source": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
       }
     },
     {
@@ -25558,7 +27227,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://endpoints.ai.cloud.ovh.net/models/mistral-7b-instruct-v0-3"
+        "source": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
       }
     },
     {
@@ -25576,7 +27245,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://endpoints.ai.cloud.ovh.net/models/mistral-nemo-instruct-2407"
+        "source": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
       }
     },
     {
@@ -25594,7 +27263,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://endpoints.ai.cloud.ovh.net/models/mistral-small-3-2-24b-instruct-2506"
+        "source": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
       }
     },
     {
@@ -25612,7 +27281,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://endpoints.ai.cloud.ovh.net/models/mixtral-8x7b-instruct-v0-1"
+        "source": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
       }
     },
     {
@@ -25630,7 +27299,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://endpoints.ai.cloud.ovh.net/models/qwen2-5-coder-32b-instruct"
+        "source": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
       }
     },
     {
@@ -25648,7 +27317,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://endpoints.ai.cloud.ovh.net/models/qwen2-5-vl-72b-instruct"
+        "source": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
       }
     },
     {
@@ -25666,7 +27335,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://endpoints.ai.cloud.ovh.net/models/qwen3-32b"
+        "source": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
       }
     },
     {
@@ -25684,7 +27353,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://endpoints.ai.cloud.ovh.net/models/gpt-oss-120b"
+        "source": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
       }
     },
     {
@@ -25702,7 +27371,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://endpoints.ai.cloud.ovh.net/models/gpt-oss-20b"
+        "source": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
       }
     },
     {
@@ -25720,7 +27389,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://endpoints.ai.cloud.ovh.net/models/llava-next-mistral-7b"
+        "source": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
       }
     },
     {
@@ -25738,7 +27407,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://endpoints.ai.cloud.ovh.net/models/mamba-codestral-7b-v0-1"
+        "source": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/"
       }
     },
     {
@@ -28594,7 +30263,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://www.together.ai/models/Qwen/Qwen3.5-397B-A17B"
+        "source": "https://www.together.ai/models/qwen3-5-397b-a17b"
       }
     },
     {
@@ -31686,7 +33355,41 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "vertex_ai/claude-fable-5-1",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "vertex_ai/claude-fable-5@default",
+      "provider": "vertex_ai-anthropic_models",
+      "logo": "/logos/google.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "vertex_ai/claude-fable-5-1@default",
       "provider": "vertex_ai-anthropic_models",
       "logo": "/logos/google.svg",
       "sample_spec": {
@@ -32744,7 +34447,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.x.ai/docs/models (Vertex AI Model Garden)"
+        "source": "https://docs.x.ai/developers/models"
       }
     },
     {
@@ -32762,7 +34465,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.x.ai/docs/models (Vertex AI Model Garden)"
+        "source": "https://docs.x.ai/developers/models"
       }
     },
     {
@@ -32780,7 +34483,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.x.ai/docs/models (Vertex AI Model Garden)"
+        "source": "https://docs.x.ai/developers/models"
       }
     },
     {
@@ -32798,7 +34501,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.x.ai/docs/models (Vertex AI Model Garden)"
+        "source": "https://docs.x.ai/developers/models"
       }
     },
     {
@@ -40830,7 +42533,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://www.volcengine.com/docs/82379/1330310"
+        "source": "https://docs.volcengine.com/docs/82379/1330310"
       }
     },
     {
@@ -40848,7 +42551,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://www.volcengine.com/docs/82379/1330310"
+        "source": "https://docs.volcengine.com/docs/82379/1330310"
       }
     },
     {
@@ -40866,7 +42569,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://www.volcengine.com/docs/82379/1330310"
+        "source": "https://docs.volcengine.com/docs/82379/1330310"
       }
     },
     {
@@ -40884,7 +42587,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://www.volcengine.com/docs/82379/1330310"
+        "source": "https://docs.volcengine.com/docs/82379/1330310"
       }
     },
     {
@@ -41557,7 +43260,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pinstripes.io/pricing"
+        "source": "https://pinstripes.io/"
       }
     },
     {
@@ -41575,7 +43278,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pinstripes.io/pricing"
+        "source": "https://pinstripes.io/"
       }
     },
     {
@@ -41593,7 +43296,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pinstripes.io/pricing"
+        "source": "https://pinstripes.io/"
       }
     },
     {
@@ -41611,7 +43314,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pinstripes.io/pricing"
+        "source": "https://pinstripes.io/"
       }
     },
     {
@@ -41629,7 +43332,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pinstripes.io/pricing"
+        "source": "https://pinstripes.io/"
       }
     },
     {
@@ -41647,7 +43350,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://pinstripes.io/pricing"
+        "source": "https://pinstripes.io/"
       }
     },
     {
@@ -41737,7 +43440,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.claude.com/en/docs/about-claude/models/overview"
+        "source": "https://platform.claude.com/docs/en/about-claude/models/overview"
       }
     },
     {
@@ -41755,7 +43458,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.claude.com/en/docs/about-claude/models/overview"
+        "source": "https://platform.claude.com/docs/en/about-claude/models/overview"
       }
     },
     {
@@ -41874,8 +43577,8 @@ export const aiModels: AIModels = {
         "max_tokens": 131072,
         "max_input_tokens": 1048576,
         "max_output_tokens": 131072,
-        "input_cost_per_token": "0.00000014",
-        "output_cost_per_token": "0.00000028",
+        "input_cost_per_token": "0.00000022",
+        "output_cost_per_token": "0.00000066",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
         "supports_function_calling": true,
@@ -44925,6 +46628,60 @@ export const aiModels: AIModels = {
         "supports_vision": false,
         "source": "https://docs.fireworks.ai/serverless/pricing"
       }
+    },
+    {
+      "name": "zai/glm-5.2",
+      "provider": "zai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "zai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.z.ai/guides/overview/pricing"
+      }
+    },
+    {
+      "name": "together_ai/Qwen/Qwen3.8-Flash",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 1000000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.00000047",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://docs.together.ai/docs/serverless-models"
+      }
+    },
+    {
+      "name": "cerebras/gemma-4-31b",
+      "provider": "cerebras",
+      "logo": "/logos/cerebras.svg",
+      "sample_spec": {
+        "max_tokens": 40960,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 40960,
+        "input_cost_per_token": "0.00000099",
+        "output_cost_per_token": "0.00000149",
+        "litellm_provider": "cerebras",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://api.cerebras.ai/public/v1/models/gemma-4-31b"
+      }
     }
   ],
   "embedding": [
@@ -45149,7 +46906,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/cohere.cohere-embed-v3-english-offer?tab=PlansAndPrice"
+        "source": "https://marketplace.microsoft.com/en-us/marketplace/apps/cohere.cohere-embed-v3-english-offer?tab=PlansAndPrice"
       }
     },
     {
@@ -45167,7 +46924,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/cohere.cohere-embed-v3-english-offer?tab=PlansAndPrice"
+        "source": "https://marketplace.microsoft.com/en-us/marketplace/apps/cohere.cohere-embed-v3-english-offer?tab=PlansAndPrice"
       }
     },
     {
@@ -45185,7 +46942,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azuremarketplace.microsoft.com/pt-br/marketplace/apps/cohere.cohere-embed-4-offer?tab=PlansAndPrice"
+        "source": "https://marketplace.microsoft.com/pt-br/marketplace/apps/cohere.cohere-embed-4-offer?tab=PlansAndPrice"
       }
     },
     {
@@ -45937,6 +47694,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "gigachat/GigaEmbeddings-3B-2025-09",
+      "provider": "gigachat",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 4096,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "gigachat",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "mistral/mistral-embed-2312",
       "provider": "mistral",
       "logo": "/logos/mistral.svg",
@@ -46056,7 +47830,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -46074,7 +47848,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -46092,7 +47866,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://nebius.com/prices-ai-studio"
+        "source": "https://nebius.com/prices"
       }
     },
     {
@@ -46110,7 +47884,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://www.oracle.com/cloud/ai/generative-ai/pricing/"
+        "source": "https://www.oracle.com/artificial-intelligence/enterprise-ai/cost-estimator/"
       }
     },
     {
@@ -48293,7 +50067,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://azuremarketplace.microsoft.com/pt-br/marketplace/apps/cohere.cohere-embed-4-offer?tab=PlansAndPrice"
+        "source": "https://marketplace.microsoft.com/pt-br/marketplace/apps/cohere.cohere-embed-4-offer?tab=PlansAndPrice"
       }
     },
     {
@@ -48539,6 +50313,150 @@ export const aiModels: AIModels = {
         "input_cost_per_token": null,
         "output_cost_per_token": null,
         "litellm_provider": "dashscope",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-image-2.0",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-image-2.0-pro",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-image-3.0",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwencloud/qwen-image-3.0-pro",
+      "provider": "qwencloud",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwencloud",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.qwencloud.com/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-image-2.0",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-image-2.0-pro",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-image-3.0",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+      }
+    },
+    {
+      "name": "qwen_ai_platform/qwen-image-3.0-pro",
+      "provider": "qwen_ai_platform",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "qwen_ai_platform",
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
@@ -52898,7 +54816,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/gpt-realtime-whisper"
+        "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/gpt-realtime-whisper"
       }
     },
     {
@@ -53875,7 +55793,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://platform.openai.com/docs/models/gpt-realtime-whisper"
+        "source": "https://developers.openai.com/api/docs/models/gpt-realtime-whisper"
       }
     },
     {
@@ -53929,7 +55847,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://platform.openai.com/docs/models/gpt-transcribe"
+        "source": "https://developers.openai.com/api/docs/models/gpt-transcribe"
       }
     },
     {
@@ -53947,7 +55865,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://platform.openai.com/docs/models/gpt-live-transcribe"
+        "source": "https://developers.openai.com/api/docs/models/gpt-live-transcribe"
       }
     },
     {
@@ -54110,6 +56028,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://docs.mistral.ai/models/model-cards/voxtral-mini-transcribe-realtime-26-02"
+      }
+    },
+    {
+      "name": "elevenlabs/scribe_v2",
+      "provider": "elevenlabs",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "elevenlabs",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://elevenlabs.io/pricing/api"
       }
     }
   ],
