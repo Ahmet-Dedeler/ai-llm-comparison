@@ -2191,6 +2191,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure_ai/gpt-6-astra",
+      "provider": "azure_ai",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 922000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00001",
+        "output_cost_per_token": "0.00005",
+        "litellm_provider": "azure_ai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://ai.azure.com/catalog/models/gpt-6-astra"
+      }
+    },
+    {
       "name": "azure_ai/gpt-5.5",
       "provider": "azure_ai",
       "logo": "/logos/azure.svg",
@@ -7922,6 +7940,40 @@ export const aiModels: AIModels = {
         "litellm_provider": "bedrock",
         "mode": "chat",
         "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-gov-west-1/amazon.nova-lite-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 10000,
+        "max_input_tokens": 300000,
+        "max_output_tokens": 10000,
+        "input_cost_per_token": "0.000000072",
+        "output_cost_per_token": "0.000000288",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "bedrock/us-gov-west-1/amazon.nova-micro-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 10000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 10000,
+        "input_cost_per_token": "0.000000042",
+        "output_cost_per_token": "0.000000168",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false
       }
@@ -31900,6 +31952,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "us-gov.anthropic.claude-3-haiku-20240307-v1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 4096,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 4096,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "us-gov.anthropic.claude-sonnet-4-5-20250929-v1:0",
       "provider": "bedrock_converse",
       "logo": "/logos/amazon.svg",
@@ -31943,6 +32012,161 @@ export const aiModels: AIModels = {
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.000006",
         "output_cost_per_token": "0.00003",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "us-gov.anthropic.claude-opus-5",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000006",
+        "output_cost_per_token": "0.00003",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "us-gov.anthropic.claude-fable-5-1",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000012",
+        "output_cost_per_token": "0.00006",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "us-gov.nvidia.nemotron-nano-3-30b",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.000000072",
+        "output_cost_per_token": "0.000000288",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "us-gov.nvidia.nemotron-nano-12b-v2",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.00000024",
+        "output_cost_per_token": "0.00000072",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "us-gov.nvidia.nemotron-nano-9b-v2",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.000000072",
+        "output_cost_per_token": "0.000000276",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "us-gov.nvidia.nemotron-super-3-120b",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000018",
+        "output_cost_per_token": "0.00000078",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "us-gov.openai.gpt-oss-20b-1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000000084",
+        "output_cost_per_token": "0.00000036",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "us-gov.openai.gpt-oss-120b-1:0",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000018",
+        "output_cost_per_token": "0.00000072",
+        "litellm_provider": "bedrock_converse",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "us-gov.xai.grok-4.6",
+      "provider": "bedrock_converse",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 500000,
+        "max_input_tokens": 500000,
+        "max_output_tokens": 500000,
+        "input_cost_per_token": "0.00000264",
+        "output_cost_per_token": "0.00000792",
         "litellm_provider": "bedrock_converse",
         "mode": "chat",
         "supports_function_calling": true,
@@ -47757,6 +47981,23 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "bedrock/us-gov-west-1/nvidia.nemotron-nano-9b-v2",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.000000072",
+        "output_cost_per_token": "0.000000276",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
       "name": "bedrock/us-gov-west-1/nvidia.nemotron-super-3-120b",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -47843,6 +48084,40 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "bedrock/us-gov-west-1/anthropic.claude-opus-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000006",
+        "output_cost_per_token": "0.00003",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "bedrock/us-gov-west-1/anthropic.claude-fable-5-1",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000012",
+        "output_cost_per_token": "0.00006",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "bedrock/us-gov-east-1/nvidia.nemotron-nano-3-30b",
       "provider": "bedrock",
       "logo": "/logos/amazon.svg",
@@ -47875,6 +48150,23 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true
+      }
+    },
+    {
+      "name": "bedrock/us-gov-east-1/nvidia.nemotron-nano-9b-v2",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0.000000072",
+        "output_cost_per_token": "0.000000276",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
       }
     },
     {
@@ -47964,6 +48256,40 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "bedrock/us-gov-east-1/anthropic.claude-opus-5",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000006",
+        "output_cost_per_token": "0.00003",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "bedrock/us-gov-east-1/anthropic.claude-fable-5-1",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000012",
+        "output_cost_per_token": "0.00006",
+        "litellm_provider": "bedrock",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
       "name": "bedrock_mantle/us-gov-west-1/xai.grok-4.3",
       "provider": "bedrock_mantle",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -47979,6 +48305,159 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://aws.amazon.com/bedrock/pricing/"
+      }
+    },
+    {
+      "name": "bedrock_mantle/us-gov-west-1/xai.grok-4.6",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 500000,
+        "max_input_tokens": 500000,
+        "max_output_tokens": 500000,
+        "input_cost_per_token": "0.00000264",
+        "output_cost_per_token": "0.00000792",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "bedrock_mantle/us-gov-west-1/google.gemma-4-e2b",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000000048",
+        "output_cost_per_token": "0.000000096",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "bedrock_mantle/us-gov-west-1/google.gemma-4-26b-a4b",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.000000156",
+        "output_cost_per_token": "0.00000048",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "bedrock_mantle/us-gov-west-1/google.gemma-4-31b",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.000000168",
+        "output_cost_per_token": "0.00000048",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "bedrock_mantle/us-gov-west-1/openai.gpt-oss-20b",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000000084",
+        "output_cost_per_token": "0.00000036",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock_mantle/us-gov-west-1/openai.gpt-oss-120b",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000018",
+        "output_cost_per_token": "0.00000072",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock_mantle/us-gov-east-1/xai.grok-4.6",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 500000,
+        "max_input_tokens": 500000,
+        "max_output_tokens": 500000,
+        "input_cost_per_token": "0.00000264",
+        "output_cost_per_token": "0.00000792",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true
+      }
+    },
+    {
+      "name": "bedrock_mantle/us-gov-east-1/openai.gpt-oss-20b",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.000000084",
+        "output_cost_per_token": "0.00000036",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock_mantle/us-gov-east-1/openai.gpt-oss-120b",
+      "provider": "bedrock_mantle",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000018",
+        "output_cost_per_token": "0.00000072",
+        "litellm_provider": "bedrock_mantle",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false
       }
     },
     {
@@ -51046,7 +51525,7 @@ export const aiModels: AIModels = {
         "max_tokens": 77,
         "max_input_tokens": 77,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.00007",
+        "input_cost_per_token": null,
         "output_cost_per_token": "0",
         "litellm_provider": "bedrock",
         "mode": "embedding",
@@ -51063,7 +51542,7 @@ export const aiModels: AIModels = {
         "max_tokens": 77,
         "max_input_tokens": 77,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.00007",
+        "input_cost_per_token": null,
         "output_cost_per_token": "0",
         "litellm_provider": "bedrock",
         "mode": "embedding",
@@ -51080,7 +51559,58 @@ export const aiModels: AIModels = {
         "max_tokens": 77,
         "max_input_tokens": 77,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.00007",
+        "input_cost_per_token": null,
+        "output_cost_per_token": "0",
+        "litellm_provider": "bedrock",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "twelvelabs.marengo-embed-3-0-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 500,
+        "max_input_tokens": 500,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": "0",
+        "litellm_provider": "bedrock",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "us.twelvelabs.marengo-embed-3-0-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 500,
+        "max_input_tokens": 500,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": "0",
+        "litellm_provider": "bedrock",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "eu.twelvelabs.marengo-embed-3-0-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 500,
+        "max_input_tokens": 500,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
         "output_cost_per_token": "0",
         "litellm_provider": "bedrock",
         "mode": "embedding",
@@ -51237,6 +51767,23 @@ export const aiModels: AIModels = {
         "max_input_tokens": 8192,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0",
+        "litellm_provider": "bedrock",
+        "mode": "embedding",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false
+      }
+    },
+    {
+      "name": "bedrock/us-gov-west-1/amazon.nova-2-multimodal-embeddings-v1:0",
+      "provider": "bedrock",
+      "logo": "/logos/amazon.svg",
+      "sample_spec": {
+        "max_tokens": 8172,
+        "max_input_tokens": 8172,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000000162",
         "output_cost_per_token": "0",
         "litellm_provider": "bedrock",
         "mode": "embedding",
@@ -60841,6 +61388,60 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://cloud.google.com/text-to-speech/pricing"
+      }
+    },
+    {
+      "name": "vertex_ai/lyria-002",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": null,
+        "litellm_provider": "vertex_ai",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing#lyria"
+      }
+    },
+    {
+      "name": "vertex_ai/lyria-3-clip-preview",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "vertex_ai",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing#lyria"
+      }
+    },
+    {
+      "name": "vertex_ai/lyria-3-pro-preview",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 8192,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 8192,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "vertex_ai",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing#lyria"
       }
     },
     {
