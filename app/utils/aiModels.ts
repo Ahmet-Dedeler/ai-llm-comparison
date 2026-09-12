@@ -27645,6 +27645,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/openai/gpt-5.6-sol",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/openai/gpt-5.6-sol"
+      }
+    },
+    {
       "name": "openrouter/openai/gpt-oss-120b",
       "provider": "openrouter",
       "logo": "/logos/openrouter.svg",
@@ -46461,6 +46479,42 @@ export const aiModels: AIModels = {
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.0000003",
+        "litellm_provider": "wandb",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://wandb.ai/site/pricing/tokens/"
+      }
+    },
+    {
+      "name": "wandb/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "provider": "wandb",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000131",
+        "output_cost_per_token": "0.00000396",
+        "litellm_provider": "wandb",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://wandb.ai/site/pricing/tokens/"
+      }
+    },
+    {
+      "name": "wandb/ibm-granite/granite-4.2-8b",
+      "provider": "wandb",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000001",
+        "output_cost_per_token": "0.00000015",
         "litellm_provider": "wandb",
         "mode": "chat",
         "supports_function_calling": false,
