@@ -16274,6 +16274,114 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "friendliai/google/gemma-4-31B-it",
+      "provider": "friendliai",
+      "logo": "/logos/friendliai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.00000014",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "friendliai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://api.friendli.ai/serverless/v1/models"
+      }
+    },
+    {
+      "name": "friendliai/zai-org/GLM-5.2",
+      "provider": "friendliai",
+      "logo": "/logos/friendliai.svg",
+      "sample_spec": {
+        "max_tokens": 1048576,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "friendliai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://api.friendli.ai/serverless/v1/models"
+      }
+    },
+    {
+      "name": "friendliai/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "provider": "friendliai",
+      "logo": "/logos/friendliai.svg",
+      "sample_spec": {
+        "max_tokens": 262144,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000024",
+        "litellm_provider": "friendliai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://api.friendli.ai/serverless/v1/models"
+      }
+    },
+    {
+      "name": "friendliai/deepseek-ai/DeepSeek-V3.2",
+      "provider": "friendliai",
+      "logo": "/logos/friendliai.svg",
+      "sample_spec": {
+        "max_tokens": 163840,
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.0000015",
+        "litellm_provider": "friendliai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://api.friendli.ai/serverless/v1/models"
+      }
+    },
+    {
+      "name": "friendliai/MiniMaxAI/MiniMax-M2.5",
+      "provider": "friendliai",
+      "logo": "/logos/friendliai.svg",
+      "sample_spec": {
+        "max_tokens": 196608,
+        "max_input_tokens": 196608,
+        "max_output_tokens": 196608,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "friendliai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://api.friendli.ai/serverless/v1/models"
+      }
+    },
+    {
+      "name": "friendliai/zai-org/GLM-5.1",
+      "provider": "friendliai",
+      "logo": "/logos/friendliai.svg",
+      "sample_spec": {
+        "max_tokens": 202752,
+        "max_input_tokens": 202752,
+        "max_output_tokens": 202752,
+        "input_cost_per_token": "0.0000014",
+        "output_cost_per_token": "0.0000044",
+        "litellm_provider": "friendliai",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": false,
+        "source": "https://api.friendli.ai/serverless/v1/models"
+      }
+    },
+    {
       "name": "ft:gpt-3.5-turbo",
       "provider": "openai",
       "logo": "/logos/openai.svg",
