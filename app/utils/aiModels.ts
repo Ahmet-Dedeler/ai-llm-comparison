@@ -3820,6 +3820,42 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "azure/gpt-chat-latest",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.00003",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/"
+      }
+    },
+    {
+      "name": "azure/chat-latest",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.00003",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/"
+      }
+    },
+    {
       "name": "azure/us/gpt-5.6",
       "provider": "azure",
       "logo": "/logos/azure.svg",
@@ -3902,6 +3938,24 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true
+      }
+    },
+    {
+      "name": "azure/us/gpt-chat-latest",
+      "provider": "azure",
+      "logo": "/logos/azure.svg",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000055",
+        "output_cost_per_token": "0.000033",
+        "litellm_provider": "azure",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_vision": true,
+        "source": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/"
       }
     },
     {
@@ -8841,7 +8895,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
       }
     },
     {
@@ -8943,7 +8998,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
       }
     },
     {
@@ -8978,7 +9034,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.anthropic.com/en/docs/about-claude/models/overview"
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
       }
     },
     {
@@ -8995,7 +9051,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
       }
     },
     {
@@ -9097,7 +9154,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
       }
     },
     {
@@ -9114,7 +9172,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
       }
     },
     {
@@ -9148,7 +9207,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
       }
     },
     {
@@ -9183,7 +9243,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.anthropic.com/en/docs/about-claude/models/overview"
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
       }
     },
     {
@@ -9201,7 +9261,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://platform.claude.com/docs/en/models/fable-5-1/overview"
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
       }
     },
     {
@@ -9219,7 +9279,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.anthropic.com/en/docs/about-claude/models/overview"
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
       }
     },
     {
@@ -9236,7 +9296,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
       }
     },
     {
@@ -15329,14 +15390,14 @@ export const aiModels: AIModels = {
         "max_tokens": 384000,
         "max_input_tokens": 1048576,
         "max_output_tokens": 384000,
-        "input_cost_per_token": "0.00000174",
-        "output_cost_per_token": "0.00000348",
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.0000012",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -15354,7 +15415,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -15480,7 +15541,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -15498,7 +15559,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -15606,7 +15667,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -15624,7 +15685,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -15804,7 +15865,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -15822,7 +15883,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -15923,14 +15984,14 @@ export const aiModels: AIModels = {
         "max_tokens": 384000,
         "max_input_tokens": 1048576,
         "max_output_tokens": 384000,
-        "input_cost_per_token": "0.00000174",
-        "output_cost_per_token": "0.00000348",
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.0000012",
         "litellm_provider": "fireworks_ai",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -16002,7 +16063,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -16020,7 +16081,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -16074,7 +16135,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -16110,7 +16171,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -16164,7 +16225,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -16182,7 +16243,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -16200,41 +16261,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
-      }
-    },
-    {
-      "name": "friendliai/meta-llama-3.1-70b-instruct",
-      "provider": "friendliai",
-      "logo": "/logos/friendliai.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0000006",
-        "output_cost_per_token": "0.0000006",
-        "litellm_provider": "friendliai",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": false
-      }
-    },
-    {
-      "name": "friendliai/meta-llama-3.1-8b-instruct",
-      "provider": "friendliai",
-      "logo": "/logos/friendliai.svg",
-      "sample_spec": {
-        "max_tokens": 8192,
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0000001",
-        "output_cost_per_token": "0.0000001",
-        "litellm_provider": "friendliai",
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -16395,7 +16422,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -16481,7 +16509,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -16515,7 +16544,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -16532,7 +16562,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -16549,7 +16580,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -16566,7 +16598,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -16583,7 +16616,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -16594,14 +16628,14 @@ export const aiModels: AIModels = {
         "max_tokens": 8192,
         "max_input_tokens": 1048576,
         "max_output_tokens": 8192,
-        "input_cost_per_token": "0.0000001",
-        "output_cost_per_token": "0.0000004",
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
         "litellm_provider": "vertex_ai-language-models",
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/pricing#2_0flash"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -16637,7 +16671,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models#gemini-2.0-flash"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -16673,7 +16707,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -16709,7 +16743,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-lite"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -16727,7 +16761,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -16745,7 +16779,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -16817,7 +16851,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -16853,7 +16887,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#gemini-models"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -16907,7 +16941,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -16925,7 +16959,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -16943,7 +16977,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -16961,7 +16995,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -16979,7 +17013,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -16997,7 +17031,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#gemini-models"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -17033,7 +17067,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -17123,7 +17157,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/computer-use"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -17573,7 +17607,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -17591,7 +17625,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/omni-flash-preview"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -17609,7 +17643,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -17627,7 +17661,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -17645,7 +17679,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -17663,7 +17697,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -18984,7 +19018,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19001,7 +19036,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19018,7 +19054,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19103,7 +19140,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19154,7 +19192,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19188,7 +19227,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19205,7 +19245,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19222,7 +19263,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19239,7 +19281,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19256,7 +19299,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19273,7 +19317,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19290,7 +19335,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19307,7 +19353,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19324,7 +19371,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19341,7 +19389,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19409,7 +19458,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19426,7 +19476,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19443,7 +19494,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19460,7 +19512,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19477,7 +19530,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19494,7 +19548,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19511,7 +19566,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19528,7 +19584,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19647,7 +19704,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19664,7 +19722,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19681,7 +19740,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19715,7 +19775,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19732,7 +19793,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19783,7 +19845,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19817,7 +19880,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19834,7 +19898,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19851,7 +19916,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19869,7 +19935,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://developers.openai.com/api/docs/models/gpt-5.6-cyber"
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19923,7 +19989,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://developers.openai.com/api/docs/models/chat-latest"
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19940,7 +20006,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19957,7 +20024,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19974,7 +20042,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -19991,7 +20060,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -20008,7 +20078,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -20025,7 +20096,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -20042,7 +20114,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -20059,7 +20132,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -20076,7 +20150,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -20127,7 +20202,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -20144,7 +20220,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -20161,7 +20238,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -20178,7 +20256,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -25488,7 +25567,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -25505,7 +25585,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -25522,7 +25603,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -25539,7 +25621,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -25556,7 +25639,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -25573,7 +25657,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -25590,7 +25675,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -25607,7 +25693,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -31026,7 +31113,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31044,7 +31131,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31116,7 +31203,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://www.together.ai/models/qwen3-coder-480b-a35b-instruct"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31186,7 +31273,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://www.together.ai/models/deepseek-v3-1"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31221,7 +31308,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31272,7 +31359,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31306,7 +31394,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31323,7 +31412,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31341,7 +31431,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31359,7 +31449,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31376,7 +31466,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31412,7 +31503,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://www.together.ai/models/gpt-oss-120b"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31430,7 +31521,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://www.together.ai/models/gpt-oss-20b"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31465,7 +31556,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://www.together.ai/models/glm-4-5-air"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31483,7 +31574,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://www.together.ai/models/glm-4-6"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31501,7 +31592,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://www.together.ai/models/glm-4-7"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31555,7 +31646,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://www.together.ai/models/qwen3-next-80b-a3b-instruct"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31573,7 +31664,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://www.together.ai/models/qwen3-next-80b-a3b-thinking"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31591,7 +31682,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://www.together.ai/models/qwen3-5-397b-a17b"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31609,7 +31700,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31645,7 +31736,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31663,7 +31754,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31681,7 +31772,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31699,7 +31790,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31717,7 +31808,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31735,7 +31826,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31753,7 +31844,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31789,7 +31880,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31825,7 +31916,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31861,7 +31952,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31879,7 +31970,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31897,7 +31988,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31915,7 +32006,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31951,7 +32042,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31969,7 +32060,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -31987,7 +32078,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -32005,7 +32096,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": false,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -32023,7 +32114,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -35332,7 +35423,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#gemini-models"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -35350,7 +35441,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#gemini-models"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -41177,7 +41268,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -43554,7 +43645,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -43571,7 +43663,8 @@ export const aiModels: AIModels = {
         "mode": "chat",
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -45000,7 +45093,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://platform.claude.com/docs/en/about-claude/models/overview"
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
       }
     },
     {
@@ -45018,7 +45111,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://platform.claude.com/docs/en/models/mythos-5-1/overview"
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing"
       }
     },
     {
@@ -45108,7 +45201,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -45126,7 +45219,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://fireworks.ai/models/deepseek-ai/deepseek-v4p1-flash"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -45144,7 +45237,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -45162,7 +45255,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -45180,7 +45273,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -45198,7 +45291,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://fireworks.ai/models/deepseek-ai/deepseek-v4p1-flash"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -45216,7 +45309,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -45270,7 +45363,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -45324,7 +45417,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -45342,7 +45435,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -45378,7 +45471,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -45396,7 +45489,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -45432,7 +45525,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -45450,7 +45543,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -45468,7 +45561,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -45504,7 +45597,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -48294,7 +48387,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -48312,7 +48405,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -48366,7 +48459,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.together.ai/docs/serverless-models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -48384,7 +48477,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -48402,7 +48495,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -48420,7 +48513,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -48438,7 +48531,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -48456,7 +48549,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -48474,7 +48567,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -48492,7 +48585,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -48510,7 +48603,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -48528,7 +48621,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -48546,7 +48639,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -48564,7 +48657,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -48582,7 +48675,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -48600,7 +48693,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -52265,6 +52358,510 @@ export const aiModels: AIModels = {
         "supports_vision": false,
         "source": "https://openrouter.ai/openai/gpt-3.5-turbo-instruct"
       }
+    },
+    {
+      "name": "fireworks_ai/accounts/fireworks/routers/glm-5p3-fast",
+      "provider": "fireworks_ai",
+      "logo": "/logos/fireworks ai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000021",
+        "output_cost_per_token": "0.0000066",
+        "litellm_provider": "fireworks_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.fireworks.ai/v1/serverless/models"
+      }
+    },
+    {
+      "name": "together_ai/arcee-ai/trinity-mini",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000000045",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/deepseek-ai/deepseek-coder-33b-instruct",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000008",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000018",
+        "output_cost_per_token": "0.00000018",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000016",
+        "output_cost_per_token": "0.0000016",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/deepseek-ai/DeepSeek-V4.1-Flash",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "vertex_ai/gemini-omni-1.1-flash",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000015",
+        "output_cost_per_token": "0.000009",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "vertex_ai/gemini-robotics-er-2",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000005",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "vertex_ai/gemma-4-26b-a4b-it",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "vertex_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "together_ai/google/gemma-2-27b-it",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000008",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "gpt-5.5-cyber",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000125",
+        "output_cost_per_token": "0.000075",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
+    },
+    {
+      "name": "gpt-rosalind-research",
+      "provider": "openai",
+      "logo": "/logos/openai.svg",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "openai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
+      }
+    },
+    {
+      "name": "together_ai/meta-llama/Llama-3-8b-chat-hf",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/meta-llama/Llama-3.1-405B-Instruct",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000035",
+        "output_cost_per_token": "0.0000035",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/meta-llama/Llama-3.2-1B-Instruct",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000006",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/meta-llama/Llama-3.2-3B-Instruct",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000006",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000088",
+        "output_cost_per_token": "0.00000088",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/meta-llama/Meta-Llama-3-8B-Instruct",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000002",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000006",
+        "output_cost_per_token": "0.0000006",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000088",
+        "output_cost_per_token": "0.00000088",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/Qwen/Qwen2-1.5B-Instruct",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000002",
+        "output_cost_per_token": "0.00000002",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/Qwen/Qwen2-72B-Instruct",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000009",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/Qwen/Qwen2-VL-72B-Instruct",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/Qwen/Qwen2.5-14B-Instruct",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000008",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/Qwen/Qwen2.5-72B-Instruct",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000012",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/Qwen/Qwen2.5-Coder-32B-Instruct",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000008",
+        "output_cost_per_token": "0.0000008",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
+    },
+    {
+      "name": "together_ai/Qwen/Qwen2.5-VL-72B-Instruct",
+      "provider": "together_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000195",
+        "output_cost_per_token": "0.000008",
+        "litellm_provider": "together_ai",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://api.together.ai/v1/models"
+      }
     }
   ],
   "embedding": [
@@ -53167,7 +53764,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -53203,7 +53800,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -53840,7 +54437,8 @@ export const aiModels: AIModels = {
         "mode": "embedding",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -53857,7 +54455,8 @@ export const aiModels: AIModels = {
         "mode": "embedding",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -53874,7 +54473,8 @@ export const aiModels: AIModels = {
         "mode": "embedding",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -54790,7 +55390,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -57518,7 +58118,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-image"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -57536,7 +58136,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3-pro-image"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -57572,7 +58172,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#gemini-models"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -57626,7 +58226,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": true,
-        "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -57895,7 +58495,8 @@ export const aiModels: AIModels = {
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -57912,7 +58513,8 @@ export const aiModels: AIModels = {
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -57929,7 +58531,8 @@ export const aiModels: AIModels = {
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": true
+        "supports_vision": true,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -58545,7 +59148,8 @@ export const aiModels: AIModels = {
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -58562,7 +59166,8 @@ export const aiModels: AIModels = {
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -59298,7 +59903,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/image-generation#edit-an-image"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -59316,7 +59921,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/3-pro-image"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -59352,7 +59957,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing#gemini-models"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -59406,7 +60011,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/3-pro-image"
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     },
     {
@@ -59751,12 +60356,13 @@ export const aiModels: AIModels = {
         "max_input_tokens": null,
         "max_output_tokens": null,
         "input_cost_per_token": "0.000005",
-        "output_cost_per_token": null,
+        "output_cost_per_token": "0.00001",
         "litellm_provider": "openai",
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -60006,7 +60612,8 @@ export const aiModels: AIModels = {
         "mode": "completion",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -60057,7 +60664,8 @@ export const aiModels: AIModels = {
         "mode": "completion",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -60091,7 +60699,8 @@ export const aiModels: AIModels = {
         "mode": "completion",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -60108,7 +60717,8 @@ export const aiModels: AIModels = {
         "mode": "completion",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -60142,7 +60752,8 @@ export const aiModels: AIModels = {
         "mode": "completion",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -60733,7 +61344,8 @@ export const aiModels: AIModels = {
         "mode": "audio_transcription",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -61434,7 +62046,8 @@ export const aiModels: AIModels = {
         "mode": "audio_transcription",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -61451,7 +62064,8 @@ export const aiModels: AIModels = {
         "mode": "audio_transcription",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -61573,7 +62187,8 @@ export const aiModels: AIModels = {
         "mode": "audio_transcription",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -61641,7 +62256,8 @@ export const aiModels: AIModels = {
         "mode": "audio_transcription",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -61658,7 +62274,8 @@ export const aiModels: AIModels = {
         "mode": "audio_transcription",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -61676,7 +62293,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://developers.openai.com/api/docs/models/gpt-realtime-whisper"
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -61730,7 +62347,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://developers.openai.com/api/docs/models/gpt-transcribe"
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -61748,7 +62365,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://developers.openai.com/api/docs/models/gpt-live-transcribe"
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -61966,6 +62583,42 @@ export const aiModels: AIModels = {
         "supports_vision": false,
         "source": "https://developers.cloudflare.com/workers-ai/models/whisper-large-v3-turbo/"
       }
+    },
+    {
+      "name": "vertex_ai/gemini-3.5-transcribe",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "vertex_ai",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "vertex_ai/gemini-3.5-transcribe-live",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": null,
+        "output_cost_per_token": "0.000021",
+        "litellm_provider": "vertex_ai",
+        "mode": "audio_transcription",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
     }
   ],
   "audio_speech": [
@@ -62118,13 +62771,14 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": null,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000025",
+        "input_cost_per_token": "0.0000006",
         "output_cost_per_token": "0.00001",
         "litellm_provider": "openai",
         "mode": "audio_speech",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -62280,7 +62934,8 @@ export const aiModels: AIModels = {
         "mode": "audio_speech",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -62297,7 +62952,8 @@ export const aiModels: AIModels = {
         "mode": "audio_speech",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -62504,13 +63160,14 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": null,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000025",
+        "input_cost_per_token": "0.0000006",
         "output_cost_per_token": "0.00001",
         "litellm_provider": "openai",
         "mode": "audio_speech",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -62521,13 +63178,14 @@ export const aiModels: AIModels = {
         "max_tokens": null,
         "max_input_tokens": null,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000025",
+        "input_cost_per_token": "0.0000006",
         "output_cost_per_token": "0.00001",
         "litellm_provider": "openai",
         "mode": "audio_speech",
         "supports_function_calling": false,
         "supports_parallel_function_calling": false,
-        "supports_vision": false
+        "supports_vision": false,
+        "source": "https://developers.openai.com/api/docs/pricing"
       }
     },
     {
@@ -62582,6 +63240,42 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": false,
         "source": "https://docs.mistral.ai/models/model-cards/voxtral-tts-26-03"
+      }
+    },
+    {
+      "name": "vertex_ai/gemini-2.5-flash-preview-tts",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "vertex_ai",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
+      }
+    },
+    {
+      "name": "vertex_ai/gemini-3.1-flash-tts-preview",
+      "provider": "vertex_ai",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.00002",
+        "litellm_provider": "vertex_ai",
+        "mode": "audio_speech",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing"
       }
     }
   ]
