@@ -52862,6 +52862,1302 @@ export const aiModels: AIModels = {
         "supports_vision": false,
         "source": "https://api.together.ai/v1/models"
       }
+    },
+    {
+      "name": "aihubmix/agnes-2.5-flash",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65500,
+        "max_input_tokens": 512000,
+        "max_output_tokens": 65500,
+        "input_cost_per_token": "0.00000003",
+        "output_cost_per_token": "0.00000015",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/agnes-2.5-pro",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000045",
+        "output_cost_per_token": "0.0000009",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/cc-glm-5.1",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000022",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/claude-fable-5",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000011",
+        "output_cost_per_token": "0.000055",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/claude-haiku-4-5",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000011",
+        "output_cost_per_token": "0.0000055",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/claude-opus-4-8-think",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/claude-opus-5",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.000025",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/claude-sonnet-5",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/coding-glm-5.3",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000006",
+        "output_cost_per_token": "0.00000022",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/coding-kimi-k3",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 1048576,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.00000044",
+        "output_cost_per_token": "0.00000161333",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/coding-xiaomi-mimo-v2-omni",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000008",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/coding-xiaomi-mimo-v2.5",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000008",
+        "output_cost_per_token": "0.00000016",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/coding-xiaomi-mimo-v2.5-pro",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000004",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/command-a-plus-05-2026",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.00001",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/deepseek-v4-flash",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 384000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 384000,
+        "input_cost_per_token": "0.000000142",
+        "output_cost_per_token": "0.000000284",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/deepseek-v4-pro",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 384000,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 384000,
+        "input_cost_per_token": "0.00000169",
+        "output_cost_per_token": "0.00000338",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/doubao-seed-2-0-code-preview",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000004822",
+        "output_cost_per_token": "0.000002411",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/doubao-seed-2-0-lite-260428",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000009041",
+        "output_cost_per_token": "0.00000054246",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/doubao-seed-2-0-mini",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000000030136",
+        "output_cost_per_token": "0.00000030136",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/doubao-seed-2-0-pro",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000004822",
+        "output_cost_per_token": "0.000002411",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/doubao-seed-2-1-turbo",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.00000046475",
+        "output_cost_per_token": "0.00000232375",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/ernie-5.1",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 119000,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000005634",
+        "output_cost_per_token": "0.0000025353",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gemini-3-flash-preview",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gemini-3-flash-preview-search",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.000003",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gemini-3.1-pro-preview",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gemini-3.1-pro-preview-customtools",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gemini-3.5-flash-lite",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000003",
+        "output_cost_per_token": "0.000002499999",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gemini-3.7-flash",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.00000375",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gemma-4-26b-a4b-it",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131100,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 131100,
+        "input_cost_per_token": "0.00000014",
+        "output_cost_per_token": "0.00000039998",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gemma-4-31b-it",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131100,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 131100,
+        "input_cost_per_token": "0.00000014",
+        "output_cost_per_token": "0.00000039998",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/glm-5.2-fast-preview",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000002254",
+        "output_cost_per_token": "0.000007889",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/glm-5.3",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000011268",
+        "output_cost_per_token": "0.0000039438",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/glm-5.3-flash",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000011268",
+        "output_cost_per_token": "0.00000039438",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/glm-5v-turbo",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000007042",
+        "output_cost_per_token": "0.00000309848",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gpt-5.3-codex",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000175",
+        "output_cost_per_token": "0.000014",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gpt-5.4-high",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gpt-5.4-low",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000025",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gpt-5.4-mini",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00000075",
+        "output_cost_per_token": "0.0000045",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gpt-5.4-nano",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.00000125",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gpt-5.5",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.00003",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gpt-5.5-pro",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.00003",
+        "output_cost_per_token": "0.00018",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gpt-5.6-luna",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000002",
+        "output_cost_per_token": "0.0000012",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gpt-5.6-sol-disc",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000004",
+        "output_cost_per_token": "0.00002",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gpt-5.6-terra",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000012",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/gpt-chat-latest",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.000005",
+        "output_cost_per_token": "0.00003",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/grok-4-20-non-reasoning",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/grok-4-20-reasoning",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/grok-4.6",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 500000,
+        "max_input_tokens": 500000,
+        "max_output_tokens": 500000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/grok-build-0.1",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 256000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 256000,
+        "input_cost_per_token": "0.000001",
+        "output_cost_per_token": "0.000002",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/hy3",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 128000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 128000,
+        "input_cost_per_token": "0.0000001562",
+        "output_cost_per_token": "0.0000006248",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/hy4-preview",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000000845",
+        "output_cost_per_token": "0.000002535",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/kimi-k2.6",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.00000095",
+        "output_cost_per_token": "0.0000039995",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/kimi-k2.7-code-highspeed",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 32768,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 32768,
+        "input_cost_per_token": "0.0000019",
+        "output_cost_per_token": "0.000007999",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/kimi-k3",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 1048576,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 1048576,
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/longcat-2.0",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000007746",
+        "output_cost_per_token": "0.0000030984",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/mai-thinking-1",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 64000,
+        "max_input_tokens": 256000,
+        "max_output_tokens": 64000,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000008",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/mimo-v2-omni",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 256000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000044",
+        "output_cost_per_token": "0.0000022",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/mimo-v2-pro",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.0000011",
+        "output_cost_per_token": "0.0000033",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/minimax-m2.7",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 204800,
+        "max_input_tokens": 204800,
+        "max_output_tokens": 204800,
+        "input_cost_per_token": "0.0000002958",
+        "output_cost_per_token": "0.0000011832",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/minimax-m3",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 524288,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 524288,
+        "input_cost_per_token": "0.000000288",
+        "output_cost_per_token": "0.000001152",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/muse-spark-1.2",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1048576,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.000001375",
+        "output_cost_per_token": "0.000004675",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/qwen3-coder-next",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000000137",
+        "output_cost_per_token": "0.000000548",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/qwen3.5-122b-a10b",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000001126",
+        "output_cost_per_token": "0.0000009008",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/qwen3.5-397b-a17b",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.0000001644",
+        "output_cost_per_token": "0.0000009864",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/qwen3.6-27b",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000000422",
+        "output_cost_per_token": "0.000002532",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/qwen3.6-35b-a3b",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000000254",
+        "output_cost_per_token": "0.000001524",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/qwen3.6-max-preview",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 65536,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "input_cost_per_token": "0.000001268",
+        "output_cost_per_token": "0.000007608",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/qwen3.7-plus",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000000282",
+        "output_cost_per_token": "0.000001128",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/qwen3.8-2.4t-a95b",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.000002",
+        "output_cost_per_token": "0.000006",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/qwen3.8-flash",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.0000001126",
+        "output_cost_per_token": "0.000000380025",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/qwen3.8-max",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0.00000169",
+        "output_cost_per_token": "0.00000507",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "aihubmix/step-3.7-flash",
+      "provider": "aihubmix",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 256000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000022",
+        "output_cost_per_token": "0.00000132",
+        "litellm_provider": "aihubmix",
+        "mode": "chat",
+        "supports_function_calling": false,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://aihubmix.com/api/v1/models"
+      }
     }
   ],
   "embedding": [
