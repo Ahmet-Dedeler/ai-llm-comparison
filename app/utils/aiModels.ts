@@ -3891,7 +3891,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models"
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
       }
     },
     {
@@ -3927,7 +3927,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models"
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
       }
     },
     {
@@ -3963,7 +3963,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models"
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
       }
     },
     {
@@ -3999,7 +3999,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models"
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
       }
     },
     {
@@ -4303,7 +4303,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models"
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
       }
     },
     {
@@ -4339,7 +4339,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models"
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
       }
     },
     {
@@ -4375,7 +4375,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": true,
         "supports_vision": true,
-        "source": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models"
+        "source": "https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20'Foundry%20Models'%20and%20armRegionName%20eq%20'eastus'%20and%20priceType%20eq%20'Consumption'"
       }
     },
     {
@@ -5208,8 +5208,8 @@ export const aiModels: AIModels = {
         "max_tokens": 131072,
         "max_input_tokens": 1048576,
         "max_output_tokens": 131072,
-        "input_cost_per_token": "0.0000033",
-        "output_cost_per_token": "0.0000165",
+        "input_cost_per_token": "0.000003",
+        "output_cost_per_token": "0.000015",
         "litellm_provider": "azure_ai",
         "mode": "chat",
         "supports_function_calling": true,
@@ -28943,6 +28943,24 @@ export const aiModels: AIModels = {
       }
     },
     {
+      "name": "openrouter/stealth/union-alpha",
+      "provider": "openrouter",
+      "logo": "/logos/openrouter.svg",
+      "sample_spec": {
+        "max_tokens": 131072,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 131072,
+        "input_cost_per_token": "0",
+        "output_cost_per_token": "0",
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": true,
+        "source": "https://openrouter.ai/stealth/union-alpha"
+      }
+    },
+    {
       "name": "ovhcloud/DeepSeek-R1-Distill-Llama-70B",
       "provider": "ovhcloud",
       "logo": "/placeholder.svg?height=30&width=30",
@@ -32254,7 +32272,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://api.together.xyz/v1/models"
+        "source": "https://api.together.ai/v1/models"
       }
     },
     {
@@ -36659,7 +36677,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 131072,
-        "max_input_tokens": 131072,
+        "max_input_tokens": 131000,
         "max_output_tokens": 131072,
         "input_cost_per_token": "0.00000003",
         "output_cost_per_token": "0.00000017",
@@ -36677,7 +36695,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 131072,
-        "max_input_tokens": 131072,
+        "max_input_tokens": 131000,
         "max_output_tokens": 131072,
         "input_cost_per_token": "0.00000003",
         "output_cost_per_token": "0.00000013",
@@ -36817,7 +36835,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 131000,
         "max_output_tokens": 128000,
         "input_cost_per_token": "0.00000022",
         "output_cost_per_token": "0.00000022",
@@ -44486,7 +44504,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 16384,
-        "max_input_tokens": 131072,
+        "max_input_tokens": 1048576,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.00000125",
         "output_cost_per_token": "0.0000025",
@@ -46974,7 +46992,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 1048576,
-        "max_input_tokens": 1048576,
+        "max_input_tokens": 1049000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000014",
         "output_cost_per_token": "0.00000028",
@@ -46992,7 +47010,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 262144,
-        "max_input_tokens": 262144,
+        "max_input_tokens": 262000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000013",
         "output_cost_per_token": "0.00000028",
@@ -47010,7 +47028,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 1048576,
-        "max_input_tokens": 1048576,
+        "max_input_tokens": 1049000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000115",
         "output_cost_per_token": "0.00000255",
@@ -47028,7 +47046,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 262144,
-        "max_input_tokens": 262144,
+        "max_input_tokens": 262000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.00000034",
@@ -47046,7 +47064,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 131072,
-        "max_input_tokens": 131072,
+        "max_input_tokens": 131000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000005",
         "output_cost_per_token": "0.0000001",
@@ -47064,7 +47082,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 131072,
-        "max_input_tokens": 131072,
+        "max_input_tokens": 131000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000005",
         "output_cost_per_token": "0.0000001",
@@ -47082,7 +47100,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 128000,
-        "max_input_tokens": 128000,
+        "max_input_tokens": 131000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000008",
         "output_cost_per_token": "0.0000008",
@@ -47100,7 +47118,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 262144,
-        "max_input_tokens": 262144,
+        "max_input_tokens": 262000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000023",
         "output_cost_per_token": "0.00000096",
@@ -47118,7 +47136,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 262144,
-        "max_input_tokens": 262144,
+        "max_input_tokens": 262000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000071",
         "output_cost_per_token": "0.0000035",
@@ -47136,7 +47154,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 262144,
-        "max_input_tokens": 262144,
+        "max_input_tokens": 262000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000065",
         "output_cost_per_token": "0.00000341",
@@ -47154,10 +47172,10 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 262144,
-        "max_input_tokens": 262144,
+        "max_input_tokens": 262000,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.0000001",
-        "output_cost_per_token": "0.00000025",
+        "input_cost_per_token": "0.00000007",
+        "output_cost_per_token": "0.0000002",
         "litellm_provider": "wandb",
         "mode": "chat",
         "supports_function_calling": false,
@@ -47172,10 +47190,10 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 262144,
-        "max_input_tokens": 262144,
+        "max_input_tokens": 262000,
         "max_output_tokens": null,
-        "input_cost_per_token": "0.00000075",
-        "output_cost_per_token": "0.00000275",
+        "input_cost_per_token": "0.0000005",
+        "output_cost_per_token": "0.00000215",
         "litellm_provider": "wandb",
         "mode": "chat",
         "supports_function_calling": false,
@@ -47190,7 +47208,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 32768,
-        "max_input_tokens": 32768,
+        "max_input_tokens": 32800,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000005",
         "output_cost_per_token": "0.00000022",
@@ -47208,7 +47226,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 262144,
-        "max_input_tokens": 262144,
+        "max_input_tokens": 262000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000004",
         "output_cost_per_token": "0.000003",
@@ -47226,7 +47244,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 262144,
-        "max_input_tokens": 262144,
+        "max_input_tokens": 262000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000025",
         "output_cost_per_token": "0.00000125",
@@ -47244,7 +47262,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 262144,
-        "max_input_tokens": 262144,
+        "max_input_tokens": 262000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000006",
         "output_cost_per_token": "0.0000036",
@@ -47262,7 +47280,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 262144,
-        "max_input_tokens": 262144,
+        "max_input_tokens": 262000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000025",
         "output_cost_per_token": "0.00000125",
@@ -47280,7 +47298,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 262144,
-        "max_input_tokens": 262144,
+        "max_input_tokens": 262000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.0000003",
@@ -47298,7 +47316,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": null,
+        "max_input_tokens": 1049000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000131",
         "output_cost_per_token": "0.00000396",
@@ -47316,7 +47334,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": null,
-        "max_input_tokens": null,
+        "max_input_tokens": 131000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.0000001",
         "output_cost_per_token": "0.00000015",
@@ -47334,7 +47352,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 262144,
-        "max_input_tokens": 262144,
+        "max_input_tokens": 1049000,
         "max_output_tokens": null,
         "input_cost_per_token": "0.00000076",
         "output_cost_per_token": "0.00000242",
@@ -48855,7 +48873,7 @@ export const aiModels: AIModels = {
         "supports_function_calling": true,
         "supports_parallel_function_calling": false,
         "supports_vision": false,
-        "source": "https://docs.fireworks.ai/serverless/pricing"
+        "source": "https://api.fireworks.ai/v1/serverless/models"
       }
     },
     {
@@ -49604,7 +49622,7 @@ export const aiModels: AIModels = {
       "logo": "/placeholder.svg?height=30&width=30",
       "sample_spec": {
         "max_tokens": 16384,
-        "max_input_tokens": 131072,
+        "max_input_tokens": 1048576,
         "max_output_tokens": 16384,
         "input_cost_per_token": "0.0000015",
         "output_cost_per_token": "0.000003",
@@ -55525,6 +55543,24 @@ export const aiModels: AIModels = {
         "supports_parallel_function_calling": false,
         "supports_vision": true,
         "source": "https://aihubmix.com/api/v1/models"
+      }
+    },
+    {
+      "name": "wandb/zai-org/GLM-5.3-Flash",
+      "provider": "wandb",
+      "logo": "/placeholder.svg?height=30&width=30",
+      "sample_spec": {
+        "max_tokens": null,
+        "max_input_tokens": 1049000,
+        "max_output_tokens": null,
+        "input_cost_per_token": "0.00000015",
+        "output_cost_per_token": "0.0000005",
+        "litellm_provider": "wandb",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": false,
+        "supports_vision": false,
+        "source": "https://wandb.ai/site/pricing/tokens/"
       }
     }
   ],
