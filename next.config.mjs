@@ -12,8 +12,22 @@ const nextConfig = {
   // Generate static sitemap
   trailingSlash: false,
   
+  // Next 14 did not run ESLint during `next build` (eslint was not a dependency).
+  // Next 15.5 ships a bundled linter that runs by default, and the existing
+  // codebase has pre-existing lint errors. Keep build behaviour identical to
+  // before the upgrade; lint can be re-enabled separately once those are fixed.
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+
   // Optimize images
   images: {
+    // Defense-in-depth for GHSA-2xp9-vwfh-vxw4 (Image Optimization / AVIF RCE).
+    // The `next` upgrade to 15.5.24 is the actual fix; this disables the
+    // /_next/image optimizer entirely, which costs nothing here because the app
+    // never imports `next/image` (every image is a plain <img>). Drop this line
+    // if next/image is ever adopted.
+    unoptimized: true,
     formats: ['image/webp', 'image/avif'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],

@@ -47,7 +47,7 @@ export const useIntersectionObserver = (
 
 // Hook for performance monitoring
 export const usePerformanceMonitor = () => {
-  const startTimeRef = useRef<number>();
+  const startTimeRef = useRef<number | undefined>(undefined); // React 19: useRef requires an initial argument
 
   const startMeasure = useCallback((name: string) => {
     startTimeRef.current = performance.now();
