@@ -2,6 +2,9 @@
   "name": "llmarena-ai",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -38,7 +41,7 @@
   "devDependencies": {
     "@next/bundle-analyzer": "^15.1.4",
     "@shadcn/ui": "^0.0.4",
-    "@types/node": "^20",
+    "@types/node": "^24",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "postcss": "^8.4.47",
